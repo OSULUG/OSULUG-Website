@@ -1,0 +1,35 @@
+body {
+    background-color: #DDD;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 10px auto;
+    border: 1px solid black;
+    background-color: #FFF;
+}
+
+#wrapper > * {
+    padding: 10px;
+}
+
+header {
+}
+
+header h1, header h2 {
+    margin: 0px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+p {
+    margin: 0 0 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+</head>
+
+<body>
+
+<div id="wrapper">
+<header>
+    <h1>Linux Users Group</h1>
+    <h2>Oregon State University</h2>
+</header>
+
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Meetings</li>
+    </ul>
+</nav>
+
+<section>
+    {% block content %}
+    {% endblock %}
+</section>
+
+<footer>
+    A wild LUG appears! Last updated {{ site.datetime.strftime("%c") }}. This site is powered by <a href="https://github.com/mythmon/wok">wok</a>.
+</footer>
+
+</div>
+
+</body>
+
+</html>
