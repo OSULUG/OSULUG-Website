@@ -1,0 +1,90 @@
+title: IRC
+category: guides
+author: Emily Dunham <dunhame@onid.oregonstate.edu>
+---
+[Internet Relay Chat][irc] is a protocol in the application layer of the
+internet. Much of the LUG's communication happens in the `#osu-lug` channel on
+freenode, an IRC network that provides discussion facilities to free and open
+source software communities. There are two ways that you can get into the
+channel right now, each with benefits and drawbacks.
+
+[irc]: http://en.wikipedia.org/wiki/IRC
+
+Quick & Easy
+============
+
+To access freenode from your browser, you can use their [web interface][freenodeweb]. In
+the Nickname field, enter the name that you want other people to see when you
+talk in the channel. This can be your ONID username, your real name, or
+something more creative. Note that if you pick a really long nick (I tried it
+with "`testing_freenode_web_chat`"), it will be truncated at around 16
+characters (so I only show up as "`testing_freenode`" in the channel). In the
+channels field, type `#osu-lug`. Enter the capcha, click connect, wait a few
+seconds, and you'll be in the LUG's primary discussion area.
+
+[freenodeweb]: http://webchat.freenode.net/
+
+What do they see?
+-----------------
+
+When I joined a channel with my nick set to `testing_freenode`, it looks like
+this when I join:
+
+    15:54 -!- testing_freenode [8cd3a70d@gateway/web/freenode/ip.140.211.167.13] has joined #osu-lug
+
+and like this when I leave:
+
+    16:04 -!- testing_freenode [8cd3a70d@gateway/web/freenode/ip.140.211.167.13] has quit [Quit: Page closed]
+
+GUI clients
+===========
+
+If you prefer chat interface like what you're familiar with in Gmail or Yahoo,
+consider one of these options:
+
+XXX list of options and links to tutorials XXX
+
+Be a Ninja
+==========
+
+If you try IRC with the browser client and like it, you should set up a
+permanent IRC session. This way, you won't be logged out of IRC each time you
+close your browser, you can identify yourself with a unique nickname and
+register it to prevent others from impersonating you, and have more convenient
+features available. If these instructions seem intimidating, just come to a
+LUG meeting and we'll be happy to walk you through setting things up.
+
+You want to keep your session running all the time, to hear discussions that
+happen while you're away from your computer and avoid spamming your friends'
+channels with annoying "`your_nick has joined!`" and "`your_nick has left...
+timed out`" messages. To do this, you can run your IRC client on a computer
+that you trust to always be on, and log in to it remotely from anywhere you can
+get internet access and a terminal.
+
+1.  Open a terminal. If you're in Windows, install [PuTTY][putty]. Then ssh into
+    shell.onid.oregonstate.edu...  ssh youronid@shell.onid.oregonstate.edu
+    Since my onid is dunhame, I type ssh dunhame@shell.onid.oregonstate.edu in
+    my linux terminal, or
+
+    XXX FILL THIS IN LATER XXX
+
+    in PuTTY. If you haven't connected before, it'll throw an unknown host
+    message.  Tell it that it's okay to connect anyways. Once you're in, it
+    will pop up some standard sort of disclaimer, then allow you to enter your
+    password.
+
+2.  We'll now set up a persistent IRC session with Screen and Irssi. [Here][screenirssi] is an
+    excellent tutorial explaining what the Screen/Irssi setup is and why you
+    should care.
+
+    XXX FILL THIS IN LATER XXX
+
+[putty]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
+[screenirssi]: http://lizzie.spod.cx/screenirssi.shtml
+
+Etiquette
+=========
+
+or, People Are More Helpful If You Aren't Annoying
+
+-   Lurk moar
