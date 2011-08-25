@@ -1,0 +1,12 @@
+#! /bin/bash
+
+# Just a shortcut script to running the development version of wok.
+# To use it, clone the most current version of wok from github
+# (https://github.com/mythmon/wok) and set the NEWEST_WOK_PATH below
+# to the absolute path of the cloned directory.
+
+export NEWEST_WOK_PATH=$HOME/wok
+
+export PYTHONPATH=$NEWEST_WOK_PATH:$PYTHONPATH
+$NEWEST_WOK_PATH/scripts/wok $1
+
