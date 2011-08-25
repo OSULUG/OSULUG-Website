@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <link rel="stylesheet" href="/style.css" type="text/css" />
-    <link rel="icon" href="/images/linux-favicon.png" type="image/x-icon">
-</head>
+    <head>
+        <link rel="stylesheet" href="/stylesheets/base.css" type="text/css" />
+        <link rel="stylesheet" href="/stylesheets/bootstrap-1.1.0.min.css" type="text/css" />
+        <link rel="stylesheet" href="/stylesheets/sticky_footer.css" type="text/css" />
+        <link rel="icon" href="/images/linux-favicon.png" type="image/x-icon">
+    </head>
 
-<body>
+    <body>
 
-<div id="wrapper">
-<header>
-    <img src="/images/lug_penguin.gif" class="logo" />
-    <h1>Linux Users Group</h1>
-    <h2>Oregon State University</h2>
-</header>
-<nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        <li><a href="/guides/">Guides</a></li>
-    </ul>
-</nav>
+    <div id="wrap">
+        <div class="container">
 
-<section>
-    {% block content %}
-    {% endblock %}
-</section>
+            <div id="header">
+                <div class="row">
+                    <div class="span2 columns">
+                        <div id="logo">
+                            <img src="/images/lug_penguin.gif"/>
+                        </div>
+                    </div>
+                    <div class="span6 columns">
+                        <h2>Linux Users Group</h2>
+                        <h3>Oregon State University</h3>
+                    </div>
 
-<footer>
-    A wild LUG appears! Last updated {{ site.datetime.strftime("%c") }}. This site is powered by <a href="https://github.com/mythmon/wok">wok</a>.
-</footer>
+                    <div class="span8 columns">
+                        <div id="navigation">
+                            <a href="/index.html"><span>Home</span></a></li>
+                            <a href="/about/index.html"><span>About</span></a></li>
+                            <a href="/contact/index.html"><span>Contact</span></a></li>
+                            <a href="/guides/index.html"><span>Guides</span></a></li>
+                        </div>
+                    </div>
+                    <br/>
 
-</div>
+                </div>
+            </div>
+            <hr/>
 
-</body>
+            <div id="main">
+               {% block content %}
+               {% endblock %}
+            </div>
+
+        </div>
+    </div>
+
+    <div id="container">
+       <div id="footer">
+           <span>
+                A wild LUG appears!<br/>
+                Last updated {{ site.datetime.strftime("%c") }}<br/>
+                This site is powered by <a href="https://github.com/mythmon/wok"><b>wok</b></a>
+           </span>
+       </div>
+    </div>
+    </body>
 
 </html>
