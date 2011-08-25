@@ -1,0 +1,61 @@
+body {
+    background-color: #DDD;
+}
+
+#footer {
+    text-align:center;
+    padding-top: 12px;
+    background-color: #FFEECC;
+}
+#footer a {
+    text-decoration: none;
+    color: teal;
+}
+#footer a:hover {
+    color: #006B53;
+}
+
+#header h2{
+    color: #2d486d;
+}
+
+#home p{
+    text-align: center;
+}
+
+#logo{
+    float: left;
+}
+
+#navigation{
+    margin-top:10px;
+    text-align: center;    
+}
+#navigation span {
+    padding:15px;
+    border-radius:6px;
+    color:black
+}
+#navigation span:hover {
+    background: #8996a8;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+ul.subpage-list {
+    list-style: none;
+}
+
+.subpage-title {
+    font-weight: bold;
+    display: block;
+    color: #C50;
+}
+
+.subpage-subtitle {
+    display: block;
+    font-size: 0.8em;
+    display: block;
+}
