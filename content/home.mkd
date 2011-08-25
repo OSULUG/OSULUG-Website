@@ -1,0 +1,5 @@
+title: Home
+type: home
+url: /index{page}.html
+---
+Welcome to the website for the Linux User's Group of Oregon State University.

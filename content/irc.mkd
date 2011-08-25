@@ -36,8 +36,11 @@ and like this when I leave:
 
     16:04 -!- testing_freenode [8cd3a70d@gateway/web/freenode/ip.140.211.167.13] has quit [Quit: Page closed]
 
+Clients
+=======
+
 GUI clients
-===========
+-----------
 
 If you prefer chat interface like what you're familiar with in Gmail or Yahoo,
 consider one of these options:
@@ -45,7 +48,7 @@ consider one of these options:
 XXX list of options and links to tutorials XXX
 
 Be a Ninja
-==========
+----------
 
 If you try IRC with the browser client and like it, you should set up a
 permanent IRC session. This way, you won't be logged out of IRC each time you
@@ -82,9 +85,7 @@ get internet access and a terminal.
 [putty]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
 [screenirssi]: http://lizzie.spod.cx/screenirssi.shtml
 
-Etiquette
-=========
-
-or, People Are More Helpful If You Aren't Annoying
+Etiquette (or, People Are More Helpful If You Aren't Annoying)
+==============================================================
 
 -   Lurk moar

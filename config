@@ -1,0 +1,2 @@
+site_title: Linux Users Group of Oregon State University
+url_pattern: "/{category}/{slug}/index{page}.html"

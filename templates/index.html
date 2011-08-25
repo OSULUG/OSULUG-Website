@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ page.content }}
+
+<ul class="subpage-list">
+{% for subpage in page.subpages %}
+
+<li>
+    <a class="subpage-title" href="{{ subpage.url }}">{{ subpage.title }}</a>
+    <span class="subpage-subtitle">
+        by {{ subpage.author }} on {{ subpage.datetime.strftime("%x") }}
+    </span>
+</li>
+
+{% endfor %}
+
+{% endblock %}
