@@ -2,9 +2,9 @@
 <html lang="en">
 
     <head>
-        <link rel="stylesheet" href="/stylesheets/base.css" type="text/css" />
         <link rel="stylesheet" href="/stylesheets/bootstrap-1.1.0.min.css" type="text/css" />
         <link rel="stylesheet" href="/stylesheets/sticky_footer.css" type="text/css" />
+        <link rel="stylesheet" href="/stylesheets/base.css" type="text/css" />
         <link rel="icon" href="/images/linux-favicon.png" type="image/x-icon">
     </head>
 
@@ -27,10 +27,10 @@
 
                     <div class="span8 columns">
                         <div id="navigation">
-                            <a href="/index.html"><span>Home</span></a></li>
-                            <a href="/about/index.html"><span>About</span></a></li>
-                            <a href="/contact/index.html"><span>Contact</span></a></li>
-                            <a href="/guides/index.html"><span>Guides</span></a></li>
+                            <a href="/"><span>Home</span></a></li>
+                            <a href="/about/"><span>About</span></a></li>
+                            <a href="/contact/"><span>Contact</span></a></li>
+                            <a href="/guides/"><span>Guides</span></a></li>
                         </div>
                     </div>
                     <br/>
@@ -39,6 +39,10 @@
             </div>
             <hr/>
 
+            <div id="title">
+                {% block title %}
+                {% endblock %}
+            </div>
             <div id="main">
                {% block content %}
                {% endblock %}
