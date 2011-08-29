@@ -39,53 +39,18 @@ and like this when I leave:
 Clients
 =======
 
-GUI clients
------------
+If you want something more than the web interface can give you, consider trying one of these clients.
 
-If you prefer chat interface like what you're familiar with in Gmail or Yahoo,
-consider one of these options:
+-   [irssi][] - A command like interface chat client. Very popular.
+-   [weechat][] - A very flexible command line client. Has sane defaults.
+-   [xchat][] - A popular GUI client.
+-   [Pidgin][] - Pidgin supports irc, but its not very good at it.
+-   [mIRC][] - Another GUI client. Basic client, lacking advanced features. (Windows only)
 
-XXX list of options and links to tutorials XXX
+TODO: Explain more about these, and about IRC in general.
 
-Be a Ninja
-----------
-
-If you try IRC with the browser client and like it, you should set up a
-permanent IRC session. This way, you won't be logged out of IRC each time you
-close your browser, you can identify yourself with a unique nickname and
-register it to prevent others from impersonating you, and have more convenient
-features available. If these instructions seem intimidating, just come to a
-LUG meeting and we'll be happy to walk you through setting things up.
-
-You want to keep your session running all the time, to hear discussions that
-happen while you're away from your computer and avoid spamming your friends'
-channels with annoying "`your_nick has joined!`" and "`your_nick has left...
-timed out`" messages. To do this, you can run your IRC client on a computer
-that you trust to always be on, and log in to it remotely from anywhere you can
-get internet access and a terminal.
-
-1.  Open a terminal. If you're in Windows, install [PuTTY][putty]. Then ssh into
-    shell.onid.oregonstate.edu...  ssh youronid@shell.onid.oregonstate.edu
-    Since my onid is dunhame, I type ssh dunhame@shell.onid.oregonstate.edu in
-    my linux terminal, or
-
-    XXX FILL THIS IN LATER XXX
-
-    in PuTTY. If you haven't connected before, it'll throw an unknown host
-    message.  Tell it that it's okay to connect anyways. Once you're in, it
-    will pop up some standard sort of disclaimer, then allow you to enter your
-    password.
-
-2.  We'll now set up a persistent IRC session with Screen and Irssi. [Here][screenirssi] is an
-    excellent tutorial explaining what the Screen/Irssi setup is and why you
-    should care.
-
-    XXX FILL THIS IN LATER XXX
-
-[putty]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
-[screenirssi]: http://lizzie.spod.cx/screenirssi.shtml
-
-Etiquette (or, People Are More Helpful If You Aren't Annoying)
-==============================================================
-
--   Lurk moar
+[irssi]: http://irssi.org
+[weechat]: http://www.weechat.org
+[xchat]: http://xchat.org
+[pidgin]: http://www.pidgin.im
+[mirc]: http://www.mirc.com
