@@ -34,9 +34,10 @@
     padding:15px;
     border-radius:6px;
     color: black;
+    font-weight: bold;
 }
 #navigation a:hover {
-    background: #FEC;
+    background-color: #F70;
 }
 
 /* These are for in page headers, which should be slightly smaller */
@@ -53,7 +54,17 @@
     font-size: 12px;
     font-weight: normal;
 }
-
+.page_pic {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.page_pic.right { float: right; margin-left: 10px; }
+.page_pic.left { float: left; margin-right: 10px; }
+.page_pic.top { margin-bottom: 10px; }
+.page_pic img {
+    display: block;
+}
 
 p {
     margin: 0 0 10px;
