@@ -4,7 +4,7 @@ url: /index{page}.html
 image:
     url: /images/firefox_crop_circle.jpg
     where: top
-    caption: We made this to celebrate the 200 millionth download of Firefox
+    caption: We made this to celebrate the 200 millionth download of Firefox. <a href="http://firefoxcropcircle.com/circle/">The story.</a>
 ---
 Welcome to the website for the Oregon State University Linux Users Group.
 
