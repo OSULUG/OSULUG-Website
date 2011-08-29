@@ -55,17 +55,21 @@
     font-size: 12px;
     font-weight: normal;
 }
+
 .page_pic {
-    padding: 10px;
-    border: 1px solid black;
-    text-align: center;
-}
-.page_pic.right { float: right; margin-left: 10px; }
-.page_pic.left { float: left; margin-right: 10px; }
-.page_pic.top {
     margin-bottom: 20px;
-    padding: 0px;
-    border: 0px;
+}
+.page_pic.right {
+    float: right;
+    margin-left: 20px;
+    text-align: right;
+}
+.page_pic.left {
+    float: left;
+    margin-right: 20px;
+    text-align: left;
+}
+.page_pic.top {
     text-align: right;
 }
 .page_pic img {
