@@ -6,9 +6,9 @@ person:
     image: /images/people/mikecooper.jpg
 ---
 Mike is a senior studying Computer Science at Oregon State University. Mike has
-a few random programming projects in progress at any given time, and adminsters
-a few personal servers. He works at the [Open Source Lab][osl] as a Systems
-Administrator.
+a few random programming projects in progress at any given time, and
+administrates a few personal servers. He works at the [Open Source Lab][osl] as
+a Systems Administrator.
 
 Mike's programming efforts usually end up [on github][github].
 

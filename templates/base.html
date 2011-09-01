@@ -10,13 +10,13 @@
 
     <body>
 
-    <div id="wrap">
+    <div class="wrap">
         <div class="container">
 
-            <div id="header">
+            <div class="header">
                 <div class="row">
                     <div class="span2 columns">
-                        <div id="logo">
+                        <div class="logo">
                             <img src="/images/lug_penguin.gif"/>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="span8 columns">
-                        <div id="navigation">
+                        <div class="navigation">
                             <a href="/"><span>Home</span></a></li>
                             <a href="/about/"><span>About</span></a></li>
                             <a href="/contact/"><span>Contact</span></a></li>
@@ -39,11 +39,11 @@
             </div>
             <hr/>
 
-            <div id="title">
+            <div class="title">
                 {% block title %}
                 {% endblock %}
             </div>
-            <div id="main">
+            <div class="main">
                 {% if page.image %}
                 <div class="page_pic {{ page.image.where }}">
                     <img src="{{ page.image.url }}">
@@ -57,8 +57,8 @@
         </div>
     </div>
 
-    <div id="container">
-       <div id="footer">
+    <div class="container">
+       <div class="footer">
            <span>
                 A wild LUG appears!<br/>
                 Last updated {{ site.datetime.strftime("%c") }}<br/>
