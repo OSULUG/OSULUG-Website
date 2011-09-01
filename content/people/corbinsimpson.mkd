@@ -1,0 +1,28 @@
+tags: officer
+person:
+    name: Corbin Simpson
+    title: President
+    site: http://corbinsimpson.com
+    irc: MostAwesomeDude
+    image: /images/people/corbinsimpson.jpg
+---
+Corbin Simpson is a student at Oregon State University. He has been an
+open-source programmer since 2005 and joined the wider community in 2008 with
+contributions to the X.Org Foundation. He is a Linux Plumber and has
+contributed to many open-source projects outside of the Open Source Lab,
+including [Mesa][], [X.org][x11], and [Linux][].
+
+Corbin develops software for the [Open Source Lab][osl] has advanced
+proficiency in Python and C, and fluency in C++, Java, Javascript, HTML, XML,
+CSS, GL/GLSL, shell, and several flavors of assembly.  These claims remain
+unsubstantiated.
+
+Outside of work, Corbin is a professional musician, and is never far from a
+piano. He has a large collection of video cards and old video game consoles,
+most of which are Linux-friendly or in the process of acquiring Linux
+compatibility.
+
+[mesa]: 
+[x11]:
+[linux]:
+[osl]:

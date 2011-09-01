@@ -1,0 +1,18 @@
+tags: officer
+person:
+    name: Jacque Uber
+    title: Secretary
+    site: http://www.uberj.com
+    irc: uberj
+    image: /images/people/jacquesuber.jpg
+---
+Jacques is studying computer science, and enjoys listening to music.  He has a
+[github account][github], where most of the code written in his spare time ends
+up.
+
+During the school year, Jacques works at [NET][] doing varios IT tasks that
+usually involve debugging or writing code. At NET, he works for both Network
+Security and Network Engineering.
+
+[github]:
+[net]:

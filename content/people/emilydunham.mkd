@@ -1,0 +1,12 @@
+tags: officer
+person:
+    name: Emily Dunham
+    title: Treasurer
+    irc: edunham
+    image: /images/people/emilydunham.jpg
+---
+Emily develops software for the [Open Source Lab][osl]. A quick search reveals
+that there are nearly infinite Emily Dunhams on the internet. She is the
+robotics nerd from Oregon.
+
+[osl]: 
