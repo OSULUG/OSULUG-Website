@@ -1,4 +1,5 @@
 title: Contact
+type: contact
 ---
 We keep in touch via our [mailing list][ml], and in the `#osu-lug` irc channel on `irc.freenode.net`. For more info about irc, check out [this guide][ircguide] by our own Emily Dunham.
 

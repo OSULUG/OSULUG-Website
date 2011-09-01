@@ -1,0 +1,32 @@
+{# Assumption: There is a "with people-tag = X" tag wrapping this. #}
+
+{% for page in site.tags[people_tag] %}
+    {% set person = page.person %}
+
+    <div class="infoblock">
+        {% if person.image %}
+            <img src="{{person.image}}" />
+        {% endif %}
+
+        {% if person.site %}
+            <h1><a href="{{ person.site }}">{{ person.name }}</a></h1>
+        {% else %}
+            <h1>{{ person.name }}</h1>
+        {% endif %}
+
+        {% if person.title or person.irc %}
+        <h2>
+            {% if person.title %}
+                <span>LUG's {{ person.title }}.</span>
+            {% endif %}
+            {% if person.irc %}
+                <span>Aka {{ person.irc }} on irc.</span>
+            {% endif %}
+            {{ page.content }}
+        </h2>
+        {% endif %}
+    </div>
+
+{% endfor %}
+
+End people.html.

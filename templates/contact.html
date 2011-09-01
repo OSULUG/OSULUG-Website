@@ -1,0 +1,9 @@
+{% extends "default.html" %}
+
+{% block content %}
+    {{ super() }}
+
+    {% set people_tag = "officer" %}
+    {% include "people.html" with context %}
+
+{% endblock %}
