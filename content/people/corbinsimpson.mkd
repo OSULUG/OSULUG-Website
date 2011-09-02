@@ -22,7 +22,7 @@ piano. He has a large collection of video cards and old video game consoles,
 most of which are Linux-friendly or in the process of acquiring Linux
 compatibility.
 
-[mesa]: 
-[x11]:
-[linux]:
-[osl]:
+[mesa]: http://www.mesa3d.org
+[x11]: http://x.org/
+[linux]: http://kernel.org/
+[osl]: http://osuosl.org/

@@ -12,5 +12,5 @@ a Systems Administrator.
 
 Mike's programming efforts usually end up [on github][github].
 
-[github]:
-[osl]:
+[github]: https://www.github.com/mythmon
+[osl]: http://www.osuosl.org

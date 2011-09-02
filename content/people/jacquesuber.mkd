@@ -1,6 +1,6 @@
 tags: officer
 person:
-    name: Jacque Uber
+    name: Jacques Uber
     title: Secretary
     site: http://www.uberj.com
     irc: uberj
@@ -14,5 +14,5 @@ During the school year, Jacques works at [NET][] doing various IT tasks that
 usually involve debugging or writing code. At NET, he works for both Network
 Security and Network Engineering.
 
-[github]:
-[net]:
+[github]: https://www.github.com/uberj
+[net]: http://oregonstate.edu/net/
