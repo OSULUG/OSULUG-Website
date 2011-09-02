@@ -1,29 +1,38 @@
 {# Assumption: There is a "with people-tag = X" tag wrapping this. #}
 
-{% for page in site.tags[people_tag] %}
-    {% set person = page.person %}
+<div class="row">
+{% for column in site.tags[people_tag]|slice(2) %}
+    <div class="span8 columns">
+    {% for page in column %}
+        {% set person = page.person %}
 
-    <div class="infoblock">
-        {% if person.image %}
-            <img src="{{person.image}}" />
+        <div class="infoblock">
+            {% if person.image %}
+                <img src="{{person.image}}" />
+            {% endif %}
+
+            <h1>{{ person.name }}</h1>
+
+            {% if person.title or person.irc %}
+            <h2>
+                {% if person.title %}
+                    <span>LUG's {{ person.title }}.</span>
+                {% endif %}
+                {% if person.irc %}
+                    <span>Aka {{ person.irc }} on irc.</span>
+                {% endif %}
+                {% if person.site %}
+                    <span><a href="{{ person.site }}">website</a></span>
+                {% endif %}
+            </h2>
+            {% endif %}
+            {{ page.content }}
+        </div>
+        {% if not loop.last %}
+            <hr />
         {% endif %}
 
-        <h1>{{ person.name }}</h1>
-
-        {% if person.title or person.irc %}
-        <h2>
-            {% if person.title %}
-                <span>LUG's {{ person.title }}.</span>
-            {% endif %}
-            {% if person.irc %}
-                <span>Aka {{ person.irc }} on irc.</span>
-            {% endif %}
-            {% if person.site %}
-                <span><a href="{{ person.site }}">website</a></span>
-            {% endif %}
-        </h2>
-        {% endif %}
-        {{ page.content }}
+    {% endfor %}
     </div>
-
 {% endfor %}
+</div>

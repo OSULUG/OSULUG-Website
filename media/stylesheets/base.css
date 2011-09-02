@@ -102,26 +102,27 @@ ul.subpage-list li {
 }
 
 div.infoblock {
-    width: 445px;
-    margin: 11px;
-    display: inline-block;
-    vertical-align: top;
+    margin-bottom: 16px;
+    text-align: justify;
 }
 
 .infoblock h1 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin: 0;
     padding: 0;
     line-height: 1.2em;
 }
 .infoblock h2 {
-    font-size: 1.0em;
+    font-size: 0.9em;
     margin: 0;
     padding: 0;
     line-height: 1.2em;
     margin-bottom: 5px;
+    color: grey;
 }
 .infoblock img {
     float: left;
-    margin: 0 10px 10px 0;
+    margin-right: 10px;
+    width: 125px;
+    height: 125px;
 }
