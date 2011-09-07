@@ -16,10 +16,10 @@
             {% if person.title or person.irc %}
             <h2>
                 {% if person.title %}
-                    <span>LUG's {{ person.title }}.</span>
+                    <span>{{ person.title }}.</span>
                 {% endif %}
                 {% if person.irc %}
-                    <span>Aka {{ person.irc }} on irc.</span>
+                    <span>{{ person.irc }} on irc.</span>
                 {% endif %}
                 {% if person.site %}
                     <span><a href="{{ person.site }}">website</a></span>

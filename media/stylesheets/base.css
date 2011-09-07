@@ -78,6 +78,7 @@
 
 p {
     margin: 0 0 10px;
+    text-align: justify;
 }
 
 ul.subpage-list {
@@ -99,11 +100,6 @@ ul.subpage-list li {
     display: block;
     font-size: 1.0em;
     display: block;
-}
-
-div.infoblock {
-    margin-bottom: 16px;
-    text-align: justify;
 }
 
 .infoblock h1 {
