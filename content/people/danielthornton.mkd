@@ -1,3 +1,4 @@
+title: Daniel Thornton
 tags: officer
 person:
     name: Daniel Thornton

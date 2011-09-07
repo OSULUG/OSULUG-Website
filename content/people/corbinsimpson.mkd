@@ -1,3 +1,4 @@
+title: Corbin Simpson
 tags: officer
 person:
     name: Corbin Simpson

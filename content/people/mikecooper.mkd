@@ -1,3 +1,4 @@
+title: Mike Cooper
 tags: officer
 person:
     name: Mike Cooper
