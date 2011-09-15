@@ -41,6 +41,12 @@
     background-color: #F70;
 }
 
+.title  {
+    margin-bottom: 18px;
+}
+.title h1 {
+    margin: 0;
+}
 /* These are for in page headers, which should be slightly smaller */
 .main h1 { font-size: 26px; }
 .main h2 { font-size: 20px; }
