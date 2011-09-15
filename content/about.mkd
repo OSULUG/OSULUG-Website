@@ -20,7 +20,7 @@ creating events with other groups on campus. We share many members with the
 [OSU Open Source Education Lab][osel] and are hosted by the [OSU Open
 Source Lab][osuosl].
 
-Our consitution is [here][constitution].
+Our constitution is [here][constitution].
 
 [osel]: http://osel.oregonstate.edu
 [osuosl]: http://osuosl.org
