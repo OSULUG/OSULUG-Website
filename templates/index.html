@@ -10,7 +10,10 @@
 <li>
     <a class="subpage-title" href="{{ subpage.url }}">{{ subpage.title }}</a>
     <span class="subpage-subtitle">
-        by {{ subpage.author }} on {{ subpage.date.strftime("%x") }}
+        by {% for author in subpage.authors %}
+            {% if loop.last and not loop.first %}and {% endif %}
+            {{ author }}{% if not loop.last %}, {% endif %}
+        {% endfor %} on {{ subpage.date.strftime("%x") }}
     </span>
 </li>
 
