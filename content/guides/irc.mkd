@@ -1,37 +1,72 @@
 title: IRC
 category: guides
-author: Emily Dunham <dunhame@onid.oregonstate.edu> and Alan Sherman <shermana@onid.oregonstate.edu> 
+author: ["Emily Dunham <dunhame@onid.oregonstate.edu>", "Alan Sherman <shermana@onid.oregonstate.edu>"]
 ---
-[Internet Relay Chat][irc] is a simple chat room protocol. What makes it so special, its been around foreverish. Created in 1988 it was originally used by universities to help share ideas. To this day lug and many other communities around the world still use it to share ideas. Its simple, light wight and runs on any platform. In this guide we are going to cover three ways that you can get into our channel, each with benefits and drawbacks.
+[Internet Relay Chat][irc] is a simple chat room protocol. What makes it so
+special, is that is has been around for pretty much forever. Created in 1988 it
+was originally used by universities to help share ideas. To this day LUG and
+many other communities around the world still use it to share ideas. It's
+simple, light weight and runs on any platform. In this guide we are going to
+cover three ways that you can get into our channel, and IRC as a whole, each
+with benefits and drawbacks.
 
 [irc]: http://en.wikipedia.org/wiki/IRC
 
-So how does it work, irc is a real-time relay based chat protocol with no archiving. That means then when you send a massage from your client to the server the server just forwards it to all of the other clients in the channel, at no point is that massage stored. Like I said its simple and its called relay chat for a reason. With this being said it has some downsides, if you'r not connected to the server when a massage is sent you dont get it (sucks). If you're running your irc solution on your laptop than every time you shut it down or lose wireless you miss lug awesomeness (we'll talk about this more in a little, there is a solution). However 23 years later it can still delivers massages with out fail. 
+How It Works
+============
+
+IRC is a real-time relay based chat protocol with no archiving. That means that
+when you send a message from your client to the server the server just forwards
+it to all of the other clients in the channel, at no point is that message
+stored. It is very simple, and you can see why it is called "relay chat". This
+also leads to some of its downsides: If you're not connected to the server when
+a message is sent you don't get it. If you're running your IRC solution on your
+laptop than every time you shut it down or lose wireless you miss LUG
+awesomeness (we'll talk about this more in a little, there is a solution).
+However 23 years later it is still in active use.
 
 Lets go over some basic terms:
 
-+   server/network, OSU does not host our own irc server. Many different groups are hosted by a small number of large public servers. the server/network we use is called freenode, witch happens to have two of their servers hosted on campus (OSUOSL)
-+   channel, in order to break up these huge networks groups create channels. a channel is just one room in the network, channels can be private or public. On many networks creating a channel is as simple as joining a channel that does not exist. 
-+   op (operator), is a channel administrator in the case of lug these are our current and sometimes past officers
+-   Server - This is what you connect to with your client. It receives your
+    commands and messages and forwards them to other clients.
+
+-   Network - It would be very hard to make a single server that could handle
+    everyone who wanted to use IRC together. To solve this, many servers are
+    grouped together into an IRC network. The individual servers ferry messages
+    back and forth to make sure that all the messages get to every user.
+
+-   Channel - In order to break up these huge networks groups create channels.
+    Channels can be private or public, as well have many other properties that
+    you don't need to worry about. On many networks creating a channel is as
+    simple as joining a channel that does not exist. 
+
++   Operator - Also know as "op" is a channel administrator. They have the
+    ability to moderate the channel, change various settings and are generally
+    helpful. When an op has there powers turned on their name is prefixed with
+    an `@` symbol.
 
 Quick & Easy
 ============
 
-The fastest way to get in our Chanel is to go though your browser. To access freenode from your browser, you can use their [web interface][freenodeweb]. In the Nickname field, enter the name that you want other people to see when you
-talk in the channel. This can be your ONID username, your real name, or
-something more creative. Note that if you pick a really long nick (I tried it
-with "`testing_freenode_web_chat`"), it will be truncated at around 16
-characters (so I only show up as "`testing_freenode`" in the channel). In the
-channels field, type `#osu-lug`. Enter the capcha, click connect, wait a few
-seconds, and you'll be in the LUG's primary discussion area.
+The fastest way to get in our Chanel is to go though your browser. To access
+Freenode (the irc network that the LUG channel is on) from your browser, you
+can use their [web interface][freenodeweb]. In the Nickname field, enter the
+name that you want other people to see when you talk in the channel. This can
+be your ONID username, your real name, or something more creative. Note that if
+you pick a really long nick (I tried it with "`testing_freenode_web_chat`"), it
+will be truncated at around 16 characters (so I only show up as
+"`testing_freenode`" in the channel). In the channels field, type `#osu-lug`.
+Fill out the captcha, click connect, wait a few seconds, and you'll be in the
+LUG's primary discussion area.
 
 [freenodeweb]: http://webchat.freenode.net/
 
 What do they see?
 -----------------
 
-When I joined a channel with my nick set to `testing_freenode`, it looks like
-this when I join:
+When you join or leave a message, most users will be notified with a message to
+the channel. In some clients, that looks like this when my user name was set to
+`testing_freenode`
 
     15:54 -!- testing_freenode [8cd3a70d@gateway/web/freenode/ip.140.211.167.13] has joined #osu-lug
 
@@ -40,9 +75,15 @@ and like this when I leave:
     16:04 -!- testing_freenode [8cd3a70d@gateway/web/freenode/ip.140.211.167.13] has quit [Quit: Page closed]
 
 GUI Clients
-=======
+===========
 
-GUI, or graphical user interface, clients perform much in the same way that the web interface works. The two big differences are automation and customization. using a local client lets you connect to multiple channels or even servers with an icon on your desktop and a few clicks. GUI clients often support color coding,  more advanced hi-lighting options and infinite idling (if your computer is on); no one likes timing out. If you want something more than the web interface can give you, consider trying one of these clients.
+GUI, or graphical user interface, clients perform much in the same way that the
+web interface works. The two big differences are automation and customization.
+Using a local client lets you connect to multiple channels or even servers with
+an icon on your desktop and a few clicks. GUI clients often support color
+coding,  more advanced highlighting options and infinite idling (if your
+computer is on), because no one likes timing out. If you want something more
+than the web interface can give you, consider trying one of these clients.
 
 -   [xchat][] - A popular GUI client.
 -   [Pidgin][] - Pidgin supports irc, but its not very good at it.
@@ -52,83 +93,145 @@ GUI, or graphical user interface, clients perform much in the same way that the 
 [pidgin]: http://www.pidgin.im
 [mirc]: http://www.mirc.com
 
-most of these are pretty straight forward. when it prompts you for the server connect to `chat.freenode.net`  our channel on that server is `#osu-lug`. Just like the web interface your username can be whatever you want it to be as-long as it`s not already in use, witch it will tell you when you try to connect. 
+Most of these are pretty straight forward. When it prompts you for the server
+connect to `chat.freenode.net`. Our channel on that network is `#osu-lug`. Just
+like the web interface your username can be whatever you want it to be as-long
+as it's not already in use, which it will tell you when you try to connect. 
 
-CMD Clients
-===========
+Command Line Clients
+====================
 
-CMD, or command line, clients take a bit of work to get the hang of. I'm guessing that right now most of you are think why would I use the commanded line when I can get a pretty GUI, I thought the same thing at first. there is one HUGE feature that cmd clients have over gui clients.
+Command line clients take a bit of work to get the hang of. I'm guessing that
+right now most of you are think why would I use the commanded line when I can
+get a pretty GUI, I thought the same thing at first. There is one *huge*
+feature that command line clients have over GUI clients - They are simple, and
+this simplicity is their power.
 
-lets take a step back right now, as we mention above if you are not online when a massage goes out you miss it. the soution is simple never go offline, but how do you do this with your laptop. You run your irc solution on another computer, say a server that's provided by OSU and has redundant power and networking. Then you will get every massage.
+Let's take a step back right now, as we mention above if you are not online
+when a message goes out you miss it. The solution is simple never go offline,
+but how do you do this with your laptop? You run your irc solution on another
+computer, say a server that's provided by OSU and has redundant power and
+networking, so you never leave the server. Then you will get every message.
 
-Were going to start by getting you on the server. To do this we are going to use ssh, if you have not use ssh before I would recommend you take a look at it (lug is a great place to ask) but for now I am just going to go over what you need to know for irc. For Windows user download and run [putty][putty] put in a host name of shell.onid.oregonstate.edu and hit open. It will ask you for you username and then your password, use your `onid account`. If you are using Mac or Linux!!!!!! open up a terminal and type in 
+We're going to start by getting you on the server. To do this we are going to
+use SSH, if you have not use SSH before I would recommend you take a look at it
+(LUG is a great place to ask) but for now I am just going to go over what you
+need to know for IRC.
+
+For Windows user download and run [putty][]. Put in a host name of
+shell.onid.oregonstate.edu and hit open. It will ask you for your username and
+then your password. Since this is an OSU server, use your onid username and
+password.
+
+If you are using Mac or Linux, you are in luck. Unlike Windows, Mac and Linux
+have ssh build in (most of the time). Open up a terminal and type in 
 	
 	ssh [your onid user name]@shell.onid.oregonstate.edu
 
-Now you have a shell that looks like its running on your computer but is actually running on the server.
+Now you have a shell that looks like its running on your computer but is
+actually running on the server.
 
-Next up screen, the way Linux manages ssh and terminals if you were to run a program right now when you exited out of the ssh session the program would die with it and that's no good. So we are going to use a program called screen. Screen creates a virtual terminal that is only attached to a session when you tell it to. when you set up a screen and then exit ssh the screen and everything in it will detach but still run. to do this type:
+Because of the way Unix manages processes and sessions (like your SSH session),
+any program that you run will be tied to your session, and when your session
+ends that program will end as well. So we haven't really gained anything from
+over running IRC locally on your laptop yet.
+
+The solution is a program called `screen` Screen creates a virtual terminal
+that is only attached to a session when you tell it to. After setting up a
+screen, you can detach from the session, and everything will keep running on
+the server, even if you completely terminate your SSH session.
+
+To start a screen session run
 
 	screen -S irc
 
-now you have a screen called `irc` that you can run a program in and walk away from
+Now you have a screen named "irc" that you can run a program in and walk away
+from without loosing everything.
 
-now its finally time to start the irc client itself. shell.onid has two different irc clients installed on it [irssi][irssi] and [weechat][weechat] for this guide we are going to use irssi because that is what most of lug and I use. to start irssi simply type 
+Now its finally time to start the IRC client itself. shell.onid has two
+different irc clients installed on it: [irssi][] and [weechat][]. For this
+guide we are going to use irssi. To start irssi simply type, from within your
+screen
 	
 	irssi
 
-your now running irssi.
+You are now running irssi.
 
 [irssi]: http://www.irssi.org
 [weechat]: http://www.weechat.org
 
-irssi the basics
-----------------------
+Irssi - The Basics
+------------------
 
-The first thig you need to do is connect to freenode
+The first thing you need to do is connect to Freenode. This will take a moment.
 
 	/connect chat.freenode.net
 
-Now you need to set your nick name
+Now you need to set your nick.
 
 	/nick [nickname]
 
-If the name you want is taken it will print out a message in Alt-1
-Now join lug
+If the name you want is taken, the server will tell you so, and you can choose
+another.
+
+Now join the LUG channel.
 
 	/join #osu-lug
 
-you can join as many channels as you want at the same time to switch between channels press Alt-[0-9]. Alt-1 will always the irssi info screen that most irssi messages print out to, that makes the lug channel Alt-2 and so on if you add more channels. The second line from the bottom of your screen that is hi-lighted this is your status bar. it will tell you the time, your username, server/channel and list off all of your windows. the last string of numbers represents windows that you have open and the color of each number represents its state.
+You can join as many channels as you want at the same time. To switch between
+different windows press Alt-[0-9]. Alt-1 will always the server channel that most
+irssi messages print out to. That makes the lug channel Alt-2 and so on if you
+add more channels. The second line from the bottom of your screen that is
+highlighted is your status bar. It will tell you the time, your username,
+server/channel and list off all of your windows. The last string of numbers
+represents windows that have activity in them and the color of each number
+represents its state.
 
--   If there is no number shown but the window exist then there has been no activity in that window
--   If the number is light blue then there has been activity that is not talk (such as someone joining) 
--   If the number is white then someone has said something in that chnnale
--   If the number is purple then you have been hi-lighted in that window (more on that in a little)
+-   If the number is light blue then there has been activity that is not talk
+    (such as someone joining).
+-   If the number is white then someone has said something in that channel.
+-   If the number is purple then you have been highlighted in that window. That
+    means someone is trying to get your attention. (more on that in a little).
+-   If a channel you are in doesn't have a number in the activity window, that
+    means nothing has happened since the last time you looked at the channel.
 
-colors may/while change if you add a new theme (once again, more on that in a little)
+Colors can change if you change your theme, but for now just stick with the
+default theme.
 
-here are some other commands:
+Here are some other commands:
 
--   /q [username] (creates a new window that is a private massage to the other user
--   /wc (quit out of the window you are in)
--   /n (show a list of all user that are in your channel, if the have a @ infornt of their name they are op)
--   /help (shows all commands, in Alt-1)
--   /help [command] (shows help for that command, in Alt-1)
+-   /q [username] - Creates a new window that is a private message to another
+    user. Only they will see these message.
+-   /wc - This is an alias for /window close. Closes the window that you are
+    on, disconnecting you from that channel.
+-   /names - Show a list of all user that are in your channel, if the have a @
+    in front of their name they currentl have op powers.
+-   /help - Shows all commands, in the status window (Alt-1).
+-   /help [command] - Shows help for a particular command, again, in the status
+    window.
 
-There are only a couple of things left that you have to know to use irssi and screen. First up how to *proprly* end your session and lastly how to get it back. In-order to detach your current terminal from the virtual screen:
-
-	Hold down Ctrl-a and press d
-
-This will drop you back into your ssh terminal now just exit your terminal with:
+There are only a couple of things left that you have to know to use irssi and
+screen. First up how to *properly* end your session and lastly how to get it
+back. In-order to detach your current terminal from the virtual screen press
+`Ctrl-a d`. That is, press control, then press A, then release both and press
+D. `Ctrl-a` is the screen escape command, and `d` is the detach command. This
+will drop you back into your ssh terminal. Now just exit your terminal with:
 
 	exit
 
-To get back into irssi you need to ssh into shell.onid.o.e (ssh [your onid user name]@shell.onid.oregonstate.edu) and run the command:
+To get back into irssi you need to ssh into shell.onid again (ssh [your onid user
+name]@shell.onid.oregonstate.edu) and run the command:
 
-	screen -DAr irc
+	screen -r irc
 
-irssi tips & tricks
-----------------------
-comming soon
+This will *r*e-attach your screen session. Alternatively you can use
 
+    screen -raAd irc
 
+These extra options will conform the screen to your current terminal better,
+and automatically detach any other screen session you may have, which has
+various advantages.
+
+Irssi Tips and Tricks
+---------------------
+Coming soon
