@@ -9,6 +9,10 @@ The Linux Users Group is a group of mostly nerds. However, we are not your
 normal nerds. We are a highly active and self organizing group dedicated to
 teaching and advocating free and open source software (FOSS) on campus.
 
+We have open meetings every Tuesday at 6:00 pm in the Dearborn EECS Library.
+To get to the Library, go up the stairs near the elevator, take a right, and
+then take another right. It is straight ahead.
+
 Our approach is simple. Members join either because they are new users and
 would like help, or they are active users and want to help promote FOSS.
 Because of the infectious nature of Open Source, the group nearly builds
