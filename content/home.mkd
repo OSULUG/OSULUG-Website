@@ -1,17 +1,7 @@
 title: Home
 type: home
 url: /index{page}.html
-image:
-    url: /images/firefox_crop_circle.jpg
-    where: top
-    caption: We made this to celebrate the 200 millionth download of Firefox. <a href="http://firefoxcropcircle.com/circle/">The story.</a>
 ---
-Meeting tonight!
-================
-
-Tuesday, September 27th, 2011 in the Dearborn EECS Library. To get to the
-Library, go up the stairs near the elevator, take a right, and then take
-another right. It is straight ahead.
 
 Welcome to the website for the Oregon State University Linux Users Group.
 -------------------------------------------------------------------------
@@ -22,3 +12,10 @@ For now, check out what is here, join our IRC channel, and keep an eye out
 for helpful information posted here.
 
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
+
+Meeting tonight!
+================
+
+Tuesday, September 27th, 2011 in the Dearborn EECS Library. To get to the
+Library, go up the stairs near the elevator, take a right, and then take
+another right. It is straight ahead.

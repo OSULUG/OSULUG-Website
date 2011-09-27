@@ -1,4 +1,8 @@
 title: Guides
 type: index
+image:
+    url: /images/firefox_crop_circle.jpg
+    where: top
+    caption: We made this to celebrate the 200 millionth download of Firefox. <a href="http://firefoxcropcircle.com/circle/">The story.</a>
 ---
 Here are some guides written by members of the LUG.
