@@ -4,7 +4,7 @@ url: /index{page}.html
 ---
 
 Welcome to the website for the Oregon State University Linux Users Group.
--------------------------------------------------------------------------
+=========================================================================
 
 The site is currently under active development to replace the the old site,
 and we welcome [any feedback][gh-issues] about how the site can be improved.
@@ -13,9 +13,9 @@ for helpful information posted here.
 
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 
-Meeting tonight!
-================
+Meetings
+--------
 
-Tuesday, September 27th, 2011 at 6:00pm in the Dearborn EECS Library. To get to
+We meet every week on Tuesday at 6:00pm in the Dearborn EECS Library. To get to
 the Library, go up the stairs near the elevator, take a right, and then take
 another right. It is straight ahead.
