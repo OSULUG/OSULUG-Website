@@ -13,9 +13,9 @@ for helpful information posted here.
 
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 
-Meeting tonight!
+Meetings!
 ================
 
-Tuesday, September 27th, 2011 at 6:00pm in the Dearborn EECS Library. To get to
+LUG meets every Tuesday at 6:00pm in the Dearborn EECS Library. To get to
 the Library, go up the stairs near the elevator, take a right, and then take
 another right. It is straight ahead.
