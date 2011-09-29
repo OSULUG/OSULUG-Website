@@ -4,7 +4,7 @@ url: /index{page}.html
 ---
 
 Welcome to the website for the Oregon State University Linux Users Group.
--------------------------------------------------------------------------
+=========================================================================
 
 The site is currently under active development to replace the old site, and we
 welcome [any feedback][gh-issues] about how the site can be improved.  For now,
@@ -13,8 +13,16 @@ information posted here.
 
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 
+Meetings
+--------
+
+LUG meets every week on Tuesday at 6:00pm in the Dearborn EECS Library. To get to
+the Library, go up the stairs near the elevator, take a right, and then take
+another right. It is straight ahead.
+
 Beaver BarCamp8
-================
+---------------
+
 On October 29 OSU is once again hosting Beaver BarCamp. Barcamp is a
 user-generated conference, where the attendees give all the talks. When you
 show up you will find a complex graphing system (butcher paper and sticky
@@ -32,9 +40,3 @@ For more information check out: [beaverbarcamp.org][barcamp]
 
 [barcamp]: http://beaverbarcamp.org/
 
-Meetings
-================
-
-LUG meets every Tuesday at 6:00pm in the Dearborn EECS Library. To get to
-the Library, go up the stairs near the elevator, take a right, and then take
-another right. It is straight ahead.
