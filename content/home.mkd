@@ -6,10 +6,10 @@ url: /index{page}.html
 Welcome to the website for the Oregon State University Linux Users Group.
 -------------------------------------------------------------------------
 
-The site is currently under active development to replace the the old site,
-and we welcome [any feedback][gh-issues] about how the site can be improved.
-For now, check out what is here, join our IRC channel, and keep an eye out
-for helpful information posted here.
+The site is currently under active development to replace the old site, and we
+welcome [any feedback][gh-issues] about how the site can be improved.  For now,
+check out what is here, join our IRC channel, and keep an eye out for helpful
+information posted here.
 
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 
