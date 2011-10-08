@@ -16,27 +16,6 @@ information posted here.
 Meetings
 --------
 
-LUG meets every week on Tuesday at 6:00pm in the Dearborn EECS Library. To get to
-the Library, go up the stairs near the elevator, take a right, and then take
-another right. It is straight ahead.
-
-Beaver BarCamp8
----------------
-
-On October 29 OSU is once again hosting Beaver BarCamp. Barcamp is a
-user-generated conference, where the attendees give all the talks. When you
-show up you will find a complex graphing system (butcher paper and sticky
-notes) that will tell you what rooms are available when. If you have something
-you want to give a talk on write down the subject and put it on the wall. If
-not, everyone is welcome to come and go throughout the day attending other
-talks.  not only is the event *FREE* but there will be t-shirts and
-snacks.
-
-When: October 29, 10 AM to 6 PM
-
-Where: Kelley Engineering Center
-
-For more information check out: [beaverbarcamp.org][barcamp]
-
-[barcamp]: http://beaverbarcamp.org/
-
+LUG meets every week on Tuesday at 6:00pm in the Dearborn EECS Library. To get
+to the Library, go up the stairs near the elevator, take a right, and then
+take another right. It is straight ahead.
