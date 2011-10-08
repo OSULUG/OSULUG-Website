@@ -1,3 +1,11 @@
+.header h2 {
+    color: #2d486d;
+}
+
+.main {
+    overflow: hidden;
+}
+
 .footer {
     text-align:center;
     padding-top: 12px;
@@ -13,13 +21,27 @@
     color: #006B53;
 }
 
-.header h2 {
-    color: #2d486d;
+/* Home page styling */
+.home {
+    float: left;
+    width: 690px;
+    margin-right: 25px;
+}
+.home p {
+    font-size: 1.2em;
 }
 
-.home p {
-    text-align: center;
-    font-size: 1.2em;
+.aside {
+    float: left;
+    width: 225px;
+}
+.aside ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.event h3, .event h4 {
+    line-height: 18px;
 }
 
 .logo {
