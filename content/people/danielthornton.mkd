@@ -1,8 +1,6 @@
 title: Daniel Thornton
-tags: officer
 person:
     name: Daniel Thornton
-    title: Webmaster
     site: http://blog.relud.com
     irc: merthel
     image: /images/people/danielthornton.jpg
