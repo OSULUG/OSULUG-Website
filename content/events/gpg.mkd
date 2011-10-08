@@ -4,6 +4,7 @@ category: events
 datetime: 2011-10-25 18:00:00
 tags: talk
 preview: Learn how to encrypt email and verify identities with GPG.
+location: Dearborn 212
 ---
 Ben is going to give a talk about GPG encryption and signing, and then we are
 going to have a key signing party, so we can build our web of trust.

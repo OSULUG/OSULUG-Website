@@ -12,9 +12,17 @@
                     <h3>
                         <a href="{{ event.url }}">{{ event.title }}</a>
                     </h3>
-                    <h4>{{ event.time }} on {{ event.date}}</h4>
+                    <h4>
+                        {% if event.location %}
+                            {{ event.location }} -
+                        {% endif %}
+                        {{ event.date.strftime('%b %d, %Y') }}
+                    </h4>
                     {{ event.preview }}
                 </li>
+                {% if not loop.last %}
+                    <hr>
+                {% endif %}
             {% endif %}
         {% endfor %}</ol>
     </div>

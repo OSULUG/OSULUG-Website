@@ -24,8 +24,8 @@
 /* Home page styling */
 .home {
     float: left;
-    width: 690px;
-    margin-right: 25px;
+    width: 675px;
+    margin-right: 20px;
 }
 .home p {
     font-size: 1.2em;
@@ -33,12 +33,18 @@
 
 .aside {
     float: left;
-    width: 225px;
+    width: 240px;
 }
 .aside ol {
     list-style: none;
     margin: 0px;
     padding: 0px;
+}
+.aside hr {
+    margin: 10px;
+}
+.event {
+    padding-left: 10px;
 }
 .event h3, .event h4 {
     line-height: 18px;
