@@ -1,0 +1,13 @@
+title: Beaver Bar Camp 8
+datetime: 2011-10-29 10:00:00
+category: events
+preview: Beaver Bar Camp is cool!
+location: Kelley Engineering Center
+---
+We will be holding official elections starting Tuesday 10/11/2011. The official nominations are as follows:
+
+president: MostAwesomeDude and mythmon
+Vice President: MostAwesomeDude and mythmon
+Secretary: uberj
+Treasurer: edunham
+Webmaster: ngoke
