@@ -7,22 +7,20 @@
     <div class="aside">
         <h2>Upcoming Events</h2>
         <ol>{% for event in site.categories['events'] %}
-            {% if event.datetime > site.datetime %}
-                <li class="event">
-                    <h3>
-                        <a href="{{ event.url }}">{{ event.title }}</a>
-                    </h3>
-                    <h4>
-                        {% if event.location %}
-                            {{ event.location }} -
-                        {% endif %}
-                        {{ event.date.strftime('%b %d, %Y') }}
-                    </h4>
-                    {{ event.preview }}
-                </li>
-                {% if not loop.last %}
-                    <hr>
-                {% endif %}
+            <li class="event">
+                <h3>
+                    <a href="{{ event.url }}">{{ event.title }}</a>
+                </h3>
+                <h4>
+                    {% if event.location %}
+                        {{ event.location }} -
+                    {% endif %}
+                    {{ event.date.strftime('%b %d, %Y') }}
+                </h4>
+                {{ event.preview }}
+            </li>
+            {% if not loop.last %}
+                <hr>
             {% endif %}
         {% endfor %}</ol>
     </div>
