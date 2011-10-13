@@ -1,6 +1,9 @@
-
-h2 {
-    color: #2d486d;
+.main a {
+    text-decoration: none;
+    color: teal;
+}
+.main a:hover {
+    color: #006B53;
 }
 
 .main {
@@ -22,21 +25,22 @@ h2 {
     color: #006B53;
 }
 
-/* Home page styling */
-.home {
-    float: left;
-    width: 675px;
-    margin-right: 20px;
-}
-.home p {
-    font-size: 1.2em;
-}
-
-.event {
+.list {
     padding-left: 10px;
 }
-.event h3, .event h4 {
+.list h3, .list h4 {
     line-height: 18px;
+}
+.list a {
+    color: #F70;
+}
+.list a:hover {
+    color: #F70;
+    text-decoration: underline;
+}
+
+.header h2 {
+    color: #2d486d;
 }
 
 .logo {
@@ -58,12 +62,6 @@ h2 {
     background-color: #FFC48F;
 }
 
-.title  {
-    margin-bottom: 18px;
-}
-.title h1 {
-    margin: 0;
-}
 /* These are for in page headers, which should be slightly smaller */
 .main h1 { font-size: 26px; }
 .main h2 { font-size: 20px; }
@@ -77,13 +75,6 @@ h2 {
 .main h6 {
     font-size: 12px;
     font-weight: normal;
-}
-.main a {
-    text-decoration: none;
-    color: teal;
-}
-.main a:hover {
-    color: #006B53;
 }
 
 .page_pic {

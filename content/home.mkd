@@ -7,7 +7,8 @@ image:
     caption: Created by the OSU LUG to celebrate <a href="http://firefoxcropcircle.com/circle">the 200 millionth download of Firefox</a>.
 ---
 
-<h2>Welcome to the new OSU LUG website!</h2>
+Welcome to the new OSU LUG website!
+-----------------------------------
 
 This site is currently under active development to replace the old site, and we
 welcome [any feedback][gh-issues] about how the site could be improved. The
