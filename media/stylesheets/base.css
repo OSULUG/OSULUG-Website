@@ -1,4 +1,5 @@
-.header h2 {
+
+h2 {
     color: #2d486d;
 }
 
@@ -31,18 +32,6 @@
     font-size: 1.2em;
 }
 
-.aside {
-    float: left;
-    width: 240px;
-}
-.aside ol {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-.aside hr {
-    margin: 10px;
-}
 .event {
     padding-left: 10px;
 }
@@ -66,7 +55,7 @@
     font-weight: bold;
 }
 .navigation a:hover {
-    background-color: #F70;
+    background-color: #FFC48F;
 }
 
 .title  {
@@ -88,6 +77,13 @@
 .main h6 {
     font-size: 12px;
     font-weight: normal;
+}
+.main a {
+    text-decoration: none;
+    color: teal;
+}
+.main a:hover {
+    color: #006B53;
 }
 
 .page_pic {

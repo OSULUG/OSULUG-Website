@@ -1,17 +1,23 @@
 title: Home
 type: home
 url: /index{page}.html
+image:
+    url: /images/firefox_crop_circle.jpg
+    where: top
+    caption: Created by the OSU LUG to celebrate <a href="http://firefoxcropcircle.com/circle">the 200 millionth download of Firefox</a>.
 ---
 
-Welcome to the website for the Oregon State University Linux Users Group.
-=========================================================================
+<h2>Welcome to the new OSU LUG website!</h2>
 
-The site is currently under active development to replace the old site, and we
-welcome [any feedback][gh-issues] about how the site can be improved.  For now,
-check out what is here, join our IRC channel, and keep an eye out for helpful
-information posted here.
+This site is currently under active development to replace the old site, and we
+welcome [any feedback][gh-issues] about how the site could be improved. The
+source for the site can found on [github][source]. For now, check out what is
+here, join our [IRC channel][irc-guide], and keep an eye out for helpful information and
+upcoming events posted here.
 
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
+[source]: https://github.com/OSULUG/OSULUG-Website/
+[irc-guide]: http://lug.oregonstate.edu/guides/irc/index.html
 
 Meetings
 --------

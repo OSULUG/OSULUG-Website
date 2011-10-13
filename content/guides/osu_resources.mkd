@@ -4,32 +4,36 @@ category: guides
 author: Jacques Uber <uberj@onid.oregonstate.edu>
 ---
 
-Hello new OSU student! If you haven't already been told by someone: at OSU, you
-have "resources". I'm going to tell you about some of the things you can do on
-the OSU network while using those resources.
+Hello new OSU student! If you haven't already been told by someone, at OSU, you
+have helpful resources offered by OSU at your disposal. Here are some things
+you can do on the OSU network with these resources.
 
-First it is assumed that you know how to ssh into boxes, use a text editor, and
-use bash or any other Unix style command line utility. If you don't know these
-things, it's OK if you don't, go ahead and read these guides and remember:
-"Google is your friend and ally".
+First, it is assumed that you know how to ssh into other boxes, use a command
+line text editor, and use bash or any other Unix-like command line utilities.
+If you don't yet know these things, it's OK if you don't, go ahead and read
+these guides and remember, "Google is your friend and ally".
 
-+   [How to use ssh][ssh_howto] and specifically [putty][putty_howto] for you
-    _Windows_ users.
-+   [Basic bash][bash_howto].
-+   [Vim][vim_howto] is a powerful text editor. If you are going to be editing lots of text, it is worth learning it.
-+   [Emacs][emacs] is a worthy editor as well. It is as powerful as vim, but has a very different style. Most people in LUG use vim.
-+   [Nano][nano] is for when don't want to take the time to learn vim or emacs, both of which have steep learning curves.
++   [How to Use SSH][ssh_howto] and specifically [putty][putty_howto] for you
+_Windows_ users.
++   [Basic BASH][bash_howto].
++   [vim][vim_howto] is a powerful text editor. It is worth learning if you are
+going to be editing a lot of files or coding in the terminal.
++   [Emacs][emacs] is a worthy editor as well. It is as powerful as vim, but
+has a very different style. Most of us use vim.
++   [Nano][nano] is for when you don't want to take the time to learn vim or
+emacs, both of which have somewhat steeper learning curves.
 
 Now if some of those things are new to you, go ahead and spend some time
-getting used to using those tools. It will pay off in the long run. Don't
-expect to be fluent in vim or emacs right away, those take a lot of time and
-practice to learn. But in the end it pays off to learn one of them.
+getting used to using these tools. It will pay off in the long run. Don't
+expect to be fluent in vim or Emacs right away. Becoming a vim master or Emacs
+guru takes a lot of time and practice. But in the end it pays off to learn
+either one of them.
 
-128.193.0.0/16
-==============
+ONID Webspace and Shell (128.193.0.0/16)
+--------------
 
 Oregon State owns an entire `/16` block of network addresses. If you are rusty
-on your [CIDR][cidr], that is...
+on your [CIDR][cidr], that is:
 
     2^16 = 65536 public ip addresses.
 
@@ -56,8 +60,8 @@ find that directory go ahead and make it.
     mkdir ~/public_html
 
 Files that you put in this directory (with the correct permissions) will get
-served by [apache][ap_wb] and be viewable to the Internet. Try it! Put a test
-file in that directory and then point your web browser at:
+served by [apache][ap_wb] and be viewable by everyone on the Internet. Try it!
+Put a test file in that directory and then point your web browser at:
 
     people.oregonstate.edu/~[your onid user name]
 
@@ -70,51 +74,52 @@ This is a great way to share files quickly with peers.
 Community Web Services also allows you to have a blog. Check them out if you
 are interested, [CWS][cws].
 
-Including 128.193.54.0/24 but not limited to.
+flip (128.193.54.0/24)
 ---------------------------------------------
 
 There is more...
 
     flip.engr.oregonstate.edu
 
-Flip is the COE (College of Engineering) shell server. Most of the things you
+flip is the COE (College of Engineering) shell server. Most of the things you
 can do on `shell.onid`, you can do on flip four times faster (generally, this
 is because shell has two cores where flip as eight).
 
-On flip you can also access your COE webspace (yes you have three potential
+On flip, you can also access your COE webspace (yup you have three potential
 websites, two by default).
 
     people.engr.oregonstate.edu/~[your ENGR user name]
 
-Privileges
-==========
-
-You have root nowhere. This is a good thing. If you need to install something,
-do it in your home directory. There _are_ size quotas per user and the number
-of processes you are aloud to spawn is also capped, so be careful.
-
-The flips
+flips
 ---------
 
 Going a little bit more in depth, `flip.engr.o.e` is actually a [CNAME][dns]
 for three other boxes.
 
-    10.54.193.128.in-addr.arpa domain name pointer flip3.engr.oregonstate.edu.
-    226.54.193.128.in-addr.arpa domain name pointer flip1.engr.oregonstate.edu.
-    7.54.193.128.in-addr.arpa domain name pointer flip2.engr.oregonstate.edu.
+10.54.193.128.in-addr.arpa domain name pointer flip3.engr.oregonstate.edu.
+226.54.193.128.in-addr.arpa domain name pointer flip1.engr.oregonstate.edu.
+7.54.193.128.in-addr.arpa domain name pointer flip2.engr.oregonstate.edu.
 
 Your home directory is on an [NFS][nfs] mount so don't worry about which server
 you are *actually* `ssh`ing into, your home directory will be on all of them.
-But, on each of those boxes there is a [partition][part] called `/scratch`. This
-is a per box partition (i.e. if you put a file on flip3's `/scratch` it won't
-show up in flip1 and flip2's `/scratch`). All the scratch partitions are huge and
-freely used by all users.
+But, on each of those boxes there is a [partition][part] called `/scratch`.
+This is a per box partition (i.e. if you put a file on flip3's `/scratch` it
+won't show up in flip1 and flip2's `/scratch`). All the scratch partitions are
+huge and freely used by all users.<br/>
+
+
+Privileges
+--------------
+
+You have root nowhere. This is a good thing. If you need to install something,
+do it in your home directory. There _are_ size quotas per user and the number
+of processes you are aloud to spawn is also capped, so be careful.
 
 ### Questions?
 
-If you have questions, come hang out in the lug IRC room `#osu-lug` on
-irc.freenode.net. We are happy to answer them... probably. For help with IRC
-see [this guide][irc]
+If you have any questions, come hang out in the lug IRC room `#osu-lug` on
+irc.freenode.net. We are happy to answer them. For help with IRC
+see [our IRC guide][irc]
 
 
 [ssh_howto]:http://www.wikihow.com/Use-SSH

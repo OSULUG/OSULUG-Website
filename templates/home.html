@@ -1,29 +1,33 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="home">
-        {{page.content}}
-    </div>
-    <div class="aside">
-        <h2>Upcoming Events</h2>
-        <ol>{% for event in site.categories['events']|sort(attribute='datetime') %}
-            {% if event.datetime > site.datetime %}
-                <li class="event">
-                    <h3>
-                        <a href="{{ event.url }}">{{ event.title }}</a>
-                    </h3>
-                    <h4>
-                        {% if event.location %}
-                            {{ event.location }} -
+    <div class="container">
+        <div class="row">
+            <div class="span11 columns">
+                {{page.content}}
+            </div>
+            <div class="span5 columns">
+                <h2>Upcoming Events</h2>
+                <ol>{% for event in site.categories['events']|sort(attribute='datetime') %}
+                    {% if event.datetime > site.datetime %}
+                        <li class="event">
+                            <h3>
+                                <a href="{{ event.url }}">{{ event.title }}</a>
+                            </h3>
+                            <h4>
+                                {% if event.location %}
+                                    {{ event.location }} -
+                                {% endif %}
+                                {{ event.date.strftime('%b %d, %Y') }}
+                            </h4>
+                            {{ event.preview }}
+                        </li>
+                        {% if not loop.last %}
+                            <hr>
                         {% endif %}
-                        {{ event.date.strftime('%b %d, %Y') }}
-                    </h4>
-                    {{ event.preview }}
-                </li>
-                {% if not loop.last %}
-                    <hr>
-                {% endif %}
-            {% endif %}
-        {% endfor %}</ol>
+                    {% endif %}
+                {% endfor %}</ol>
+            </div>
+        </div>
     </div>
 {% endblock %}

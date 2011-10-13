@@ -1,9 +1,13 @@
 title: Contact
 type: contact
----
-We keep in touch via our [mailing list][ml], and in the `#osu-lug` irc channel on `irc.freenode.net`. For more info about irc, check out [this guide][ircguide] by our own Emily Dunham.
+--- 
+We keep in touch via the [mailing list][ml], and via the `#osu-lug` IRC
+channel on `irc.freenode.net`. For more info on IRC, check out our [IRC
+guide][ircguide].
 
-Feel free to subscribe to the mailing list or hang out in the irc channel, even if you aren't a member. We are a generally helpful and friendly group.
+Even if you aren't a member, feel more than free to subscribe to the mailing
+list or hang out in the IRC channel. We are a helpful and friendly group and do
+not bite.
 
 [ml]: http://lists.oregonstate.edu/mailman/listinfo/linux
 [ircguide]: /guides/irc/

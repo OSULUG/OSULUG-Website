@@ -1,19 +1,19 @@
 title: Beaver Bar Camp 8
 datetime: 2011-10-29 10:00:00
 category: events
-preview: Beaver Bar Camp is cool!
+preview: We do Bar Camps. Bar Camps are cool.
 location: Kelley Engineering Center
 ---
 OSU is once again hosting Beaver BarCamp. Barcamp is a user-generated
 conference, where the attendees give all the talks. When you show up you will
 find a complex graphing system (butcher paper and sticky notes) that will tell
 you what rooms are available when. If you have something you want to give a
-talk on write down the subject and put it on the wall. If not, everyone is
-welcome to come and go throughout the day attending other talks.  not only is
-the event *FREE* but there will be swag and food.
+talk on, write down the subject and put it on the wall. If not, everyone is
+welcome to come and go throughout the day to attend talks. Not only is the
+event *FREE*, but there will be swag and food.
 
 When: October 29, 10 AM to 6 PM
 
-Where: Kelley Engineering Center (Yes, all of it)
+Where: Kelley Engineering Center (yes, all of it)
 
 For more information check out: [beaverbarcamp.org](http://beaverbarcamp.org)

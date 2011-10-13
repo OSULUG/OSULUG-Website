@@ -5,26 +5,26 @@ image:
     where: right
     caption: Some members of LUG during an "install fest".
 ---
-The Linux Users Group is a group of mostly nerds. However, we are not your
-normal nerds. We are a highly active and self organizing group dedicated to
-teaching and advocating free and open source software (FOSS) on campus.
-
-We have open meetings every Tuesday at 6:00 pm in the Dearborn EECS Library.
-To get to the Library, go up the stairs near the elevator, take a right, and
-then take another right. It is straight ahead.
+We at the Linux Users Group are mostly a group of nerds. However we are not
+your normal nerds. We are a highly active and self-organizing group dedicated
+to teaching and advocating free and open source software (FOSS) on campus.
 
 Our approach is simple. Members join either because they are new users and
-would like help, or they are active users and want to help promote FOSS.
-Because of the infectious nature of Open Source, the group nearly builds
+would like help, or because they are active users and want to help promote
+FOSS.  Because of the infectious nature of open source, the group nearly builds
 itself.
 
 We have benefited the Oregon State student body by providing free support for
 Linux, increasing awareness about the open source revolution, and jointly
 creating events with other groups on campus. We share many members with the
-[OSU Open Source Education Lab][osel] and are hosted by the [OSU Open
-Source Lab][osuosl].
+[OSU Open Source Education Lab][osel] and are hosted by the [OSU Open Source
+Lab][osuosl].
 
-Our constitution is [here][constitution].
+We have open meetings every Tuesday at 6:00 pm in the Dearborn EECS Library.
+To get to the Library, just go up the stairs near the elevator, take a right,
+and then take another right. From there, it is straight ahead.
+
+[Our Constitution][constitution].
 
 [osel]: http://osel.oregonstate.edu
 [osuosl]: http://osuosl.org
