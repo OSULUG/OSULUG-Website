@@ -60,13 +60,14 @@
     text-align: center;
 }
 .navigation a {
-    padding:15px;
-    border-radius:6px;
+    padding:8px;
+    border-radius:15px;
     color: black;
-    font-weight: bold;
+    margin-right:8px;
 }
 .navigation a:hover {
-    background-color: #F70;
+    background-color: #FFC48F;
+    text-decoration: none;
 }
 
 .title  {
