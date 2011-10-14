@@ -28,10 +28,14 @@
 
                     <div class="span8 columns">
                         <div class="navigation">
-                            <a href="/"><span>Home</span></a></li>
-                            <a href="/about/"><span>About</span></a></li>
-                            <a href="/contact/"><span>Contact</span></a></li>
-                            <a href="/guides/"><span>Guides</span></a></li>
+                            {% for link in site.tags['navigation']|sort(attribute='navrank') %}
+                                {% if page.url == link.url %}
+                                    <a class="current_nav" href="{{ link.url }}">
+                                {% else %}
+                                    <a href="{{ link.url }}">
+                                {% endif %}
+                                    <span>{{ link.title }}</span></a>
+                            {% endfor %}
                         </div>
                     </div>
                     <br/>

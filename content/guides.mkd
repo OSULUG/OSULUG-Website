@@ -1,5 +1,7 @@
 title: Guides
 type: index
+tags: navigation
+navrank: 4
 image:
     url: /images/penguin_how.jpg
     where: left
