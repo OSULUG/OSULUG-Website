@@ -59,10 +59,11 @@
     font-weight: bold;
 }
 .navigation a:hover {
+    text-decoration: none;
     background-color: #FFC48F;
 }
 .navigation a.current_nav {
-    border: 1px solid #FFC48F;
+    border: 2px solid #FFC48F;
 }
 
 /* These are for in page headers, which should be slightly smaller */
