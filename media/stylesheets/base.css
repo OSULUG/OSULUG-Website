@@ -49,6 +49,7 @@
 }
 
 .navigation {
+    float: right;
     margin-top: 35px;
     text-align: center;
 }
