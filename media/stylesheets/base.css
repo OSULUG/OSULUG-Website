@@ -45,9 +45,11 @@
     text-decoration: none;
     color: #2d486d;
 }
-
+.title {
+    margin-top: 7px;
+}
 .logo {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .navigation {
@@ -101,6 +103,9 @@
 }
 .page_pic.top {
     text-align: right;
+}
+.page_pic.top img {
+    padding-bottom: 5px;
 }
 .page_pic img {
     display: block;
