@@ -42,6 +42,10 @@
 .header h2 {
     color: #2d486d;
 }
+.header a {
+    text-decoration: none;
+    color: #2d486d;
+}
 
 .logo {
     margin-top: 10px;
