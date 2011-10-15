@@ -2,10 +2,12 @@
     text-decoration: none;
     color: teal;
 }
+.main a:visited {
+    color: #6F1454;
+}
 .main a:hover {
     color: #006B53;
 }
-
 .main {
     overflow: hidden;
 }
