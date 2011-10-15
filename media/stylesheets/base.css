@@ -54,9 +54,11 @@
 }
 .navigation a {
     padding:15px;
-    border-radius:6px;
     color: black;
     font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 .navigation a:hover {
     text-decoration: none;
@@ -147,3 +149,5 @@ ul.subpage-list li {
     width: 125px;
     height: 125px;
 }
+
+
