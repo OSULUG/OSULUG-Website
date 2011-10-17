@@ -2,53 +2,44 @@ title: IRC
 category: guides
 author: ["Emily Dunham <dunhame@onid.oregonstate.edu>", "Alan Sherman <shermana@onid.oregonstate.edu>"]
 ---
+<br/>
 [Internet Relay Chat][irc] is a simple chat room protocol. What makes it so
 special, is that is has been around for pretty much forever. Created in 1988 it
 was originally used by universities to help share ideas. To this day LUG and
-many other communities around the world still use it to share ideas. It's
-simple, light weight and runs on any platform. In this guide we are going to
-cover three ways that you can get into our channel, and IRC as a whole, each
-with benefits and drawbacks.
+many other communities around the world still use it to share ideas. It is
+simple, light weight and runs on any platform. In this guide we will 
+cover three ways in which you can use to get into IRC and into our channel.
 
 [irc]: http://en.wikipedia.org/wiki/IRC
 
 How It Works
-============
+------------
 
-IRC is a real-time relay based chat protocol with no archiving. That means that
-when you send a message from your client to the server the server just forwards
-it to all of the other clients in the channel, at no point is that message
-stored. It is very simple, and you can see why it is called "relay chat". This
-also leads to some of its downsides: If you're not connected to the server when
-a message is sent you don't get it. If you're running your IRC solution on your
-laptop than every time you shut it down or lose wireless you miss LUG
-awesomeness (we'll talk about this more in a little, there is a solution).
-However 23 years later it is still in active use.
+IRC is a real-time relay based chat protocol with no archiving. This means that
+when you send a message from your client to the server, the server just
+forwards the message to all of the other clients in the channel. At no point is
+that message stored, hence the name "relay chat". A downside to this is that
+you do not receive any messages if you aren't connected to the server. 
 
-Lets go over some basic terms:
+Let's go over some basic terms:
 
--   Server - This is what you connect to with your client. It receives your
+-   Server - the machine that your client connects to, it receives your
     commands and messages and forwards them to other clients.
 
--   Network - It would be very hard to make a single server that could handle
-    everyone who wanted to use IRC together. To solve this, many servers are
-    grouped together into an IRC network. The individual servers ferry messages
-    back and forth to make sure that all the messages get to every user.
+-   Network - a group of many interconnected servers, individual servers ferry
+    messages back and forth to make sure that all the messages get to every
+user.
 
--   Channel - In order to break up these huge networks groups create channels.
-    Channels can be private or public, as well have many other properties that
-    you don't need to worry about. On many networks creating a channel is as
-    simple as joining a channel that does not exist. 
+-   Channel - a basic means of communicating to a certain group of users,
+    creating a channel is as simple as joining a channel that does not exist 
 
-+   Operator - Also know as "op" is a channel administrator. They have the
-    ability to moderate the channel, change various settings and are generally
-    helpful. When an op has there powers turned on their name is prefixed with
-    an `@` symbol.
++   Operator - aka 'op', the channel administrator, moderates the channel and
+has their name prefixed with an '@' symbol
 
 Quick & Easy
-============
+------------
 
-The fastest way to get in our Chanel is to go though your browser. To access
+The fastest way to get in our channel is to go though your browser. To access
 Freenode (the irc network that the LUG channel is on) from your browser, you
 can use their [web interface][freenodeweb]. In the Nickname field, enter the
 name that you want other people to see when you talk in the channel. This can
@@ -75,7 +66,7 @@ and like this when I leave:
     16:04 -!- testing_freenode [8cd3a70d@gateway/web/freenode/ip.140.211.167.13] has quit [Quit: Page closed]
 
 GUI Clients
-===========
+-----------
 
 GUI, or graphical user interface, clients perform much in the same way that the
 web interface works. The two big differences are automation and customization.
@@ -86,7 +77,7 @@ computer is on), because no one likes timing out. If you want something more
 than the web interface can give you, consider trying one of these clients.
 
 -   [xchat][] - A popular GUI client.
--   [Pidgin][] - Pidgin supports irc, but its not very good at it.
+-   [Pidgin][] - Pidgin supports irc, but it's not very good at it.
 -   [mIRC][] - Another GUI client. Basic client, lacking advanced features. (Windows only)
 
 [xchat]: http://xchat.org
@@ -99,7 +90,7 @@ like the web interface your username can be whatever you want it to be as-long
 as it's not already in use, which it will tell you when you try to connect. 
 
 Command Line Clients
-====================
+--------------------
 
 Command line clients take a bit of work to get the hang of. I'm guessing that
 right now most of you are think why would I use the commanded line when I can
