@@ -1,6 +1,8 @@
 title: Home
 type: home
 url: /index{page}.html
+tags: navigation
+navrank: 1
 image:
     url: /images/firefox_crop_circle.jpg
     where: top

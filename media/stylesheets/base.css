@@ -5,7 +5,6 @@
 .main a:hover {
     color: #006B53;
 }
-
 .main {
     overflow: hidden;
 }
@@ -42,24 +41,36 @@
 .header h2 {
     color: #2d486d;
 }
-
+.header a {
+    text-decoration: none;
+    color: #2d486d;
+}
+.title {
+    margin-top: 7px;
+}
 .logo {
-    float: left;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .navigation {
+    float: right;
     margin-top: 35px;
     text-align: center;
 }
 .navigation a {
     padding:15px;
-    border-radius:6px;
     color: black;
     font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 .navigation a:hover {
+    text-decoration: none;
     background-color: #FFC48F;
+}
+.navigation a.current_nav {
+    border: 2px solid #FFC48F;
 }
 
 /* These are for in page headers, which should be slightly smaller */
@@ -92,6 +103,9 @@
 }
 .page_pic.top {
     text-align: right;
+}
+.page_pic.top img {
+    padding-bottom: 5px;
 }
 .page_pic img {
     display: block;
@@ -143,3 +157,5 @@ ul.subpage-list li {
     width: 125px;
     height: 125px;
 }
+
+

@@ -1,5 +1,6 @@
 title: Emily Dunham
 tags: officer
+rank: 4
 person:
     name: Emily Dunham
     title: Treasurer

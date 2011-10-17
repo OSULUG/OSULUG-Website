@@ -1,5 +1,6 @@
 title: Mike Cooper
 tags: officer
+rank: 2
 person:
     name: Mike Cooper
     title: Vice President

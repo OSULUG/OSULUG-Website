@@ -1,5 +1,6 @@
 title: Corbin Simpson
 tags: officer
+rank: 1
 person:
     name: Corbin Simpson
     title: President

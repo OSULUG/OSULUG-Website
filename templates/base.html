@@ -16,22 +16,27 @@
 
             <div class="header">
                 <div class="row">
-                    <div class="span2 columns">
-                        <div class="logo">
-                            <img src="/images/lug_penguin.gif"/>
+                    <div class="span4 columns">
+                        <div class="title">
+                            <h2><a href="/">Linux Users Group</a></h2>
+                            <h3><a href="http://oregonstate.edu" style="color:black;">Oregon State University</a></h3>
                         </div>
                     </div>
-                    <div class="span6 columns">
-                        <h2>Linux Users Group</h2>
-                        <h3>Oregon State University</h3>
+                    <div class="span4 columns">
+                        <div class="logo">
+                            <a href="/"><img src="/images/lug_penguin.gif"/></a>
+                        </div>
                     </div>
-
                     <div class="span8 columns">
                         <div class="navigation">
-                            <a href="/"><span>Home</span></a></li>
-                            <a href="/about/"><span>About</span></a></li>
-                            <a href="/contact/"><span>Contact</span></a></li>
-                            <a href="/guides/"><span>Guides</span></a></li>
+                            {% for link in site.tags['navigation']|sort(attribute='navrank') %}
+                                {% if page.url == link.url %}
+                                    <a class="current_nav" href="{{ link.url }}">
+                                {% else %}
+                                    <a href="{{ link.url }}">
+                                {% endif %}
+                                    <span>{{ link.title }}</span></a>
+                            {% endfor %}
                         </div>
                     </div>
                     <br/>

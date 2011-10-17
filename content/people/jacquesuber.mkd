@@ -1,5 +1,6 @@
 title: Jacques Uber
 tags: officer
+rank: 3
 person:
     name: Jacques Uber
     title: Secretary
