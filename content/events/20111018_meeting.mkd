@@ -1,0 +1,11 @@
+title: Meeting
+category: events
+datetime: 2011-10-18 18:00:00
+tags: talk
+preview: A TBD-talk will be given followed by kickback time.
+location: Dearborn 212
+---
+Tuesday the 18th, we are meeting in Dearborn 212 at 6 PM. There is a
+talk (to be decided *which* talk).
+
+
