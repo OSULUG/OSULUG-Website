@@ -1,0 +1,17 @@
+title: Ubuntu Release Party
+datetime: 2011-10-22 10:00:00
+category: events
+preview: Ubuntu Oregon is throwing a release party for Ubuntu 11.10
+location: Backspace, 115 NW 5th Ave, Portland OR
+---
+Ubuntu Oregon is throwing a release party for Ubuntu 11.10.
+
+From the announcement
+
+> Ubuntu Oregon will have a limited number of special edition Ubuntu Oregon
+> Oneiric Release T-Shirts thanks to a sponsorship by Eucalyptus. We will not
+> have catering for this release party although Backspace offers a variety of
+> edibles and beverages for sale and has free wifi and there is a adjacent
+> restaurant that makes excellent burgers.
+
+[Official event planning page.](http://loco.ubuntu.com/events/ubuntu-us-or/1335/detail/)
