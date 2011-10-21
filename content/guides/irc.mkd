@@ -3,17 +3,9 @@ category: guides
 author: ["Emily Dunham <dunhame@onid.oregonstate.edu>", "Alan Sherman <shermana@onid.oregonstate.edu>"]
 ---
 <br/>
-[Internet Relay Chat][irc] is a simple chat room protocol. What makes it so
-special, is that is has been around for pretty much forever. Created in 1988 it
-was originally used by universities to help share ideas. To this day LUG and
-many other communities around the world still use it to share ideas. It is
-simple, light weight and runs on any platform. In this guide we will 
-cover three ways in which you can use to get into IRC and into our channel.
 
-[irc]: http://en.wikipedia.org/wiki/IRC
-
-How It Works
-------------
+About
+-----
 
 IRC is a real-time relay based chat protocol with no archiving. This means that
 when you send a message from your client to the server, the server just
@@ -21,7 +13,16 @@ forwards the message to all of the other clients in the channel. At no point is
 that message stored, hence the name "relay chat". A downside to this is that
 you do not receive any messages if you aren't connected to the server. 
 
-Let's go over some basic terms:
+What makes IRC so special is that is has been around for pretty much forever.
+Created in 1988 it was originally used by universities to help share ideas. To
+this day LUG and many other communities around the world still use it to share
+ideas. It is simple, light weight and runs on any platform. In this guide we
+will cover three ways in which you can use to get into IRC and into our
+channel.
+
+[irc]: http://en.wikipedia.org/wiki/IRC
+
+First, let's go over some basic terms:
 
 -   Server - the machine that your client connects to, it receives your
     commands and messages and forwards them to other clients.
@@ -36,7 +37,7 @@ user.
 +   Operator - aka 'op', the channel administrator, moderates the channel and
 has their name prefixed with an '@' symbol
 
-Quick & Easy
+Easy (webchat)
 ------------
 
 The fastest way to get in our channel is to go though your browser. To access
@@ -52,20 +53,7 @@ LUG's primary discussion area.
 
 [freenodeweb]: http://webchat.freenode.net/
 
-What do they see?
------------------
-
-When you join or leave a message, most users will be notified with a message to
-the channel. In some clients, that looks like this when my user name was set to
-`testing_freenode`
-
-    15:54 -!- testing_freenode [8cd3a70d@gateway/web/freenode/ip.140.211.167.13] has joined #osu-lug
-
-and like this when I leave:
-
-    16:04 -!- testing_freenode [8cd3a70d@gateway/web/freenode/ip.140.211.167.13] has quit [Quit: Page closed]
-
-GUI Clients
+Medium (GUI Client)
 -----------
 
 GUI, or graphical user interface, clients perform much in the same way that the
@@ -77,9 +65,7 @@ computer is on), because no one likes timing out. If you want something more
 than the web interface can give you, consider trying one of these clients.
 
 -   [xchat][] - A popular GUI client.
--   [Pidgin][] - Pidgin supports irc, but it's not very good at it.
--   [mIRC][] - Another GUI client. Basic client, lacking advanced features. (Windows only)
-
+-   [Pidgin][] - Pidgin supports irc, but it's not very good at it.  -   [mIRC][] - Another GUI client. Basic client, lacking advanced features. (Windows only) 
 [xchat]: http://xchat.org
 [pidgin]: http://www.pidgin.im
 [mirc]: http://www.mirc.com
@@ -89,7 +75,7 @@ connect to `chat.freenode.net`. Our channel on that network is `#osu-lug`. Just
 like the web interface your username can be whatever you want it to be as-long
 as it's not already in use, which it will tell you when you try to connect. 
 
-Command Line Clients
+Pro (irssi)
 --------------------
 
 Command line clients take a bit of work to get the hang of. I'm guessing that
@@ -151,7 +137,7 @@ You are now running irssi.
 [irssi]: http://www.irssi.org
 [weechat]: http://www.weechat.org
 
-Irssi - The Basics
+Irssi Commands
 ------------------
 
 The first thing you need to do is connect to Freenode. This will take a moment.
