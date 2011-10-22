@@ -73,19 +73,34 @@
     border: 2px solid #FFC48F;
 }
 
+.headinggroup {
+    margin-top: 7px;
+    margin-bottom: 18px;
+}
+
+.headinggroup h1, .headinggroup h2, .headinggroup h3,
+.headinggroup h4, .headinggroup h5, .headinggroup h6 {
+    margin: 0px;
+}
+.metadata {
+    color: #AAA;
+    font-weight: bold;
+}
+
 /* These are for in page headers, which should be slightly smaller */
-.main h1 { font-size: 26px; }
-.main h2 { font-size: 20px; }
-.main h3 { font-size: 16px; }
-.main h4 { font-size: 12px; }
+.main h1 { font-size: 2.0em; }
+.main h2 { font-size: 1.6em; }
+.main h3 { font-size: 1.3em; }
+.main h4 { font-size: 1.0em; }
 .main h5 {
-    font-size: 12px;
+    font-size: 1.0em;
     font-weight: normal;
-    font-style: italic;
+    color: #AAA;
 }
 .main h6 {
-    font-size: 12px;
+    font-size: 0.8em;
     font-weight: normal;
+    color: #AAA;
 }
 
 .page_pic {
@@ -157,5 +172,3 @@ ul.subpage-list li {
     width: 125px;
     height: 125px;
 }
-
-
