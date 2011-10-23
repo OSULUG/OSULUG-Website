@@ -1,0 +1,154 @@
+title: Secure Shell (SSH)
+category: guides
+author: Kevin Ngo <ngoke@onid.oregonstate.edu>
+---
+
+SSH is a secure client-server network protocol that allows you to connect with
+another box (computer). With this, you can transfer files between your local
+computer and the remote host. Even better, you can even edit files or execute
+commands on the remote host. This guide will explain how to effectively use SSH
+to communicate with another box and how to set up an SSH server so you can SSH
+into _your_ box.
+
+Basic SSH
+---------
+
+If you are in Windows, download [PuTTy][putty]. To use it, simply type in the
+host you want to connect to (e.g shell.onid.oregonstate.edu) and open. Sadly,
+this will be the greatest extent of which you can harness the power of SSH in a
+Windows environment. You can use [PSCP][pscp] to transfer files, but your
+powers here are severly limited.
+
+If you are on an Android mobile device, install ConnectBot and follow the
+similar instructions above. Yup, mobile devices have SSH clients too, cool huh.
+
+Linux and Mac make it really easy for you by having SSH already baked in and
+offers much more flexibility (as usually the case when going with the command
+line).  Let's try it out. Open up a terminal and SSH into a remote host that is
+currently running an SSH daemon (server) and which you have access to. 
+
+    ~$ ssh [username]@[remote host]:[destination path]
+
+OSU's ONID shell server will serve as a good example. Check out the [OSU Network at
+your Disposal][resource] guide for more information on what other boxes you
+may have access to.
+
+    ~$ ssh [username]@shell.onid.oregonstate.edu
+
+After authenticating, you should be dropped into a bash shell. Take a moment,
+breathe, and regain your bearings. Let's try to execute a command.
+
+    [username]@shell:~$ ls
+
+You should now see all of your files and folders that you have in your home
+folder on that box. Pretty cool. Now go out and explore. Run wild. Make some
+folders and edit some files with [vim][]. 
+
+Basic SCP
+---------
+
+SCP (Secure Copy) is a means of securely transferring files, using the SSH
+protocol, between two computers. You can transfer a file to a remote host, or
+even transfer a file _from_ a remote host.
+
+To transfer a file _to_ another box
+
+    ~$ scp [file] [username]@[remote host]:[destination path]
+
+Let's try it out by creating a file and shipping it to the ONID shell server.
+
+    ~$ echo "hello world!" > scp_test
+    ~$ scp scp_test [username]@shell.onid.oregonstate.edu:./made_it
+
+If you wish to know what that first line does, check out our [bash][] guide.
+Notice what we put in the destination path. The `./` means current directory,
+which will be your home folder, and `made_it` is what the name of the file will
+be once it gets there. Let's see our little file made it safely.
+
+    ~$ ssh [username]@shell.onid.oregonstate.edu
+    ~$ less made_it
+
+And like magic, we have successfully sent our file out into the world. Look at
+it, living on its own in its own box, all grown up. Just a moment ago, it was a
+tad little file. But we miss it so much, let's get it back.
+
+To transfer a file _from_ another box
+    
+    ~$ scp [username]@[remote host]:[file path] [destination path]
+
+Time to get our little boy back.
+
+    ~$ scp [username]@shell.onid.oregonstate.edu:./made_it ~/Downloads/made_it_back
+    ~$ cd ~/Downloads
+    ~$ less made_it_back
+
+And ta-da. Notice how we mixed it up a bit and specified the destination path
+as our Downloads folder. When we send a file to and from a host, we choose
+where we want to drop it and specify where it is located respectively. So when
+transferring a file _from_ another box, it helps to already know where that
+file is.
+
+SSH Public and Private Keys
+-----------------------
+
+Are you tired of having to enter in your password every time you SSH into
+another host? Well, wake up! Public-key encryption is a system requiring two
+keys, one to encrypt plaintext and the other to decrypt plaintext. How
+authentication works with keys is that you can generate a public key (which
+everybody is allowed to know) and a private key (which is kept secret and
+should not be given to anybody). You then copy your public key to the other
+host.  When you try to connect, the server will verify the public key it is
+holding for you against a signature created by your private key. Without your
+private key, no one is able to pose as you, which why you never give away your
+private key.
+
+To generate a key pair (public and private key), navigate to your .ssh
+directory if you have one or create one with mkdir if you don't.
+
+    ~$ cd ~/.ssh 
+    ~$ mkdir ~/.ssh
+
+Then we generate the keys:
+
+    ~$ ssh-keygen -t dsa 
+
+It will prompt you to do stuff. Simply press RETURN over and over until it
+stops bugging you.
+
+And copy over your public key to the remote host (again using shell as our
+example). This command simply appends your public key to your remote host's
+list of authorized keys. An alternative method is to simply copy your key with
+gedit or vim, and paste the key into ~/.ssh/authorized\_keys with vim. The
+command below makes it much easier however.
+
+    ~$ cat id_dsa.pub | ssh [username]@shell.onid.oregonstate.edu "cat >> ~/.ssh/authorized_keys"
+
+Now let's see if it worked! SSH into shell and it should not prompt you for a
+password since it knows who you are now. If it worked, great! If not, feel free
+to ask us in [IRC][irc].
+
+SSH X Forwarding
+----------------
+
+Growing weary of only talking to another box throw the command line? Well,
+here's a hit of caffiene! You can actually run programs like Firefox (GUI
+included) and use it as if you were running it on your own local computer.
+It's fairly simple. Just add the -X option. We'll continue to use our shell
+example.
+
+    ~$ ssh -X [username]@shell.onid.oregonstate.edu
+    
+Try running any program. I recommend running it in the background with `&` so
+you can still use the command line while you click around your GUI.
+
+    ~$ firefox &
+
+I'm sure you are currently on the edge of your seat flailing your arms in
+epiphany.  For your sake, I will refrain from giving you any more information.
+Go, go out! SSH everywhere. The Internet is in an oyster in your hands!
+
+[putty]:http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
+[pscp]:http://the.earth.li/~sgtatham/putty/latest/x86/pscp.exe
+[network]:http://the.earth.li/~sgtatham/putty/latest/x86/pscp.exe
+[resources]:http://lug.oregonstate.edu/guides/resources/index.html
+[irc]:http://lug.oregonstate.edu/guides/irc/index.html
