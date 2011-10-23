@@ -5,6 +5,9 @@ datetime: 2011-10-25 18:00:00
 tags: talk
 preview: Learn how to encrypt email and verify identities with GPG.
 location: Dearborn 212
+image:
+    url: /images/events/20111025_gpg.png
+    where: top
 ---
 Ben Kero, a former OSU student and current Mozilla employee, will be giving a
 talk on GNU Privacy Guard (GPG) encryption and signing. GPG is a GPL Licensed

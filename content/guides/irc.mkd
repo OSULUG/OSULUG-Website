@@ -2,7 +2,6 @@ title: IRC
 category: guides
 author: ["Emily Dunham <dunhame@onid.oregonstate.edu>", "Alan Sherman <shermana@onid.oregonstate.edu>"]
 ---
-<br/>
 
 About
 -----
