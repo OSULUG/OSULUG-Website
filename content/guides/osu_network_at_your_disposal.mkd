@@ -1,17 +1,17 @@
-title: OSU Network Resources
+title: OSU Network at your Disposal
 slug: resources
 category: guides
 author: Jacques Uber <uberj@onid.oregonstate.edu>
 ---
 
-Hello new OSU student! If you haven't already been told by someone, at OSU, you
-have helpful resources offered by OSU at your disposal. Here are some things
-you can do on the OSU network with these resources.
+Hello [your name here]! If you haven't already been told by someone, at OSU,
+you have helpful resources offered by OSU at your disposal. This guide will
+show some cool things you can do with these resources.
 
 First, it is assumed that you know how to ssh into other boxes, use a command
-line text editor, and use bash or any other Unix-like command line utilities.
-If you don't yet know these things, it's OK if you don't, go ahead and read
-these guides and remember, "Google is your friend and ally".
+line text editor, use bash, or any other Unix-like command line utilities.  If
+you don't yet know these things, go ahead and read these guides and remember,
+"Google is your friend and ally".
 
 +   [How to Use SSH][ssh_howto] and specifically [putty][putty_howto] for you
 _Windows_ users.
@@ -29,39 +29,26 @@ expect to be fluent in vim or Emacs right away. Becoming a vim master or Emacs
 guru takes a lot of time and practice. But in the end it pays off to learn
 either one of them.
 
-ONID Webspace and Shell (128.193.0.0/16)
---------------
+shell.onid.oregonstate.edu
+--------------------------
 
-Oregon State owns an entire `/16` block of network addresses. If you are rusty
-on your [CIDR][cidr], that is:
-
-    2^16 = 65536 public ip addresses.
-
-As you learn more about your surroundings at OSU you will realize its far more
-complicated than just "everyone gets a public address". But for now we only
-need to concern ourselves with publicly facing addresses.
-
-Everyone has an ONID account (if you are an engineer you also have an
-engineering account, these two are very different). Along with being able to
-register for classes and rent things at the library with your ONID account, you
-also get access to web space and shell access to a Linux box called
-`shell.onid.oregonstate.edu`. Most people just call it `shell` or `shell.onid`.
-
-_Note: When talking with other technical students at OSU, feel free to
-abbreviate "oregonstate.edu" to "o.e"._
+Everyone has an ONID account. If you in the College of Engineering, you also
+have an engineering account. Along with being able to register for classes and
+rent things at the library with your ONID account, you also get access to web
+space and shell access to a Linux box called `shell.onid.oregonstate.edu`, aka
+shell. _You can also refer to oregonstate.edu as o.e._
 
 You can use your ONID user name and password to ssh into shell.
 
     ssh [your onid user name]@shell.onid.oregonstate.edu
 
-On shell there is a directory called "`~/public_html`". If you don't initially
-find that directory go ahead and make it.
+On shell there should be a directory called `~/public_html`. If it isn't there, go ahead and make it. 
 
     mkdir ~/public_html
 
-Files that you put in this directory (with the correct permissions) will get
-served by [apache][ap_wb] and be viewable by everyone on the Internet. Try it!
-Put a test file in that directory and then point your web browser at:
+Files you put in this directory (with the correct permissions) will be served
+by [apache][ap_wb] and be viewable by everyone on the Internet. Try it!  Put a
+test file in that directory and then point your web browser at:
 
     people.oregonstate.edu/~[your onid user name]
 
@@ -74,24 +61,25 @@ This is a great way to share files quickly with peers.
 Community Web Services also allows you to have a blog. Check them out if you
 are interested, [CWS][cws].
 
-flip (128.193.54.0/24)
----------------------------------------------
+flip.engr.oregonstate.edu 
+-------------------------
 
-There is more...
+flip.engr.oregonstate.edu, aka flip, is the COE (College of Engineering) shell
+server. Most of the things you can do on shell, you can do on flip four times
+faster (generally, this is because shell has two cores where flip as eight).
 
-    flip.engr.oregonstate.edu
-
-flip is the COE (College of Engineering) shell server. Most of the things you
-can do on `shell.onid`, you can do on flip four times faster (generally, this
-is because shell has two cores where flip as eight).
-
-On flip, you can also access your COE webspace (yup you have three potential
+On flip, you can also access your COE webspace (yup, you have three potential
 websites, two by default).
 
     people.engr.oregonstate.edu/~[your ENGR user name]
 
-flips
----------
+
+Also, you have root privileges nowhere which is a good thing. If you need to
+install something, do it in your home directory. There _are_ caps for storage
+per user as well as for the number of processes you run, so don't run too wild.
+
+In-Depth
+--------
 
 Going a little bit more in depth, `flip.engr.o.e` is actually a [CNAME][dns]
 for three other boxes.
@@ -105,22 +93,11 @@ you are *actually* `ssh`ing into, your home directory will be on all of them.
 But, on each of those boxes there is a [partition][part] called `/scratch`.
 This is a per box partition (i.e. if you put a file on flip3's `/scratch` it
 won't show up in flip1 and flip2's `/scratch`). All the scratch partitions are
-huge and freely used by all users.<br/>
+huge and freely used by all users.
 
-
-Privileges
---------------
-
-You have root nowhere. This is a good thing. If you need to install something,
-do it in your home directory. There _are_ size quotas per user and the number
-of processes you are aloud to spawn is also capped, so be careful.
-
-### Questions?
-
-If you have any questions, come hang out in the lug IRC room `#osu-lug` on
-irc.freenode.net. We are happy to answer them. For help with IRC
+If you have any questions, come hang out in the lug IRC room
+`#osu-lug` on irc.freenode.net. We are happy to answer them. For help with IRC
 see [our IRC guide][irc]
-
 
 [ssh_howto]:http://www.wikihow.com/Use-SSH
 [putty_howto]:http://webmaster.iu.edu/tool_guide_info/webserve_putty.shtml
