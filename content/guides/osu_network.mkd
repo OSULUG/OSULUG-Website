@@ -111,4 +111,4 @@ see [our IRC guide][irc]
 [ap_wb]:http://en.wikipedia.org/wiki/Apache_HTTP_Server
 [nfs]:http://en.wikipedia.org/wiki/Distributed_file_system
 [part]:http://en.wikipedia.org/wiki/Disk_partitioning
-[irc]:http://lug.electricgrey.com/guides/irc/index.html
+[irc]:/guides/irc/index.html

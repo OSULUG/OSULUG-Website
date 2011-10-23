@@ -137,7 +137,7 @@ It's fairly simple. Just add the -X option. We'll continue to use our shell
 example.
 
     ~$ ssh -X [username]@shell.onid.oregonstate.edu
-    
+
 Try running any program. I recommend running it in the background with `&` so
 you can still use the command line while you click around your GUI.
 
@@ -150,5 +150,5 @@ Go, go out! SSH everywhere. The Internet is in an oyster in your hands!
 [putty]:http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
 [pscp]:http://the.earth.li/~sgtatham/putty/latest/x86/pscp.exe
 [network]:http://the.earth.li/~sgtatham/putty/latest/x86/pscp.exe
-[resources]:http://lug.oregonstate.edu/guides/resources/index.html
-[irc]:http://lug.oregonstate.edu/guides/irc/index.html
+[resources]:/guides/resources/index.html
+[irc]:/guides/irc/index.html
