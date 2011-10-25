@@ -1,0 +1,15 @@
+title: Blog
+type: blog
+slug: blog
+url: /blog/index{page}.html
+
+pagination:
+    list: page.subpages
+    limit: 4
+    sort_key: date
+    sort_reverse: True
+
+tags: navigation
+navrank: 1
+
+---

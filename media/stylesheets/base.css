@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+.blog h3, .blog h4 {
+    line-height: 18px;
+}
+
 .footer {
     text-align:center;
     padding-top: 12px;
@@ -138,14 +142,12 @@ ul.subpage-list li {
     margin-bottom: 20px;;
     line-height: inherit;
 }
-
 .subpage-title {
     font-size: 1.3em;
     font-weight: bold;
     display: block;
-    color: #C50;
+    color: #F70;
 }
-
 .subpage-subtitle {
     display: block;
     font-size: 1.0em;
@@ -171,4 +173,31 @@ ul.subpage-list li {
     margin-right: 10px;
     width: 125px;
     height: 125px;
+}
+
+.blog-post span {
+    float:right;
+    width:200px;
+}
+.blog-image img {
+    float: left;
+    padding-right: 20px;
+    width: auto;
+    height: 400px;
+}
+.blog-image img {
+    width: 400px;
+    height: auto;
+}
+.blog-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+}
+.blog-title a {
+    color: #F70;
+}
+.blog-title a:hover {
+    color: #F70;
+    text-decoration: underline;
 }
