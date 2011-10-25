@@ -1,28 +1,29 @@
-a {
-    color: #F70;
+.main a {
+    text-decoration: none;
+    color: teal;
 }
-a:hover {
-    color: #F70;
-    text-decoration: underline;
+.main a:hover {
+    color: #006B53;
+}
+.main {
+    overflow: hidden;
 }
 
-.page img {
+.main img {
     max-width: 50%;
     max-height: 500px;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
-.page p:nth-child(odd) img {
+.main p:nth-child(odd) img {
     margin-left: 15px;
     float: right;
 }
 
-.page p:nth-child(even) img {
+.main p:nth-child(even) img {
     margin-right: 15px;
     float: left;
 }
 
-.page hr {
+.main hr {
     clear: both;
 }
 
@@ -46,6 +47,13 @@ a:hover {
 }
 .list h3, .list h4 {
     line-height: 18px;
+}
+.list a {
+    color: #F70;
+}
+.list a:hover {
+    color: #F70;
+    text-decoration: underline;
 }
 
 .header h2 {
@@ -98,16 +106,16 @@ a:hover {
 }
 
 /* These are for in page headers, which should be slightly smaller */
-.page h1 { font-size: 2.0em; }
-.page h2 { font-size: 1.6em; }
-.page h3 { font-size: 1.3em; }
-.page h4 { font-size: 1.0em; }
-.page h5 {
+.main h1 { font-size: 2.0em; }
+.main h2 { font-size: 1.6em; }
+.main h3 { font-size: 1.3em; }
+.main h4 { font-size: 1.0em; }
+.main h5 {
     font-size: 1.0em;
     font-weight: normal;
     color: #AAA;
 }
-.page h6 {
+.main h6 {
     font-size: 0.8em;
     font-weight: normal;
     color: #AAA;
