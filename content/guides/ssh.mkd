@@ -144,6 +144,15 @@ you can still use the command line while you click around your GUI.
 
     ~$ firefox &
 
+SSHD (SSH Server)
+-----------------
+
+To set up an SSH server, first make sure sshd is installed. This is the daemon that listens for SSH requests. You can install via apt if you are on a Debian-based system and often it will come default.
+
+Once installed, the default port will be 22. If you want to change the port (in case you have multiple machines with sshd within one network), edit your /etc/ssh/sshd\_config. Then when you SSH, just add the -p option with the port (ssh -p 2222 [host]).
+
+Try SSHing into your machine. If you are on a home network, get your current NAT IP with ipconfig and try SSHing into that (e.g. ~$ ssh 192.168.1.132). If you want to SSH from outside your network, you need to open up port 22 on your router firewall. This can be done from your router web interface (usually on 192.168.1.1 or 192.168.2.1). The setting for firewall is usually called virtual server, NAT/QoS/ applications and gaming, firewall, or something similar.
+
 I'm sure you are currently on the edge of your seat flailing your arms in
 epiphany.  For your sake, I will refrain from giving you any more information.
 Go, go out! SSH everywhere. The Internet is in an oyster in your hands!
