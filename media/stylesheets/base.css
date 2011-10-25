@@ -9,8 +9,8 @@
     overflow: hidden;
 }
 
-.main img {
-    max-width: 50%;
+.base-image img {
+    margin-bottom: 3px;
     max-height: 500px;
 }
 .main p:nth-child(odd) img {
