@@ -9,6 +9,25 @@
     overflow: hidden;
 }
 
+.main img {
+    max-width: 50%;
+    max-height: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.main p:nth-child(odd) img {
+    margin-left: 15px;
+    float: right;
+}
+
+.main p:nth-child(even) img {
+    margin-right: 15px;
+    float: left;
+}
+
+.main hr {
+    clear: both;
+}
 
 .footer {
     text-align:center;

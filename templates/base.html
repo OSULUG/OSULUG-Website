@@ -49,13 +49,13 @@
                 {% block title %}
                 {% endblock %}
             </div>
-            <div class="main">
-                {% if page.image %}
+            {% if page.image %}
                 <div class="page_pic {{ page.image.where }}">
                     <img src="{{ page.image.url }}">
                     {{ page.image.caption }}
                 </div>
-                {% endif %}
+            {% endif %}
+            <div class="main">
                 {% block content %}
                 {% endblock %}
             </div>

@@ -18,8 +18,6 @@ predecessors to do the same.
 Take Back the Sidewalk
 ----------------------
 
-![Firefox at the Memorial Union](/images/blog/20111024_firefox/sidewalk.jpg)
-
 "It was Wednesday night when several of us were throwing around
 ideas as to what we could possibly do for the 50 million download contest.
 After thinking of a bunch of ideas, we thought of using chalk to draw a huge
@@ -27,6 +25,8 @@ Firefox logo on the quad outside the Memorial Union Building at Oregon State
 University. The idea was pretty cool, but, being students, we couldn't really
 find the time during the week. Finally, Friday arrived, and we were itching to
 do it. Time: 2315.
+
+![Firefox at the Memorial Union](/images/blog/20111024_firefox/sidewalk.jpg)
 
 Sidewalk chalk is expensive, and for the size of our project, quite inadequate.
 Instead we used a mixture of corn starch, food coloring, koolaid, and water. We
@@ -63,16 +63,18 @@ Materials
 
 [Gallery][sidewalk]
 
+<hr>
+
 Take Back the Sky
 -----------------
-
-![They can't take the sky from me](/images/blog/20111024_firefox/balloon.jpg)
 
 "The Oregon State Linux Users Group, with the help of the Oregon Space Grant
 Consortium (OSGC), launched a balloon satellite to celebrate 100 million
 Firefox downloads. The balloon carried a Firefox banner up to 100,000 feet
 before exploding and parachuting back to earth. This was our successful attempt
 at topping the 50 million download stunt.  
+
+![They can't take the sky from me](/images/blog/20111024_firefox/balloon.jpg)
 
 On Sunday we were at a BBQ trying to figure out how the OSLUG could celebrate
 the 100 Millionth Download of Firefox. The conversation started with paper
@@ -111,10 +113,10 @@ scratched their heads, and walked off."
 
 [Gallery][balloon]
 
+<hr>
+
 Take Back the Field
 ------------------- 
-
-![Sea of wheat](/images/blog/20111024_firefox/field.jpg)
 
 "Does the sudden appearance of a Firefox crop circle imply
 which browser extraterrestrials prefer? We don't know, but it was still fun to
@@ -124,6 +126,8 @@ Constructed by local Firefox fans and the same team that created the Firefox
 mural from cornstarch and kool-aid and launched the Firefox weather balloon,
 the Firefox Crop Circle project shows that we have so much passion for Firefox
 that we want it to be visible from space!
+
+![Sea of wheat](/images/blog/20111024_firefox/field.jpg)
 
 Planned in under two weeks and completed in under 24 hours, the crop circle had
 a final diameter of 220 feet. We constructed the circle in an oat field near
@@ -196,5 +200,3 @@ The hard work paid off!"
 [sidewalk]:http://firefoxcropcircle.com/gallery/main.php?g2_itemId=2442
 [balloon]:http://firefoxcropcircle.com/gallery/firefox-one/
 [field]:http://firefoxcropcircle.com/gallery/firefox-crop-circle
-
-
