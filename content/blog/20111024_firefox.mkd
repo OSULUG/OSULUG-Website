@@ -1,0 +1,200 @@
+title: Behind the Firefox Crop Circle
+category: blog
+author: Kevin Ngo <ngoke@onid.oregonstate.edu>
+
+image:
+    url: /images/firefox_crop_circle.jpg
+datetime: 2011-10-24 21:00:00
+
+---
+
+In what many refer to as "the golden days", the OSU LUG was highly active in
+promoting Mozilla, namely celebrating the 50th, 100th, and 200th downloads of
+Firefox in creative ways: a lot of sidewalk chalk, high-altitude weather
+balloons, and for the finale...a crop circle. Led by the current founders of
+Cloudkick, they did amazing things. OSU LUG takes inspiration from its
+predecessors to do the same.
+
+Take Back the Sidewalk
+----------------------
+
+![Firefox at the Memorial Union](/images/blog/20111024_firefox/sidewalk.jpg)
+
+"It was Wednesday night when several of us were throwing around
+ideas as to what we could possibly do for the 50 million download contest.
+After thinking of a bunch of ideas, we thought of using chalk to draw a huge
+Firefox logo on the quad outside the Memorial Union Building at Oregon State
+University. The idea was pretty cool, but, being students, we couldn't really
+find the time during the week. Finally, Friday arrived, and we were itching to
+do it. Time: 2315.
+
+Sidewalk chalk is expensive, and for the size of our project, quite inadequate.
+Instead we used a mixture of corn starch, food coloring, koolaid, and water. We
+bought all, 19 pounds, of the bulk cornstarch at the discount grocery store in
+town. We thought that would be enough, so we set to work. Time: 0000.
+
+The first step was to divide the logo into a 20x20 grid that we temporarily put
+on the concrete with lots of string. We then transfered the outlines from the
+paper to the full-scale grid using sidewalk chalk. Time: 0100.
+
+Next came the messy part. We mixed the cornstarch mixture in buckets, and
+started to paint. It wasn't long before we realized just how large of a project
+we had gotten ourselves into. Each bucket of starch didn't seem to cover much
+area. So, we bought more. Also the koolaid, even though it provided a really
+pleasant scent, didn't do a very good job of coloring the corn starch. So, food
+coloring was purchased, which worked much better. Fervently we painted for the
+next four hours. Time completed: 0500.
+
+We signed our work, cleaned up, and went back home. It had been a long night,
+but very fruitful. Overall, the logo is about 30 feet in diameter.
+
+From the beginning to the end, the project was a perfect example of the Open
+Source community cooperating to accomplish great things. Some times the
+greatest things happen between 12am and 6am."
+   
+Materials
+####
+- 20 lbs of corn starch
+- 80 packets of Kool-Aid
+- 1 cooler of water
+- Food dye 
+- Paper paint buckets
+- Overall: $30         
+
+[Gallery][sidewalk]
+
+Take Back the Sky
+-----------------
+
+![They can't take the sky from me](/images/blog/20111024_firefox/balloon.jpg)
+
+"The Oregon State Linux Users Group, with the help of the Oregon Space Grant
+Consortium (OSGC), launched a balloon satellite to celebrate 100 million
+Firefox downloads. The balloon carried a Firefox banner up to 100,000 feet
+before exploding and parachuting back to earth. This was our successful attempt
+at topping the 50 million download stunt.  
+
+On Sunday we were at a BBQ trying to figure out how the OSLUG could celebrate
+the 100 Millionth Download of Firefox. The conversation started with paper
+mache logos to dozens of Firefox painted beach balls. But then the conversation
+turned to launching a weather balloon with help from the OSGC. We would take
+back the sky!
+
+By Tuesday the OSGC was on board and excited. Catherine Lanier and Jack
+Higginbotham from the OSGC were going to help us launch a balloon with the
+ability to carry a 12lb payload up to 100,000 feet! The plan was to put a
+camera satellite and the biggest Firefox logo we could find on the balloon.
+
+The final piece of the puzzle was getting a huge poster. It was the day before
+the event, so we knew it would be a difficult to find a place to print one.
+After making a few phone calls NWGI stepped up and donated a 5'x6' poster! This
+was the poster that actually flew on Firefox One. The LaunchOregon crew worked
+the rest of the day to create a structure to support the poster and camera
+satellite. 
+
+The helium started flowing. OSCG had a balloon filled in no time, but we
+quickly found out that this was the small balloon only for the extra smaller
+Firefox banner we had with us. 
+
+It just so happened that there were about a 1000 visitors on campus for the
+"Beaver open house". Also, conveniently enough, their break was during the
+launch. A sized crowd (~100 people) showed up to watch us launch the
+balloon/Firefox contraption. 
+
+We got a "green" from OSGC and the crowd quickly circled around the apparatus.
+The countdown started from 95, going to 100, to celebrate the 100 million
+downloads and 100 thousand feet that the balloon would travel. Yes, sort of
+cheesy, but it was fun.
+
+It was off! The crowd cheered, watched until they could not see it anymore,
+scratched their heads, and walked off." 
+
+[Gallery][balloon]
+
+Take Back the Field
+------------------- 
+
+![Sea of wheat](/images/blog/20111024_firefox/field.jpg)
+
+"Does the sudden appearance of a Firefox crop circle imply
+which browser extraterrestrials prefer? We don't know, but it was still fun to
+make!
+
+Constructed by local Firefox fans and the same team that created the Firefox
+mural from cornstarch and kool-aid and launched the Firefox weather balloon,
+the Firefox Crop Circle project shows that we have so much passion for Firefox
+that we want it to be visible from space!
+
+Planned in under two weeks and completed in under 24 hours, the crop circle had
+a final diameter of 220 feet. We constructed the circle in an oat field near
+Amity, Oregon, where it was completely invisible from the road but unmistakable
+from the sky. Our team consisted of 12 people, mainly OSU students, and we
+carefully stomped down oats from 3:30pm Friday afternoon until 2:30am, putting
+on the finishing touches between 7:30am and 11:00am Saturday, August 12. 
+
+Matt and John, Mozilla video interns, came up with the idea a few weeks
+beforehand. Fueled by the enthusiasm of Asa Dotzler at Mozilla, suddenly the
+crop circle was within reach. While at OSCON 2006 in Portland, the three of
+them ran into members of the OSLUG, and things really started to take shape. 
+
+With the idea, the enthusiasm, and the commitment in place, the next thing we
+needed was to find a field and contact the owner for permission. At first, we
+simply asked people visiting the Mozilla booth if they had a field or knew
+anyone in the area who did. Even at OSCON, where you wouldn't expect to find
+too many farmers, we had a few leads right away, which showed how close we were
+to making the project work. 
+
+Finally, Beth contacted Alex, whose family lived near the owners of an oat
+field in the Amity area. A few phone calls and emails later and permission was
+secured! We had an unharvested field of oats!
+
+Other important details were worked out soon afterwards: We coordinated our
+schedules and settled on a weekend. We worked out car-pool plans and made a
+list of supplies. We even found a pilot to help us see what we were doing from
+the air! Finally, we were ready to begin planning the crop-circle's
+construction. 
+
+We quickly designed and printed large posters that had a two color version of
+the logo. With that we bisected the image into 32 sections and overlayed 60
+concentric circles with even space between them. In our mock up, the gap
+between the circles was two feet. 
+
+On top of the design, we also constructed our stompers. Inspired by the
+discovery channel, our stompers were constructed using 2x4's and rope.
+
+With our plan and stompers ready, we hit the field. 
+
+First, the Firefox globe was created by connecting a taut measuring tape to the end of a stake and walking around in a 220ft circle. 
+
+"*walkie talkie screech* we're going from 2 to 4 from 74 to 86 *screech*".
+
+This was standard lingo we developed to quickly report our progress to the rest
+of the team. For example "from 2 to 4 from 74 to 86" means we were about to
+stomp an area from ray number 2 to ray number 4 (somewhat analogous to going
+from 2 o'clock to 4 o'clock) with a depth from 74' from the center to 86' from
+the center. With two teams of stompers, each with a walkie talkie and smaller
+version of the map, we reported our progress to our map team located outside
+the circle where they recorded all the work by highlighting it on their copy of
+the map. The map team then knew what needed work and what had been finished
+even when the stomping teams couldn't see each other.
+
+After we stomped down all the big areas in a boxy grid-like pattern, we
+"connected the dots" by smoothing out all the edges and blending the corners of
+the grid to fill everything in. For the most part, everything went perfectly!
+We had a brief accident around midnight and accidentally gave our Firefox a
+little bump on the head, but after we saw what we had done, fixing it wasn't
+very difficult. We bet you can't even notice! 
+
+Like any good open source project, we spent a lot of time documenting the
+process. We had an army of digital cameras, two dedicated videographers, a
+plane, and a helicopter. All of this allowed us to get some great coverage! 
+
+The hard work paid off!" 
+
+[Gallery][field]
+
+[sidewalk]:http://firefoxcropcircle.com/gallery/main.php?g2_itemId=2442
+[balloon]:http://firefoxcropcircle.com/gallery/firefox-one/
+[field]:http://firefoxcropcircle.com/gallery/firefox-crop-circle
+
+

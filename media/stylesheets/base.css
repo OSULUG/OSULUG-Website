@@ -9,9 +9,6 @@
     overflow: hidden;
 }
 
-.blog h3, .blog h4 {
-    line-height: 18px;
-}
 
 .footer {
     text-align:center;
@@ -175,29 +172,38 @@ ul.subpage-list li {
     height: 125px;
 }
 
-.blog-post span {
+.blog-index h3, .blog-index h4 {
+    line-height: 18px;
+}
+.blog-index-post span {
     float:right;
     width:200px;
 }
-.blog-image img {
+.blog-index-post img {
+    display: none;
+}
+.blog-index-post h1, .blog-index-post h2 {
+    display: none;
+}
+.blog-index-image img {
     float: left;
     padding-right: 20px;
     width: auto;
     height: 400px;
 }
-.blog-image img {
+.blog-index-image img {
     width: 340px;
     height: auto;
 }
-.blog-title {
+.blog-index-title {
     font-size: 1.3em;
     font-weight: bold;
     display: block;
 }
-.blog-title a {
+.blog-index-title a {
     color: #F70;
 }
-.blog-title a:hover {
+.blog-index-title a:hover {
     color: #F70;
     text-decoration: underline;
 }
