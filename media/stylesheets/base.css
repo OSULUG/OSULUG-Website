@@ -188,12 +188,8 @@ ul.subpage-list li {
 .blog-index-image img {
     float: left;
     padding-right: 20px;
-    width: auto;
-    height: 400px;
-}
-.blog-index-image img {
-    width: 340px;
-    height: auto;
+    max-width: 300px;
+    max-height: 200px;
 }
 .blog-index-title {
     font-size: 1.3em;
