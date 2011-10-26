@@ -71,4 +71,4 @@ There you go! Off and secure.
 
 [gpg]:http://staff.osuosl.org/~bkero/gpg_presentation.pdf
 [ssh]:/guides/secure-shell-ssh/index.html
-[kevkey]:/blog/recap:-gpg-key-signing-party/index.html
+[kevkey]:http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x0E11100869B85527
