@@ -3,43 +3,42 @@
     color: teal;
 }
 .main a:hover {
+    text-decoration: underline;
     color: #006B53;
 }
 .main {
     overflow: hidden;
 }
-
-.base-image img {
-    margin-bottom: 3px;
-    max-height: 500px;
-}
 .main p:nth-child(odd) img {
+    max-height:320px;
     margin-left: 15px;
     float: right;
 }
-
 .main p:nth-child(even) img {
+    max-height:320px;
     margin-right: 15px;
     float: left;
 }
-
 .main hr {
     clear: both;
 }
-
-.footer {
-    text-align:center;
-    padding-top: 12px;
-    background-color: #FFEECC;
-    height: 100px;
-    margin-top: -100px;
+.main h1 { font-size: 2.0em; }
+.main h2 { font-size: 1.6em; }
+.main h3 { font-size: 1.3em; }
+.main h4 { font-size: 1.0em; }
+.main h5 {
+    font-size: 1.0em;
+    font-weight: normal;
+    color: #AAA;
 }
-.footer a {
-    text-decoration: none;
-    color: teal;
+.main h6 {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #AAA;
 }
-.footer a:hover {
-    color: #006B53;
+.base-image img {
+    margin-bottom: 3px;
+    max-height: 500px;
 }
 
 .list {
@@ -106,20 +105,6 @@
 }
 
 /* These are for in page headers, which should be slightly smaller */
-.main h1 { font-size: 2.0em; }
-.main h2 { font-size: 1.6em; }
-.main h3 { font-size: 1.3em; }
-.main h4 { font-size: 1.0em; }
-.main h5 {
-    font-size: 1.0em;
-    font-weight: normal;
-    color: #AAA;
-}
-.main h6 {
-    font-size: 0.8em;
-    font-weight: normal;
-    color: #AAA;
-}
 
 .page_pic {
     margin-bottom: 20px;
@@ -192,6 +177,12 @@ ul.subpage-list li {
 .blog-index h3, .blog-index h4 {
     line-height: 18px;
 }
+.blog-index-post pre {
+    display: inline;
+    background: white;
+    border: none;
+    line-height: 250%
+}
 .blog-index-post span {
     float:right;
     width:200px;
@@ -219,4 +210,19 @@ ul.subpage-list li {
 .blog-index-title a:hover {
     color: #F70;
     text-decoration: underline;
+}
+
+.footer {
+    text-align:center;
+    padding-top: 12px;
+    background-color: #FFEECC;
+    height: 100px;
+    margin-top: -100px;
+}
+.footer a {
+    text-decoration: none;
+    color: teal;
+}
+.footer a:hover {
+    color: #006B53;
 }

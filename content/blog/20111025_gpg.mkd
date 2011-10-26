@@ -1,0 +1,74 @@
+title: "Recap: GPG Key Signing Party"
+category: blog
+author: Kevin Ngo <ngoke@onid.oregonstate.edu>
+
+image:
+    url: /images/blog/20111025_gpg/key_sign.jpg
+datetime: 2011-10-25 21:00:00
+
+---
+
+[GPG Powerpoint Presentation][gpg]
+
+Ben Kero, former OSU student and current Mozilla employee, came down to
+Corvallis to give a talk on GNU Privacy Guard (GPG) encryption and key-signing.
+A crowd of one PSU student visited as well to help create this web of trust.
+After Ben's presentation, which entailed a Bradley Manning example and spamming
+Ben's IRC nick, everyone went around to each other to sign each other's PGP
+keys.
+For example, here is my [PGP key][kevkey]. Along with that, there was pizza.
+
+![How do these keys work...](/images/blog/20111025_gpg/long_table.jpg)
+         
+Creating and Signing GPG Keys
+-----------------------------
+
+The first step to key-signing is to actually generate GPG public and private
+keys (check the SSH guide for general information on public and private key
+pairs)
+
+    gpg --gen-key
+
+It will prompt you several options such as the encryption method, level of
+encryption in bits, expiry of key, name, email, comment (which can be left
+blank), and a passphrase. The first three is fine to leave by default for now.
+
+Next, you will want to upload your PGP key to a keyserver (e.g. pgp.mit.edu).
+Get the last eight characters of your GPG fingerprint so your computer knows
+which key to send and send it to the keyserver.
+
+    gpg --fingerprint
+    gpg --keyserver pgp.mit.edu --send-keys $KEY
+
+$KEY being those eight characters. For example, mine is 69B85527. Now you are
+ready to trade and sign keys. Grab the other person's eight characters by
+searching it via the keyserver's web interface or have the person tell you the
+key directly along with their keyserver. If the person is on pgp.mit.edu:
+
+    gpg --keyserver pgp.mit.edu --recv-keys $KEY
+
+Now we sign the key. By signing the key, you are giving a vote of trust that
+that person is indeed that person. And by signing their key, other people can
+see that you have signed your key and if they trust you, they can more readily
+trust the other person.
+
+    gpg --sign-key $KEY
+
+Then enter in your passphrase and send the key (as we did earlier) back to the
+keyserver so it knows it is signed. Now that we have this key, we can encrypt
+and decrypt messages using the other person's public key. To encrypt a message
+to another person:
+
+    gpg -r $KEY --encrypt FILE
+
+If you get an encrypted message, you can decrypt it using your private key
+since it was encrypted with your public key.
+
+    gpg --output FILENAME --decrypt ENCRYPTED_FILE
+
+There you go! Off and secure.
+
+
+[gpg]:http://staff.osuosl.org/~bkero/gpg_presentation.pdf
+[ssh]:/guides/secure-shell-ssh/index.html
+[kevkey]:/blog/recap:-gpg-key-signing-party/index.html
