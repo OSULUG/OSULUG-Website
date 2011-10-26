@@ -9,17 +9,28 @@
 .main {
     overflow: hidden;
 }
-.main p:nth-child(odd) img {
+.main p img {
     max-height:320px;
+    max-width: 50%;
+}
+.main p:nth-child(odd) img {
     margin-left: 15px;
     float: right;
 }
 .main p:nth-child(even) img {
-    max-height:320px;
     margin-right: 15px;
     float: left;
 }
-.main hr {
+
+/*
+ * This makes the code blocks not run under floated elements, though only.
+ * In chrome. Is there a cross browser solution?
+ */
+.main pre {
+    display: block;
+    display: -webkit-box;
+}
+hr {
     clear: both;
 }
 .main h1 { font-size: 2.0em; }

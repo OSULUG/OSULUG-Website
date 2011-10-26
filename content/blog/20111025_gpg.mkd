@@ -18,14 +18,14 @@ Ben's IRC nick, everyone went around to each other to sign each other's PGP
 keys.
 For example, here is my [PGP key][kevkey]. Along with that, there was pizza.
 
-![How do these keys work...](/images/blog/20111025_gpg/long_table.jpg)
-         
 Creating and Signing GPG Keys
 -----------------------------
 
 The first step to key-signing is to actually generate GPG public and private
 keys (check the SSH guide for general information on public and private key
 pairs)
+
+![How do these keys work...](/images/blog/20111025_gpg/long_table.jpg)
 
     gpg --gen-key
 
