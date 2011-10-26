@@ -16,18 +16,18 @@
 
             <div class="header">
                 <div class="row">
-                    <div class="span4 columns">
+                    <div class="span5 columns">
                         <div class="title">
                             <h2><a href="/">Linux Users Group</a></h2>
                             <h3><a href="http://oregonstate.edu" style="color:black;">Oregon State University</a></h3>
                         </div>
                     </div>
-                    <div class="span4 columns">
+                    <div class="span2 columns">
                         <div class="logo">
                             <a href="/"><img src="/images/lug_penguin.gif"/></a>
                         </div>
                     </div>
-                    <div class="span8 columns">
+                    <div class="span9 columns">
                         <div class="navigation">
                             {% for link in site.tags['navigation']|sort(attribute='navrank') %}
                                 {% if page.url == link.url %}
