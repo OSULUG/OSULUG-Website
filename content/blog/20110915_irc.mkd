@@ -1,10 +1,9 @@
 title: IRC
-category: guides
+category: blog
+tags: guide
 author: ["Emily Dunham <dunhame@onid.oregonstate.edu>", "Alan Sherman <shermana@onid.oregonstate.edu>"]
+date: 2011-09-15
 ---
-
-About
------
 
 IRC is a real-time relay based chat protocol with no archiving. This means that
 when you send a message from your client to the server, the server just

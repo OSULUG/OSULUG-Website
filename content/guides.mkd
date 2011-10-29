@@ -1,5 +1,6 @@
 title: Guides
-type: index
+slug: guide
+type: index-tag
 tags: navigation
 navrank: 4
 image:
@@ -7,5 +8,3 @@ image:
     where: left
 ---
 "Linux Survival Guide" or "How Not to Suck at Linux" by fellow OSULUG members.
-<br/>
-<br/>
