@@ -34,10 +34,10 @@
 <h1>{{ page.title }}</h1>
 {{ page.content }}
 
-<div class="index-big">
+<div class="big-index">
     {% for subpage in collection %}
-        <div class="index-big-item">
-            <div class="headinggroup">
+        <div class="big-index-item">
+            <div class="heading">
                 <h2><a href="{{subpage.url}}">{{subpage.title}}</a></h2>
                 <span class="metadata">
                     {% if subpage.authors %}
@@ -53,13 +53,11 @@
             </div>
 
             {% if subpage.image %}
-                <div class="blog-index-image">
-                    <img src="{{subpage.image.url}}"/>
-                </div>
+                <img src="{{subpage.image.url}}"/>
             {% endif %}
 
             <div style="min-height: {{min_height}}px;">
-                <span class="blog-index-post">
+                <span class="big-index-post">
                     {{subpage.content|truncate(length=char_limit, end="<a href="+subpage.url+">...more</a>")}}
                 </span>
             </div>

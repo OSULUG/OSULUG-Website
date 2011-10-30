@@ -14,6 +14,7 @@ p a:hover {
     color: #006B53;
     text-decoration: underline;
 }
+
 .main {
     overflow: hidden;
 }
@@ -38,9 +39,6 @@ p a:hover {
     display: block;
     display: -webkit-box;
 }
-hr {
-    clear: both;
-}
 .main h1 { font-size: 2.0em; }
 .main h2 { font-size: 1.6em; }
 .main h3 { font-size: 1.3em; }
@@ -55,6 +53,10 @@ hr {
     font-weight: normal;
     color: #AAA;
 }
+hr {
+    clear: both;
+}
+
 .base-image img {
     margin-bottom: 3px;
     max-height: 500px;
@@ -114,21 +116,14 @@ hr {
     border: 2px solid #FFC48F;
 }
 
-.headinggroup {
+.heading {
     margin-top: 7px;
     margin-bottom: 18px;
 }
-
-.headinggroup h1, .headinggroup h2, .headinggroup h3,
-.headinggroup h4, .headinggroup h5, .headinggroup h6 {
+.heading h1, .heading h2, .heading h3,
+.heading h4, .heading h5, .heading h6 {
     margin: 0px;
 }
-.metadata {
-    color: #AAA;
-    font-weight: bold;
-}
-
-/* These are for in page headers, which should be slightly smaller */
 
 .page_pic {
     margin-bottom: 20px;
@@ -198,58 +193,9 @@ ul.subpage-list li {
     height: 125px;
 }
 
-.blog-index img {
-    float: left;
-    padding-right: 20px;
-    max-width: 320px;
-    max-height: 240px;
-}
 .blog-top img {
     float: left;
     padding-right: 20px;
     max-width: 960px;
     max-height: 320px;
-}
-.blog-index-title {
-    font-size: 1.3em;
-    font-weight: bold;
-    display: block;
-}
-.blog-index-title a {
-    color: #F70;
-}
-.blog-index-title a:hover {
-    color: #F70;
-    text-decoration: underline;
-}
-.blog-index pre {
-    display: inline;
-    background: white;
-    border: none;
-    line-height: 250%
-}
-.blog-index-post span {
-    float:right;
-    width:200px;
-}
-.blog-index-post img {
-    display: none;
-}
-.blog-index-post h1, .blog-index-post h2 {
-    display: none;
-}
-
-.footer {
-    text-align:center;
-    padding-top: 12px;
-    background-color: #FFEECC;
-    height: 100px;
-    margin-top: -100px;
-}
-.footer a {
-    text-decoration: none;
-    color: teal;
-}
-.footer a:hover {
-    color: #006B53;
 }
