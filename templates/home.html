@@ -44,25 +44,31 @@
         <div class="row">
             <div class="span5 columns" style="float:right;">
                  <h3>Upcoming Events</h3>
-                 <ol>{% for event in site.categories['events']|sort(attribute='datetime') %}
-                     {% if event.datetime > site.datetime %}
-                         <li class="list">
-                             <h3>
-                                 <a href="{{ event.url }}">{{ event.title }}</a>
-                             </h3>
-                             <h4>
-                                 {% if event.location %}
-                                     {{ event.location }} -
-                                 {% endif %}
-                                 {{ event.date.strftime('%b %d, %Y') }}
-                             </h4>
-                             {{ event.preview }}
-                         </li>
-                         {% if not loop.last %}
-                             <hr>
-                         {% endif %}
-                     {% endif %}
-                 {% endfor %}
+                 <ol>
+                    {% for event in site.categories['events']|sort(attribute='datetime') %}
+                        {% if event.datetime > site.datetime %}
+                            <li class="list">
+                                <h3>
+                                    <a href="{{ event.url }}">{{ event.title }}</a>
+                                </h3>
+                                <h4>
+                                    {% if event.location %}
+                                        {{ event.location }} -
+                                    {% endif %}
+                                    {{ event.date.strftime('%b %d, %Y') }}
+                                </h4>
+                                {{ event.preview }}
+                            </li>
+                            {% if not loop.last %}
+                                <hr>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if not event in site.categories['events'] %} 
+                        <br/>
+                        <br/>
+                        <i>Check back soon for future events!</i>
+                    {% endif %}
                  </ol>
             </div>
 
