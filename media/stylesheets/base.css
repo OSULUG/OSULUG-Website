@@ -197,6 +197,18 @@ ul.subpage-list li {
     max-width: 960px;
     max-height: 320px;
 }
+.blog-index-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+}
+.blog-index-title a {
+    color: #F70;
+}
+.blog-index-title a:hover {
+    color: #F70;
+    text-decoration: underline;
+}
 .blog-index h3, .blog-index h4 {
     line-height: 18px;
 }
@@ -215,18 +227,6 @@ ul.subpage-list li {
 }
 .blog-index-post h1, .blog-index-post h2 {
     display: none;
-}
-.blog-index-title {
-    font-size: 1.3em;
-    font-weight: bold;
-    display: block;
-}
-.blog-index-title a {
-    color: #F70;
-}
-.blog-index-title a:hover {
-    color: #F70;
-    text-decoration: underline;
 }
 
 .footer {

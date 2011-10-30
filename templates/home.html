@@ -6,15 +6,32 @@
             <!--Featured blog post-->
             {% if loop.first %}
                 <div class="blog-top">
+                    <div style="clear:both;"></div>
                     {% if blog.image %}
                         <img src="{{blog.image.url}}"/>
                     {% endif %}
-                    <div style="min-height: 360px;">
+                    <div style="min-height: 350px;">
+                        <span class="blog-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
+                        <span class="blog-subtitle">
+                            {% if blog.authors %}
+                                by {% for author in blog.authors %}
+                                    {% if loop.last and not loop.first %}and {% endif %}
+                                    {{ author.name }}{% if not loop.last %}, {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                            {% if blog.datetime %}
+                                on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
+                            {% endif %}
+                        </span>
                         <span class="blog-index-post">
-                            {{blog.content|truncate(length=930, end="<a href="+blog.url+">...more</a>")}}
+                            <br/>
+                            <br/>
+                            {{blog.content|truncate(length=840)}}
+                            <a href="{{blog.url}}">more</a>
                         </span>
                     </div>
                 </div>
+                <hr/>
             {% endif %}
             <!-------------------->
          {% endfor %}
@@ -43,36 +60,38 @@
                  {% endfor %}
                  </ol>
             </div>
-            <div class="span10 columns">
+            <div class="span10 columns"> 
                 {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
+                    {% if not loop.first %}
+                        <span class="blog-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
+                        <span class="blog-subtitle">
+                            {% if blog.authors %}
+                                by {% for author in blog.authors %}
+                                    {% if loop.last and not loop.first %}and {% endif %}
+                                    {{ author.name }}{% if not loop.last %}, {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                            {% if blog.datetime %}
+                                on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
+                            {% endif %}
+                        </span>
                         <div class="blog-index">
                             {% if blog.image %}
                                 <div class="blog-index-image">
                                     <img src="{{blog.image.url}}"</img>
                                 </div>
                             {% endif %}
-                            <span class="blog-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
-                            <span class="blog-subtitle">
-                                {% if blog.authors %}
-                                    by {% for author in blog.authors %}
-                                        {% if loop.last and not loop.first %}and {% endif %}
-                                        {{ author.name }}{% if not loop.last %}, {% endif %}
-                                    {% endfor %}
-                                {% endif %}
-                                {% if blog.datetime %}
-                                    on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
-                                {% endif %}
-                            </span>
-                            <br/>
-
                             <div style="min-height: 200px;">
                                 <span class="blog-index-post">
-                                    {{blog.content|truncate(length=930, end="<a href="+blog.url+">...more</a>")}}
+                                    {{blog.content|truncate(length=450)}}
                                 </span>
+                                <a href="{{blog.url}}">more</a>
                             </div>
                         </div>
+
                         <hr/>
                         <br/>
+                    {% endif %}
                 {% endfor %}    
                 <div class="span1 columns">&nbsp;</div>
             </div>
