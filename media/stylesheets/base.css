@@ -73,6 +73,10 @@ hr {
     text-decoration: none;
     color: #2d486d;
 }
+.header a:hover {
+    text-decoration: none;
+    color: #2d486d;
+}
 .title {
     margin-top: 7px;
 }
