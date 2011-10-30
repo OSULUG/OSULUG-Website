@@ -1,13 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
+
     <div class="container">
 
+        <!--Introduction Paragraph-->
         {{ page.content }}
+        <!--End Introduction Paragraph-->
 
-        <!--Featured blog post-->
+        <!--Featured Blog Post-->
         {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
             {% if loop.first %}
+                <hr/>
                 <div class="blog-top">
                     <h3>Featured Blog</h3>
                     {% if blog.image %}
@@ -31,14 +35,13 @@
                             <br/>
                             {{blog.content|truncate(length=840)}}
                             <a href="{{blog.url}}">more</a>
-                            <br/>
-                            <br/>
                             <hr/>
                         </span>
                     </div>
                 </div>
             {% endif %}
         {% endfor %}
+        <!--End Featured Blog Post-->
 
         <!--Upcoming Events-->
         <div class="row">
@@ -71,6 +74,7 @@
                     {% endif %}
                  </ol>
             </div>
+            <!--End Upcoming Events-->
 
             <!--Blog Posts-->
             <div class="span10 columns" style="margin-left:0px;">
@@ -91,7 +95,9 @@
                                 {% endif %}
                             </span>
                             {% if blog.image %}
-                                <img src="{{blog.image.url}}"</img>
+                                <div class="big-index">
+                                    <img src="{{blog.image.url}}"/>
+                                </div>
                             {% endif %}
                             <div>
                                 <span class="big-index-post">
@@ -102,11 +108,13 @@
                                     <hr/>
                                 {% endif %}
                             </div>
-                        </div>
-                        <br/>
-                    {% endif %}
-                {% endfor %}    
+                            <div style="clear:both;"></div>
+                        {% endif %}
+                    {% endfor %}    
+                </div>
             </div>
+            <!--End Blog Posts-->
+
        </div>
     </div>
 {% endblock %}

@@ -54,6 +54,8 @@ p a:hover {
     color: #AAA;
 }
 hr {
+    padding-top: 20px;
+    margin-bottom: 15px;
     clear: both;
 }
 
