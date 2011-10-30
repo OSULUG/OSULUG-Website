@@ -3,9 +3,6 @@ type: index-big
 slug: events
 
 tags: navigation
-navrank: 2
-
-tags: navigation
 navrank: 3
 
 pagination:
