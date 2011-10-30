@@ -33,7 +33,7 @@
                         <span class="big-index-post">
                             <br/>
                             <br/>
-                            {{blog.content|truncate(length=840)}}
+                            {{blog.content|truncate(length=1400)}}
                             <a href="{{blog.url}}">more</a>
                             <hr/>
                         </span>
@@ -98,6 +98,9 @@
                                 <div class="big-index">
                                     <img src="{{blog.image.url}}"/>
                                 </div>
+                            {% else %}
+                                <br/>
+                                <br/>
                             {% endif %}
                             <div>
                                 <span class="big-index-post">
