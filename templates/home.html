@@ -2,11 +2,13 @@
 
 {% block content %}
     <div class="container">
+
         {{ page.content }}
 
-        <hr style="height:10px;"/>
+        <hr/>
+
+        <!--Featured blog post-->
         {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
-            <!--Featured blog post-->
             {% if loop.first %}
                 <div class="blog-top">
                     <div style="clear:both;"></div>
@@ -36,10 +38,9 @@
                 </div>
                 <hr/>
             {% endif %}
-            <!-------------------->
         {% endfor %}
-        
 
+        <!--Upcoming Events-->
         <div class="row">
             <div class="span5 columns" style="float:right;">
                  <h2>Upcoming Events</h2>
@@ -64,11 +65,13 @@
                  {% endfor %}
                  </ol>
             </div>
-            <div class="span10 columns"> 
-                <h2>Recent Blogs</h2><br/>
-                {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
-                    {% if not loop.first %}
-                        <div class="blog-index">
+
+            <!--Blog Posts-->
+            <div class="span10 columns" style="margin-left:0px;">
+                <div class="blog-index">
+                    <h2>Recent Blogs</h2><br/>
+                    {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
+                        {% if not loop.first %}
                             <span class="blog-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
                             <span class="blog-subtitle">
                                 {% if blog.authors %}
