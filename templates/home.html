@@ -2,33 +2,81 @@
 
 {% block content %}
     <div class="container">
-        <div class="row">
-            <div class="span10 columns">
-                {{page.content}}
-            </div>
-            <div class="span1 columns">&nbsp;</div>
-            <div class="span5 columns">
-                <h2>Upcoming Events</h2>
-                <ol>{% for event in site.categories['events']|sort(attribute='datetime') %}
-                    {% if event.datetime > site.datetime %}
-                        <li class="list">
-                            <h3>
-                                <a href="{{ event.url }}">{{ event.title }}</a>
-                            </h3>
-                            <h4>
-                                {% if event.location %}
-                                    {{ event.location }} -
-                                {% endif %}
-                                {{ event.date.strftime('%b %d, %Y') }}
-                            </h4>
-                            {{ event.preview }}
-                        </li>
-                        {% if not loop.last %}
-                            <hr>
-                        {% endif %}
+        {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
+            <!--Featured blog post-->
+            {% if loop.first %}
+                <div class="blog-top">
+                    {% if blog.image %}
+                        <img src="{{blog.image.url}}"/>
                     {% endif %}
-                {% endfor %}</ol>
+                    <div style="min-height: 360px;">
+                        <span class="blog-index-post">
+                            {{blog.content|truncate(length=930, end="<a href="+blog.url+">...more</a>")}}
+                        </span>
+                    </div>
+                </div>
+            {% endif %}
+            <!-------------------->
+         {% endfor %}
+
+        <div class="row">
+            <div class="span5 columns" style="float:right;">
+                 <h2>Upcoming Events</h2>
+                 <ol>{% for event in site.categories['events']|sort(attribute='datetime') %}
+                     {% if event.datetime > site.datetime %}
+                         <li class="list">
+                             <h3>
+                                 <a href="{{ event.url }}">{{ event.title }}</a>
+                             </h3>
+                             <h4>
+                                 {% if event.location %}
+                                     {{ event.location }} -
+                                 {% endif %}
+                                 {{ event.date.strftime('%b %d, %Y') }}
+                             </h4>
+                             {{ event.preview }}
+                         </li>
+                         {% if not loop.last %}
+                             <hr>
+                         {% endif %}
+                     {% endif %}
+                 {% endfor %}
+                 </ol>
             </div>
-        </div>
+            <div class="span10 columns">
+                {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
+                        <div class="blog-index">
+                            {% if blog.image %}
+                                <div class="blog-index-image">
+                                    <img src="{{blog.image.url}}"</img>
+                                </div>
+                            {% endif %}
+                            <span class="blog-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
+                            <span class="blog-subtitle">
+                                {% if blog.authors %}
+                                    by {% for author in blog.authors %}
+                                        {% if loop.last and not loop.first %}and {% endif %}
+                                        {{ author.name }}{% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                                {% if blog.datetime %}
+                                    on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
+                                {% endif %}
+                            </span>
+                            <br/>
+
+                            <div style="min-height: 200px;">
+                                <span class="blog-index-post">
+                                    {{blog.content|truncate(length=930, end="<a href="+blog.url+">...more</a>")}}
+                                </span>
+                            </div>
+                        </div>
+                        <hr/>
+                        <br/>
+                {% endfor %}    
+                <div class="span1 columns">&nbsp;</div>
+            </div>
+       </div>
+
     </div>
 {% endblock %}

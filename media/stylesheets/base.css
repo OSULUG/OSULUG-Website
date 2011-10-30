@@ -185,10 +185,22 @@ ul.subpage-list li {
     height: 125px;
 }
 
+.blog-index img {
+    float: left;
+    padding-right: 20px;
+    max-width: 320px;
+    max-height: 240px;
+}
+.blog-top img {
+    float: left;
+    padding-right: 20px;
+    max-width: 960px;
+    max-height: 320px;
+}
 .blog-index h3, .blog-index h4 {
     line-height: 18px;
 }
-.blog-index-post pre {
+.blog-index pre {
     display: inline;
     background: white;
     border: none;
@@ -203,12 +215,6 @@ ul.subpage-list li {
 }
 .blog-index-post h1, .blog-index-post h2 {
     display: none;
-}
-.blog-index-image img {
-    float: left;
-    padding-right: 20px;
-    max-width: 320px;
-    max-height: 240px;
 }
 .blog-index-title {
     font-size: 1.3em;

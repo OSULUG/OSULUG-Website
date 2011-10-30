@@ -1,10 +1,6 @@
 title: Home
 type: home
 url: /index{page}.html
-image:
-    url: /images/firefox_crop_circle.jpg
-    where: top
-    caption: Created by the OSU LUG to celebrate <a href="http://firefoxcropcircle.com/circle">the 200 millionth download of Firefox</a>.
 ---
 
 Welcome to the new OSU LUG website!
