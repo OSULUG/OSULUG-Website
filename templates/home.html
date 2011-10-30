@@ -5,8 +5,6 @@
 
         {{ page.content }}
 
-        <hr/>
-
         <!--Featured blog post-->
         {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
             {% if loop.first %}
@@ -17,7 +15,7 @@
                     {% endif %}
                     <div style="min-height: 350px;">
                         <span class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
-                        <span class="big-subtitle">
+                        <span class="metadata">
                             {% if blog.authors %}
                                 by {% for author in blog.authors %}
                                     {% if loop.last and not loop.first %}and {% endif %}
@@ -33,10 +31,12 @@
                             <br/>
                             {{blog.content|truncate(length=840)}}
                             <a href="{{blog.url}}">more</a>
+                            <br/>
+                            <br/>
+                            <hr/>
                         </span>
                     </div>
                 </div>
-                <hr/>
             {% endif %}
         {% endfor %}
 
@@ -93,17 +93,16 @@
                             {% if blog.image %}
                                 <img src="{{blog.image.url}}"</img>
                             {% endif %}
-                            <div style="min-height: 200px;">
+                            <div>
                                 <span class="big-index-post">
                                     {{blog.content|truncate(length=450)}}
                                 </span>
                                 <a href="{{blog.url}}">more</a>
+                                {% if not loop.last %}
+                                    <hr/>
+                                {% endif %}
                             </div>
                         </div>
-
-                        {% if not loop.last %}
-                            <hr/>
-                        {% endif %}
                         <br/>
                     {% endif %}
                 {% endfor %}    
