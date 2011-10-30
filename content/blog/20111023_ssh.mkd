@@ -1,7 +1,8 @@
 title: Secure Shell (SSH)
-category: guides
+category: blog
+tags: guide
 author: Kevin Ngo <ngoke@onid.oregonstate.edu>
-
+date: 2011-10-23
 ---
 
 SSH is a secure client-server network protocol that allows you to connect with
