@@ -9,9 +9,8 @@
         <!--End Introduction Paragraph-->
 
         <!--Featured Blog Post-->
-        {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
+        {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
             {% if loop.first %}
-                <hr/>
                 <div class="blog-top">
                     <h3>Featured Blog</h3>
                     {% if blog.image %}
@@ -48,30 +47,30 @@
             <div class="span5 columns" style="float:right;">
                  <h3>Upcoming Events</h3>
                  <ol>
-                    {% for event in site.categories['events']|sort(attribute='datetime') %}
-                        {% if event.datetime > site.datetime %}
-                            <li class="list">
-                                <h3>
-                                    <a href="{{ event.url }}">{{ event.title }}</a>
-                                </h3>
-                                <h4>
-                                    {% if event.location %}
-                                        {{ event.location }} -
-                                    {% endif %}
-                                    {{ event.date.strftime('%b %d, %Y') }}
-                                </h4>
-                                {{ event.preview }}
-                            </li>
-                            {% if not loop.last %}
-                                <hr>
-                            {% endif %}
+                    {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) if event.datetime > site.datetime %}
+                        <li class="list">
+                            <h3>
+                                <a href="{{ event.url }}">{{ event.title }}</a>
+                            </h3>
+                            <h4>
+                                {% if event.location %}
+                                    {{ event.location }} -
+                                {% endif %}
+                                {{ event.date.strftime('%b %d, %Y') }}
+                            </h4>
+                            {{ event.preview }}
+                        </li>
+                        {% if not loop.last %}
+                            <hr>
                         {% endif %}
                     {% endfor %}
-                    {% if not event in site.categories['events'] %} 
-                        <br/>
-                        <br/>
-                        <i>Check back soon for future events!</i>
-                    {% endif %}
+                    {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) %}
+                        {% if loop.first and event.datetime < site.datetime %}
+                            <br/>
+                            <br/>
+                            <i>Check back soon for future events!</i>
+                        {% endif %}
+                    {% endfor %}
                  </ol>
             </div>
             <!--End Upcoming Events-->
@@ -81,7 +80,7 @@
                 <div class="big-index">
                     <h3>Recent Blogs</h3><br/>
                     {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
-                        {% if not loop.first %}
+                        {% if not blog.featured %}
                             <span class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
                             <span class="metadata">
                                 {% if blog.authors %}
