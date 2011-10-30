@@ -1,7 +1,11 @@
 title: Blog
-type: blog
+type: index-big
 slug: blog
 url: /blog/index{page}.html
+
+index:
+    height: 200
+    char_limit: 900
 
 pagination:
     list: page.subpages
