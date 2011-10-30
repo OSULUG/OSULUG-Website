@@ -1,7 +1,9 @@
 title: OSU Network at your Disposal
 slug: resources
-category: guides
+category: blog
+tags: guide
 author: Jacques Uber <uberj@onid.oregonstate.edu>
+date: 2011-10-23
 ---
 
 Hello [your name here]! If you haven't already been told by someone, at OSU,

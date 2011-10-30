@@ -1,0 +1,49 @@
+title: "Recap: Beaver Bar Camp 8"
+category: blog
+author: Kevin Ngo <ngoke@onid.oregonstate.edu>
+
+image:
+    url: /images/blog/20111029_barcamp/tux.jpg
+datetime: 2011-10-29 11:00:00
+
+---
+
+[Beaver Bar Camp 8][bbc8] was a large success. For those who don't know,
+Barcamp is ad-hoc gathering born from the desire for people to share and learn
+in an open environment. It is an intense event with discussions, demos, and
+interaction from attendees. This year, [Mozilla][mozilla] signed on to
+generously sponsor BBC8 and gave a focused, hands-on workshop on Web Security.
+Along with Mozilla was [ThumbArcade][thumbarcade] who also sponsored BBC8 and
+hosted a couple speed-hack sessions and commentary on how [Apple killed the
+publisher][apple].
+
+![barcamp board](/images/blog/20111029_barcamp/board.jpg)
+
+Not only did companies give talks but students and former students as well. For
+example, Ben Kero, who recently gave a talk last meeting about [PGP encryption
+and GPG keysigning][gpg], gave tips on advanced SSH usage (aka magic). Several
+PSU students came down from Portland and gave a talk on [Puppet][puppet]. Mike
+Cooper, LUG vice-president, gave a talk about his static webpage generator,
+[wok][wok], which this site so happens to run on. Tim Harder talked on
+extending Vim. Some offbeat talks included frugal cooking and beer brewing.
+
+The last session involved Dr. Carlos Jensen, a professor at OSU researching the
+usability aspects of Open Source held a planning session for a possible reboot
+of the Open Source Education Lab, which would greatly involve LUG.  Thanks to
+the refreshment budget, there was a lot of free food (sandwiches, coffee,
+bagels), and thanks to Mozilla a lot of free swag (not including the free
+Barcamp t-shirt). At the end, a Kindle Fire was raffled off to a very lucky
+guy. Keep on the lookout for **BBC9!**
+
+
+![some attendees of barcamp](/images/blog/20111029_barcamp/people.jpg)
+
+![tour of the datacenter](/images/blog/20111029_barcamp/datacenter.jpg)
+
+[bbc8]:http://beaverbarcamp.org
+[mozilla]:http://mozilla.org
+[thumbarcade]:http://thumbarcade.com
+[apple]:http://beaverbarcamp.org/index.php/Apple_Killed_the_Publisher,_Now_What%3F
+[gpg]:/blog/recap:-gpg-key-signing-party/index.html
+[wok]:https://github.com/mythmon/wok
+[puppet]:http://puppetlabs.com 
