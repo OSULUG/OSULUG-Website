@@ -13,8 +13,7 @@ $(document).ready(function(){
     // previous page
     $('#sliding-prev-page').click(function(){
         if (current_page != 0){
-            $('div.sliding-index-page' + current_page).hide('slide', {direction:'right'}, 1000);
-            set
+            $('div.sliding-index-page' + current_page).hide('slow');
             current_page--;
             $('div.sliding-index-page' + current_page).show('slide', {direction:'left'}, 1400);                
         }
@@ -23,9 +22,9 @@ $(document).ready(function(){
     // next page
     $('#sliding-next-page').click(function(){
         if (current_page != num_pages){
-            $('div.sliding-index-page' + current_page).hide('slide', {direction:'left'}, 1000);
+            $('div.sliding-index-page' + current_page).hide();
             current_page++;
-            $('div.sliding-index-page' + current_page).show('slide', {direction:'right'}, 1400);
+            $('div.sliding-index-page' + current_page).show('slide', {direction:'right'}, 1000);
         }
     });
 
