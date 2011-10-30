@@ -1,15 +1,13 @@
 title: Past Events
-type: events
+type: index-big
 slug: events
 
-events:
-    sort_key: datetime
-    sort_reverse: true
+tags: navigation
+navrank: 2
 
 pagination:
     list: page.subpages
     limit: 4
     sort_key: date
     sort_reverse: True
----
 ---

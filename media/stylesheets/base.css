@@ -1,10 +1,18 @@
-.main a {
+a {
+    color: #F70;
     text-decoration: none;
-    color: teal;
 }
-.main a:hover {
+a:hover {
+    color: #C40;
     text-decoration: underline;
+}
+p a {
+    color: teal;
+    text-decoration: none;
+}
+p a:hover {
     color: #006B53;
+    text-decoration: underline;
 }
 .main {
     overflow: hidden;
