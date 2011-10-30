@@ -95,6 +95,7 @@ hr {
 }
 .navigation a:hover {
     text-decoration: none;
+    color:black;
     background-color: #FFC48F;
 }
 .navigation a.current_nav {
