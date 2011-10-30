@@ -6,6 +6,9 @@ events:
     sort_key: datetime
     sort_reverse: true
 
+tags: navigation
+navrank: 3
+
 pagination:
     list: page.subpages
     limit: 4
