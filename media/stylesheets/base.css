@@ -209,9 +209,6 @@ ul.subpage-list li {
     color: #F70;
     text-decoration: underline;
 }
-.blog-index h3, .blog-index h4 {
-    line-height: 18px;
-}
 .blog-index pre {
     display: inline;
     background: white;
