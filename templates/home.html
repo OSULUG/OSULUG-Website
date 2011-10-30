@@ -2,6 +2,9 @@
 
 {% block content %}
     <div class="container">
+        {{ page.content }}
+
+        <hr style="height:10px;"/>
         {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
             <!--Featured blog post-->
             {% if loop.first %}
@@ -34,7 +37,8 @@
                 <hr/>
             {% endif %}
             <!-------------------->
-         {% endfor %}
+        {% endfor %}
+        
 
         <div class="row">
             <div class="span5 columns" style="float:right;">
@@ -61,25 +65,24 @@
                  </ol>
             </div>
             <div class="span10 columns"> 
+                <h2>Recent Blogs</h2><br/>
                 {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
                     {% if not loop.first %}
-                        <span class="blog-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
-                        <span class="blog-subtitle">
-                            {% if blog.authors %}
-                                by {% for author in blog.authors %}
-                                    {% if loop.last and not loop.first %}and {% endif %}
-                                    {{ author.name }}{% if not loop.last %}, {% endif %}
-                                {% endfor %}
-                            {% endif %}
-                            {% if blog.datetime %}
-                                on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
-                            {% endif %}
-                        </span>
                         <div class="blog-index">
+                            <span class="blog-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
+                            <span class="blog-subtitle">
+                                {% if blog.authors %}
+                                    by {% for author in blog.authors %}
+                                        {% if loop.last and not loop.first %}and {% endif %}
+                                        {{ author.name }}{% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                                {% if blog.datetime %}
+                                    on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
+                                {% endif %}
+                            </span>
                             {% if blog.image %}
-                                <div class="blog-index-image">
-                                    <img src="{{blog.image.url}}"</img>
-                                </div>
+                                <img src="{{blog.image.url}}"</img>
                             {% endif %}
                             <div style="min-height: 200px;">
                                 <span class="blog-index-post">
@@ -89,13 +92,13 @@
                             </div>
                         </div>
 
-                        <hr/>
+                        {% if not loop.last %}
+                            <hr/>
+                        {% endif %}
                         <br/>
                     {% endif %}
                 {% endfor %}    
-                <div class="span1 columns">&nbsp;</div>
             </div>
        </div>
-
     </div>
 {% endblock %}
