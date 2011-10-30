@@ -8,8 +8,4 @@ pagination:
     limit: 4
     sort_key: date
     sort_reverse: True
-
-tags: navigation
-navrank: 1
-
 ---
