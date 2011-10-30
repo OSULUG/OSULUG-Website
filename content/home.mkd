@@ -1,6 +1,9 @@
 title: Home
 type: home
 url: /index{page}.html
+
+pagination:
+    limit: 4
 ---
 
 Welcome to the new OSU LUG website!

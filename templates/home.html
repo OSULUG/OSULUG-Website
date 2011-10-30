@@ -2,8 +2,8 @@
 
 {% block content %}
 
-    <div class="container">
 
+    <div class="container">
         <!--Introduction Paragraph-->
         {{ page.content }}
         <!--End Introduction Paragraph-->
@@ -78,44 +78,56 @@
             <!--Blog Posts-->
             <div class="span10 columns" style="margin-left:0px;">
                 <div class="big-index">
-                    <h3>Recent Blogs</h3><br/>
+                    <h3 style="display:inline;">Recent Blogs</h3>
+                    <button id="sliding-prev-page">Prev</button>
+                    <button id="sliding-next-page">Next</button>
+                    <br/>
                     {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
                         {% if not blog.featured %}
-                            <span class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
-                            <span class="metadata">
-                                {% if blog.authors %}
-                                    by {% for author in blog.authors %}
-                                        {% if loop.last and not loop.first %}and {% endif %}
-                                        {{ author.name }}{% if not loop.last %}, {% endif %}
-                                    {% endfor %}
-                                {% endif %}
-                                {% if blog.datetime %}
-                                    on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
-                                {% endif %}
-                            </span>
-                            {% if blog.image %}
-                                <div class="big-index">
-                                    <img src="{{blog.image.url}}"/>
-                                </div>
-                            {% else %}
-                                <br/>
-                                <br/>
-                            {% endif %}
-                            <div>
-                                <span class="big-index-post">
-                                    {{blog.content|truncate(length=450)}}
+                            <div class="sliding-index-page{{ loop.index0 // pagination.limit }}">
+                                <!--Header Group--> 
+                                <span class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
+                                <span class="metadata">
+                                    {% if blog.authors %}
+                                        by {% for author in blog.authors %}
+                                            {% if loop.last and not loop.first %}and {% endif %}
+                                            {{ author.name }}{% if not loop.last %}, {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                    {% if blog.datetime %}
+                                        on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
+                                    {% endif %}
                                 </span>
-                                <a href="{{blog.url}}">more</a>
-                                {% if not loop.last %}
-                                    <hr/>
+                                <!--End Header Group--> 
+                                <!--Blog Image--> 
+                                {% if blog.image %}
+                                    <div class="big-index">
+                                        <img src="{{blog.image.url}}"/>
+                                    </div>
+                                {% else %}
+                                    <br/>
+                                    <br/>
                                 {% endif %}
+                                <!--End Blog Image--> 
+                                <!--Blog Preview Post--> 
+                                <div>
+                                    <span class="big-index-post">
+                                        {{blog.content|truncate(length=450)}}
+                                    </span>
+                                    <a href="{{blog.url}}">more</a>
+                                    {% if not loop.last %}
+                                        <hr/>
+                                    {% endif %}
+                                </div>
+                                <!--End Blog Preview Post--> 
+                                <div style="clear:both;"></div>
                             </div>
-                            <div style="clear:both;"></div>
                         {% endif %}
                     {% endfor %}    
                 </div>
             </div>
             <!--End Blog Posts-->
+
 
        </div>
     </div>
