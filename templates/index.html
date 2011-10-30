@@ -4,8 +4,18 @@
 <h1>{{ page.title }}</h1>
 {{ page.content }}
 
+{% if page.index and page.index.sort_key %}
+    {% if page.index.reverse %}
+        {% set collection = page.subpages|sort(attribute=page.index.sort_key) %}
+    {% else %}
+        {% set collection = page.subpages|sort(attribute=page.index.sort_key, reverse=True) %}
+    {% endif %}
+{% else %}
+    {% set collection = page.subpages %}
+{% endif %}
+
 <ul class="subpage-list">
-{% for subpage in page.subpages %}
+{% for subpage in collection %}
 
 <li class="list">
     <a class="subpage-title" href="{{ subpage.url }}">{{ subpage.title }}</a>

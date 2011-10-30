@@ -1,6 +1,10 @@
 title: Past Events
 slug: events
+
 type: index
+index:
+    sort_key: datetime
+    sort_reverse: true
 
 tags: navigation
 navrank: 3
