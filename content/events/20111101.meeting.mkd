@@ -1,0 +1,21 @@
+title: Meeting
+datetime: 2011-11-01 06:00:00
+category: events
+preview: OSEL Vision and Guide Sprint
+location: Dearborn 212
+image:
+    url: /images/events/20111101_meeting.gif
+    where: right
+---
+
+There may be a possible recap of a meeting from Beaver Barcamp 8 about
+rebooting the Open Source Education Lab and role of the OSU LUG within that.
+We will be starting a "guide sprint". People choose a topic they wish to write
+a guide about for the website. At the end of our guide sprints, we want to have
+enough content to make a "CS Survival Guide" give to green CS students to point
+them the right direction (towards the Tux).
+
+When: November 1st, 6 PM to 8 PM
+
+Where: Dearborn 212
+
