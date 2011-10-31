@@ -9,22 +9,31 @@ $(document).ready(function(){
     }
     current_page = 0;
     $('div.sliding-index-page' + current_page).show();
+    $('#sliding-prev-page').hide()
 
     // previous page
     $('#sliding-prev-page').click(function(){
+        $('#sliding-next-page').show()
         if (current_page != 0){
             $('div.sliding-index-page' + current_page).hide('slow');
             current_page--;
-            $('div.sliding-index-page' + current_page).show('slide', {direction:'left'}, 1400);                
+            if (current_page == 0){
+                $('#sliding-prev-page').hide()
+            }
+            $('div.sliding-index-page' + current_page).show('slide', {direction:'left'}, 800);                
         }
     });
 
     // next page
     $('#sliding-next-page').click(function(){
-        if (current_page != num_pages){
+        $('#sliding-prev-page').show()
+        if (current_page != num_pages-1){
             $('div.sliding-index-page' + current_page).hide();
             current_page++;
-            $('div.sliding-index-page' + current_page).show('slide', {direction:'right'}, 1000);
+            if (current_page == num_pages-1){
+                $('#sliding-next-page').hide()
+            }
+            $('div.sliding-index-page' + current_page).show('slide', {direction:'right'}, 800);
         }
     });
 
