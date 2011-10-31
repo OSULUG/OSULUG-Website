@@ -64,9 +64,13 @@
             <div class="main">
                 <div class="base-image">
                     {% if page.image %}
-                        <div class="page_pic {{ page.image.where }}">
-                            <img src="{{ page.image.url }}">
-                            <span>{{ page.image.caption }}</span>
+                        <div class="page_pic {{ page.image.where }}" style="
+                                {% if page.image.width %}max-width: {{page.image.width}};{% endif %}
+                                {% if page.image.height %}max-height: {{page.image.height}};{% endif %}">
+                            <img src="{{ page.image.url }}" />
+                            {% if page.image.caption %}
+                                <span>{{ page.image.caption }}</span>
+                            {% endif %}
                         </div>
                     {% endif %}
                 </div>

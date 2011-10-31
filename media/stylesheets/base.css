@@ -120,6 +120,10 @@ hr {
 .page_pic {
     margin-bottom: 20px;
 }
+.page_pic img {
+    display: block;
+    max-width: 100%;
+}
 .page_pic.right {
     float: right;
     margin-left: 20px;
@@ -135,9 +139,6 @@ hr {
 }
 .page_pic.top img {
     padding-bottom: 5px;
-}
-.page_pic img {
-    display: block;
 }
 
 p {
