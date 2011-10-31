@@ -2,7 +2,6 @@
 
 {% block content %}
 
-
     <div class="container">
         <!--Introduction Paragraph-->
         {{ page.content }}
@@ -12,9 +11,9 @@
         {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
             {% if loop.first %}
                 <div class="blog-top">
-                    <h2>Featured Blog</h2>
+                    <h3 style="padding-top: 5px;">Featured Blog</h3>
                     {% if blog.image %}
-                        <img src="{{blog.image.url}}"/>
+                        <img class="thumbnail" src="{{blog.image.url}}"/>
                     {% endif %}
                     <div style="min-height: 350px;">
                         <span class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
@@ -31,7 +30,6 @@
                         </span>
                         <span class="big-index-post">
                             <br/>
-                            <br/>
                             {{blog.content|truncate(length=1400)}}
                             <a href="{{blog.url}}">more</a>
                             <hr/>
@@ -44,10 +42,10 @@
 
         <!--Upcoming Events-->
         <div class="row">
-            <div class="span5 columns" style="float:right;">
+            <div class="span4 columns" style="float:right;">
                  <h3>Upcoming Events</h3>
                  <br/>
-                 <ol id="upcoming-events">
+                 <ol>
                     {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) if event.datetime > site.datetime %}
                         <li class="list">
                             <h3>
@@ -62,7 +60,7 @@
                             {{ event.preview }}
                         </li>
                         {% if not loop.last %}
-                            <hr>
+                            <hr/>
                         {% endif %}
                     {% endfor %}
                     {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) %}
@@ -77,7 +75,7 @@
             <!--End Upcoming Events-->
 
             <!--Blog Posts-->
-            <div class="span10 columns" style="margin-left:0px;">
+            <div class="span11 columns" style="margin-left:0px;">
                 <div class="big-index">
                     <h3 style="display:inline;">Recent Blogs</h3>
                     <button id="sliding-prev-page">Prev</button>
@@ -107,7 +105,6 @@
                                         <img src="{{blog.image.url}}"/>
                                     </div>
                                 {% else %}
-                                    <br/>
                                     <br/>
                                 {% endif %}
                                 <!--End Blog Image--> 

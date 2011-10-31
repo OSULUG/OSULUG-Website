@@ -14,11 +14,20 @@ p a:hover {
     color: #006B53;
     text-decoration: underline;
 }
+span a {
+    color: teal;
+    text-decoration: none;
+}
+span a:hover {
+    color: #006B53;
+    text-decoration: underline;
+}
 
 .main {
     overflow: hidden;
 }
 .main p img {
+    margin-bottom: 5px;    
     max-height:320px;
     max-width: 50%;
 }
@@ -60,15 +69,11 @@ hr {
 }
 
 .base-image img {
+    margin-top: 10px;
     margin-bottom: 3px;
-    max-height: 500px;
+    max-height: 480px;
 }
 
-#upcoming-events {
-    list-style: none;
-    margin-left: 0px;
-    padding-left: 0px;
-}
 .list {
     padding-left: 10px;
 }
@@ -168,7 +173,7 @@ ul.subpage-list li {
     line-height: inherit;
 }
 .subpage-title {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
     display: block;
     color: #F70;
@@ -200,6 +205,10 @@ ul.subpage-list li {
     height: 125px;
 }
 
+.blog-top h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .blog-top img {
     float: left;
     padding-right: 20px;

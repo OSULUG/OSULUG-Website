@@ -12,6 +12,7 @@
 }
 .big-index img {
     float: left;
+    padding-top:15px;
     padding-right: 20px;
     max-width: 320px;
     max-height: 240px;
@@ -21,6 +22,9 @@
     background: white;
     border: none;
     line-height: 250%
+}
+.big-index-post p {
+    padding-top: 10px;
 }
 .big-index-post h1, .big-index-post h2 {
     display: none;
