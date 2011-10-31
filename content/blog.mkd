@@ -5,7 +5,7 @@ url: /blog/index{page}.html
 
 index:
     height: 200
-    char_limit: 900
+    char_limit: 940
 
 pagination:
     list: page.subpages

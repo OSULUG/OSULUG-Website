@@ -48,8 +48,8 @@ span a:hover {
     display: block;
     display: -webkit-box;
 }
-.main h1 { font-size: 2.0em; padding-bottom:5px;}
-.main h2 { font-size: 1.6em; padding-bottom:5px;}
+.main h1 { font-size: 2.0em; margin-bottom:5px;}
+.main h2 { font-size: 1.6em; margin-bottom:5px;}
 .main h3 { font-size: 1.3em; }
 .main h4 { font-size: 1.0em; }
 .main h5 {
@@ -69,13 +69,12 @@ hr {
 }
 
 .base-image img {
-    margin-top: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     max-height: 480px;
 }
 
 .list {
-    padding-left: 10px;
+    margin-left: 10px;
 }
 .list h3, .list h4 {
     line-height: 18px;
@@ -129,14 +128,13 @@ hr {
 }
 
 .heading {
-    margin-top: 7px;
-    margin-bottom: 18px;
+    margin-top: 10px;
 }
 .heading h1, .heading h2, .heading h3,
 .heading h4, .heading h5, .heading h6 {
     margin: 0px;
 }
-
+           
 .page_pic {
     margin-bottom: 20px;
 }
@@ -154,9 +152,10 @@ hr {
     text-align: right;
 }
 .page_pic.top img {
-    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 .page_pic img {
+    margin-top: 5px;
     display: block;
 }
 
@@ -206,12 +205,12 @@ ul.subpage-list li {
 }
 
 .blog-top h3{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .blog-top img {
     float: left;
-    padding-right: 20px;
+    margin-right: 20px;
     max-width: 960px;
     max-height: 320px;
 }

@@ -1,3 +1,6 @@
+.big-index-heading h3 {
+    margin-bottom: -10px;
+}
 .big-index-title {
     font-size: 1.3em;
     font-weight: bold;
@@ -12,8 +15,8 @@
 }
 .big-index img {
     float: left;
-    padding-top:15px;
-    padding-right: 20px;
+    margin-top:15px;
+    margin-right: 20px;
     max-width: 320px;
     max-height: 240px;
 }
@@ -24,7 +27,7 @@
     line-height: 250%
 }
 .big-index-post p {
-    padding-top: 10px;
+    margin-top: 10px;
 }
 .big-index-post h1, .big-index-post h2 {
     display: none;
