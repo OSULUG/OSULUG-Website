@@ -7,6 +7,7 @@ location: Dearborn 212
 image:
     url: /images/events/20111101_haskell.svg
     where: left
+    width: 33%
 ---
 
 Ian Milligan, a math graduate student who likes computer science more than math
