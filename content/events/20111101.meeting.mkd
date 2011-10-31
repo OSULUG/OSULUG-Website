@@ -15,6 +15,6 @@ Ian Milligan, a math graduate student who likes computer science more than
 math, is going to come tell us why Haskell is the best programming language
 evar.  Bring your laptop, and we can play with some code.
 
-When: November 1th, 6 PM
+When: November 1st, 6 PM
 
 Where: Dearborn 212
