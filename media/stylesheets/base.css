@@ -39,8 +39,8 @@ p a:hover {
     display: block;
     display: -webkit-box;
 }
-.main h1 { font-size: 2.0em; }
-.main h2 { font-size: 1.6em; }
+.main h1 { font-size: 2.0em; padding-bottom:5px;}
+.main h2 { font-size: 1.6em; padding-bottom:5px;}
 .main h3 { font-size: 1.3em; }
 .main h4 { font-size: 1.0em; }
 .main h5 {
@@ -64,6 +64,11 @@ hr {
     max-height: 500px;
 }
 
+#upcoming-events {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
 .list {
     padding-left: 10px;
 }
