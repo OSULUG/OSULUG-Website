@@ -85,8 +85,8 @@
                     <button id="sliding-next-page">Next</button>
                     <br/>
                     <br/>
-                    {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
-                        {% if not blog.featured %}
+                    <div class="sliding-index">
+                        {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if not blog.featured %}
                             <div class="sliding-index-page{{ loop.index0 // pagination.limit }}">
                                 <!--Header Group--> 
                                 <span class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
@@ -124,8 +124,8 @@
                                 <!--End Blog Preview Post--> 
                                 <div style="clear:both;"></div>
                             </div>
-                        {% endif %}
-                    {% endfor %}    
+                        {% endfor %}    
+                    </div>
                 </div>
             </div>
             <!--End Blog Posts-->

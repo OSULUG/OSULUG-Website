@@ -15,7 +15,7 @@ $(document).ready(function(){
     $('#sliding-prev-page').click(function(){
         $('#sliding-next-page').show()
         if (current_page != 0){
-            $('div.sliding-index-page' + current_page).hide('slow');
+            $('div.sliding-index-page' + current_page).hide();
             current_page--;
             if (current_page == 0){
                 $('#sliding-prev-page').hide()

@@ -214,3 +214,8 @@ ul.subpage-list li {
     max-width: 960px;
     max-height: 320px;
 }
+
+.sliding-index {
+    min-height: 800px;
+    max-height: 800px;
+}
