@@ -35,3 +35,18 @@ body > .wrap {height: auto; min-height: 100%;}
 * html .clearfix { height: 1%;}
 .clearfix {display: block;}
 /* End hide from IE-mac */
+
+.footer {
+    text-align:center;
+    padding-top: 12px;
+    background-color: #FFEECC;
+    height: 100px;
+    margin-top: -100px;
+}
+.footer a {
+    text-decoration: none;
+    color: teal;
+}
+.footer a:hover {
+    color: #006B53;
+}

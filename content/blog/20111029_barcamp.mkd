@@ -6,6 +6,7 @@ image:
     url: /images/blog/20111029_barcamp/tux.jpg
 datetime: 2011-10-29 11:00:00
 
+featured: True
 ---
 
 [Beaver Bar Camp 8][bbc8] was a large success. For those who don't know,

@@ -1,10 +1,9 @@
 title: Home
 type: home
 url: /index{page}.html
-image:
-    url: /images/firefox_crop_circle.jpg
-    where: top
-    caption: Created by the OSU LUG to celebrate <a href="http://firefoxcropcircle.com/circle">the 200 millionth download of Firefox</a>.
+
+pagination:
+    limit: 3
 ---
 
 Welcome to the new OSU LUG website!
@@ -13,16 +12,13 @@ Welcome to the new OSU LUG website!
 This site is currently under active development to replace the old site, and we
 welcome [any feedback][gh-issues] about how the site could be improved. The
 source for the site can found on [github][source]. For now, check out what is
-here, join our [IRC channel][irc-guide], and keep an eye out for helpful information and
-upcoming events posted here.
+here, join our [IRC channel][irc-guide], and keep an eye out for helpful
+information and upcoming events posted here. LUG meets every week on **Tuesday at
+6:00pm in the Dearborn EECS Library**. To get to the Library, go up the stairs
+near the elevator, take a right, and then take another right. It is straight
+ahead.
 
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 [source]: https://github.com/OSULUG/OSULUG-Website/
 [irc-guide]: http://lug.oregonstate.edu/guides/irc/index.html
 
-Meetings
---------
-
-LUG meets every week on Tuesday at 6:00pm in the Dearborn EECS Library. To get
-to the Library, go up the stairs near the elevator, take a right, and then
-take another right. It is straight ahead.

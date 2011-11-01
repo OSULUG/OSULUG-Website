@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{# Set defaults #}
+
+{% set min_height = 150 %}
+{% set char_limit = 500 %}
+{% set collection = page.subpages %}
+
+{% if page.index %}
+    {% if page.index.height %}
+        {% set min_height = page.index.height %}
+    {% endif %}
+    {% if page.index.char_limit %}
+        {% set char_limit = page.index.char_limit %}
+    {% endif %}
+    {% if page.index.char_limit %}
+        {% set char_limit = page.index.char_limit %}
+    {% endif %}
+
+    {% if page.index.sort_key %}
+        {% if page.index.reverse %}
+            {% set collection = page.subpages|
+                sort(attribute=page.index.sort_key) %}
+        {% else %}
+            {% set collection = page.subpages|
+                sort(attribute=page.index.sort_key, reverse=True) %}
+        {% endif %}
+    {% endif %}
+{% endif %}
+
+{# Render list #}
+
+{% block content %}
+<h1>{{ page.title }}</h1>
+{{ page.content }}
+
+<div class="big-index">
+    {% for subpage in collection %}
+        <div class="big-index-item">
+            <div class="big-index-heading">
+                <h3><a href="{{subpage.url}}">{{subpage.title}}</a></h3>
+                <span class="metadata">
+                    {% if subpage.authors %}
+                        by {% for author in subpage.authors %}
+                            {% if loop.last and not loop.first %}and {% endif %}
+                            {{ author.name }}{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    {% if subpage.datetime %}
+                        on {{ subpage.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
+                    {% endif %}
+                </span>
+            </div>
+
+            {% if subpage.image %}
+                <img src="{{subpage.image.url}}"/>
+            {% endif %}
+
+            <div>
+                <span class="big-index-post">
+                    {{subpage.content|truncate(length=char_limit, end="<a href="+subpage.url+">...more</a>")}}
+                </span>
+                {% if not loop.last %}
+                    <hr/>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

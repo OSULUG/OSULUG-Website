@@ -1,0 +1,45 @@
+.big-index-heading h3 {
+    margin-bottom: -10px;
+}
+.big-index-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+}
+.big-index-title a {
+    color: #F70;
+}
+.big-index-title a:hover {
+    color: #F70;
+    text-decoration: underline;
+}
+.big-index img {
+    float: left;
+    margin-top:15px;
+    margin-right: 20px;
+    max-width: 320px;
+    max-height: 240px;
+}
+.big-index pre {
+    display: inline;
+    background: white;
+    border: none;
+    line-height: 250%
+}
+.big-index-post p {
+    margin-top: 10px;
+}
+.big-index-post h1, .big-index-post h2 {
+    display: none;
+}
+.big-index-post span {
+    float:right;
+    width:200px;
+}
+.big-index-post img {
+    display: none;
+}
+.metadata {
+    color: #AAA;
+    font-weight: bold;
+}

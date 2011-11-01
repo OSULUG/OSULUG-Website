@@ -1,15 +1,33 @@
-.main a {
+a {
+    color: #F70;
     text-decoration: none;
-    color: teal;
 }
-.main a:hover {
+a:hover {
+    color: #F70;
     text-decoration: underline;
-    color: #006B53;
 }
+p a {
+    color: teal;
+    text-decoration: none;
+}
+p a:hover {
+    color: #006B53;
+    text-decoration: underline;
+}
+span a {
+    color: teal;
+    text-decoration: none;
+}
+span a:hover {
+    color: #006B53;
+    text-decoration: underline;
+}
+
 .main {
     overflow: hidden;
 }
 .main p img {
+    margin-bottom: 5px;    
     max-height:320px;
     max-width: 50%;
 }
@@ -30,11 +48,8 @@
     display: block;
     display: -webkit-box;
 }
-hr {
-    clear: both;
-}
-.main h1 { font-size: 2.0em; }
-.main h2 { font-size: 1.6em; }
+.main h1 { font-size: 2.0em; margin-bottom:5px;}
+.main h2 { font-size: 1.6em; margin-bottom:5px;}
 .main h3 { font-size: 1.3em; }
 .main h4 { font-size: 1.0em; }
 .main h5 {
@@ -47,13 +62,19 @@ hr {
     font-weight: normal;
     color: #AAA;
 }
+hr {
+    padding-top: 20px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
 .base-image img {
-    margin-bottom: 3px;
-    max-height: 500px;
+    margin-bottom: 5px;
+    max-height: 480px;
 }
 
 .list {
-    padding-left: 10px;
+    margin-left: 10px;
 }
 .list h3, .list h4 {
     line-height: 18px;
@@ -70,6 +91,10 @@ hr {
     color: #2d486d;
 }
 .header a {
+    text-decoration: none;
+    color: #2d486d;
+}
+.header a:hover {
     text-decoration: none;
     color: #2d486d;
 }
@@ -95,28 +120,21 @@ hr {
 }
 .navigation a:hover {
     text-decoration: none;
+    color:black;
     background-color: #FFC48F;
 }
 .navigation a.current_nav {
     border: 2px solid #FFC48F;
 }
 
-.headinggroup {
-    margin-top: 7px;
-    margin-bottom: 18px;
+.heading {
+    margin-top: 10px;
 }
-
-.headinggroup h1, .headinggroup h2, .headinggroup h3,
-.headinggroup h4, .headinggroup h5, .headinggroup h6 {
+.heading h1, .heading h2, .heading h3,
+.heading h4, .heading h5, .heading h6 {
     margin: 0px;
 }
-.metadata {
-    color: #AAA;
-    font-weight: bold;
-}
-
-/* These are for in page headers, which should be slightly smaller */
-
+           
 .page_pic {
     margin-bottom: 20px;
 }
@@ -138,7 +156,11 @@ hr {
     text-align: right;
 }
 .page_pic.top img {
-    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.page_pic img {
+    margin-top: 5px;
+    display: block;
 }
 
 p {
@@ -154,7 +176,7 @@ ul.subpage-list li {
     line-height: inherit;
 }
 .subpage-title {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
     display: block;
     color: #F70;
@@ -186,55 +208,18 @@ ul.subpage-list li {
     height: 125px;
 }
 
-.blog-index h3, .blog-index h4 {
-    line-height: 18px;
+.blog-top h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.blog-index-post pre {
-    display: inline;
-    background: white;
-    border: none;
-    line-height: 250%
-}
-.blog-index-post span {
-    float:right;
-    width:200px;
-}
-.blog-index-post img {
-    display: none;
-}
-.blog-index-post h1, .blog-index-post h2 {
-    display: none;
-}
-.blog-index-image img {
+.blog-top img {
     float: left;
-    padding-right: 20px;
-    max-width: 320px;
-    max-height: 240px;
-}
-.blog-index-title {
-    font-size: 1.3em;
-    font-weight: bold;
-    display: block;
-}
-.blog-index-title a {
-    color: #F70;
-}
-.blog-index-title a:hover {
-    color: #F70;
-    text-decoration: underline;
+    margin-right: 20px;
+    max-width: 960px;
+    max-height: 320px;
 }
 
-.footer {
-    text-align:center;
-    padding-top: 12px;
-    background-color: #FFEECC;
-    height: 100px;
-    margin-top: -100px;
-}
-.footer a {
-    text-decoration: none;
-    color: teal;
-}
-.footer a:hover {
-    color: #006B53;
+.sliding-index {
+    min-height: 800px;
+    max-height: 800px;
 }

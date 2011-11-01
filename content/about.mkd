@@ -1,7 +1,7 @@
 title: About Us
 slug: about
 tags: navigation
-navrank: 2
+navrank: 1
 image:
     url: /images/installfest.jpg
     where: right
