@@ -81,8 +81,11 @@
                     <form method="link" action="/blog/index.html" style="display:inline;">
                         <button id="sliding-all"><a href="/blog/index.html">All</a></button>
                     </form>
-                    <button id="sliding-prev-page">Prev</button>
-                    <button id="sliding-next-page">Next</button>
+                    <!--Graceful degradation for non-js enabled browsers-->
+                    <noscript><div style="display:none;"</noscript>
+                        <button id="sliding-prev-page">Prev</button>
+                        <button id="sliding-next-page">Next</button>
+                    <noscript></div></noscript>
                     <br/>
                     <br/>
                     <div class="sliding-index">
