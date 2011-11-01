@@ -46,7 +46,7 @@
                  <h3>Upcoming Events</h3>
                  <br/>
                  <ol>
-                    {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) if event.datetime > site.datetime %}
+                    {% for event in site.categories['events'] | sort(attribute='datetime') if event.datetime > site.datetime %}
                         <li class="list">
                             <h3>
                                 <a href="{{ event.url }}">{{ event.title }}</a>
