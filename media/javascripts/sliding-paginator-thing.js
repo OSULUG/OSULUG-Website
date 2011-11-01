@@ -9,16 +9,17 @@ $(document).ready(function(){
     }
     current_page = 0;
     $('div.sliding-index-page' + current_page).show();
-    $('#sliding-prev-page').css('visibility', 'hidden')
+    document.getElementById("sliding-prev-page").disabled = true;
+    document.getElementById("sliding-next-page").disabled = false;
 
     // previous page
     $('#sliding-prev-page').click(function(){
-        $('#sliding-next-page').css('visibility', 'visible')
+        document.getElementById("sliding-next-page").disabled = false;
         if (current_page != 0){
             $('div.sliding-index-page' + current_page).hide();
             current_page--;
             if (current_page == 0){
-                $('#sliding-prev-page').css('visibility', 'hidden')
+                document.getElementById("sliding-prev-page").disabled = true;
             }
             $('div.sliding-index-page' + current_page).show('slide', {direction:'left'}, 800);                
         }
@@ -26,12 +27,12 @@ $(document).ready(function(){
 
     // next page
     $('#sliding-next-page').click(function(){
-        $('#sliding-prev-page').css('visibility', 'visible')
+        document.getElementById("sliding-prev-page").disabled = false;
         if (current_page != num_pages-1){
             $('div.sliding-index-page' + current_page).hide();
             current_page++;
             if (current_page == num_pages-1){
-                $('#sliding-next-page').css('visibility', 'hidden')
+                document.getElementById("sliding-next-page").disabled = true;
             }
             $('div.sliding-index-page' + current_page).show('slide', {direction:'right'}, 800);
         }
