@@ -1,0 +1,79 @@
+title: "Recap: Introduction to Haskell"
+category: blog
+author: Kevin Ngo <ngoke@onid.oregonstate.edu>
+
+image:
+    url: /images/events/20111101_haskell.svg
+
+datetime: 2011-11-01 18:00:00
+
+---
+
+Ian Milligan, a math graduate student, gave the LUG an introduction to Haskell.
+Haskell is a functional programming language that is quite different from the
+usual imperative programming languages. We did calculated Fib numbers and
+generators (infinite lists on the fly) Haskell-style. It was an intense
+experience that left several of us dazed, but it was interesting to see
+something different. At the end, here was our demo code.
+
+
+    module Demo where 
+    import Prelude hiding (fst)
+    
+    {-
+        function notation doesn't use parenthesis, argument is space
+    -}
+    
+    {- define type to be product of a and b -}
+    data Tuple a b = Cons a b deriving Show
+    
+    {- pair of a and b to an a -}
+    fst :: Tuple a b -> a
+    fst (Cons x y) = x
+    
+    snd :: Tuple a b -> b
+    snd (Cons _ y) = y
+    
+    {- Function composition is the act of pipelining the result of one function, to the input of another, creating an entirely new function. This can be done with any two functions, where the argument type of the first is the return type of the second. The newly created function takes what the second function would as a parameter and feeds it through the second function, then the result of the second function through the first function, and returns the result of the first function. -}
+    (.) :: (b -> c) -> (a -> b) -> a -> c
+    
+    {- f composed of g applied to x is f of g of x -}
+    ((.) f g ) x = f (g x)
+    
+    {- :t Head 10 nil // first element is 10, rest is nil -}
+    data List a = Nil | Head a (List a)
+    
+    {- add one to every element in the list -}
+    addOne :: [Int] -> [Int]
+    addOne [] = []
+    addOne (x:xs) = (x+1) : addOne xs
+    
+    {- add one with any function -}
+    map :: (a -> b) -> [a] -> [b]
+    map f [] = [] {- map applied to f applied to the empty list -}
+    map f (x:xs) = f x : map f xs {- map applied to f, pattern matching on the list -} {- f of x cons mapping rest of list -} {- recurse over data structure -}
+    
+    {- function sum that takes a list of integers and computers sum -}
+    sum :: [Int] -> int
+    sum [] = 0
+    sum (x:xs)
+    
+    {- [a0, a1, a2] -}
+    {- a0 + (a1 + (a2 + b )) -}
+    {- a0 f (ai f (a2 f b)) -}
+    
+    foldr :: (a -> b -> b) -> b -> [a] -> b
+    foldr f b [] = b
+    foldr f b (x:xs) = f x (folder f b xs)
+    
+    {- lazy evaluation, prints infinite list before it constructs it -}
+    ones :: [Int]
+    ones = 1: ones
+    
+    -- [f0, f1, f2,...]
+    -- [+    +
+    -- f1 -> f2 -> f3
+    fibs :: [Int] {- take entire list of fib numbers, fold to left, generate fib sequence starting at 1 -}
+    fibs = 0 : scanl (+) 1 fibs {- take 10 fibs -}
+    fibs = ((0:) . scanl (+) 1) fibs
+
