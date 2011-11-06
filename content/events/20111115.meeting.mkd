@@ -7,7 +7,7 @@ location: Dearborn 212
 
 ---
 
-[David Petersen](http://github.com/thedjpetersen), a former OSU student that
+[David Petersen](http://thedjpetersen.github.com), a former OSU student that
 interned at Cloudkick over the summer as a web developer, will be coming down
 to give a tutorial on screenscraping. For those who don't know, screenscraping
 is the art of pulling information from the web via HTTP requests and generally
