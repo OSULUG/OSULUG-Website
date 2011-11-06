@@ -1,0 +1,26 @@
+title: Meeting
+slug: meeting-screen-scrape
+datetime: 2011-11-15 06:00:00
+category: events
+preview: David Petersen talks about screenscraping 
+location: Dearborn 212
+
+---
+
+[David Petersen](http://github.com/thedjpetersen), a former OSU student that
+interned at Cloudkick over the summer as a web developer, will be coming down
+to give a tutorial on screenscraping. For those who don't know, screenscraping
+is the art of pulling information from the web via HTTP requests and generally
+parsing the HTML with regex. The talk will most likely be in Python.
+
+In the past, he has screenscraped the [OSU class registration
+website](http://github.com/ngokevin/reglib), a CSACS Java applet for
+[NET](http://oregonstate.edu/net), and worked on
+[soundcloud-dl](/blog/scrape-the-internet-our-python-soundcloud-api/index.html),
+a Python Soundcloud API. Screenscraping is an art, and it is quite easy to get
+a hang of in Python once you've done it a few times so come and learn!
+
+When: November 15th, 6 PM to 8 PM
+
+Where: Dearborn 212
+
