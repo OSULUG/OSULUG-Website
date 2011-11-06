@@ -27,7 +27,7 @@ as well. Security by obsurity much?
 
 We ran into a slight hitch. We were able to compose a valid URL with the stream
 token and the uid, but we weren't able to print out the cookies. We had to
-enlist the help of [thedjpetersen](http://github.com/thedjpetersen), the master
+enlist the help of [thedjpetersen](http://thedjpetersen.github.com), the master
 screenscraper. It took him a bit to independently catch up to where we were (he
 found out on his own that we needed a stream token, but we already grabbed
 that).  After a bit of frustration on trying to check out what cookies we had
