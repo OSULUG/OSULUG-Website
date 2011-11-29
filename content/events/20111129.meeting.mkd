@@ -1,0 +1,17 @@
+title: Non-Meeting
+slug: meeting-dead-week
+datetime: 2011-11-29 06:00:00
+category: events
+preview: Relax with us before finals!
+location: Dearborn 212
+
+---
+
+Nothing special this week again! Just come, relax, and/or study.
+
+This will be the last meeting for the term. Good luck on finals!
+
+When: November 29nd, 6 PM to 8 PM
+
+Where: Dearborn 212
+

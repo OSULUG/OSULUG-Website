@@ -52,18 +52,20 @@
                 </span>
             </div>
 
-            {% if subpage.image %}
-                <img src="{{subpage.image.url}}"/>
-            {% endif %}
-
             <div>
                 <span class="big-index-post">
                     {{subpage.content|truncate(length=char_limit, end="<a href="+subpage.url+">...more</a>")}}
+                    </pre>
+                    </code>
                 </span>
                 {% if not loop.last %}
                     <hr/>
                 {% endif %}
             </div>
+
+            {% if subpage.image %}
+                <img style="float:left" src="{{subpage.image.url}}"/>
+            {% endif %}
         </div>
     {% endfor %}
 </div>
