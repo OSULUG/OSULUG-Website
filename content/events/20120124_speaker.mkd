@@ -1,0 +1,14 @@
+title: Speaker (Topic to Be Announced)
+datetime: 2012-01-24 06:00:00
+category: events
+slug: speaker
+preview: Sean McGregor will be speaking, topic to be announced.
+location: Dearborn 212
+
+---
+
+Check back soon for further information.
+
+When: January 24th, 6 PM
+
+Where: Dearborn 212
