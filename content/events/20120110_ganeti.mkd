@@ -1,0 +1,12 @@
+title: GPG Talk / Keysigning Party
+category: events
+datetime: 2012-01-17 18:00:00
+tags: talk
+preview: Learn about virtualization with Ganeti!
+location: Dearborn 212
+
+---
+
+Ben Kero will be giving a talk on virtualization with Ganeti.
+
+
