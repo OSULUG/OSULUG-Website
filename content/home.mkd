@@ -4,6 +4,7 @@ url: /index{page}.html
 
 pagination:
     limit: 3
+    post_limit: 9
 ---
 
 Welcome to the new OSU LUG website!
