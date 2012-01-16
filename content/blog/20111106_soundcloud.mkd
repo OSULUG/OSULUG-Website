@@ -2,7 +2,6 @@ title: "Scrape the Internet! Our Python Soundcloud API"
 category: blog
 author: Kevin Ngo <ngoke@onid.oregonstate.edu>
 
-featured: true
 image:
     url: http://www.newsbackbone.com/wp-content/plugins/powerautoblog/images/69429102a7fb2a068bb00f2542081448-250x250.jpg
 
