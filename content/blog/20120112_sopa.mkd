@@ -58,7 +58,7 @@ Piracy is an issue that needs attention, but there are three problems with SOPA:
 <br/>
 ###The People Behind SOPA###
 
-The supporters behind SOPA are generally aware (and have even jokingly admitted
+The supporters behind SOPA are generally unaware (and have even jokingly admitted
 this) of the technological implications on DNS. A paper written by the Internet
 Systems Consortium stated that "these actions would threaten the Domain Name
 System's ability to provide universal naming, a primary source of the
