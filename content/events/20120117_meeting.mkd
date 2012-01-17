@@ -1,5 +1,5 @@
 title: Newbie Help Session
-datetime: 2012-01-17 06:00:00
+datetime: 2012-01-17 18:00:00
 category: events
 slug: meeting-help
 preview: Need help with anything from installing Linux, learning Django, fixing microwaves? Come!
