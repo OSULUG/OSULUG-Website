@@ -10,16 +10,17 @@ pagination:
 Welcome to the new OSU LUG website!
 -----------------------------------
 
-This site is currently under active development to replace the old site, and we
-welcome [any feedback][gh-issues] about how the site could be improved. The
-source for the site can found on [github][source]. For now, check out what is
-here, join our [IRC channel][irc-guide], and keep an eye out for helpful
-information and upcoming events posted here. LUG meets every week on **Tuesday at
-6:00pm in the Dearborn EECS Library**. To get to the Library, go up the stairs
-near the elevator, take a right, and then take another right. It is straight
-ahead.
+We keep in touch via the [mailing list][ml], and via the `#osu-lug` IRC
+channel on `irc.freenode.net`. For more info on IRC, check out our [IRC
+guide][ircguide].
+
+LUG meets every week on **Tuesday at 6:00pm in the Dearborn EECS Library**. To
+get to the Library, go up the stairs near the elevator, take a right, and then
+take another right. It is straight ahead.  Keep an eye out for helpful
+information and upcoming events posted here.
 
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 [source]: https://github.com/OSULUG/OSULUG-Website/
-[irc-guide]: http://lug.oregonstate.edu/guides/irc/index.html
+[ircguide]: /guides/irc/
+[ml]: http://lists.oregonstate.edu/mailman/listinfo/linux
 

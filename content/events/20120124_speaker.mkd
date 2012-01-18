@@ -1,4 +1,4 @@
-title: Speaker (Topic to Be Announced)
+title: Speaker [Topic to Be Announced]
 datetime: 2012-01-24 06:00:00
 category: events
 slug: speaker

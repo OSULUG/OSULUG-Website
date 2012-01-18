@@ -27,7 +27,7 @@ span a:hover {
     overflow: hidden;
 }
 .main p img {
-    margin-bottom: 5px;    
+    margin-bottom: 5px;
     max-height:320px;
     max-width: 50%;
 }
@@ -134,7 +134,7 @@ hr {
 .heading h4, .heading h5, .heading h6 {
     margin: 0px;
 }
-           
+
 .page_pic {
     margin-bottom: 20px;
 }

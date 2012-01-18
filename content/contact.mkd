@@ -3,9 +3,9 @@ type: contact
 tags: navigation
 navrank: 4
 ---
-We keep in touch via the [mailing list][ml], and via the `#osu-lug` IRC
-channel on `irc.freenode.net`. For more info on IRC, check out our [IRC
-guide][ircguide].
+We keep in touch via the [**mailing list**][ml], and via the `#osu-lug` IRC
+channel on `irc.freenode.net`. For more info on IRC, check out our [**IRC
+guide**][ircguide].
 
 Even if you aren't a member, feel more than free to subscribe to the mailing
 list or hang out in the IRC channel. We are a helpful and friendly group and do
