@@ -2,7 +2,7 @@ title: Guides
 slug: guide
 type: index-tag
 tags: navigation
-navrank: 2
+navrank: 3
 image:
     url: /images/penguin_how.jpg
     where: left
