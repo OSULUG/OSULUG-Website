@@ -1,0 +1,24 @@
+title: Meeting
+datetime: 2012-02-07 18:00:00
+category: events
+slug: meeting-help
+preview: Korbin Talks About Cernels! NEW MEETING LOCATION
+location: KEC1007
+
+---
+
+**This meeting will be held at the Kelley Engineering Center in room KEC1007**
+
+Corbin will be talking about kernels, building kernels, Colonel Sanders, etc.
+
+KEC1007
+KEC1007
+KEC1007
+KEC1007
+KEC1007
+
+WOO!
+
+When: February 7th, 6 PM
+
+Where: KEC1007
