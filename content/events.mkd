@@ -3,7 +3,7 @@ type: index-big
 slug: events
 
 tags: navigation
-navrank: 3
+navrank: 4
 
 pagination:
     list: page.subpages

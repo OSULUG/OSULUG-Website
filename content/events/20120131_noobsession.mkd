@@ -1,0 +1,17 @@
+title: Newbie Help Session
+datetime: 2012-01-31 18:00:00
+category: events
+slug: meeting-help
+preview: Need help with anything from installing Linux, learning Django, fixing microwaves? Come!
+location: Dearborn 212
+
+---
+
+**This meeting will be held at our normal time. Sorry about the confusion due to weather conditions**
+
+This will be sort of a freshman/newbie orientation and free meeting. Come and
+hang out, ask questions, get helped, or help others.
+
+When: January 31th, 6 PM
+
+Where: Dearborn 212
