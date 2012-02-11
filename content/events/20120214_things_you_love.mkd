@@ -1,0 +1,29 @@
+title: Meeting
+datetime: 2012-02-14 18:00:00
+category: events
+slug: meeting-love
+preview: Things You Love Lightning Talks
+location: KEC1007
+
+---
+
+Our next meeting falls on February 14th, Valentines day. Since it is the
+holiday all about love, we are going to have a special LUG meeting.  We hope
+that everyone will come and give a short (3-5 minutes) talk about something
+they love or are passionate about. It could be a cool new program, an open
+source project you contribute to, or a bit of hardware that is super cute.
+
+Our new room in Kelley has a projector, so feel free to bring a laptop to
+plugin and show a couple slides or give a demo on. If you don't have anything
+you care about enough to share, you are still welcome to come and learn about
+some cool things that others have found.
+
+Who: Everyone!
+
+What: Things You Love Lightning Talks
+
+When: Valentines Day, February 14th, 6 PM
+
+Where: *KEC1007*
+
+See you Tuesday!
