@@ -21,10 +21,10 @@
     max-height: 240px;
 }
 .big-index pre {
-    display: inline;
-    background: white;
-    border: none;
-    line-height: 250%
+    display: none;
+}
+.big-index-post pre {
+    display: none;
 }
 .big-index-post p {
     margin-top: 10px;

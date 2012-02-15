@@ -1,0 +1,114 @@
+title: '"Things You Love" Lightning Talks'
+slug: things-you-love
+category: blog
+author: Kevin Ngo <ngoke@onid.oregonstate.edu>
+
+image:
+    url: http://i.imgur.com/yGMWT.jpg
+    where: right
+tags: meeting
+
+featured: True
+
+date: 2012-02-14
+
+---
+
+###rTorrent - Jacques Uber###
+Tell subsonic to look at directory where music is downloaded. rTorrent watches
+a directory for new torrents. When it sees one it downloads it. Subsonic then
+sees the new media file, indexes it, and serves it. You can simply scp a
+torrent file over and it will automatically torrent and serve it. Ready to
+listen!
+
+###Flask - Corbin Simpson###
+Flask is a Python web framework that lets you create website
+insanely fast yet scales well.
+
+        import flask
+        app = flask.Flask(__name__)
+
+        counter = 0
+
+        @app.route("/")
+        def index():
+            global counter
+            counter + = 1
+            return """<p>I &hearts; flask!</p>"
+                <p>I have been viewed %d times</p>""" % (counter)
+
+
+        @app.route("/blink/<int:d>") # parameter d
+        def blink(d):
+            return """<blink>Do I blink?</blink><p>
+                You entered %d.</p>""" % d
+
+Don't need any additional folders/files/settings besides above.
+It just works; no need to have your views here and your urls
+there.
+
+###Puppet - Daniel Thornton###
+Puppet is a program that lets you configure computers from a set
+of configuration files. It has modules that configures various
+applications.
+
+Can install vim and move vim configs to appropriate directory.
+Install all files and sets up all programs.
+
+###Radio Repeaters - Anthony Odenthal###
+Wake up seldom-used 77-repeater on roof of Dearborn. Gave a call
+sign, radio did some cool beeping. Responded with call sign in Morse
+"W7-OSU-R" -R indicates it is a repeater. Responded with
+voice emulator. If cell phones go down, the repeater still works.
+
+Like an old school IRC.
+
+Valentine's Day has a history of romance on the radio network.
+
+###units - Mike Cooper###
+units is a unit converter and calculator.
+
+        You have: 2+2
+        You want:
+            Definition: 4
+
+        You have: 2 kilometers/second
+        You want: mph
+            * 4473.8726
+            / 0.00022352
+
+        You have: 1 parsec
+        You want: feet
+            * 1.2148337e+24
+            / 8.2315794e-25
+
+        You have: 30 miles / gallon
+        You want: acre
+            reciprocal conversion
+            * 1.9374186e-11
+            / 5.1615073e+10
+
+ipcalc shows network, min/max host, broadcast
+        $ ipcalc 128.193.0.0/16
+
+###Synapse - Kevin Ngo ###
+Synapse is a launcher program that you can use to pull
+up any program, document, file or SSH, upload to imgur
+simply by typing what you want. It will autocomplete
+for you and give you a list of matches.
+
+You can install via the PPA:
+        $ add-apt-repository ppa:synapse-core/ppa
+        $ apt-get update
+        $ apt-get install synapse
+
+###LyX - Brian Sherson###
+WYSIWYG editor for LaTeX. You can type a document and it will dynamically
+output what the .tex file. You can use it to take easily very pretty notes
+in math classes or type math labs, or anything else in general.
+
+###Terminator and Nyan-Cat - Mike Cooper###
+Terminator is a tiling terminal window manager where you can split,
+tile, tab, and group terminals.
+
+Also, NYAN CAT.

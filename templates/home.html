@@ -31,6 +31,8 @@
                         <span class="big-index-post">
                             <br/>
                             {{blog.content|truncate(length=1400)}}
+                            </pre>
+                            </code>
                             <a href="{{blog.url}}">more</a>
                             <hr/>
                         </span>
@@ -92,7 +94,7 @@
                         {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if not blog.featured %}
                             {% if loop.index0 <= pagination.post_limit %}
                                 <div class="sliding-index-page{{ loop.index0 // pagination.limit }}">
-                                    <!--Header Group--> 
+                                    <!--Header Group-->
                                     <span class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
                                     <span class="metadata">
                                         {% if blog.authors %}
@@ -105,8 +107,8 @@
                                             on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
                                         {% endif %}
                                     </span>
-                                    <!--End Header Group--> 
-                                    <!--Blog Image--> 
+                                    <!--End Header Group-->
+                                    <!--Blog Image-->
                                     {% if blog.image %}
                                         <div class="big-index">
                                             <img src="{{blog.image.url}}"/>
@@ -114,8 +116,8 @@
                                     {% else %}
                                         <br/>
                                     {% endif %}
-                                    <!--End Blog Image--> 
-                                    <!--Blog Preview Post--> 
+                                    <!--End Blog Image-->
+                                    <!--Blog Preview Post-->
                                     <div>
                                         <span class="big-index-post">
                                             {{blog.content|truncate(length=450)}}
@@ -125,11 +127,11 @@
                                             <hr/>
                                         {% endif %}
                                     </div>
-                                    <!--End Blog Preview Post--> 
+                                    <!--End Blog Preview Post-->
                                     <div style="clear:both;"></div>
                                 </div>
                             {% endif %}
-                        {% endfor %}    
+                        {% endfor %}
                     </div>
                 </div>
             </div>

@@ -2,7 +2,6 @@ title: "Why SOPA Sucks: The People, The Problem, The Solution"
 category: blog
 author: Kevin Ngo <ngoke@onid.oregonstate.edu>
 
-featured: true
 image:
     url: http://censorshipinamerica.files.wordpress.com/2011/12/lamar-smith.jpg
     where: right
