@@ -1,4 +1,4 @@
-title: '"Things You Love" Lightning Talks'
+title: 'Recap: "Things You Love" Lightning Talks'
 slug: things-you-love
 category: blog
 author: Kevin Ngo <ngoke@onid.oregonstate.edu>
@@ -13,6 +13,9 @@ featured: True
 date: 2012-02-14
 
 ---
+
+Oh, the love is in the air. For Valentine's Day, LUG got together and shared
+pieces of software or technology that they loved.
 
 ###rTorrent - Jacques Uber###
 Tell subsonic to look at directory where music is downloaded. rTorrent watches
