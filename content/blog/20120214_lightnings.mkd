@@ -101,6 +101,7 @@ simply by typing what you want. It will autocomplete
 for you and give you a list of matches.
 
 You can install via the PPA:
+
         $ add-apt-repository ppa:synapse-core/ppa
         $ apt-get update
         $ apt-get install synapse
