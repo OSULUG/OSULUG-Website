@@ -22,9 +22,8 @@ creating events with other groups on campus. We share many members with the
 [OSU Open Source Education Lab][osel] and are hosted by the [OSU Open Source
 Lab][osuosl].
 
-We have open meetings every Tuesday at 6:00 pm in the Dearborn EECS Library.
-To get to the Library, just go up the stairs near the elevator, take a right,
-and then take another right. From there, it is straight ahead.
+We have open meetings every Tuesday at 6:00 pm in the KEC1007 (Kelley Engr.
+Center).
 
 [Our Constitution][constitution].
 
