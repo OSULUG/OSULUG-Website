@@ -1,3 +1,16 @@
+.big-index-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+}
+.big-index-title a {
+    color: #F70;
+}
+.big-index-title a:hover {
+    color: #F70;
+    text-decoration: underline;
+}
+
 .big-index-heading {
     margin-top: 1.0em;
 }
@@ -29,16 +42,18 @@
 .big-index-post h1, .big-index-post h2 {
     display: none;
 }
-.big-index-post {
-    margin-top: 2em;
+.big-index-post p {
+    margin-top: 1.5em;
 }
-span.big-index-post {
-    float:right;
-    width:200px;
-}
+
 .big-index-post img {
     display: none;
 }
 .paging {
     margin-bottom: 1.4em;
+}
+
+.metadata {
+    color: #AAA;
+    font-weight: bold;
 }
