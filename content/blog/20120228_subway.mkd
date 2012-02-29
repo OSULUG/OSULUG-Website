@@ -1,0 +1,60 @@
+title: "Subway: A Persistent IRC Web Client"
+slug: subway
+category: blog
+author: Kevin Ngo <ngoke@onid.oregonstate.edu>
+
+image:
+    url: http://i.imgur.com/0O1xU.png
+    where: right
+tags: meeting
+
+featured: True
+
+date: 2012-02-28
+
+---
+
+[DJ Petersen](http://thedjpetersen.github.com) make a return visit to LUG to
+talk about his persistent IRC web client,
+[Subway](http://github.com/thedjpetersen/subay). DJ is a former OSU student who
+interned at Cloudkick last summer and is currently working as web developer in
+Eugene. You can currently try out Subway at
+[ridezap.com:3000](http://ridezap.com:3000).
+
+Subway was inspired when DJ saw [MostAwesomeDude](http://corbinsimpson.com)
+attempting to explain [IRC](http://lug.oregonstate.edu/blog/irc/index.html) and
+screen to a non-technical person over at the OSL. Though the idea that many of us
+run irssi/weechat on a server on a forked process so that we can come back and
+view messages and conversations while we were gone didn't quite sift through. IRC
+is like email or a social network to most of us, and it would be nice to bring
+people into that network who aren't as technical.
+
+A currently existing persistent IRC web client is grove.io which requires payment,
+although it is open source. DJ wanted to extend the capbility of current balancers
+such as screen, but that wasn't appropriate for multiple clients.
+[Paul Irish](http://paulirish.com), a well-known front-end developer on the
+Google Chrome Developer Relations and JQuery teams, had publicly said he wanted
+to improve design over the current popular web IRC client,
+[webchat](http://webchat.freenode.net) so people spun up qwebirc. Paul Irish
+even came into one of our IRC channels to give a shoutout to DJ and Subway.
+
+Though DJ wanted a persistent IRC web client. He collaborated with [Aaron
+Kavlie](http://github.com/akavlie), a developer who had written IRC client
+libraries in Node, to help develop Subway. As of writing, it is nearly
+finished.  Subway has many useful features after persistence such embedded and
+collapsible images and Youtube videos, notification sounds, user accounts, and
+not forgetting about the slick UI.
+
+Subway contains:
+
+    - NodeJS, a server-side Javascript library.
+    - MongoDB, a NoSQL database system
+    - node-irc, an IRC library that handles connections, passes messages, and
+      handles events
+    - socket.io, a NodeJS framework for WebSockets which makes it easier to
+      transport data between the backend and client
+    - backbone.js, a Javascript MVC framework that structures Javascript
+      applications used for UI management.
+
+Check out Subway as well as its code because it is a very slick project built
+on very modern (and for some, hated) web technologies.

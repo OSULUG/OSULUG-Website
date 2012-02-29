@@ -8,8 +8,6 @@ image:
     where: right
 tags: meeting
 
-featured: True
-
 date: 2012-02-14
 
 ---
