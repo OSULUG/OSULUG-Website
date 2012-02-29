@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-    <h2>{{ page.title }}</h2><br/>
+    <h2>{{ page.title }}</h2>
     <span class="metadata">
         {% if page.authors %}
             by {% for author in page.authors %}
@@ -9,10 +9,11 @@
                 {{ author.name }}{% if not loop.last %}, {% endif %}
             {% endfor %}
         {% endif %}
-        {% if page.date %}
+        {% if not page.navrank %}
             on {{ page.date.strftime("%x") }}
+            <br/>
         {% endif %}
-    </span>
+    </span><br/>
 {% endblock %}
 {% block content %}
     <div class="page">
