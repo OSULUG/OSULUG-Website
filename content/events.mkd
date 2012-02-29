@@ -5,9 +5,4 @@ slug: events
 tags: navigation
 navrank: 4
 
-pagination:
-    list: page.subpages
-    limit: 4
-    sort_key: date
-    sort_reverse: True
 ---
