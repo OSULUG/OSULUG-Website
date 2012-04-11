@@ -1,0 +1,15 @@
+title: Newbie Help Session
+datetime: 2012-04-17 18:00:00
+category: events
+slug: noobsession2
+preview: Need help with anything from installing Linux, learning Python, fixing toasters? Come!
+location: KEC1007
+
+---
+
+This will be sort of a freshman/newbie orientation and free meeting. Come and
+hang out, ask questions, get helped, or help others.
+
+When: Tuesday April 17th, 6 PM
+
+Where: KEC1007

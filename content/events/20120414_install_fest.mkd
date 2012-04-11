@@ -1,0 +1,17 @@
+title: Install-Fest
+datetime: 2012-04-14 14:00:00
+category: events
+slug: installfest
+preview: Helping others get their Linux on.
+location: DEAR212
+
+---
+
+Come if you
+
+- need help getting Linux installed
+- can help others getting Linux installed
+- have questions about Linux
+- love LUG!
+
+The location will be DEAR212 this Saturday at **2pm** and will last about an hour.
