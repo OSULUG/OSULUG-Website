@@ -1,0 +1,45 @@
+title: Beaver Bar Camp 9
+datetime: 2012-04-21 18:00:00
+category: events
+preview: Slightly better than Foo Camp.
+location: Kelley Engineering Center
+image:
+    url: /images/events/20111029_barcamp.png
+    where: top
+
+---
+
+Beaver BarCamp 9 hits OSU once again, brought to you by LUG and OSL.
+
+ Barcamp is a user-generated "crowd-sourced" conference, where volunteering
+attendees give all the talks. [Barcamp
+8](http://lug.oregonstate.edu/blog/20111029-barcamp/index.html) last Fall,
+sponsored by **Mozilla** and **ThumbArcade**, was successful thanks to all of
+those who came out.
+
+Last year's sessions included
+
+- Mozilla web security workshops
+- ThumbArcade speedhack sessions
+- PGP encryption
+- fancy SSH tricks
+- Puppet
+- Frugal cooking and beer brewing
+- Extending vim
+- [wok](http://wok.mythmon.com)
+
+When you show up expect to find a table of sticky notes on the wall that will
+tell you what rooms are available when and about the different talks. If you
+have something you want to give a talk about, write down the subject and put it
+on the wall. Everyone is welcome to come and go throughout the day to attend
+talks. Not only is the event **FREE**, but there will most likely be swag and
+food. There is the usual free t-shirt and last year, a Kindle Fire was raffled
+away.
+
+Hope you can make it!
+
+**When:** Saturday April 21st, 10 AM to 6 PM
+
+**Where:** Kelley Engineering Center (yeah, all of it)
+
+For some more information check out: [beaverbarcamp.org](http://beaverbarcamp.org)
