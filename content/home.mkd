@@ -20,6 +20,6 @@ helpful information and upcoming events posted here.
 
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 [source]: https://github.com/OSULUG/OSULUG-Website/
-[ircguide]: /guides/irc/
+[ircguide]: /blog/20110915-irc/
 [ml]: http://lists.oregonstate.edu/mailman/listinfo/linux
 
