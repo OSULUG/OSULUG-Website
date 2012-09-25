@@ -1,0 +1,12 @@
+title: First Meeting! 
+datetime: 2012-09-25 18:00:00
+category: events
+preview: Because we missed each other so much...
+location: Dearborn 212 
+
+---
+
+If you have a friend on campus who thinks Linux and other open-source software
+is pretty nifty, but doesn't know about LUG, tonight would be a great night to
+invite them along. As always, LUG meetings are open to all students, not just
+members. 
