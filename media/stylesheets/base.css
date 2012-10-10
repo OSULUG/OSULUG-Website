@@ -1,5 +1,11 @@
 body {
-    color: #4A4A4A;
+    color: #5A5A5A;
+    font-family: 'Scada', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 23px;
 }
 
 a {
@@ -25,6 +31,9 @@ span a {
 span a:hover {
     color: #006B53;
     text-decoration: underline;
+}
+li p {
+    text-align: left;
 }
 
 .main {
@@ -224,6 +233,6 @@ ul.subpage-list li {
 }
 
 .sliding-index {
-    min-height: 800px;
-    max-height: 800px;
+    min-height: 1000px;
+    max-height: 1000px;
 }
