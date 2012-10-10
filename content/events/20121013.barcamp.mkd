@@ -1,0 +1,30 @@
+title: Beaver Bar Camp 10
+datetime: 2012-10-13 10:00:00
+category: events
+preview: barcamp BarCamp BARCAMP!
+location: Kelley Engineering Center
+image:
+    url: /images/events/20111029_barcamp.png
+    where: top
+---
+
+OSU is once again hosting Beaver BarCamp!
+
+Barcamp is a user-generated conference, where the attendees give all
+the talks. When you show up you will find a complex graphing system (butcher
+paper and sticky notes) that will tell you what rooms are available when. If
+you have something you want to give a talk on, write down the subject and put
+it on the wall. Talk about gardening, programming, cooking, spider eradication,
+anything!
+
+Everyone is welcome to come and go throughout the day to attend talks. Not only
+is the event *FREE*, but there will be swag and food. Also, Mozilla will once
+again be involved, hosting web workshops and recruiting for talent.
+
+Check our recap of [last year's BarCamp](/blog/20111029-barcamp)
+
+When: October 13, 10 AM to 6 PM
+
+Where: Kelley Engineering Center (yes, all of it!)
+
+For more information check out: [beaverbarcamp.org](http://beaverbarcamp.org)
