@@ -1,5 +1,6 @@
 title: Beaver Bar Camp 10
 datetime: 2012-10-13 10:00:00
+slug: barcamp10
 category: events
 preview: barcamp BarCamp BARCAMP!
 location: Kelley Engineering Center
