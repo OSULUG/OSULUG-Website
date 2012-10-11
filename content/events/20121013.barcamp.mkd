@@ -11,16 +11,17 @@ image:
 
 OSU is once again hosting Beaver BarCamp!
 
-Barcamp is a user-generated conference, where the attendees give all
-the talks. When you show up you will find a complex graphing system (butcher
-paper and sticky notes) that will tell you what rooms are available when. If
-you have something you want to give a talk on, write down the subject and put
-it on the wall. Talk about gardening, programming, cooking, spider eradication,
-anything!
+Barcamp is an interactive user-generated conference, where the attendees give
+all the talks. When you show up you will find a complex graphing system
+(butcher paper and sticky notes) that will tell you what rooms are available
+when. If you have something you want to give a talk on, write down the subject
+and put it on the wall. Talk about gardening, programming, cooking, spider
+eradication, anything!
 
 Everyone is welcome to come and go throughout the day to attend talks. Not only
-is the event *FREE*, but there will be swag and food. Also, Mozilla will once
-again be involved, hosting web workshops and recruiting for talent.
+is the event *FREE*, but there will be swag and food. Beaver BarCamp 10 is
+sponsored by Mozilla and Rackspace. There will be workshops hosted by current
+Mozilla employees.
 
 Check our recap of [last year's BarCamp](/blog/20111029-barcamp)
 
