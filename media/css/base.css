@@ -18,11 +18,11 @@ p, li {
   line-height: 28px; }
 
 a {
-  color: teal;
+  color: #0f948a;
   font-weight: bold;
   text-decoration: none; }
   a:hover {
-    color: teal;
+    color: #0f948a;
     text-decoration: underline; }
 
 ul li, ol li {
@@ -105,13 +105,13 @@ hr.padded {
       text-decoration: underline; }
 
 .header h2 {
-  color: #2d486d; }
+  color: #0a2a68; }
 .header a {
   text-decoration: none;
-  color: #2d486d; }
+  color: #0a2a68; }
   .header a:hover {
     text-decoration: none;
-    color: #2d486d; }
+    color: #0a2a68; }
 
 .site-header, .logo {
   margin-top: 13px; }
@@ -126,17 +126,17 @@ hr.padded {
   text-align: center; }
   .navigation a {
     padding: 15px;
-    color: black;
+    color: #5a5a5a;
     font-weight: bold;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px; }
     .navigation a:hover {
       text-decoration: none;
-      color: black;
-      background-color: #f5c896; }
+      color: #5a5a5a;
+      background-color: #f8cd7e; }
     .navigation a.current_nav {
-      background-color: #f5c896; }
+      background-color: #f8cd7e; }
 
 .heading {
   margin-top: 10px; }
@@ -193,8 +193,8 @@ ul.subpage-list {
 
 .sliding-index {
   margin-top: 26px;
-  max-height: 1250px;
-  min-height: 1250px; }
+  max-height: 1100px;
+  min-height: 1100px; }
 
 div.recent-blogs.columns {
   margin-left: 0; }
@@ -214,13 +214,22 @@ div.events.columns {
     font-style: italic; }
 
 .footer {
-  background-color: #f5c896;
+  -moz-box-shadow: 2px 2px 4px #5a5a5a;
+  -webkit-box-shadow: 2px 2px 4px #5a5a5a;
+  box-shadow: 2px 2px 4px #5a5a5a;
+  background-color: #f7c466;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f8cd7e), to(#f7c466));
+  background-image: -webkit-linear-gradient(#f8cd7e, #f7c466);
+  background-image: -moz-linear-gradient(#f8cd7e, #f7c466);
+  background-image: -ms-linear-gradient(#f8cd7e, #f7c466);
+  background-image: -o-linear-gradient(#f8cd7e, #f7c466);
+  background-image: linear-gradient(#f8cd7e, #f7c466);
   height: 100px;
   margin-top: -100px;
   padding-top: 20px;
   text-align: center; }
   .footer p {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 13px; }
 
 .c:after {

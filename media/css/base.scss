@@ -172,14 +172,14 @@ hr.padded {
     text-align: center;
     a {
         padding: 15px;
-        color: black;
+        color: $gray;
         font-weight: bold;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
         &:hover {
             text-decoration: none;
-            color: black;
+            color: $gray;
             background-color: $creamy-orange;
         }
         &.current_nav {
@@ -258,8 +258,8 @@ ul.subpage-list {
 
 .sliding-index {
     margin-top: 26px;
-    max-height: 1250px;
-    min-height: 1250px;
+    max-height: 1100px;
+    min-height: 1100px;
 }
 
 div.recent-blogs.columns {
@@ -287,13 +287,14 @@ div.events.columns {
 }
 
 .footer {
-    background-color: $creamy-orange;
+    @include img-box-shadow();
+    @include gradient($creamy-orange, darken($creamy-orange, 5%));
     height: 100px;
     margin-top: -100px;
     padding-top: 20px;
     text-align:center;
     p {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 13px;
     }
 }
