@@ -1,3 +1,5 @@
+@import "globals.scss";
+
 h3.big-index-title {
     display: block;
     font-size: 1.3em;
@@ -5,24 +7,22 @@ h3.big-index-title {
     margin-bottom: 0;
     line-height: 1.15em;
     a {
-        color: #F70;
+        color: $orange;
         &:hover {
-            color: #F70;
+            color: $orange;
             text-decoration: underline;
         }
     }
 }
 
 .big-index-heading {
-    margin-top: 1.0em;
+    margin-top: 13px;
 }
 
 .big-index {
     img {
         float: left;
-        margin-bottom: 1.5em;
-        margin-right: 1.5em;
-        margin-top: 1.5em;
+        margin: 9px 20px 12px 0;
         max-height: 210px;
         max-width: 210px;
     }
@@ -31,17 +31,15 @@ h3.big-index-title {
     }
 }
 
-.big-index-item hr {
+.big-index-item hr, hr.blog-divider {
+    clear: both;
     margin-top: 2em;
 }
 
 .big-index-post {
     margin-top: 13px;
     text-align: justify;
-    h1, h2, h3 {
-        display: none;
-    }
-    img {
+    h1, h2, h3, img, li {
         display: none;
     }
 }
@@ -51,6 +49,6 @@ h3.big-index-title {
 }
 
 .metadata {
-    color: #AAA;
+    color: $light-gray;
     font-weight: bold;
 }

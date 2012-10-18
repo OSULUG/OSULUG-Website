@@ -1,7 +1,7 @@
 $light-gray: rgb(170, 170, 170);
 $gray: rgb(90, 90, 90);
-$orange: rgb(225, 119, 0);
-$creamy-orange: rgb(255, 196, 143);
+$orange: rgb(240, 119, 25);
+$creamy-orange: rgb(245, 200, 150);
 $light-blue: teal;
 $blue: rgb(0, 101, 179);
 $dark-blue: rgb(45, 72, 109);
@@ -34,6 +34,6 @@ $dark-blue: rgb(45, 72, 109);
 }
 
 @mixin img-box-shadow() {
-    @include box-shadow(2px 2px 4px #888888);
+    @include box-shadow(2px 2px 4px $gray);
 }
 

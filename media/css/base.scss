@@ -1,6 +1,6 @@
 @import "globals.scss";
-
 body {
+    background-color: rgb(250, 250, 255);
     color: $gray;
     font-family: 'Scada', sans-serif;
 }
@@ -21,7 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 p, li {
     font-size: 16px;
     line-height: 28px;
-    margin-bottom: 0;
 }
 
 a {
@@ -45,7 +44,9 @@ ul, ol {
 
 .main {
     margin-top: 13px;
-    overflow: hidden;
+    img {
+        @include img-box-shadow();
+    }
     p {
         img {
             margin-bottom: 5px;
@@ -91,7 +92,7 @@ ul, ol {
     .page_pic {
         img {
             display: block;
-            margin-top: 5px;
+            margin: 5px 0 20px;
             max-width: 100%;
         }
         &.right {
@@ -113,12 +114,12 @@ ul, ol {
     }
     .page {
         img {
-            padding: 20px 0 20px 0;
+            margin: 20px 0 20px 0;
         }
     }
 }
 
-hr {
+hr.padded {
     padding-top: 20px;
     margin-bottom: 15px;
     clear: both;
@@ -162,7 +163,7 @@ hr {
 }
 .logo {
     position: relative;
-    right: 40px;
+    right: 5em;
 }
 
 .navigation {
@@ -182,7 +183,7 @@ hr {
             background-color: $creamy-orange;
         }
         &.current_nav {
-            border: 2px solid $creamy-orange;
+            background-color: $creamy-orange;
         }
     }
 }
@@ -220,7 +221,7 @@ ul.subpage-list {
     display: block;
 }
 
-.infoblock {
+#people {
     h1 {
         font-size: 1.4em;
         margin: 0;
@@ -275,22 +276,42 @@ div.recent-blogs.columns {
     }
 }
 
-.events {
-    margin-top: 26px;
+div.events.columns {
+    float: right;
+    ol {
+        margin-top: 26px;
+    }
+    .no-events {
+        font-style: italic;
+    }
 }
 
 .footer {
-    text-align:center;
-    padding-top: 12px;
-    background-color: $light-gray;
-    color: $gray;
+    background-color: $creamy-orange;
     height: 100px;
     margin-top: -100px;
+    padding-top: 20px;
+    text-align:center;
+    p {
+        font-size: 13px;
+        line-height: 13px;
+    }
 }
-.footer a {
-    text-decoration: none;
-    color: $orange;
+
+.c:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
-.footer a:hover {
-    text-decoration: underline;
+.c {
+    display: inline-block;
+}
+html[xmlns] .c {
+    display: block;
+}
+* html .c {
+    height: 1%;
 }

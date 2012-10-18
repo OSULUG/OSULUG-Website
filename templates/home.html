@@ -22,7 +22,7 @@ blog.title }}</a></h3>
               </pre>
               </code>
               <a href="{{blog.url}}">more</a>
-              <hr/>
+              <hr class="padded">
             </div>
           </div>
         </div>
@@ -31,10 +31,10 @@ blog.title }}</a></h3>
     <!--End Featured Blog Post-->
 
     <div class="row">
-      <div class="span4 columns" style="float:right;">
+      <div class="events span4 columns">
          <!--Upcoming Events-->
          <h3>Upcoming Events</h3>
-         <ol class="events">
+         <ol>
           {% for event in site.categories['events'] | sort(attribute='datetime') if event.datetime > site.datetime %}
             <li class="list">
               <h3>
@@ -49,13 +49,13 @@ blog.title }}</a></h3>
               {{ event.preview }}
             </li>
             {% if not loop.last %}
-              <hr/>
+              <hr>
             {% endif %}
           {% endfor %}
          </ol>
           {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) %}
             {% if loop.first and event.datetime < site.datetime %}
-              <p>Check back soon for future events!</p>
+              <p class="no-events">Check back soon for future events!</p>
             {% endif %}
           {% endfor %}
          <!--End Upcoming Events-->
@@ -92,18 +92,15 @@ blog.title }}</a></h3>
                   <!--End Blog Image-->
 
                   <!--Blog Preview Post-->
-                  <div>
-                    <div class="big-index-post">
-                      {{blog.content|truncate(length=450)}}
-                    </div >
+                  <div class="big-index-post">
+                    {{blog.content|truncate(length=450)}}
                     <a href="{{blog.url}}">more</a>
-                    {% if not loop.last %}
-                      <hr/>
-                    {% endif %}
-                  </div>
+                  </div >
+                  {% if not loop.last %}
+                  <hr class="blog-divider">
+                  {% endif %}
                   <!--End Blog Preview Post-->
 
-                  <div style="clear:both;"></div>
                 </div>
               {% endif %}
             {% endfor %}
