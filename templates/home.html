@@ -74,34 +74,38 @@ blog.title }}</a></h3>
           <noscript></div></noscript>
 
           <div class="sliding-index">
-            {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if not blog.featured %}
-              {% if loop.index0 <= pagination.post_limit %}
-                <div class="sliding-index-page{{ loop.index0 // pagination.limit }}">
-                  <!--Header Group-->
-                  <h3 class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></h3>
-                  {% set page = blog %}
-                  {% include "metadata.html" %}
-                  <!--End Header Group-->
+            {% set featured = False %}
+            {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) %}
+              {% if blog.featured and not featured %}
+                {% set featured = True %}
+              {% else %}
+                {% if loop.index0 <= pagination.post_limit %}
+                  <div class="sliding-index-page{{ loop.index0 // pagination.limit }}">
+                    <!--Header Group-->
+                    <h3 class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></h3>
+                    {% set page = blog %}
+                    {% include "metadata.html" %}
+                    <!--End Header Group-->
 
-                  <!--Blog Image-->
-                  {% if blog.image %}
-                    <div class="big-index">
-                      <img src="{{blog.image.url}}"/>
-                    </div>
-                  {% endif %}
-                  <!--End Blog Image-->
+                    <!--Blog Image-->
+                    {% if blog.image %}
+                      <div class="big-index">
+                        <img src="{{blog.image.url}}"/>
+                      </div>
+                    {% endif %}
+                    <!--End Blog Image-->
 
-                  <!--Blog Preview Post-->
-                  <div class="big-index-post">
-                    {{blog.content|truncate(length=450)}}
-                    <a href="{{blog.url}}">more</a>
-                  </div >
-                  {% if not loop.last %}
-                  <hr class="blog-divider">
-                  {% endif %}
-                  <!--End Blog Preview Post-->
-
-                </div>
+                    <!--Blog Preview Post-->
+                    <div class="big-index-post">
+                      {{blog.content|truncate(length=450)}}
+                      <a href="{{blog.url}}">more</a>
+                    </div >
+                    {% if not loop.last %}
+                    <hr class="blog-divider">
+                    {% endif %}
+                    <!--End Blog Preview Post-->
+                  </div>
+                {% endif %}
               {% endif %}
             {% endfor %}
             </div>
