@@ -13,6 +13,9 @@ h3.big-index-title {
 .big-index-heading {
   margin-top: 13px; }
 
+.sliding-index .big-index img {
+  margin-top: 20px; }
+
 .big-index img {
   float: left;
   margin: 9px 20px 12px 0;
