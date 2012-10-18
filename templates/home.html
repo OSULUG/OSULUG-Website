@@ -1,141 +1,118 @@
 {% extends "base.html" %}
 
 {% block content %}
+  <div class="container" id="home">
+    {{ page.content }}
 
-    <div class="container" id="home">
-        <!--Introduction Paragraph-->
-        {{ page.content }}
-        <!--End Introduction Paragraph-->
+    <!--Featured Blog Post-->
+    {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
+      {% if loop.first %}
+        <div class="featured-blog">
+          <h3 class="featured-header">Featured Blog</h3>
+          {% if blog.image %}
+            <img class="thumbnail" src="{{blog.image.url}}"/>
+          {% endif %}
+          <div>
+            <h3 class="big-index-title"><a href="{{blog.url}}">{{
+blog.title }}</a></h3>
+            {% set page = blog %}
+            {% include "metadata.html" %}
+            <div class="big-index-post">
+              {{blog.content|truncate(length=1400)}}
+              </pre>
+              </code>
+              <a href="{{blog.url}}">more</a>
+              <hr/>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+    <!--End Featured Blog Post-->
 
-        <!--Featured Blog Post-->
-        {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
-            {% if loop.first %}
-                <div class="blog-top">
-                    <h3 style="padding-top: 5px;">Featured Blog</h3>
-                    {% if blog.image %}
-                        <img class="thumbnail" src="{{blog.image.url}}"/>
-                    {% endif %}
-                    <div>
-                        <span class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
-                        <span class="metadata">
-                            {% if blog.authors %}
-                                by {% for author in blog.authors %}
-                                    {% if loop.last and not loop.first %}and {% endif %}
-                                    {{ author.name }}{% if not loop.last %}, {% endif %}
-                                {% endfor %}
-                            {% endif %}
-                            {% if blog.datetime %}
-                                on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
-                            {% endif %}
-                        </span>
-                        <span class="big-index-post">
-                            <br/>
-                            {{blog.content|truncate(length=1400)}}
-                            </pre>
-                            </code>
-                            <a href="{{blog.url}}">more</a>
-                            <hr/>
-                        </span>
-                    </div>
-                </div>
+    <div class="row">
+      <div class="span4 columns" style="float:right;">
+         <!--Upcoming Events-->
+         <h3>Upcoming Events</h3>
+         <ol class="events">
+          {% for event in site.categories['events'] | sort(attribute='datetime') if event.datetime > site.datetime %}
+            <li class="list">
+              <h3>
+                <a href="{{ event.url }}">{{ event.title }}</a>
+              </h3>
+              <h4>
+                {% if event.location %}
+                  {{ event.location }} -
+                {% endif %}
+                {{ event.date.strftime('%A %B %d, %Y') }}
+              </h4>
+              {{ event.preview }}
+            </li>
+            {% if not loop.last %}
+              <hr/>
             {% endif %}
-        {% endfor %}
-        <!--End Featured Blog Post-->
+          {% endfor %}
+         </ol>
+          {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) %}
+            {% if loop.first and event.datetime < site.datetime %}
+              <p>Check back soon for future events!</p>
+            {% endif %}
+          {% endfor %}
+         <!--End Upcoming Events-->
+      </div>
 
-        <div class="row">
-            <div class="span4 columns" style="float:right;">
-                 <!--Upcoming Events-->
-                 <h3>Upcoming Events</h3>
-                 <br/>
-                 <ol>
-                    {% for event in site.categories['events'] | sort(attribute='datetime') if event.datetime > site.datetime %}
-                        <li class="list">
-                            <h3>
-                                <a href="{{ event.url }}">{{ event.title }}</a>
-                            </h3>
-                            <h4>
-                                {% if event.location %}
-                                    {{ event.location }} -
-                                {% endif %}
-                                {{ event.date.strftime('%b %d, %Y') }}
-                            </h4>
-                            {{ event.preview }}
-                        </li>
-                        {% if not loop.last %}
-                            <hr/>
-                        {% endif %}
-                    {% endfor %}
-                    {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) %}
-                        {% if loop.first and event.datetime < site.datetime %}
-                            <br/>
-                            <br/>
-                            <i>Check back soon for future events!</i>
-                        {% endif %}
-                    {% endfor %}
-                 </ol>
-                 <!--End Upcoming Events-->
-            </div>
+      <!--Blog Posts-->
+      <div class="span11 columns recent-blogs">
+        <div class="big-index">
+          <h3 class="recent-blogs-header">Recent Blogs</h3>
+          <form class="sliding-btn" method="link" action="/blog/index.html">
+            <button class="btn info" id="sliding-all"><a href="/blog/index.html">All</a></button>
+          </form>
+          <noscript><div style="display:none;"</noscript>
+            <button href="#" class="btn info" id="sliding-prev-page">Prev</button>
+            <button href="#" class="btn info" id="sliding-next-page">Next</button>
+          <noscript></div></noscript>
 
-            <!--Blog Posts-->
-            <div class="span11 columns" style="margin-left:0px;">
-                <div class="big-index">
-                    <h3 style="display:inline;">Recent Blogs</h3>&nbsp;&nbsp;
-                    <form method="link" action="/blog/index.html" style="display:inline;">
-                        <button class="btn info" id="sliding-all"><a href="/blog/index.html">All</a></button>
-                    </form>
-                    <!--Graceful degradation for non-js enabled browsers-->
-                    <noscript><div style="display:none;"</noscript>
-                        <button href="#" class="btn info" id="sliding-prev-page">Prev</button>
-                        <button href="#" class="btn info" id="sliding-next-page">Next</button>
-                    <noscript></div></noscript>
-                    <br/>
-                    <br/>
-                    <div class="sliding-index">
-                        {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if not blog.featured %}
-                            {% if loop.index0 <= pagination.post_limit %}
-                                <div class="sliding-index-page{{ loop.index0 // pagination.limit }}">
-                                    <!--Header Group-->
-                                    <span class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></span>
-                                    <span class="metadata">
-                                        {% if blog.authors %}
-                                            by {% for author in blog.authors %}
-                                                {% if loop.last and not loop.first %}and {% endif %}
-                                                {{ author.name }}{% if not loop.last %}, {% endif %}
-                                            {% endfor %}
-                                        {% endif %}
-                                        {% if blog.datetime %}
-                                            on {{ blog.datetime.strftime("%A %B %d, %Y at %I:%M %p ") }}
-                                        {% endif %}
-                                    </span>
-                                    <!--End Header Group-->
-                                    <!--Blog Image-->
-                                    {% if blog.image %}
-                                        <div class="big-index">
-                                            <img src="{{blog.image.url}}"/>
-                                        </div>
-                                    {% else %}
-                                        <br/>
-                                    {% endif %}
-                                    <!--End Blog Image-->
-                                    <!--Blog Preview Post-->
-                                    <div>
-                                        <span class="big-index-post">
-                                            {{blog.content|truncate(length=450)}}
-                                        </span>
-                                        <a href="{{blog.url}}">more</a>
-                                        {% if not loop.last %}
-                                            <hr/>
-                                        {% endif %}
-                                    </div>
-                                    <!--End Blog Preview Post-->
-                                    <div style="clear:both;"></div>
-                                </div>
-                            {% endif %}
-                        {% endfor %}
+          <div class="sliding-index">
+            {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if not blog.featured %}
+              {% if loop.index0 <= pagination.post_limit %}
+                <div class="sliding-index-page{{ loop.index0 // pagination.limit }}">
+                  <!--Header Group-->
+                  <h3 class="big-index-title"><a href="{{blog.url}}">{{ blog.title }}</a></h3>
+                  {% set page = blog %}
+                  {% include "metadata.html" %}
+                  <!--End Header Group-->
+
+                  <!--Blog Image-->
+                  {% if blog.image %}
+                    <div class="big-index">
+                      <img src="{{blog.image.url}}"/>
                     </div>
+                  {% endif %}
+                  <!--End Blog Image-->
+
+                  <!--Blog Preview Post-->
+                  <div>
+                    <div class="big-index-post">
+                      {{blog.content|truncate(length=450)}}
+                    </div >
+                    <a href="{{blog.url}}">more</a>
+                    {% if not loop.last %}
+                      <hr/>
+                    {% endif %}
+                  </div>
+                  <!--End Blog Preview Post-->
+
+                  <div style="clear:both;"></div>
                 </div>
+              {% endif %}
+            {% endfor %}
             </div>
-            <!--End Blog Posts-->
-       </div>
-    </div>
+          </div>
+        </div>
+      </div>
+      <!--End Blog Posts-->
+
+     </div>
+  </div>
 {% endblock %}

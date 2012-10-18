@@ -2,18 +2,7 @@
 
 {% block title %}
     <h2>{{ page.title }}</h2>
-    <span class="metadata">
-        {% if page.authors %}
-            by {% for author in page.authors %}
-                {% if loop.last and not loop.first %}and {% endif %}
-                {{ author.name }}{% if not loop.last %}, {% endif %}
-            {% endfor %}
-        {% endif %}
-        {% if not page.navrank %}
-            on {{ page.date.strftime("%x") }}
-            <br/>
-        {% endif %}
-    </span><br/>
+    {% include "metadata.html" %}
 {% endblock %}
 {% block content %}
     <div class="page">

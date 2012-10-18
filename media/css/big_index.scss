@@ -1,7 +1,9 @@
-.big-index-title {
+h3.big-index-title {
+    display: block;
     font-size: 1.3em;
     font-weight: bold;
-    display: block;
+    margin-bottom: 0;
+    line-height: 1.15em;
     a {
         color: #F70;
         &:hover {
@@ -15,27 +17,16 @@
     margin-top: 1.0em;
 }
 
-.big-index-title {
-    line-height: 1.15em;
-}
-
 .big-index {
     img {
         float: left;
-        margin-top: 1.5em;
-        margin-right: 1.5em;
         margin-bottom: 1.5em;
-        max-width: 210px;
+        margin-right: 1.5em;
+        margin-top: 1.5em;
         max-height: 210px;
+        max-width: 210px;
     }
-    pre {
-        display: inline;
-        background: white;
-        border: none;
-        line-height: 250%;
-        display: none;
-    }
-    code {
+    pre, code {
         display: none;
     }
 }
@@ -45,11 +36,10 @@
 }
 
 .big-index-post {
-    h1, h2 {
+    margin-top: 13px;
+    text-align: justify;
+    h1, h2, h3 {
         display: none;
-    }
-    p {
-        margin-top: 1.5em;
     }
     img {
         display: none;

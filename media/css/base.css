@@ -2,28 +2,36 @@ body {
   color: #5a5a5a;
   font-family: 'Scada', sans-serif; }
 
-p {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree Serif', serif; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #e17700;
+    font-weight: bold;
+    text-decoration: none; }
+    h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+      color: #e17700;
+      text-decoration: underline; }
+
+p, li {
   font-size: 16px;
-  line-height: 23px; }
+  line-height: 28px;
+  margin-bottom: 0; }
 
 a {
-  color: #e17700;
+  color: teal;
+  font-weight: bold;
   text-decoration: none; }
   a:hover {
-    color: #e17700;
+    color: teal;
     text-decoration: underline; }
 
-p a, span a {
-  color: teal;
-  text-decoration: none; }
-  p a:hover, span a:hover {
-    color: #0065b3;
-    text-decoration: underline; }
-
-li p {
-  text-align: left; }
+ul li, ol li {
+  font-size: 16px; }
+  ul li p, ol li p {
+    text-align: left; }
 
 .main {
+  margin-top: 13px;
   overflow: hidden; }
   .main p img {
     margin-bottom: 5px;
@@ -40,26 +48,39 @@ li p {
      * This makes the code blocks not run under floated elements, though only.
      * In chrome. Is there a cross browser solution?
      */
+    clear: both;
     display: block;
     display: -webkit-box; }
   .main h1 {
-    font-size: 2.0em;
-    margin-bottom: 5px; }
+    font-size: 2.0em; }
   .main h2 {
-    font-size: 1.6em;
-    margin-bottom: 5px; }
+    font-size: 1.6em; }
   .main h3 {
     font-size: 1.3em; }
   .main h4 {
     font-size: 1.0em; }
   .main h5 {
-    font-size: 1.0em;
-    font-weight: normal;
-    color: #aaaaaa; }
+    font-size: 1.0em; }
   .main h6 {
-    font-size: 0.8em;
-    font-weight: normal;
-    color: #aaaaaa; }
+    font-size: 0.8em; }
+  .main .page_pic img {
+    display: block;
+    margin-top: 5px;
+    max-width: 100%; }
+  .main .page_pic.right {
+    float: right;
+    padding-left: 40px;
+    text-align: right; }
+  .main .page_pic.left {
+    float: left;
+    padding-right: 40px;
+    text-align: left; }
+  .main .page_pic.top {
+    text-align: right; }
+    .main .page_pic.top img {
+      margin-bottom: 5px; }
+  .main .page img {
+    padding: 20px 0 20px 0; }
 
 hr {
   padding-top: 20px;
@@ -89,11 +110,12 @@ hr {
     text-decoration: none;
     color: #2d486d; }
 
-.title {
-  margin-top: 7px; }
+.site-header, .logo {
+  margin-top: 13px; }
 
 .logo {
-  margin-top: 15px; }
+  position: relative;
+  right: 40px; }
 
 .navigation {
   float: right;
@@ -118,30 +140,10 @@ hr {
   .heading h1, .heading h2, .heading h3, .heading h4, .heading h5, .heading h6 {
     margin: 0px; }
 
-.page_pic {
-  margin-bottom: 20px; }
-  .page_pic img {
-    display: block;
-    max-width: 100%; }
-  .page_pic.right {
-    float: right;
-    margin-left: 20px;
-    text-align: right; }
-  .page_pic.left {
-    float: left;
-    margin-right: 20px;
-    text-align: left; }
-  .page_pic.top {
-    text-align: right; }
-    .page_pic.top img {
-      margin-bottom: 5px; }
-  .page_pic img {
-    margin-top: 5px;
-    display: block; }
-
-p {
-  margin: 0 0 10px;
-  text-align: justify; }
+.heading-group h2 {
+  color: #e17700;
+  margin-top: 26px;
+  line-height: 28px; }
 
 ul.subpage-list {
   list-style: none; }
@@ -178,18 +180,31 @@ ul.subpage-list {
   width: 125px;
   height: 125px; }
 
-.blog-top h3 {
-  margin-top: 5px;
-  margin-bottom: 5px; }
-.blog-top img {
+.featured-blog .featured-header {
+  margin-bottom: 13px; }
+.featured-blog img {
   float: left;
   margin-right: 20px;
   max-width: 960px;
   max-height: 320px; }
 
 .sliding-index {
-  min-height: 1000px;
-  max-height: 1000px; }
+  margin-top: 26px;
+  max-height: 1250px;
+  min-height: 1250px; }
+
+div.recent-blogs.columns {
+  margin-left: 0; }
+  div.recent-blogs.columns .recent-blogs-header {
+    display: inline; }
+  div.recent-blogs.columns .sliding-btn {
+    display: inline;
+    margin-left: 13px; }
+    div.recent-blogs.columns .sliding-btn a {
+      color: #5a5a5a; }
+
+.events {
+  margin-top: 26px; }
 
 .footer {
   text-align: center;
