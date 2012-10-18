@@ -1,16 +1,16 @@
 /* sticky-footer.css */
 
-/*  
+/*
 Sticky Footer Solution
-by Steve Hatcher 
+by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
 
-* {margin:0;padding:0;} 
+* {margin:0;padding:0;}
 
-/* must declare 0 margins on everything, also for main layout components use padding, not 
-vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+/* must declare 0 margins on everything, also for main layout components use padding, not
+vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
 
 html, body, .wrap {height: 100%;}
@@ -36,17 +36,3 @@ body > .wrap {height: auto; min-height: 100%;}
 .clearfix {display: block;}
 /* End hide from IE-mac */
 
-.footer {
-    text-align:center;
-    padding-top: 12px;
-    background-color: #FFEECC;
-    height: 100px;
-    margin-top: -100px;
-}
-.footer a {
-    text-decoration: none;
-    color: teal;
-}
-.footer a:hover {
-    color: #006B53;
-}

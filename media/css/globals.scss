@@ -1,0 +1,39 @@
+$light-gray: rgb(170, 170, 170);
+$gray: rgb(90, 90, 90);
+$orange: rgb(225, 119, 0);
+$creamy-orange: rgb(255, 196, 143);
+$light-blue: teal;
+$blue: rgb(0, 101, 179);
+$dark-blue: rgb(45, 72, 109);
+
+@mixin box-shadow($shadow) {
+    -moz-box-shadow: $shadow;
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+@mixin transform($transform) {
+    -moz-transform: $transform;
+   -ms-transform: $transform;
+   -o-transform: $transform;
+   -webkit-transform: $transform;
+}
+
+@mixin transition($transition) {
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+}
+
+@mixin transition-delay($delay) {
+   -moz-transition-delay: $delay;
+   -ms-transition-delay: $delay;
+   -o-transition-delay: $delay;
+   -webkit-transition-delay: $delay;
+}
+
+@mixin img-box-shadow() {
+    @include box-shadow(2px 2px 4px #888888);
+}
+

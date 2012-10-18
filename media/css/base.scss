@@ -1,5 +1,7 @@
+@import "globals.scss";
+
 body {
-    color: #5A5A5A;
+    color: $gray;
     font-family: 'Scada', sans-serif;
 }
 
@@ -9,19 +11,19 @@ p {
 }
 
 a {
-    color: #F70;
+    color: $orange;
     text-decoration: none;
     &:hover {
-        color: #F70;
+        color: $orange;
         text-decoration: underline;
     }
 }
 
 p a, span a {
-    color: teal;
+    color: $light-blue;
     text-decoration: none;
     &:hover {
-        color: #006B53;
+        color: $blue;
         text-decoration: underline;
     }
 }
@@ -72,12 +74,12 @@ li p {
     h5 {
         font-size: 1.0em;
         font-weight: normal;
-        color: #AAA;
+        color: $light-gray;;
     }
     h6 {
         font-size: 0.8em;
         font-weight: normal;
-        color: #AAA;
+        color: $light-gray;;
     }
 }
 
@@ -98,9 +100,9 @@ hr {
         line-height: 18px;
     }
     a {
-        color: #F70;
+        color: $orange;
         &:hover {
-            color: #F70;
+            color: $orange;
             text-decoration: underline;
         }
     }
@@ -108,14 +110,14 @@ hr {
 
 .header {
     h2 {
-        color: #2d486d;
+        color: $dark-blue;
     }
     a {
         text-decoration: none;
-        color: #2d486d;
+        color: $dark-blue;
         &:hover {
             text-decoration: none;
-            color: #2d486d;
+            color: $dark-blue;
         }
     }
 }
@@ -142,10 +144,10 @@ hr {
         &:hover {
             text-decoration: none;
             color: black;
-            background-color: #FFC48F;
+            background-color: $creamy-orange;
         }
         &.current_nav {
-            border: 2px solid #FFC48F;
+            border: 2px solid $creamy-orange;
         }
     }
 }
@@ -202,7 +204,7 @@ ul.subpage-list {
     font-size: 1.2em;
     font-weight: bold;
     display: block;
-    color: #F70;
+    color: $orange;
 }
 
 .subpage-subtitle {
@@ -224,7 +226,7 @@ ul.subpage-list {
         padding: 0;
         line-height: 1.2em;
         margin-bottom: 5px;
-        color: grey;
+        color: $gray;
     }
     img {
         float: left;
@@ -250,4 +252,20 @@ ul.subpage-list {
 .sliding-index {
     min-height: 1000px;
     max-height: 1000px;
+}
+
+.footer {
+    text-align:center;
+    padding-top: 12px;
+    background-color: $light-gray;
+    color: $gray;
+    height: 100px;
+    margin-top: -100px;
+}
+.footer a {
+    text-decoration: none;
+    color: $orange;
+}
+.footer a:hover {
+    text-decoration: underline;
 }
