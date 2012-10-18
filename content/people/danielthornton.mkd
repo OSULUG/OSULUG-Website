@@ -3,7 +3,7 @@ person:
     name: Daniel Thornton
     site: http://blog.relud.com
     irc: merthel
-    image: /images/people/danielthornton.jpg
+    image: /img/people/danielthornton.jpg
 ---
 Daniel is a senior studying computer science. He started using Linux at home in
 2006, but didn't really start to get involved in open source until 2008 when he

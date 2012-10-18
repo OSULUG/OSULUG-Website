@@ -6,7 +6,7 @@ tags: talk
 preview: Learn how to encrypt email and verify identities with GPG.
 location: Dearborn 212
 image:
-    url: /images/events/20111025_gpg.png
+    url: /img/events/20111025_gpg.png
     where: top
 ---
 Ben Kero, a former OSU student and current Mozilla employee, will be giving a

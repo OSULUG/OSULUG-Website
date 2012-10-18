@@ -6,7 +6,7 @@ person:
     title: Webmaster
     site: http://ngokevin.com
     irc: ngoke
-    image: /images/people/kevinngo.jpg
+    image: /img/people/kevinngo.jpg
 ---
 Kevin is an undergraduate computer science student at Oregon State University,
 born and raised in Portland. He currently works at the OSU Network Engineering

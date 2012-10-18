@@ -5,7 +5,7 @@ category: events
 preview: barcamp BarCamp BARCAMP!
 location: Kelley Engineering Center
 image:
-    url: /images/events/20111029_barcamp.png
+    url: /img/events/20111029_barcamp.png
     where: top
 ---
 

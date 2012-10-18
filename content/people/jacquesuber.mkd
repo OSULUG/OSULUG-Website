@@ -6,7 +6,7 @@ person:
     title: Secretary
     site: http://www.uberj.com
     irc: uberj
-    image: /images/people/jacquesuber.jpg
+    image: /img/people/jacquesuber.jpg
 ---
 Jacques is studying computer science, and enjoys listening to music.  He has a
 [github account][github], where most of the code written in his spare time ends

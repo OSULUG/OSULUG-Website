@@ -3,31 +3,19 @@
 
     <head>
         <title>{{ site.title }} - {{ page.title }}</title>
-        <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap-1.1.0.min.css"/>
-        <link rel="stylesheet" type="text/css" href="/stylesheets/sticky_footer.css"/>
-        <link rel="stylesheet" type="text/css" href="/stylesheets/base.css"/>
-        <link rel="stylesheet" type="text/css" href="/stylesheets/big_index.css"/>
-        <link rel="icon" type="image/x-icon" href="/images/linux-favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="/css/lib/bootstrap-1.1.0.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/lib/sticky_footer.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/base.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/big_index.css"/>
+        <link rel="icon" type="image/x-icon" href="/img/linux-favicon.png"/>
         <link href='http://fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="/javascripts/jquery-1.6.4.min.js"></script>
-        <script type="text/javascript" src="/javascripts/jquery-ui-1.8.16.custom.min.js"></script>
-        <script type="text/javascript" src="/javascripts/sliding-paginator-thing.js"></script>
-
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-26001055-1']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
+        <script type="text/javascript" src="/js/lib/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="/js/lib/jquery-ui-1.8.16.custom.min.js"></script>
+        <script type="text/javascript" src="/js/sliding-paginator-thing.js"></script>
+        {% block extrahead %}{% endblock %}
     </head>
 
     <body>
-
     <div class="wrap">
         <div class="container">
 
@@ -41,7 +29,7 @@
                     </div>
                     <div class="span2 columns">
                         <div class="logo">
-                            <a href="/"><img src="/images/lug_penguin.gif"/></a>
+                            <a href="/"><img src="/img/lug_penguin.gif"/></a>
                         </div>
                     </div>
                     <div class="span9 columns">
@@ -94,6 +82,17 @@
        </span>
    </div>
 
-</body>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26001055-1']);
+      _gaq.push(['_trackPageview']);
 
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+</body>
 </html>

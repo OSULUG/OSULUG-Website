@@ -3,7 +3,7 @@ slug: about
 tags: navigation
 navrank: 1
 image:
-    url: /images/installfest.jpg
+    url: /img/installfest.jpg
     where: right
     caption: Some members of LUG during an "install fest".
 ---

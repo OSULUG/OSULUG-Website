@@ -1,0 +1,253 @@
+body {
+    color: #5A5A5A;
+    font-family: 'Scada', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+a {
+    color: #F70;
+    text-decoration: none;
+    &:hover {
+        color: #F70;
+        text-decoration: underline;
+    }
+}
+
+p a, span a {
+    color: teal;
+    text-decoration: none;
+    &:hover {
+        color: #006B53;
+        text-decoration: underline;
+    }
+}
+
+li p {
+    text-align: left;
+}
+
+.main {
+    overflow: hidden;
+    p {
+        img {
+            margin-bottom: 5px;
+            max-height: 320px;
+            max-width: 50%;
+        }
+        &:nth-child(odd) img {
+            margin-left: 15px;
+            float: right;
+        }
+        &:nth-child(even) img {
+            margin-right: 15px;
+            float: left;
+        }
+    }
+    pre {
+        /*
+         * This makes the code blocks not run under floated elements, though only.
+         * In chrome. Is there a cross browser solution?
+         */
+        display: block;
+        display: -webkit-box;
+    }
+    h1 {
+        font-size: 2.0em;
+        margin-bottom: 5px;
+    }
+    h2 {
+        font-size: 1.6em;
+        margin-bottom: 5px;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    h4 {
+        font-size: 1.0em;
+    }
+    h5 {
+        font-size: 1.0em;
+        font-weight: normal;
+        color: #AAA;
+    }
+    h6 {
+        font-size: 0.8em;
+        font-weight: normal;
+        color: #AAA;
+    }
+}
+
+hr {
+    padding-top: 20px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.base-image img {
+    margin-bottom: 5px;
+    max-height: 480px;
+}
+
+.list {
+    margin-left: 10px;
+    h3, h4 {
+        line-height: 18px;
+    }
+    a {
+        color: #F70;
+        &:hover {
+            color: #F70;
+            text-decoration: underline;
+        }
+    }
+}
+
+.header {
+    h2 {
+        color: #2d486d;
+    }
+    a {
+        text-decoration: none;
+        color: #2d486d;
+        &:hover {
+            text-decoration: none;
+            color: #2d486d;
+        }
+    }
+}
+
+.title {
+    margin-top: 7px;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+.navigation {
+    float: right;
+    margin-top: 35px;
+    text-align: center;
+    a {
+        padding: 15px;
+        color: black;
+        font-weight: bold;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        &:hover {
+            text-decoration: none;
+            color: black;
+            background-color: #FFC48F;
+        }
+        &.current_nav {
+            border: 2px solid #FFC48F;
+        }
+    }
+}
+
+.heading {
+    margin-top: 10px;
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0px;
+    }
+}
+
+.page_pic {
+    margin-bottom: 20px;
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    &.right {
+        float: right;
+        margin-left: 20px;
+        text-align: right;
+    }
+    &.left {
+        float: left;
+        margin-right: 20px;
+        text-align: left;
+    }
+    &.top {
+        text-align: right;
+        img {
+            margin-bottom: 5px;
+        }
+    }
+    img {
+        margin-top: 5px;
+        display: block;
+    }
+}
+
+p {
+    margin: 0 0 10px;
+    text-align: justify;
+}
+
+ul.subpage-list {
+    list-style: none;
+    li {
+        margin-bottom: 20px;
+        line-height: inherit;
+    }
+}
+
+.subpage-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    color: #F70;
+}
+
+.subpage-subtitle {
+    display: block;
+    font-size: 1.0em;
+    display: block;
+}
+
+.infoblock {
+    h1 {
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2em;
+    }
+    h2 {
+        font-size: 0.9em;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2em;
+        margin-bottom: 5px;
+        color: grey;
+    }
+    img {
+        float: left;
+        margin-right: 10px;
+        width: 125px;
+        height: 125px;
+    }
+}
+
+.blog-top {
+    h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    img {
+        float: left;
+        margin-right: 20px;
+        max-width: 960px;
+        max-height: 320px;
+    }
+}
+
+.sliding-index {
+    min-height: 1000px;
+    max-height: 1000px;
+}

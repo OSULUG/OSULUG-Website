@@ -3,7 +3,7 @@ category: blog
 author: Kevin Ngo <ngoke@onid.oregonstate.edu>
 
 image:
-    url: /images/blog/20111025_gpg/key_sign.jpg
+    url: /img/blog/20111025_gpg/key_sign.jpg
 datetime: 2011-10-25 21:00:00
 
 ---
@@ -25,7 +25,7 @@ The first step to key-signing is to actually generate GPG public and private
 keys (check the SSH guide for general information on public and private key
 pairs)
 
-![How do these keys work...](/images/blog/20111025_gpg/long_table.jpg)
+![How do these keys work...](/img/blog/20111025_gpg/long_table.jpg)
 
     gpg --gen-key
 

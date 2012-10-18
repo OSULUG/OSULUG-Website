@@ -1,0 +1,66 @@
+.big-index-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+    a {
+        color: #F70;
+        &:hover {
+            color: #F70;
+            text-decoration: underline;
+        }
+    }
+}
+
+.big-index-heading {
+    margin-top: 1.0em;
+}
+
+.big-index-title {
+    line-height: 1.15em;
+}
+
+.big-index {
+    img {
+        float: left;
+        margin-top: 1.5em;
+        margin-right: 1.5em;
+        margin-bottom: 1.5em;
+        max-width: 210px;
+        max-height: 210px;
+    }
+    pre {
+        display: inline;
+        background: white;
+        border: none;
+        line-height: 250%;
+        display: none;
+    }
+    code {
+        display: none;
+    }
+}
+
+.big-index-item hr {
+    margin-top: 2em;
+}
+
+.big-index-post {
+    h1, h2 {
+        display: none;
+    }
+    p {
+        margin-top: 1.5em;
+    }
+    img {
+        display: none;
+    }
+}
+
+.paging {
+    margin-bottom: 1.4em;
+}
+
+.metadata {
+    color: #AAA;
+    font-weight: bold;
+}

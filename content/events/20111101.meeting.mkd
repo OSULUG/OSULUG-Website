@@ -6,7 +6,7 @@ preview: Ian Milligan tells us why Haskell is the Best Language Evar
 author: Ian Milligan
 location: Dearborn 212
 image:
-    url: /images/events/20111101_haskell.svg
+    url: /img/events/20111101_haskell.svg
     where: left
     width: 33%
 ---

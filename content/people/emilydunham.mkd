@@ -5,7 +5,7 @@ person:
     name: Emily Dunham
     title: Treasurer
     irc: edunham
-    image: /images/people/emilydunham.jpg
+    image: /img/people/emilydunham.jpg
 ---
 Emily is a web developer for the [Open Source Lab][osl]. A quick search reveals
 that there are nearly infinite Emily Dunhams on the internet; she is the

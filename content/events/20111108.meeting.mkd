@@ -5,7 +5,7 @@ category: events
 preview: OSEL Vision and Guide Sprint
 location: Dearborn 212
 image:
-    url: /images/events/20111108_meeting.gif
+    url: /img/events/20111108_meeting.gif
     where: right
 ---
 

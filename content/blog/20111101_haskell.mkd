@@ -3,7 +3,7 @@ category: blog
 author: Kevin Ngo <ngoke@onid.oregonstate.edu>
 
 image:
-    url: /images/events/20111101_haskell.svg
+    url: /img/events/20111101_haskell.svg
 
 datetime: 2011-11-01 18:00:00
 

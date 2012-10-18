@@ -4,7 +4,7 @@ category: events
 preview: We do Bar Camps. Bar Camps are cool.
 location: Kelley Engineering Center
 image:
-    url: /images/events/20111029_barcamp.png
+    url: /img/events/20111029_barcamp.png
     where: top
 ---
 OSU is once again hosting Beaver BarCamp. Barcamp is a user-generated

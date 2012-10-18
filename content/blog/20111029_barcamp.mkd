@@ -3,7 +3,7 @@ category: blog
 author: Kevin Ngo <ngoke@onid.oregonstate.edu>
 
 image:
-    url: /images/blog/20111029_barcamp/tux.jpg
+    url: /img/blog/20111029_barcamp/tux.jpg
 datetime: 2011-10-29 11:00:00
 
 ---
@@ -17,7 +17,7 @@ Along with Mozilla was [ThumbArcade][thumbarcade] who also sponsored BBC8 and
 hosted a couple speed-hack sessions and commentary on how [Apple killed the
 publisher][apple].
 
-![barcamp board](/images/blog/20111029_barcamp/board.jpg)
+![barcamp board](/img/blog/20111029_barcamp/board.jpg)
 
 Not only did companies give talks but students and former students as well. For
 example, Ben Kero, who recently gave a talk last meeting about [PGP encryption
@@ -36,9 +36,9 @@ Barcamp t-shirt). At the end, a Kindle Fire was raffled off to a very lucky
 guy. Keep on the lookout for **BBC9!**
 
 
-![some attendees of barcamp](/images/blog/20111029_barcamp/people.jpg)
+![some attendees of barcamp](/img/blog/20111029_barcamp/people.jpg)
 
-![tour of the datacenter](/images/blog/20111029_barcamp/datacenter.jpg)
+![tour of the datacenter](/img/blog/20111029_barcamp/datacenter.jpg)
 
 [bbc8]:http://beaverbarcamp.org
 [mozilla]:http://mozilla.org

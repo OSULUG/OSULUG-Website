@@ -6,7 +6,7 @@ person:
     title: President
     site: http://corbinsimpson.com
     irc: MostAwesomeDude
-    image: /images/people/corbinsimpson.jpg
+    image: /img/people/corbinsimpson.jpg
 ---
 Corbin Simpson is a student at Oregon State University. He has been an
 open-source programmer since 2005 and joined the wider community in 2008 with

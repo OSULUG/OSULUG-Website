@@ -16,10 +16,12 @@
     {% endif %}
 {% endif %}
 
-{# Render list #}
+
+{% block extrahead %}
+    <link rel="stylesheet" type="text/css" href="/css/big_index.css" />
+{% endblock %}
 
 {% block content %}
-<link rel="stylesheet" type="text/css" href="/stylesheets/big_index.css" />
 
 <h2 style="display:inline;">{{ page.title }}</h2><br/>
 
