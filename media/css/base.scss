@@ -172,6 +172,7 @@ hr.padded {
     text-align: center;
     a {
         padding: 15px;
+        margin-left: 5px;
         color: $gray;
         font-weight: bold;
         -webkit-border-radius: 5px;
@@ -180,10 +181,11 @@ hr.padded {
         &:hover {
             text-decoration: none;
             color: $gray;
-            background-color: $creamy-orange;
+            background-color: $white;
         }
         &.current_nav {
-            background-color: $creamy-orange;
+            @include box-shadow(1px 1px 1px $light-gray);
+            background-color: $white;
         }
     }
 }
@@ -250,7 +252,7 @@ ul.subpage-list {
     }
     img {
         float: left;
-        margin-right: 20px;
+        margin: 0 35px 20px 0;
         max-width: 960px;
         max-height: 320px;
     }
@@ -288,11 +290,14 @@ div.events.columns {
 
 .footer {
     @include img-box-shadow();
-    @include gradient($creamy-orange, darken($creamy-orange, 5%));
+    background-color: $white;
     height: 100px;
     margin-top: -100px;
     padding-top: 20px;
     text-align:center;
+    a {
+        color: $orange;
+    }
     p {
         font-size: 14px;
         line-height: 13px;
