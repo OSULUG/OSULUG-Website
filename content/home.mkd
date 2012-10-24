@@ -18,6 +18,12 @@ LUG meets every week on **Tuesday at 6:00pm at Kelley Engr. Center in
 KEC1007**. We no longer meet in the Dearborn Library. Keep an eye out for
 helpful information and upcoming events posted here.
 
+**If you're currently an OSU student and would like to become an official
+voting member of LUG**, please fill out this [member form](form). Be aware that
+by giving us your onid, you're inviting us to email you each spring and ask if
+you plan on remaining a LUG member for the following year.
+
+[form]: https://docs.google.com/spreadsheet/viewform?formkey=dDIySHZQeHNhbFhkd25uaTFUNEZubnc6MQ
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 [source]: https://github.com/OSULUG/OSULUG-Website/
 [ircguide]: /blog/20110915-irc/
