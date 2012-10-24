@@ -1,0 +1,31 @@
+title: "Recap: Beaver Bar Camp X"
+category: blog
+slug: bbcx
+author: Kevin Ngo <ngoke@onid.oregonstate.edu>
+featured: True
+
+image:
+    url: http://i.imgur.com/HZeFA.jpg
+    where: right
+datetime: 2012-10-13 20:00:00
+
+---
+
+[Beaver Bar Camp 10][bbc10] attracted a good crowd away from Blocktoberfest and
+the Beaver game.  Barcamp is ad-hoc gathering born from the desire for people
+to share and learn in an open environment. It is an intense event with
+discussions, demos, and interaction from attendees. [Mozilla][mozilla] signed
+on again to sponsor BBC. They gave workshops on web security, writing for the
+web, and open web apps. Rackspace was also present this time around.
+
+Talks included beer brewing, Minecraft redstone, Tor, whistling, poker theory,
+pendulums, and 3d printing.
+
+Want to be a part of BarCamp and make BarCamp more awesome? Look out to attend
+and start thinking about things you could possibly talk about. It could be anything,
+whatever you enjoy doing (Bikes? Starcraft? Cake baking?). BarCamp out.
+
+![barcampkec](http://i.imgur.com/tjiSV.jpg)
+
+[bbc10]:http://beaverbarcamp.org
+[mozilla]:http://mozilla.org

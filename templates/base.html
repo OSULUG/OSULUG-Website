@@ -1,98 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>{{ site.title }} - {{ page.title }}</title>
-        <link rel="stylesheet" type="text/css" href="/css/lib/bootstrap-1.1.0.min.css"/>
-        <link rel="stylesheet" type="text/css" href="/css/lib/sticky_footer.css"/>
-        <link rel="stylesheet" type="text/css" href="/css/base.css"/>
-        <link rel="stylesheet" type="text/css" href="/css/big_index.css"/>
-        <link rel="icon" type="image/x-icon" href="/img/linux-favicon.png"/>
-        <link href='http://fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="/js/lib/jquery-1.6.4.min.js"></script>
-        <script type="text/javascript" src="/js/lib/jquery-ui-1.8.16.custom.min.js"></script>
-        <script type="text/javascript" src="/js/sliding-paginator-thing.js"></script>
-        {% block extrahead %}{% endblock %}
-    </head>
+  <head>
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/lib/bootstrap-1.1.0.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/lib/sticky_footer.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/big_index.css"/>
+    <link rel="icon" type="image/x-icon" href="/img/linux-favicon.png"/>
+    <link href='http://fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Jacques+Francois' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/js/lib/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="/js/lib/jquery-ui-1.8.16.custom.min.js"></script>
+    <script type="text/javascript" src="/js/sliding-paginator-thing.js"></script>
+    {% block extrahead %}{% endblock %}
+  </head>
 
-    <body>
-    <div class="wrap">
-        <div class="container">
+  <body>
+  <div class="wrap">
+    <div class="container">
 
-            <div class="header">
-                <div class="row">
-                    <div class="span5 columns">
-                        <div class="title">
-                            <h2><a href="/">Linux Users Group</a></h2>
-                            <h3><a href="http://oregonstate.edu" style="color:black;">Oregon State University</a></h3>
-                        </div>
-                    </div>
-                    <div class="span2 columns">
-                        <div class="logo">
-                            <a href="/"><img src="/img/lug_penguin.gif"/></a>
-                        </div>
-                    </div>
-                    <div class="span9 columns">
-                        <div class="navigation">
-                            {% for link in site.tags['navigation']|sort(attribute='navrank') %}
-                                {% if page.url == link.url %}
-                                    <a class="current_nav" href="{{ link.url }}">
-                                {% else %}
-                                    <a href="{{ link.url }}">
-                                {% endif %}
-                                    <span>{{ link.title }}</span></a>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    <br/>
-
-                </div>
+      <div class="header">
+        <div class="row">
+          <div class="span5 columns">
+            <div class="site-header">
+              <h2><a href="/">Linux Users Group</a></h2>
+              <h3><a href="http://oregonstate.edu" style="color:black;">Oregon State University</a></h3>
             </div>
-            <hr style="padding-top:10px;"/>
-
-            <div class="headinggroup">
-                {% block title %}
-                {% endblock %}
+          </div>
+          <div class="span2 columns">
+            <div class="logo">
+              <a href="/"><img src="/img/lug_penguin.gif"/></a>
             </div>
-            <div class="main">
-                <div class="base-image">
-                    {% if page.image %}
-                        <div class="page_pic {{ page.image.where }}" style="
-                                {% if page.image.width %}max-width: {{page.image.width}};{% endif %}
-                                {% if page.image.height %}max-height: {{page.image.height}};{% endif %}">
-                            <img src="{{ page.image.url }}" />
-                            {% if page.image.caption %}
-                                <span>{{ page.image.caption }}</span>
-                            {% endif %}
-                        </div>
-                    {% endif %}
-                </div>
-                {% block content %}
-                {% endblock %}
+          </div>
+          <div class="span9 columns">
+            <div class="navigation">
+              {% for link in site.tags['navigation']|sort(attribute='navrank') %}
+                {% if page.url == link.url %}
+                  <a class="current_nav" href="{{ link.url }}">
+                {% else %}
+                  <a href="{{ link.url }}">
+                {% endif %}
+                  <span>{{ link.title }}</span></a>
+              {% endfor %}
             </div>
+          </div>
+          <br/>
 
         </div>
+      </div>
+      <hr style="padding-top:10px;"/>
+
+      <div class="heading-group">
+        {% block title %}
+        {% endblock %}
+      </div>
+      <div class="main">
+        <div class="base-image">
+          {% if page.image %}
+            <div class="page_pic {{ page.image.where }}" style="
+                {% if page.image.width %}max-width: {{page.image.width}};{% endif %}
+                {% if page.image.height %}max-height: {{page.image.height}};{% endif %}">
+              <img src="{{ page.image.url }}" />
+              {% if page.image.caption %}
+                <span>{{ page.image.caption }}</span>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+        {% block content %}
+        {% endblock %}
+      </div>
+
     </div>
+  </div>
 
    <div class="footer">
-       <span>
-            A wild LUG appears!<br/>
-            Last updated {{ site.datetime.strftime("%c") }}<br/>
-            This site is powered by <a href="https://github.com/mythmon/wok"><b>wok</b></a>.
-       </span>
+     <span>
+      <p>A wild LUG appears!</p>
+      <p>Powered by <a href="https://github.com/mythmon/wok"><b>wok</b></a></p>
+     </span>
    </div>
 
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-26001055-1']);
-      _gaq.push(['_trackPageview']);
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26001055-1']);
+    _gaq.push(['_trackPageview']);
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
 </body>
 </html>

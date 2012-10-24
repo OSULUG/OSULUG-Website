@@ -2,14 +2,9 @@ title: "Scrape the Internet! Our Python Soundcloud API"
 category: blog
 author: Kevin Ngo <ngoke@onid.oregonstate.edu>
 
-image:
-    url: http://www.newsbackbone.com/wp-content/plugins/powerautoblog/img/69429102a7fb2a068bb00f2542081448-250x250.jpg
-
 datetime: 2011-11-06 01:00:00
 
 ---
-
-[soundcloud-dl](http://github.com/ngokevin/soundcloud-dl)
 
 It was a cold November evening in the bullpen at Oregon State University.
 [uberj](http://uberj.com) and [ngoke](http://ngokevin.com) were sipping tea and
@@ -35,8 +30,8 @@ successfully gotten the URL.
 
 We rushed to pull his commit and tried it on a Mord Fustang song...we had the script
 write the stream to a file, and we opened it in VLC...The song had a length! Except it wasn't
-playing. We tried to play it on uberj's machine...**and it worked!**. After a high-five 
-session and a burst of gratitude to thedjpetersen, we went to look what he did. He 
+playing. We tried to play it on uberj's machine...**and it worked!**. After a high-five
+session and a burst of gratitude to thedjpetersen, we went to look what he did. He
 found we had to request a page from a cross-domain, probably for cookies, and then
 scrape the stream. We went off to wrap everything into a neat package and add
 more functionality.

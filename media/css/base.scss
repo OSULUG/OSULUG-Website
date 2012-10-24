@@ -1,39 +1,52 @@
 @import "globals.scss";
-
 body {
+    background-color: rgb(250, 250, 255);
     color: $gray;
     font-family: 'Scada', sans-serif;
 }
 
-p {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree Serif', serif;
+    a {
+        color: $orange;
+        font-weight: bold;
+        text-decoration: none;
+        &:hover {
+            color: $orange;
+            text-decoration: underline;
+        }
+    }
+}
+
+p, li {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 28px;
 }
 
 a {
-    color: $orange;
-    text-decoration: none;
-    &:hover {
-        color: $orange;
-        text-decoration: underline;
-    }
-}
-
-p a, span a {
     color: $light-blue;
+    font-weight: bold;
     text-decoration: none;
     &:hover {
-        color: $blue;
+        color: $light-blue;
         text-decoration: underline;
     }
 }
 
-li p {
-    text-align: left;
+ul, ol {
+    li {
+    font-size: 16px;
+        p {
+            text-align: left;
+        }
+    }
 }
 
 .main {
-    overflow: hidden;
+    margin-top: 13px;
+    img {
+        @include img-box-shadow();
+    }
     p {
         img {
             margin-bottom: 5px;
@@ -54,16 +67,15 @@ li p {
          * This makes the code blocks not run under floated elements, though only.
          * In chrome. Is there a cross browser solution?
          */
+        clear: both;
         display: block;
         display: -webkit-box;
     }
     h1 {
         font-size: 2.0em;
-        margin-bottom: 5px;
     }
     h2 {
         font-size: 1.6em;
-        margin-bottom: 5px;
     }
     h3 {
         font-size: 1.3em;
@@ -73,17 +85,41 @@ li p {
     }
     h5 {
         font-size: 1.0em;
-        font-weight: normal;
-        color: $light-gray;;
     }
     h6 {
         font-size: 0.8em;
-        font-weight: normal;
-        color: $light-gray;;
+    }
+    .page_pic {
+        img {
+            display: block;
+            margin: 5px 0 20px;
+            max-width: 100%;
+        }
+        &.right {
+            float: right;
+            padding-left: 40px;
+            text-align: right;
+        }
+        &.left {
+            float: left;
+            padding-right: 40px;
+            text-align: left;
+        }
+        &.top {
+            text-align: right;
+            img {
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .page {
+        img {
+            margin: 20px 0 20px 0;
+        }
     }
 }
 
-hr {
+hr.padded {
     padding-top: 20px;
     margin-bottom: 15px;
     clear: both;
@@ -122,12 +158,12 @@ hr {
     }
 }
 
-.title {
-    margin-top: 7px;
+.site-header, .logo {
+    margin-top: 13px;
 }
-
 .logo {
-    margin-top: 15px;
+    position: relative;
+    right: 4em;
 }
 
 .navigation {
@@ -136,18 +172,20 @@ hr {
     text-align: center;
     a {
         padding: 15px;
-        color: black;
+        margin-left: 5px;
+        color: $gray;
         font-weight: bold;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
         &:hover {
             text-decoration: none;
-            color: black;
-            background-color: $creamy-orange;
+            color: $gray;
+            background-color: $white;
         }
         &.current_nav {
-            border: 2px solid $creamy-orange;
+            @include box-shadow(1px 1px 1px $light-gray);
+            background-color: $white;
         }
     }
 }
@@ -158,38 +196,10 @@ hr {
         margin: 0px;
     }
 }
-
-.page_pic {
-    margin-bottom: 20px;
-    img {
-        display: block;
-        max-width: 100%;
-    }
-    &.right {
-        float: right;
-        margin-left: 20px;
-        text-align: right;
-    }
-    &.left {
-        float: left;
-        margin-right: 20px;
-        text-align: left;
-    }
-    &.top {
-        text-align: right;
-        img {
-            margin-bottom: 5px;
-        }
-    }
-    img {
-        margin-top: 5px;
-        display: block;
-    }
-}
-
-p {
-    margin: 0 0 10px;
-    text-align: justify;
+.heading-group h2 {
+    color: $orange;
+    margin-top: 26px;
+    line-height: 28px;
 }
 
 ul.subpage-list {
@@ -213,7 +223,7 @@ ul.subpage-list {
     display: block;
 }
 
-.infoblock {
+#people {
     h1 {
         font-size: 1.4em;
         margin: 0;
@@ -236,36 +246,78 @@ ul.subpage-list {
     }
 }
 
-.blog-top {
-    h3 {
-        margin-top: 5px;
-        margin-bottom: 5px;
+.featured-blog {
+    .featured-header {
+        margin-bottom: 13px;
     }
     img {
         float: left;
-        margin-right: 20px;
+        margin: 0 35px 20px 0;
         max-width: 960px;
         max-height: 320px;
     }
 }
 
 .sliding-index {
-    min-height: 1000px;
-    max-height: 1000px;
+    margin-top: 26px;
+    max-height: 1100px;
+    min-height: 1100px;
+}
+
+div.recent-blogs.columns {
+    margin-left: 0;
+    .recent-blogs-header {
+        display: inline;
+    }
+    .sliding-btn {
+        display: inline;
+        margin-left: 13px;
+        a {
+            color: $gray;
+        }
+    }
+}
+
+div.events.columns {
+    float: right;
+    ol {
+        margin-top: 26px;
+    }
+    .no-events {
+        font-style: italic;
+    }
 }
 
 .footer {
-    text-align:center;
-    padding-top: 12px;
-    background-color: $light-gray;
-    color: $gray;
+    @include img-box-shadow();
+    background-color: $white;
     height: 100px;
     margin-top: -100px;
+    padding-top: 20px;
+    text-align:center;
+    a {
+        color: $orange;
+    }
+    p {
+        font-size: 14px;
+        line-height: 13px;
+    }
 }
-.footer a {
-    text-decoration: none;
-    color: $orange;
+
+.c:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
-.footer a:hover {
-    text-decoration: underline;
+.c {
+    display: inline-block;
+}
+html[xmlns] .c {
+    display: block;
+}
+* html .c {
+    height: 1%;
 }

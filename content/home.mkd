@@ -7,16 +7,15 @@ pagination:
     post_limit: 9
 ---
 
-Welcome to the new OSU LUG website!
------------------------------------
+#Welcome to the OSU LUG website!
 
 We keep in touch via the [mailing list][ml], and via the `#osu-lug` IRC
 channel on `irc.freenode.net`. For more info on IRC, check out our [IRC
 guide][ircguide].
 
-LUG meets every week on **Tuesday at 6:00pm at Kelley Engr. Center in
-KEC1007**. We no longer meet in the Dearborn Library. Keep an eye out for
-helpful information and upcoming events posted here.
+LUG meets every week on
+**Tuesday at 6:00pm at the Dearborn Library in DEAR212 **.
+Keep an eye out for helpful information and upcoming events posted here.
 
 **If you're currently an OSU student and would like to become an official
 voting member of LUG**, please fill out this [member form](form). Be aware that

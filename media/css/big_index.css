@@ -1,48 +1,42 @@
-.big-index-title {
+h3.big-index-title {
+  display: block;
   font-size: 1.3em;
   font-weight: bold;
-  display: block; }
-  .big-index-title a {
-    color: #F70; }
-    .big-index-title a:hover {
-      color: #F70;
+  margin-bottom: 0;
+  line-height: 1.15em; }
+  h3.big-index-title a {
+    color: #f07719; }
+    h3.big-index-title a:hover {
+      color: #f07719;
       text-decoration: underline; }
 
 .big-index-heading {
-  margin-top: 1.0em; }
+  margin-top: 13px; }
 
-.big-index-title {
-  line-height: 1.15em; }
+#home .big-index img {
+  margin: 20px 20px 20px 0; }
 
 .big-index img {
   float: left;
-  margin-top: 1.5em;
-  margin-right: 1.5em;
-  margin-bottom: 1.5em;
-  max-width: 210px;
-  max-height: 210px; }
-.big-index pre {
-  display: inline;
-  background: white;
-  border: none;
-  line-height: 250%;
-  display: none; }
-.big-index code {
+  margin: 9px 20px 12px 0;
+  max-height: 210px;
+  max-width: 210px; }
+.big-index pre, .big-index code {
   display: none; }
 
-.big-index-item hr {
+.big-index-item hr, hr.blog-divider {
+  clear: both;
   margin-top: 2em; }
 
-.big-index-post h1, .big-index-post h2 {
-  display: none; }
-.big-index-post p {
-  margin-top: 1.5em; }
-.big-index-post img {
-  display: none; }
+.big-index-post {
+  margin-top: 13px;
+  text-align: justify; }
+  .big-index-post h1, .big-index-post h2, .big-index-post h3, .big-index-post img, .big-index-post li {
+    display: none; }
 
 .paging {
   margin-bottom: 1.4em; }
 
 .metadata {
-  color: #AAA;
+  color: #aaaaaa;
   font-weight: bold; }

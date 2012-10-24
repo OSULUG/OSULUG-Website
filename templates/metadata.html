@@ -1,0 +1,10 @@
+<span class="metadata">
+    {% if page.authors %}
+        {% for author in page.authors %}
+            {{ author.name }}{% if not loop.last %}, {% endif %}
+        {% endfor %} |
+    {% endif %}
+    {% if not page.navrank %}
+        {{ page.date.strftime("%A %B %d, %Y") }}
+    {% endif %}
+</span>
