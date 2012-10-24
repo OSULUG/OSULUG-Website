@@ -13,14 +13,14 @@ We keep in touch via the [mailing list][ml], and via the `#osu-lug` IRC
 channel on `irc.freenode.net`. For more info on IRC, check out our [IRC
 guide][ircguide].
 
-LUG meets every week on
-**Tuesday at 6:00pm at the Dearborn Library in DEAR212 **.
-Keep an eye out for helpful information and upcoming events posted here.
-
 **If you're currently an OSU student and would like to become an official
 voting member of LUG**, please fill out this [member form](form). Be aware that
 by giving us your onid, you're inviting us to email you each spring and ask if
 you plan on remaining a LUG member for the following year.
+
+LUG meets every week on
+**Tuesday at 6:00pm at the Dearborn Library in DEAR212 **.
+Keep an eye out for helpful information and upcoming events posted here.
 
 [form]: https://docs.google.com/spreadsheet/viewform?formkey=dDIySHZQeHNhbFhkd25uaTFUNEZubnc6MQ
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
