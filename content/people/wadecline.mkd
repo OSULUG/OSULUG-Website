@@ -1,0 +1,15 @@
+title: Wade Cline
+tags: officer
+rank: 4
+person:
+    name: Wade Cline
+    title: Treasurer
+    irc: clinew
+    image: /img/people/wadecline.jpg
+
+---
+
+Wade Cline is a computer science undergraduate at Oregon State University. He
+has been addicted to Linux for two years and believes that the ideals of free
+(as in freedom) software represent the ideals of liberty and justice that our
+own nation so ostensibly believes in.

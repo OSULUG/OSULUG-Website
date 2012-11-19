@@ -7,12 +7,14 @@ person:
     site: http://ngokevin.com
     irc: ngoke
     image: /img/people/kevinngo.jpg
+
 ---
-Kevin is an undergraduate computer science student at Oregon State University,
-born and raised in Portland. He currently works at the OSU Network Engineering
-Team ([NET][]) in Network Services Systems as a programmer / web developer. In the
-past, he has volunteered at [Free Geek][freegeek], helping build Linux boxes out of
-recycled and donated computers to give to non-profit organizations.
+
+Kevin is an undergraduate computer science student at Oregon State University
+from Portland. He currently works at the OSU Network Engineering Team
+([NET][net]) and Mozilla as a web developer. In the past, he has volunteered at
+[Free Geek][freegeek], helping build Linux boxes out of recycled and donated
+computers to give to non-profit organizations.
 
 [net]: http://oregonstate.edu/net
 [freegeek]: http://freegeek.org

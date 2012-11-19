@@ -1,9 +1,9 @@
 title: Emily Dunham
 tags: officer
-rank: 4
+rank: 2
 person:
     name: Emily Dunham
-    title: Treasurer
+    title: Vice President
     irc: edunham
     image: /img/people/emilydunham.jpg
 ---
