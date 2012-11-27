@@ -14,7 +14,7 @@ channel on `irc.freenode.net`. For more info on IRC, check out our [IRC
 guide][ircguide].
 
 **If you're currently an OSU student and would like to become an official
-voting member of LUG**, please fill out this [member form](form). Be aware that
+voting member of LUG**, please fill out this [member form][form]. Be aware that
 by giving us your onid, you're inviting us to email you each spring and ask if
 you plan on remaining a LUG member for the following year.
 
