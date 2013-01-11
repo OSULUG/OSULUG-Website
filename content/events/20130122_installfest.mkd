@@ -1,0 +1,26 @@
+title: Winter Term InstallFest
+datetime: 2013-01-22 18:00:00
+category: events
+slug: installfest
+preview: Ever wanted to try Linux? Here's your chance!
+location: Dearborn 212
+
+---
+Linux users of all levels of expertise are welcome! Experts will be on hand to
+help newbies choose the right Linux distribution for their needs and install
+it on their computers. Bring the computer on which you'd like to try Linux. 
+If you're using a laptop, remember to bring your power supply. 
+
+For more experienced Linux users, Justin Dugger from the [OSU Open Source
+Lab][osl] will be at the InstallFest  with information on how to set up your
+own web server after installing Linux. 
+
+Remember to join the [LUG mailing list][list] for updates and information
+about this event and others!
+
+When: January 22nd, 6 PM
+
+Where: Dearborn 212 (EECS Library)
+
+[list]:http://lists.oregonstate.edu/mailman/listinfo/linux
+[osl]: http://osuosl.org/

@@ -1,0 +1,19 @@
+title: Special Guest, Privly 
+datetime: 2013-01-15 18:00:00
+category: events
+slug: privly-talk
+preview: Learn about internet privacy and starting an open-source business from OSU PhD student Sean McGregor
+location: Dearborn 212
+
+---
+Founded by OSU student and LUG member Sean McGregor, [Privly][privly] is an
+open-source community project for taking back control of personal information.
+Sean will not only tell us about how Privly keeps users' online information
+away from data miners, but also share the lessons he's learned from managing
+the privly project. 
+
+When: January 15th, 6 PM
+
+Where: Dearborn 212
+
+[privly]: www.privly.org
