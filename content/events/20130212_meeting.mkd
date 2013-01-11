@@ -1,0 +1,18 @@
+title: Lightning Talks
+datetime: 2013-02-12 18:00:00
+category: events
+slug: meeting
+preview: "Things we love about open source"
+location: Dearborn 212
+
+---
+A lightning talk is an informal, 5-minute presentation on a topic of your
+choice. In honor of valentine's day this week, our theme will be "things we
+love about open source". You should give a lightning talk because it's great
+practice for presenting at conferences, interviews, or startup pitches. And we
+want to know about your favorite open-source project!
+
+When: February 5th, 6 PM
+
+Where: Dearborn 212
+

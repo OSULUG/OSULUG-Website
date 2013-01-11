@@ -1,0 +1,12 @@
+title: Meeting 
+datetime: 2013-02-19 18:00:00
+category: events
+slug: meeting
+preview: Topic TBD
+location: Dearborn 212
+
+---
+When: February 19th, 6 PM
+
+Where: Dearborn 212
+

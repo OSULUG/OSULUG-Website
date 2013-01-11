@@ -1,0 +1,12 @@
+title: Study Session
+datetime: 2013-02-05 18:00:00
+category: events
+slug: meeting
+preview: Take a break from studying to come do more studying, or just hang out
+location: Dearborn 212
+
+---
+When: February 5th, 6 PM
+
+Where: Dearborn 212
+
