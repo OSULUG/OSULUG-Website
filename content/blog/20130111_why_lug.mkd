@@ -1,0 +1,61 @@
+title: "Why Join LUG?"
+category: blog
+slug: whylug
+author: Chance Zibolski <chance.zibolski@gmail.com>
+featured: True
+
+image:
+    url: http://www.adafruit.com/adablog/wp-content/uploads/2011/01/screenshot.jpg 
+    where: right 
+datetime: 2013-01-11 17:00:00
+
+---
+
+## Reasons to come to LUG
+
+1) We're open to all levels of experience. You don't have to know anything
+about Linux to come. We do a lot of things more related to open source
+technology than Linux.
+
+2) Being familiar with Linux is a valuable asset when looking for a
+job/internship. You are more than likely going to run into a situation
+requiring basic Linux knowledge at some point in your career.
+
+3) A lot of your future classes will be made easier by being comfortable with
+Linux and other open source software. CS311 and CS411 - Operating Systems -
+require you to use Linux throughout the course on our schools servers.
+
+## Information About Install Fest
+
+The Install fest is aimed at a variety of skill levels. You only need your
+laptop and power supply, and we'll provide everything else. Expert Linux users
+will be there to walk everyone through the installation steps to ensure your
+data is safe.
+
+## Notes
+
+**You can have both Linux, and your other Operating System installed at the
+same time!**
+
+So long as you have a rather modern computer, you will have a plethora of
+options for installing Linux, including installing to a VirtualMachine,
+seperate boot options, and even installing as an application to Windows. If
+you have any concerns, we'll be happy to help you identify the best option for
+you.
+
+### About me, and how LUG has influenced me
+
+I am a sophomore at OSU, and I came into OSU with very little actual
+programming experience. The first LUG meeting I attended was because Jacques
+Uber, a current LUG member, came to my CS151 class Winter term, and Kevin
+Mcgrath told us we had to learn the Vim or Emacs text editor. Jacques told our
+class that LUG was a good place to learn those skills.
+I installed Ubuntu after joining in LUG, and slowly started using its features
+more and more. Since then I have not gone back to Windows, and I use Linux as
+my main operating system. As a result of LUG I've been exposed to a huge
+amount of open source software, and I've learned a ton.
+Just about a year later, I am now working at the OSU Open Source Lab as a
+student software developer. It is by far is the best job I could ever ask for,
+and I don't think I'd have gotten this far today without LUG.
+- Chance Zibolski
+
