@@ -75,7 +75,7 @@ it, living on its own in its own box, all grown up. Just a moment ago, it was a
 tad little file. But we miss it so much, let's get it back.
 
 To transfer a file _from_ another box
-    
+
     ~$ scp [username]@[remote host]:[file path] [destination path]
 
 Time to get our little boy back.
@@ -107,12 +107,12 @@ private key.
 To generate a key pair (public and private key), navigate to your .ssh
 directory if you have one or create one with mkdir if you don't.
 
-    ~$ cd ~/.ssh 
+    ~$ cd ~/.ssh
     ~$ mkdir ~/.ssh
 
 Then we generate the keys:
 
-    ~$ ssh-keygen -t dsa 
+    ~$ ssh-keygen -t dsa
 
 It will prompt you to do stuff. Simply press RETURN over and over until it
 stops bugging you.
