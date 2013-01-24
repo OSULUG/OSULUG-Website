@@ -1,11 +1,16 @@
 title: Meeting 
 datetime: 2013-01-29 18:00:00
 category: events
-slug: meeting
-preview: Topic TBD
+slug: meeting-01-29-13
+preview: Visit from Cshields!
 location: Dearborn 212
 
 ---
+[Corey Shields][site] is a LUG alum and current IT manager at Mozilla. He'll
+tell us about careers in open source and fun Linux stories from IT. 
+
+[site]:http://coreyshields.com/
+
 When: January 29th, 6 PM
 
 Where: Dearborn 212
