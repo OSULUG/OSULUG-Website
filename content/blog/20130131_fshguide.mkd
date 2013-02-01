@@ -7,13 +7,13 @@ date: 2013-01-31
 
 # Introduction
 
-This guide will provide a brief introduction to the Linux Filesystem Hierarchy (LFSH; ie, the filesystem *layout*) for those familiar with Windows. The first section will clarify any terminology used, the second sectoin will address frequently asked questions (FAQs) about the LSFH, and the third section will provide a brief rundown of the LSFH. The goal is to help new Linux users figure out where things are located.
+This guide will provide a brief introduction to the Linux Filesystem Hierarchy (LFSH; ie, the filesystem *layout*) for those familiar with Windows. The first section will clarify any terminology used, the second section will address frequently asked questions (FAQs) about the LFSH, and the third section will provide a brief rundown of the LFSH. The goal is to help new Linux users figure out where things are located.
 
 # Terminology
 
 ## Folders vs. Directories
 
-Linux has directories; Windows has folders. In Linux, call them directories.
+Linux has directories; Windows has folders. They're basically the same thing.
 
 # FAQs
 
@@ -101,7 +101,7 @@ System-wide configuration files are mostly located in the `/etc` directory, and 
 
 Short answer: They are usually found under the `/media` directory once you have chosen to open (more specifically, *mount*) them via your desktop environment and window manager. In rarer cases, they may also be under the `/mnt` directory.
 
-Long answer: Anywhere and multiple places! I'll use a USB storage device as an example. The *block device* file (think: every single byte of data on the device, including filesystem metadata) for the USB stick will usually appear under the `/dev` directory (see the relevant entry below). The filesystem data itself may appear at a *mount point* that is created automatically by the system or is instead specified by the user; for example, one may choose to display the contents of their filesystem under `/home/vladimir/usb_stick` rather than `/media/usb_stick` by correctly invoking the `mount` command (the invocation of which is outside the scope of this document). In either case, the *block device* is still located under the `/dev` directory while the contents of the block device may be easily accessed at the *mount point*.
+Long answer: Anywhere and multiple places! I'll use a USB storage device as an example. The *block device* file (think: every single byte of data on the device, including filesystem metadata) for the USB stick will usually appear under the `/dev` directory (see the relevant entry below). The filesystem data itself may appear at a *mount point* that is created automatically by the system or is instead specified by the user; for example, one may choose to display the contents of their filesystem under `/home/vladimir/usb_stick` rather than `/media/usb_stick` by correctly invoking the `mount` command (the invocation of which is outside the scope of this document). In either case, the *block device* is still located under the `/dev` directory while the contents of the block device may be easily accessed at the *mount point* `/home/vladimir/usb_stick`.
 
 # The Filesystem Hierarchy
 
@@ -119,7 +119,7 @@ The `/` directory, known as the *root directory*, is the basis of the entire Lin
 
 ### `/usr`
 
-The `/usr`, or *user directory*, holds read-only data that is useful for users but is not necessary for system maintenance. For example, highly-important programs such as Minecraft may be located under the `/usr` tier, but it is not necessary for basic system stability.
+The `/usr`, or *user directory*, holds read-only data that is useful for users but is not necessary for system maintenance. For example, highly-important programs such as Minecraft may be located under the `/usr` tier as it is not necessary for basic system stability.
 
 ### `/usr/local`
 
@@ -127,7 +127,7 @@ The `/usr/local`, or *local directory*, is for locally-installed software. For e
 
 ## Common directories.
 
-These directories are common to many tiers of the LFSH. Directories listed here are not necessarily be located in all tiers.
+These directories are common to many tiers of the LFSH. Directories listed here are not necessarily located in all tiers.
 
 ### `bin`
 
@@ -135,7 +135,7 @@ The `bin` directory contains architecture-dependent executable files; the "bin" 
 
 ### `include`
 
-The `include` directory contains `header files` for use in the programming languages "C" and "C++". If you are not programming in either of these languages, then you will likely not have to worry about this directory. The directory is usually located in `/usr` and `/usr/local`, but not `/`.
+The `include` directory contains *header files* for use in the programming languages "C" and "C++". If you are not programming in either of these languages, then you will likely not have to worry about this directory. The directory is usually located in `/usr` and `/usr/local`, but not `/`.
 
 ### `lib`
 
@@ -151,30 +151,82 @@ The `share` directory contains data that is "architecture-independent"; this mea
 
 ## Specific directories.
 
+These are specific directories with the Linux filesystem that are noteworthy.
+
 ### `/boot`
+
+Contains files essential for booting the Linux kernel. This usually includes the kernel itself, the `initramfs`, and `System.map` files.
 
 ### `/dev`
 
+This directory contains *device* files (note: "device", not "developer"). Device files may be thought of as "raw" interfaces to hardware devices. Several common and important device files are:
+
+- The `sd\*` family of files. These include things like your computer hard drives, USB storage media, and flash cards. Devices are generally listed in alphabetical order, with the first device as `sda`, followed by `sdb`, `sdc`, &c. Partitions within the device have the number of the partition as a suffix to the device name; for example, disk `sda` with three partitions would likely have entries `sda1`, `sda2`, and `sda3`.
+
+- The `sr\*` files represent optical media such as CD/DVD reader/writers. Their suffix is a number rather than a letter.
+
+- The `/dev/null` file is a place to banish program output; data that gets sent into the `null` device does not come out.
+
+- The `/dev/random` and `/dev/urandom` devices provide a way to access kernel-generated random numbers. The `random` device is *buffered*, meaning that it will stop producing random numbers when it runs out of a special kind of input it uses called *entropy*; the `urandom` device is *unbuffered*, meaning that it will continue to produce random numbers even when it runs out of entropy (a discussion of entropy is outside the scope of this book; suffice it to say that entropy allows for the creation of high-quality random numbers). In general, you should use `random` when you need a few random numbers and `urandom` when you need many random numbers. 
+
+- The `/dev/zero` device produces a never-ending stream of `0` bytes.
+
 ### `/etc`
+
+This directory contains most of the system-wide configuration files. Almost all of these files are plain-text and can thus be easily modified with a text editor by the system administrator; normal users can usually still view most of the files.
 
 ### `/home`
 
+An optional directory that contains each user's individual data.
+
 ### `/media`
+
+Most removable storage devices, such as USB sticks and SD cards, are mounted in here in a subdirectory.
 
 ### `/mnt`
 
+Temporary mount point; some distributions will use this directory instead of `/media`. It is often unused by the average user.
+
 ### `/opt`
+
+According to the Filesystem Hierarchy Standard (FSH), this directory is for "Add-on application software packages". To be honest, I'm not quite sure what this means, but within this directory on my system is a subdirectory for a certain media-player-that-shall-not-be-named. Suffice it to say that this directory isn't generally *too* important for average use. Also, if you can figure out what the name could stand for (besides "optional", obviously), please let me know.
 
 ### `/proc`
 
+Mount point for a Linux "virtual" filesystem (in this context, a filesystem that doesn't actually exist on the hard drive) that exports process-specific and non-process-specific data. While there is lots of data exported via this system, a couple noteworthy entries are:
+
+- `/proc/cpuinfo`, which exports processor information.
+
+- `/proc/meminfo`, which exports virtual memory information.
+
+- `/proc/version`, which exports Linux version and distribution information.
+
+It is also possible to interact with the Linux kernel by writing certain values to specific files within this filesystem; for example, executing:
+
+    echo 3 > /proc/sys/vm/drop_caches
+
+as an administrator will de-allocate cached pages (if you don't know what I said, then don't worry about it; it's a fairly esoteric use-case; just know that there are ways to interact with the kernel via the `/proc` virtual filesystem).
+
 ### `/root`
+
+The equivalent of a `/home/root` directory for the administrative user.
 
 ### `/run`
 
+Process that contains information that has accumulated since system boot. Generally not important.
+
 ### `/sys`
+
+A Linux virtual filesystem which exports kernel object information to userspace. This usually consists of hardware, module, and driver information. It is usually fairly difficult to decipher, though fun to look around; to make sense of it, you'll have to scrounge up the appropriate documentation.
 
 ### `/tmp`
 
+Directory for programs that require temporary files. The contents of this are generally not of concern to the user.
+
 ### `/var`
 
-### `/usr/share`
+Contains data that varies over time. This usually includes things such as kernel boot logs, useful if the system crashed but is now working again. Internal system mail is also often stored within this directory. This directory is sometimes worth checking if the filesystem has run out of space; copious amounts of kernel debugging via a poorly-written rouge driver can sometimes fill up smaller filesystems.
+
+# References
+
+Filesystem Hierarchy Standard (FHS): http://refspecs.linuxfoundation.org/fhs.shtml
