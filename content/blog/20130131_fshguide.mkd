@@ -1,11 +1,11 @@
 title: Linux Filesystem Hierarchy Primer
 category: blog
 tags: guide
+slug: fshguide
 author: "Wade Cline <clinew@onid.oregonstate.edu>"
 date: 2013-01-31
----
 
-# Introduction
+---
 
 This guide will provide a brief introduction to the Linux Filesystem Hierarchy
 (LFSH; ie, the filesystem *layout*) for those familiar with Windows. The first
@@ -14,11 +14,7 @@ frequently asked questions (FAQs) about the LFSH, and the third section will
 provide a brief rundown of the LFSH. The goal is to help new Linux users figure
 out where things are located.
 
-# Terminology
-
-## Folders vs. Directories
-
-Linux has directories; Windows has folders. They're basically the same thing.
+note: Linux has directories; Windows has folders. They're basically the same thing.
 
 # FAQs
 
