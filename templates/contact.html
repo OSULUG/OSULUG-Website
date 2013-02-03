@@ -3,9 +3,10 @@
 {% block content %}
     {{ super() }}
 
-    <hr class="padded">
-    <h2>Officers</h2>
+    <div class="people">
+        <h2>Officers</h2>
 
-    {% set people_tag = "officer" %}
-    {% include "people.html" with context %}
+        {% set people_tag = "officer" %}
+        {% include "people.html" with context %}
+    </div>
 {% endblock %}

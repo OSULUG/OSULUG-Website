@@ -32,9 +32,12 @@ h3.big-index-title {
     }
 }
 
-.big-index-item hr, hr.blog-divider {
+.big-index-item {
     clear: both;
-    margin-top: 2em;
+    margin-bottom: 4em;
+    &:first-child {
+        margin-top: 2em;
+    }
 }
 
 .big-index-post {
@@ -50,6 +53,8 @@ h3.big-index-title {
 }
 
 .metadata {
-    color: $light-gray;
+    color: $gray;
+    font-size: 13px;
+    line-height: 0px;
     font-weight: bold;
 }

@@ -7,7 +7,8 @@ pagination:
     post_limit: 9
 ---
 
-#Welcome to the OSU LUG website!
+##Welcome to the OSU LUG website!
+<br/>
 
 We keep in touch via the [mailing list][ml], and via the `#osu-lug` IRC
 channel on `irc.freenode.net`. For more info on IRC, check out our [IRC
