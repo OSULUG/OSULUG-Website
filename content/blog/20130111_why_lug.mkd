@@ -2,11 +2,10 @@ title: "Why Join LUG?"
 category: blog
 slug: whylug
 author: Chance Zibolski <chance.zibolski@gmail.com>
-featured: True
 
 image:
-    url: http://www.adafruit.com/adablog/wp-content/uploads/2011/01/screenshot.jpg 
-    where: right 
+    url: http://www.adafruit.com/adablog/wp-content/uploads/2011/01/screenshot.jpg
+    where: right
 datetime: 2013-01-11 17:00:00
 
 ---

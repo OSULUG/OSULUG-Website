@@ -2,7 +2,7 @@ title: How to Write a Guide
 category: blog
 tags: guide
 author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
-date: 2013-02-12
+date: 2013-01-12
 ---
 
 1) **Identify a topic** about which we need a guide. If you have an idea, great! If you're looking for something to write about, check out the [open issues][issues] about Guides. Ask around in the IRC channel and at meetings about what people would like to see guides on, as well.

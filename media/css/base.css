@@ -8,14 +8,14 @@ html {
   position: relative; }
 
 body {
-  background: url("http://subtlepatterns.com/patterns/scribble_light.png") repeat scroll 0 0 transparent;
+  background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/debut_light.png") repeat scroll 0 0 transparent;
   color: #646464;
   font-family: 'Scada', sans-serif; }
 
 .wrap {
-  -moz-box-shadow: 0 0 1px 1px #646464;
-  -webkit-box-shadow: 0 0 1px 1px #646464;
-  box-shadow: 0 0 1px 1px #646464;
+  -moz-box-shadow: 0 0 1px 1px #aaaaaa;
+  -webkit-box-shadow: 0 0 1px 1px #aaaaaa;
+  box-shadow: 0 0 1px 1px #aaaaaa;
   border-radius: 3px;
   background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/cream_dust.png") repeat scroll 0 0 transparent;
   min-height: 100%;

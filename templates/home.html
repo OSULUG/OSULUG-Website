@@ -5,6 +5,7 @@
     {{ page.content }}
 
     <!--Featured Blog Post-->
+    <div class="c">
     {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
       {% if loop.first %}
         <div class="featured-blog">
@@ -27,6 +28,7 @@ blog.title }}</a></h3>
         </div>
       {% endif %}
     {% endfor %}
+    </div>
     <!--End Featured Blog Post-->
 
     <div class="row">
