@@ -1,0 +1,36 @@
+title: "Mozilla Shows Off FirefoxOS"
+category: blog
+slug: firefoxos
+author: Kevin Ngo
+featured: True
+
+image:
+    url: http://i.imgur.com/alqzKg0.jpg
+    where: right
+datetime: 2013-01-29
+
+---
+
+Corey Shields, IT manager at Mozilla, stopped by to demo a prototype device
+running [FirefoxOS](http://www.mozilla.org/en-US/firefoxos/). FirefoxOS is a
+Linux-based mobile operating system that runs entirely on Gecko, Firefox's
+browser engine. It runs cross-platform HTML5 apps that can also be installed
+from [Firefox for Android](http://www.mozilla.org/en-US/mobile/) on Android
+devices. It is currently marketed towards the low-end smartphone market in
+third world countries.
+
+The interface is also HTML5, written in HTML, JS, and CSS. Similarly Tizen, the
+Linux Foundation's mobile operating system, will run webapps, and theoretically
+apps written for FirefoxOS would run on Tizen (along with other browsers).
+
+FirefoxOS is currently under heavy development by Mozilla. It has device APIs,
+that are attempting to be standardized, that allow it, essentially a browser,
+to access hardware interals such as the vibrator and camera. The ideal behind
+FirefoxOS is to be open and not be a locked-down market. Recently Mozilla ran
+App Days, Firefox OS hackathons, around the world.
+
+Corey showed off Twitter, Facebook, SMS, the camera, and dialing the phone
+itself, all of which were functional.
+
+There is also an app store, [Firefox
+Marketplace](http://marketplace.firefox.com), for FirefoxOS.
