@@ -12,13 +12,13 @@ html {
 }
 
 body {
-    background: url("http://subtlepatterns.com/patterns/scribble_light.png") repeat scroll 0 0 transparent;
+    background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/debut_light.png") repeat scroll 0 0 transparent;
     color: $gray;
     font-family: 'Scada', sans-serif;
 }
 
 .wrap {
-    @include box-shadow(0 0 1px 1px $gray);
+    @include box-shadow(0 0 1px 1px $light-gray);
     border-radius: 3px;
     background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/cream_dust.png") repeat scroll 0 0 transparent;
     min-height: 100%;
