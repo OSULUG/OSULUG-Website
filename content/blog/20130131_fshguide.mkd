@@ -384,5 +384,4 @@ fill up smaller filesystems.
 
 # References
 
-Filesystem Hierarchy Standard (FHS):
-http://refspecs.linuxfoundation.org/fhs.shtml
+[Filesystem Hierarchy Standard (FHS)](http://refspecs.linuxfoundation.org/fhs.shtml)
