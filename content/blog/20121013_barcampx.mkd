@@ -2,7 +2,6 @@ title: "Recap: Beaver Bar Camp X"
 category: blog
 slug: bbcx
 author: Kevin Ngo <ngoke@onid.oregonstate.edu>
-featured: True
 
 image:
     url: http://i.imgur.com/HZeFA.jpg
