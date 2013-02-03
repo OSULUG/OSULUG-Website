@@ -1,8 +1,30 @@
 @import "globals.scss";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
 body {
-    background-color: rgb(247, 247, 252);
+    background: url("http://subtlepatterns.com/patterns/scribble_light.png") repeat scroll 0 0 transparent;
     color: $gray;
     font-family: 'Scada', sans-serif;
+}
+
+.wrap {
+    @include box-shadow(0 0 1px 1px $gray);
+    border-radius: 3px;
+    background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/cream_dust.png") repeat scroll 0 0 transparent;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0 36px;
+    width: 960px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -179,13 +201,12 @@ hr.padded {
         -moz-border-radius: 5px;
         border-radius: 5px;
         &:hover {
-            text-decoration: none;
-            color: $gray;
-            background-color: $white;
+            color: $orange;
+            text-decoration: underline;
         }
         &.current_nav {
-            @include box-shadow(1px 1px 1px $light-gray);
-            background-color: $white;
+            color: $orange;
+            text-decoration: underline;
         }
     }
 }
@@ -204,6 +225,7 @@ hr.padded {
 
 ul.subpage-list {
     list-style: none;
+    margin-top: 2em;
     li {
         margin-bottom: 20px;
         line-height: inherit;
@@ -245,8 +267,13 @@ ul.subpage-list {
         height: 125px;
     }
 }
+.people {
+    margin-top: 2em
+
+}
 
 .featured-blog {
+    margin: 2em 0 3em;
     .featured-header {
         margin-bottom: 13px;
     }
@@ -262,6 +289,9 @@ ul.subpage-list {
     margin-top: 26px;
     max-height: 1100px;
     min-height: 1100px;
+    &>div {
+        margin-bottom: 3em;
+    }
 }
 
 div.recent-blogs.columns {
@@ -280,8 +310,13 @@ div.recent-blogs.columns {
 
 div.events.columns {
     float: right;
-    ol {
-        margin-top: 26px;
+    ul {
+        list-style: none;
+        margin: 26px 0 0;
+        padding-left: 0;
+        li {
+            margin-bottom: 2em;
+        }
     }
     .no-events {
         font-style: italic;
@@ -289,18 +324,21 @@ div.events.columns {
 }
 
 .footer {
-    @include img-box-shadow();
-    background-color: $white;
     height: 100px;
+    margin: 0 auto;
     margin-top: -100px;
-    padding-top: 20px;
     text-align:center;
+    width: 960px;
+    span {
+        position: relative;
+        top: 20px;
+    }
     a {
-        color: $orange;
+        color: $light-blue;
     }
     p {
         font-size: 14px;
-        line-height: 13px;
+        line-height: 26px;
     }
 }
 

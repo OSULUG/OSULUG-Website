@@ -24,9 +24,11 @@ h3.big-index-title {
 .big-index pre, .big-index code {
   display: none; }
 
-.big-index-item hr, hr.blog-divider {
+.big-index-item {
   clear: both;
-  margin-top: 2em; }
+  margin-bottom: 4em; }
+  .big-index-item:first-child {
+    margin-top: 2em; }
 
 .big-index-post {
   margin-top: 13px;
@@ -38,5 +40,7 @@ h3.big-index-title {
   margin-bottom: 1.4em; }
 
 .metadata {
-  color: #aaaaaa;
+  color: #646464;
+  font-size: 13px;
+  line-height: 0px;
   font-weight: bold; }

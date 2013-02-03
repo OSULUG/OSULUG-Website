@@ -5,7 +5,7 @@ tags: navigation
 navrank: 3
 image:
     url: /img/penguin_how.jpg
-    where: left
+    where: right
 ---
 
 "Linux Survival Guide" or "How Not to Suck at Linux" by fellow OSULUG members.

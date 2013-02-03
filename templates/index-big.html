@@ -20,9 +20,11 @@
   <link rel="stylesheet" type="text/css" href="/css/big_index.css" />
 {% endblock %}
 
-{% block content %}
-  <h2 style="display:inline;">{{ page.title }}</h2>
+{% block title %}
+  <h2>{{ page.title }}</h2>
+{% endblock %}
 
+{% block content %}
   <div class="paging">
     {% if page.pagination %}
       {% if page.pagination.prev_page %}
@@ -40,10 +42,6 @@
     {% for subpage in pagination.page_items %}
 
       <div class="big-index-item">
-        {% if not loop.first %}
-          <hr/>
-        {% endif %}
-
         <div class="big-index-heading">
           <h3 class="big-index-title"><a href="{{subpage.url}}">{{subpage.title}}</a></h3>
           {% set page = subpage %}
@@ -60,7 +58,6 @@
             </pre>
           </span>
         </div>
-
       </div>
     {% endfor %}
     </div>
