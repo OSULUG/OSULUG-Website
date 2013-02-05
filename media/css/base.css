@@ -193,11 +193,10 @@ ul.subpage-list {
   padding: 0;
   line-height: 1.2em; }
 .people h2 {
-  font-size: 0.9em;
   margin: 0;
   padding: 0;
   line-height: 1.2em;
-  margin-bottom: 5px;
+  margin-bottom: 1em;
   color: #646464; }
 .people img {
   float: left;
