@@ -187,19 +187,19 @@ ul.subpage-list {
   font-size: 1.0em;
   display: block; }
 
-#people h1 {
+.people h1 {
   font-size: 1.4em;
   margin: 0;
   padding: 0;
   line-height: 1.2em; }
-#people h2 {
+.people h2 {
   font-size: 0.9em;
   margin: 0;
   padding: 0;
   line-height: 1.2em;
   margin-bottom: 5px;
   color: #646464; }
-#people img {
+.people img {
   float: left;
   margin-right: 20px;
   width: 125px;
