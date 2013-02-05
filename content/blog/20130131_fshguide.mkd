@@ -1,32 +1,44 @@
 title: Linux Filesystem Hierarchy Primer
 category: blog
 tags: guide
+slug: fshguide
 author: "Wade Cline <clinew@onid.oregonstate.edu>"
 date: 2013-01-31
+
 ---
 
-# Introduction
+This guide will provide a brief introduction to the Linux Filesystem Hierarchy
+(LFSH; ie, the filesystem *layout*) for those familiar with Windows. The first
+section will clarify any terminology used, the second section will address
+frequently asked questions (FAQs) about the LFSH, and the third section will
+provide a brief rundown of the LFSH. The goal is to help new Linux users figure
+out where things are located.
 
-This guide will provide a brief introduction to the Linux Filesystem Hierarchy (LFSH; ie, the filesystem *layout*) for those familiar with Windows. The first section will clarify any terminology used, the second section will address frequently asked questions (FAQs) about the LFSH, and the third section will provide a brief rundown of the LFSH. The goal is to help new Linux users figure out where things are located.
-
-# Terminology
-
-## Folders vs. Directories
-
-Linux has directories; Windows has folders. They're basically the same thing.
+note: Linux has directories; Windows has folders. They're basically the same thing.
 
 # FAQs
 
 ## "Where is `Program Files`?"
 
-Linux has no single location for most of its executable (think `\*.exe`) files. Instead, these files may be located in one of multiple, mostly pre-determined, locations. Most notably:
+Linux has no single location for most of its executable (think `\*.exe`) files.
+Instead, these files may be located in one of multiple, mostly pre-determined,
+locations. Most notably:
 
-* `/bin` contains non-administrator executable files necessary for system booting.
+* `/bin` contains non-administrator executable files necessary for system
+  booting.
 * `/sbin` contains administrator executable files necessary for system booting.
-* `/usr/bin` contains non-administrator executable files *not* necessary for system booting.
-* `/usr/sbin` contains administrator executable files *not* necessary for system booting.
+* `/usr/bin` contains non-administrator executable files *not* necessary for
+  system booting.
+* `/usr/sbin` contains administrator executable files *not* necessary for
+  system booting.
 
-This probably seems a bit overly-complex at first; well, it'll soon get a bit more complex, but will then be simplified. While the directories above most often contain many important executable files, they are not necessarily the directories that will be searched when you try and execute a command via the command line. Specifically, the directories that will be searched consist of a colon-separated list of directories in the PATH environment variable. To see this environemnt variable, type:
+This probably seems a bit overly-complex at first; well, it'll soon get a bit
+more complex, but will then be simplified. While the directories above most
+often contain many important executable files, they are not necessarily the
+directories that will be searched when you try and execute a command via the
+command line. Specifically, the directories that will be searched consist of a
+colon-separated list of directories in the PATH environment variable. To see
+this environemnt variable, type:
 
     echo $PATH
 
@@ -34,7 +46,9 @@ On my system, this gives:
 
     /usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/i686-pc-linux-gnu/gcc-bin/4.5.4:/usr/games/bin
 
-Should I decide to run a command via the command line, the executable file for that command will be searched for in the following directories (with the top-most directory in the list being the first directory searched):
+Should I decide to run a command via the command line, the executable file for
+that command will be searched for in the following directories (with the
+top-most directory in the list being the first directory searched):
 
 - `/usr/local/bin`
 - `/usr/bin`
@@ -43,9 +57,16 @@ Should I decide to run a command via the command line, the executable file for t
 - `/usr/i686-pc-linux-gnu/gcc-bin/4.5.4`
 - `/usr/games/bin`
 
-The command line processor will go through each of the directories until it finds an executable file whose filename matches the command specified, at which point it will stop searching and execute the matching file.
+The command line processor will go through each of the directories until it
+finds an executable file whose filename matches the command specified, at which
+point it will stop searching and execute the matching file.
 
-Now, say I have multiple versions of the GNU Image Manipulation Program (GIMP) installed in various locations and am curious which version is executing when I run it via the command line; the above is an annoyingly long list of directories to have to go through by hand, so, instead of searching each directory by hand, I can simply run the `which` command to find out where the executable file is located. For example:
+Now, say I have multiple versions of the GNU Image Manipulation Program (GIMP)
+installed in various locations and am curious which version is executing when I
+run it via the command line; the above is an annoyingly long list of
+directories to have to go through by hand, so, instead of searching each
+directory by hand, I can simply run the `which` command to find out where the
+executable file is located. For example:
 
     which gimp
 
@@ -53,101 +74,185 @@ returns:
 
     /usr/bin/gimp
 
-Thus one can determine where their `Program Files` are by running the `which` command, and by searching the directories in their `PATH` environment variable. Note that there may be other executable files on the system besides the ones which are immediately visible to the user.
+Thus one can determine where their `Program Files` are by running the `which`
+command, and by searching the directories in their `PATH` environment variable.
+Note that there may be other executable files on the system besides the ones
+which are immediately visible to the user.
 
 ## "Where is my `Trash Bin`?"
 
 Maybe.
 
-The `Trash Bin` is not a directory belonging to the filesystem hierarchy itself; instead, the `Trash Bin` is most often implemented by the desktop environment and its window manager. You cannot rely on there being a `Trash Bin` on all installations of Linux; furthermore, there is often not an easy way to access the `Trash Bin` via the command line. What this means is that you should be very careful when deleting files via the command line in Linux, and also cautious when deleting them via your desktop environment.
+The `Trash Bin` is not a directory belonging to the filesystem hierarchy
+itself; instead, the `Trash Bin` is most often implemented by the desktop
+environment and its window manager. You cannot rely on there being a `Trash
+Bin` on all installations of Linux; furthermore, there is often not an easy way
+to access the `Trash Bin` via the command line. What this means is that you
+should be very careful when deleting files via the command line in Linux, and
+also cautious when deleting them via your desktop environment.
 
 ### "So then what's this `lost+found` directory?"
 
 Short answer: Don't worry about it; it's not a `Trash Bin`.
 
-Long answer: The `lost+found` directory is a special directory belonging to the ext\* series of filesystems (ext2, ext3, ext4) that usually appears at the base (specifically, the *mount point*) of the filesystem. Sometimes (hopefully rarely), bad things will happen to the filesystem, and chunks of data, known as *blocks*, may be lost and will not appear to belong to any file. In that case, those blocks of data are taken and placed into the `lost+found` directory during a filesystem stability (called *consistency*) check; the system administrator can then use the blocks of data in the `lost+found` directory to help recover any files with missing data.
+Long answer: The `lost+found` directory is a special directory belonging to the
+ext\* series of filesystems (ext2, ext3, ext4) that usually appears at the base
+(specifically, the *mount point*) of the filesystem. Sometimes (hopefully
+rarely), bad things will happen to the filesystem, and chunks of data, known as
+*blocks*, may be lost and will not appear to belong to any file. In that case,
+those blocks of data are taken and placed into the `lost+found` directory
+during a filesystem stability (called *consistency*) check; the system
+administrator can then use the blocks of data in the `lost+found` directory to
+help recover any files with missing data.
 
 ## "Where is my data stored?"
 
-The specifics may actually vary depending on how the system administrator decides to set up the filesystem, but your data is most often stored in:
+The specifics may actually vary depending on how the system administrator
+decides to set up the filesystem, but your data is most often stored in:
 
 - /home/<username>
 
-So, if your username happens to be `vladimir`, your data would probably be located in:
+So, if your username happens to be `vladimir`, your data would probably be
+located in:
 
 - /home/vladimir
 
-From there, everything else depends on your desktop environment and/or how you choose to organize your files.
+From there, everything else depends on your desktop environment and/or how you
+choose to organize your files.
 
 ## "Where are my configuration files?"
 
-Most user-specific configuration files are stored in "hidden" text files known as *dot files*. Dot files are files whose names are prefixed with a dot (`.`), and are often located in the user's home directory; having their name prefixed with a dot keeps them hidden from normal `ls` commands; for example, running `ls` on my machine shows:
+Most user-specific configuration files are stored in "hidden" text files known
+as *dot files*. Dot files are files whose names are prefixed with a dot (`.`),
+and are often located in the user's home directory; having their name prefixed
+with a dot keeps them hidden from normal `ls` commands; for example, running
+`ls` on my machine shows:
 
     Desktop  blake  cuda  hobby  media  software  work
 
 but running `ls -a` (the `-a` shows *all* files) shows:
 
-     .            .bash_history  .cddb    .dvdcss               .gitconfig        .kde4         .macromedia     .thumbnails       blake     work
-     ..           .bash_logout   .config  .fontconfig           .gnupg            .lesshst      .mozilla        .vim              cuda
-     .TrueCrypt   .bash_profile  .crawl   .gforth-history       .gnuplot_history  .libreoffice  .recently-used  .viminfo          hobby
-     .Xauthority  .bashrc        .dbus    .gimp-2.6             .gstreamer-0.10   .links        .ssh            .xsession-errors  media
-     .adobe       .cache         .dmrc    .git-completion.bash  .gsview.ini       .local        .swp            Desktop           software
+    .              .crawl                .gsview.ini     .vim
+    ..             .dbus                 .kde4           .viminfo
+    .TrueCrypt     .dmrc                 .lesshst        .xsession-errors
+    .Xauthority    .dvdcss               .libreoffice    Desktop
+    .adobe         .fontconfig           .links          blake
+    .bash_history  .gforth-history       .local          cuda
+    .bash_logout   .gimp-2.6             .macromedia     hobby
+    .bash_profile  .git-completion.bash  .mozilla        media
+    .bashrc        .gitconfig            .recently-used  software
+    .cache         .gnupg                .ssh            work
+    .cddb          .gnuplot_history      .swp
+    .config        .gstreamer-0.10       .thumbnails
 
-Most of these hidden files are configuration files or are directories leading to configuration files for their respective programs; for example, `.gnupg` is a directory for configuration files belonging to the GNU Privacy Guard program.
 
-System-wide configuration files are mostly located in the `/etc` directory, and require administrative access.
+Most of these hidden files are configuration files or are directories leading
+to configuration files for their respective programs; for example, `.gnupg` is
+a directory for configuration files belonging to the GNU Privacy Guard program.
 
-## "Where do my external drives (USB storage device aka 'USB stick', &c) appear?"
+System-wide configuration files are mostly located in the `/etc` directory, and
+require administrative access.
 
-Short answer: They are usually found under the `/media` directory once you have chosen to open (more specifically, *mount*) them via your desktop environment and window manager. In rarer cases, they may also be under the `/mnt` directory.
+## "Where do my external drives (USB storage device ('USB stick'), &c) appear?"
 
-Long answer: Anywhere and multiple places! I'll use a USB storage device as an example. The *block device* file (think: every single byte of data on the device, including filesystem metadata) for the USB stick will usually appear under the `/dev` directory (see the relevant entry below). The filesystem data itself may appear at a *mount point* that is created automatically by the system or is instead specified by the user; for example, one may choose to display the contents of their filesystem under `/home/vladimir/usb_stick` rather than `/media/usb_stick` by correctly invoking the `mount` command (the invocation of which is outside the scope of this document). In either case, the *block device* is still located under the `/dev` directory while the contents of the block device may be easily accessed at the *mount point* `/home/vladimir/usb_stick`.
+Short answer: They are usually found under the `/media` directory once you have
+chosen to open (more specifically, *mount*) them via your desktop environment
+and window manager. In rarer cases, they may also be under the `/mnt`
+directory.
+
+Long answer: Anywhere and multiple places! I'll use a USB storage device as an
+example. The *block device* file (think: every single byte of data on the
+device, including filesystem metadata) for the USB stick will usually appear
+under the `/dev` directory (see the relevant entry below). The filesystem data
+itself may appear at a *mount point* that is created automatically by the
+system or is instead specified by the user; for example, one may choose to
+display the contents of their filesystem under `/home/vladimir/usb_stick`
+rather than `/media/usb_stick` by correctly invoking the `mount` command (the
+invocation of which is outside the scope of this document). In either case, the
+*block device* is still located under the `/dev` directory while the contents
+of the block device may be easily accessed at the *mount point*
+`/home/vladimir/usb_stick`.
 
 # The Filesystem Hierarchy
 
-The following is a brief introduction to the actual layout of a Linux filesystem. First, the three levels of hierarchy, which I have decided to call *tiers*, of a Linux filesystem are explained, then some directories that are often common to multiple tiers are listed, and lastly certain specific directories are listed.
+The following is a brief introduction to the actual layout of a Linux
+filesystem. First, the three levels of hierarchy, which I have decided to call
+*tiers*, of a Linux filesystem are explained, then some directories that are
+often common to multiple tiers are listed, and lastly certain specific
+directories are listed.
 
-Note that most distributions of Linux have additional directories that are not listed here, and, furthermore, the system administrator is often free to change the layout in order to suit their needs.
+Note that most distributions of Linux have additional directories that are not
+listed here, and, furthermore, the system administrator is often free to change
+the layout in order to suit their needs.
 
 ## The Three Tiers.
 
-Each tier of a Linux filesystem is meant to serve a specific purpose. These purposes are mostly of relevance to system administrators, but are useful for the average user to know.
+Each tier of a Linux filesystem is meant to serve a specific purpose. These
+purposes are mostly of relevance to system administrators, but are useful for
+the average user to know.
 
 ### `/`
 
-The `/` directory, known as the *root directory*, is the basis of the entire Linux file hierarchy. Files located directly under this tier are files which are generally considered essential for system booting, repair, and restoration.
+The `/` directory, known as the *root directory*, is the basis of the entire
+Linux file hierarchy. Files located directly under this tier are files which
+are generally considered essential for system booting, repair, and restoration.
 
 ### `/usr`
 
-The `/usr`, or *user directory*, holds read-only data that is useful for users but is not necessary for system maintenance. For example, highly-important programs such as Minecraft may be located under the `/usr` tier as it is not necessary for basic system stability.
+The `/usr`, or *user directory*, holds read-only data that is useful for users
+but is not necessary for system maintenance. For example, highly-important
+programs such as Minecraft may be located under the `/usr` tier as it is not
+necessary for basic system stability.
 
 ### `/usr/local`
 
-The `/usr/local`, or *local directory*, is for locally-installed software. For example, say you are working on a video game using Simple DirectMedia Layer (SDL) but are having trouble with the library; you could download the library source code, hack the source code to add some debugging statements, then install a local copy of SDL into `/usr/local/lib` to test your video game without upsetting any other video games that depend on the version of SDL in `/usr/lib`.
+The `/usr/local`, or *local directory*, is for locally-installed software. For
+example, say you are working on a video game using Simple DirectMedia Layer
+(SDL) but are having trouble with the library; you could download the library
+source code, hack the source code to add some debugging statements, then
+install a local copy of SDL into `/usr/local/lib` to test your video game
+without upsetting any other video games that depend on the version of SDL in
+`/usr/lib`.
 
 ## Common directories.
 
-These directories are common to many tiers of the LFSH. Directories listed here are not necessarily located in all tiers.
+These directories are common to many tiers of the LFSH. Directories listed here
+are not necessarily located in all tiers.
 
 ### `bin`
 
-The `bin` directory contains architecture-dependent executable files; the "bin" stands for "binary", not "bin" as in "Trash Bin". Binary files are executable files that are written in a language that specific types of computers (specifically, computers with the same *architecture*) can understand. When run, these files are programs which can make the computer do... things; like video games.
+The `bin` directory contains architecture-dependent executable files; the "bin"
+stands for "binary", not "bin" as in "Trash Bin". Binary files are executable
+files that are written in a language that specific types of computers
+(specifically, computers with the same *architecture*) can understand. When
+run, these files are programs which can make the computer do... things; like
+video games.
 
 ### `include`
 
-The `include` directory contains *header files* for use in the programming languages "C" and "C++". If you are not programming in either of these languages, then you will likely not have to worry about this directory. The directory is usually located in `/usr` and `/usr/local`, but not `/`.
+The `include` directory contains *header files* for use in the programming
+languages "C" and "C++". If you are not programming in either of these
+languages, then you will likely not have to worry about this directory. The
+directory is usually located in `/usr` and `/usr/local`, but not `/`.
 
 ### `lib`
 
-The `lib` directory contains files which provide common functionality to multiple programs, usually in the form of architecture-dependent binary data. The "lib" stands for "library".
+The `lib` directory contains files which provide common functionality to
+multiple programs, usually in the form of architecture-dependent binary data.
+The "lib" stands for "library".
 
 ### `sbin`
 
-The `sbin` directory contains architecture-dependent executable files that are meant for administrator use only.
+The `sbin` directory contains architecture-dependent executable files that are
+meant for administrator use only.
 
 ### `share`
 
-The `share` directory contains data that is "architecture-independent"; this means that the directory contains data that may be shared by multiple computers with different architrecutres that are running the same distribution of Linux. Note that data under this directory is likely *not* shareable between multiple distributions (such as Ubuntu, Fedora, and Gentoo).
+The `share` directory contains data that is "architecture-independent"; this
+means that the directory contains data that may be shared by multiple computers
+with different architrecutres that are running the same distribution of Linux.
+Note that data under this directory is likely *not* shareable between multiple
+distributions (such as Ubuntu, Fedora, and Gentoo).
 
 ## Specific directories.
 
@@ -155,25 +260,46 @@ These are specific directories with the Linux filesystem that are noteworthy.
 
 ### `/boot`
 
-Contains files essential for booting the Linux kernel. This usually includes the kernel itself, the `initramfs`, and `System.map` files.
+Contains files essential for booting the Linux kernel. This usually includes
+the kernel itself, the `initramfs`, and `System.map` files.
 
 ### `/dev`
 
-This directory contains *device* files (note: "device", not "developer"). Device files may be thought of as "raw" interfaces to hardware devices. Several common and important device files are:
+This directory contains *device* files (note: "device", not "developer").
+Device files may be thought of as "raw" interfaces to hardware devices. Several
+common and important device files are:
 
-- The `sd\*` family of files. These include things like your computer hard drives, USB storage media, and flash cards. Devices are generally listed in alphabetical order, with the first device as `sda`, followed by `sdb`, `sdc`, &c. Partitions within the device have the number of the partition as a suffix to the device name; for example, disk `sda` with three partitions would likely have entries `sda1`, `sda2`, and `sda3`.
+- The `sd\*` family of files. These include things like your computer hard
+  drives, USB storage media, and flash cards. Devices are generally listed in
+  alphabetical order, with the first device as `sda`, followed by `sdb`, `sdc`,
+  &c. Partitions within the device have the number of the partition as a suffix
+  to the device name; for example, disk `sda` with three partitions would
+  likely have entries `sda1`, `sda2`, and `sda3`.
 
-- The `sr\*` files represent optical media such as CD/DVD reader/writers. Their suffix is a number rather than a letter.
+- The `sr\*` files represent optical media such as CD/DVD reader/writers. Their
+  suffix is a number rather than a letter.
 
-- The `/dev/null` file is a place to banish program output; data that gets sent into the `null` device does not come out.
+- The `/dev/null` file is a place to banish program output; data that gets sent
+  into the `null` device does not come out.
 
-- The `/dev/random` and `/dev/urandom` devices provide a way to access kernel-generated random numbers. The `random` device is *buffered*, meaning that it will stop producing random numbers when it runs out of a special kind of input it uses called *entropy*; the `urandom` device is *unbuffered*, meaning that it will continue to produce random numbers even when it runs out of entropy (a discussion of entropy is outside the scope of this book; suffice it to say that entropy allows for the creation of high-quality random numbers). In general, you should use `random` when you need a few random numbers and `urandom` when you need many random numbers. 
+- The `/dev/random` and `/dev/urandom` devices provide a way to access
+  kernel-generated random numbers. The `random` device is *buffered*, meaning
+  that it will stop producing random numbers when it runs out of a special kind
+  of input it uses called *entropy*; the `urandom` device is *unbuffered*,
+  meaning that it will continue to produce random numbers even when it runs out
+  of entropy (a discussion of entropy is outside the scope of this book;
+  suffice it to say that entropy allows for the creation of high-quality random
+  numbers). In general, you should use `random` when you need a few random
+  numbers and `urandom` when you need many random numbers. 
 
 - The `/dev/zero` device produces a never-ending stream of `0` bytes.
 
 ### `/etc`
 
-This directory contains most of the system-wide configuration files. Almost all of these files are plain-text and can thus be easily modified with a text editor by the system administrator; normal users can usually still view most of the files.
+This directory contains most of the system-wide configuration files. Almost all
+of these files are plain-text and can thus be easily modified with a text
+editor by the system administrator; normal users can usually still view most of
+the files.
 
 ### `/home`
 
@@ -181,19 +307,30 @@ An optional directory that contains each user's individual data.
 
 ### `/media`
 
-Most removable storage devices, such as USB sticks and SD cards, are mounted in here in a subdirectory.
+Most removable storage devices, such as USB sticks and SD cards, are mounted in
+here in a subdirectory.
 
 ### `/mnt`
 
-Temporary mount point; some distributions will use this directory instead of `/media`. It is often unused by the average user.
+Temporary mount point; some distributions will use this directory instead of
+`/media`. It is often unused by the average user.
 
 ### `/opt`
 
-According to the Filesystem Hierarchy Standard (FSH), this directory is for "Add-on application software packages". To be honest, I'm not quite sure what this means, but within this directory on my system is a subdirectory for a certain media-player-that-shall-not-be-named. Suffice it to say that this directory isn't generally *too* important for average use. Also, if you can figure out what the name could stand for (besides "optional", obviously), please let me know.
+According to the Filesystem Hierarchy Standard (FSH), this directory is for
+"Add-on application software packages". To be honest, I'm not quite sure what
+this means, but within this directory on my system is a subdirectory for a
+certain media-player-that-shall-not-be-named. Suffice it to say that this
+directory isn't generally *too* important for average use. Also, if you can
+figure out what the name could stand for (besides "optional", obviously),
+please let me know.
 
 ### `/proc`
 
-Mount point for a Linux "virtual" filesystem (in this context, a filesystem that doesn't actually exist on the hard drive) that exports process-specific and non-process-specific data. While there is lots of data exported via this system, a couple noteworthy entries are:
+Mount point for a Linux "virtual" filesystem (in this context, a filesystem
+that doesn't actually exist on the hard drive) that exports process-specific
+and non-process-specific data. While there is lots of data exported via this
+system, a couple noteworthy entries are:
 
 - `/proc/cpuinfo`, which exports processor information.
 
@@ -201,11 +338,15 @@ Mount point for a Linux "virtual" filesystem (in this context, a filesystem that
 
 - `/proc/version`, which exports Linux version and distribution information.
 
-It is also possible to interact with the Linux kernel by writing certain values to specific files within this filesystem; for example, executing:
+It is also possible to interact with the Linux kernel by writing certain values
+to specific files within this filesystem; for example, executing:
 
     echo 3 > /proc/sys/vm/drop_caches
 
-as an administrator will de-allocate cached pages (if you don't know what I said, then don't worry about it; it's a fairly esoteric use-case; just know that there are ways to interact with the kernel via the `/proc` virtual filesystem).
+as an administrator will de-allocate cached pages (if you don't know what I
+said, then don't worry about it; it's a fairly esoteric use-case; just know
+that there are ways to interact with the kernel via the `/proc` virtual
+filesystem).
 
 ### `/root`
 
@@ -213,20 +354,30 @@ The equivalent of a `/home/root` directory for the administrative user.
 
 ### `/run`
 
-Process that contains information that has accumulated since system boot. Generally not important.
+Process that contains information that has accumulated since system boot.
+Generally not important.
 
 ### `/sys`
 
-A Linux virtual filesystem which exports kernel object information to userspace. This usually consists of hardware, module, and driver information. It is usually fairly difficult to decipher, though fun to look around; to make sense of it, you'll have to scrounge up the appropriate documentation.
+A Linux virtual filesystem which exports kernel object information to
+userspace. This usually consists of hardware, module, and driver information.
+It is usually fairly difficult to decipher, though fun to look around; to make
+sense of it, you'll have to scrounge up the appropriate documentation.
 
 ### `/tmp`
 
-Directory for programs that require temporary files. The contents of this are generally not of concern to the user.
+Directory for programs that require temporary files. The contents of this are
+generally not of concern to the user.
 
 ### `/var`
 
-Contains data that varies over time. This usually includes things such as kernel boot logs, useful if the system crashed but is now working again. Internal system mail is also often stored within this directory. This directory is sometimes worth checking if the filesystem has run out of space; copious amounts of kernel debugging via a poorly-written rouge driver can sometimes fill up smaller filesystems.
+Contains data that varies over time. This usually includes things such as
+kernel boot logs, useful if the system crashed but is now working again.
+Internal system mail is also often stored within this directory. This directory
+is sometimes worth checking if the filesystem has run out of space; copious
+amounts of kernel debugging via a poorly-written rogue driver can sometimes
+fill up smaller filesystems.
 
 # References
 
-Filesystem Hierarchy Standard (FHS): http://refspecs.linuxfoundation.org/fhs.shtml
+[Filesystem Hierarchy Standard (FHS)](http://refspecs.linuxfoundation.org/fhs.shtml)
