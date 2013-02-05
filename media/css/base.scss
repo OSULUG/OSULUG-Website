@@ -245,10 +245,31 @@ ul.subpage-list {
     display: block;
 }
 
-.people h2:first-child {
-    margin-bottom: 1em;
+.people {
+    h1 {
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2em;
+    }
+    h2:not(:first-child) {
+        font-size: .9em;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2em;
+        margin-bottom: 1em;
+        color: $gray;
+    }
+    h2:first-child {
+        margin-bottom: 1em;
+    }
+    img {
+        float: left;
+        margin-right: 20px;
+        width: 125px;
+        height: 125px;
+    }
 }
-
 .people {
     margin-top: 2em
 
