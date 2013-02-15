@@ -1,8 +1,8 @@
-title: Meeting 
+title: Wok Tutorial
 datetime: 2013-02-26 18:00:00
 category: events
 slug: meeting0226
-preview: Topic TBD
+preview: Wok is the static website generator that powers this site, and its author Mythmon will show us how it works!
 location: Dearborn 212
 
 ---
@@ -10,3 +10,10 @@ When: February 26th, 6 PM
 
 Where: Dearborn 212
 
+[Wok][wok] is a static website generator written by LUG alum Mike Cooper (Mythmon). 
+He'll be visiting us to show off the project and walk us through installing Wok and 
+using it to create a basic web site. 
+
+Remember to bring your laptop if you'd like to follow along with the tutorial!
+
+[wok]:https://github.com/mythmon/wok
