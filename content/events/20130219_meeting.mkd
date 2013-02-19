@@ -1,8 +1,8 @@
-title: Meeting 
+title: Bkero's SSH tips and tricks
 datetime: 2013-02-19 18:00:00
 category: events
 slug: bkerossh
-preview: Bkero's cool SSH tips and tricks
+preview: Learn more about secure shell! Content for both newbies and experts.
 location: Dearborn 212
 
 ---
