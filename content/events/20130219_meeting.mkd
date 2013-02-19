@@ -1,12 +1,19 @@
 title: Meeting 
 datetime: 2013-02-19 18:00:00
 category: events
-slug: meeting0219
-preview: Topic TBD
+slug: bkerossh
+preview: Bkero's cool SSH tips and tricks
 location: Dearborn 212
 
 ---
+[Ben Kero][bkero], a LUG alum and current Senior System Administrator at Mozilla, will 
+be in town to talk to us about Linux's [SSH][ssh] utility. He'll cover the basics for those 
+of you who haven't worked with SSH before, then move on to cool tricks which will be useful to advanced
+as well as novice linux users.
+
 When: February 19th, 6 PM
 
 Where: Dearborn 212
 
+[bkero]:http://bke.ro
+[ssh]:https://en.wikipedia.org/wiki/Secure_Shell
