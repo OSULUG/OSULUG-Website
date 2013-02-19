@@ -1,12 +1,25 @@
-title: Meeting 
+title: Coding Puzzles for Interview Prep
 datetime: 2013-03-05 18:00:00
 category: events
-slug: meeting0305
-preview: Topic TBD
+slug: codinginterview
+preview: Discussing internship interviews and practicing popular types of coding problems.
 location: Dearborn 212
 
 ---
+
+[OSU's Winter Career Fairs][fairs] are happening on February 20 and 21, kicking off the season
+of internship applications and interviews. LUG students who've interned at companies like Mozilla and Intel
+will be around to answer questions about their experiences, and we'll work through examples of 
+some common types of coding questions to develop or refresh our interview skills. 
+
+Bring your laptop with a compiler or interpreter for your language of choice, and a favorite 
+coding puzzle if you have one!
+
+Even if you've only completed CS160/161 so far, don't worry! You're still a competitive candiate for 
+some companies' internships, and by the end of this meeting you'll know much more about algorithms
+and data structures than you did before!
+
 When: March 5th, 6 PM
 
 Where: Dearborn 212
-
+[fairs]:http://oregonstate.edu/career/career-fairs
