@@ -47,7 +47,9 @@ blog.title }}</a></h3>
                 {% endif %}
                 {{ event.date.strftime('%A %B %d, %Y') }}
               </span>
+              <p>
               {{ event.preview }}
+              </p>
             </li>
           {% endfor %}
          </ul>
