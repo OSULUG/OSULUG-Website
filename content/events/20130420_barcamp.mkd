@@ -1,0 +1,15 @@
+title: Beaver BarCamp 
+datetime: 2013-04-20 10:00:00
+category: events
+slug: bbc11
+preview: http://beaverbarcamp.org/
+location: Dearborn 212
+
+---
+
+Free food, interesting talks, T-shirts, smart people, more food, more talks...
+Be there!
+
+When: 10am - 6pm (come for as long or short a time as you like)
+
+Where: Kelley Engineering Center

@@ -1,0 +1,15 @@
+title: Spring InstallFest 
+datetime: 2013-04-09 18:00:00
+category: events
+slug: meeting20130409
+preview: We'll help you try Linux!
+location: Dearborn 212
+
+---
+
+Another InstallFest! Newbies, do your first Linux install with expert
+supervision! Experts, come help out and geek out!
+
+When: 6pm
+
+Where: EECS Library
