@@ -1,4 +1,4 @@
-title: Welcome Back meeting: Term Planning 
+title: Welcome Back meeting, Term Planning 
 datetime: 2013-04-02 18:00:00
 category: events
 slug: meeting20130402
