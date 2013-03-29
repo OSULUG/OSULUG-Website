@@ -2,7 +2,7 @@ title: Week 7 meeting, topic TBD
 datetime: 2013-05-14 18:00:00
 category: events
 slug: meeting20130514
-preview: Discussing check back for updates on this week's schedule!
+preview: check back for updates on this week's schedule!
 location: Dearborn 212
 
 ---
