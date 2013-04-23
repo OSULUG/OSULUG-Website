@@ -1,13 +1,16 @@
-title: Week 4 meeting, topic TBD
+title: Study Session, CS Q&A
 datetime: 2013-04-23 18:00:00
 category: events
 slug: meeting20130423
-preview: check back for updates on this week's schedule!
+preview: It's midterms, so no talk this week
 location: Dearborn 212
 
 ---
 
-Meeting description goes here
+For those who aren't taking a midterm during LUG time, 
+this week's meeting will be an informal study session and 
+a chance to get answers to your questions about Computer Science
+classes and your new Linux installation.
 
 When: 6pm
 
