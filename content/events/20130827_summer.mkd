@@ -2,7 +2,7 @@ title: Summer Non-Meetings
 datetime: 2013-08-27 18:00:00
 category: events
 slug: 2013summer
-preview: No official business
+preview: Every Tuesday until October
 location: KEC near 1005 and 1007
 
 ---
