@@ -1,0 +1,17 @@
+title: Summer Non-Meetings
+datetime: 2013-08-27 18:00:00
+category: events
+slug: 2013summer
+preview: No official business
+location: KEC near 1005 and 1007
+
+---
+
+It isn't really a meeting, because we don't vote or conduct Serious Business, 
+but people show up and hang out. The school of MIME took away all the 
+EECS library furniture, so we're congregating in Kelley Engineering Center
+between the 4 large classrooms and using whichever happens to be open. 
+
+When: 6pm
+
+Where: Kelley Engineering Center
