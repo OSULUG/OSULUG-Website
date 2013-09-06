@@ -1,0 +1,22 @@
+title: Techno-Activism 3rd Mondays 
+datetime: 2013-09-16 18:00:00
+category: events
+slug: sept13ta3m
+preview: Organized by Privly Foundation
+location: Puppet Labs in Portland, OR
+
+---
+
+[Techno-Activism 3rd Mondays][ta3m] are an event hosted by the Privly Foundation. 
+
+Hear about others' experiences with privacy, surveillance, and censorship, then 
+demo your favorite security and privacy technology tools! 
+
+[RSVP][rsvp] at EventBrite before the event to help them get an accurate head count and know how much food to bring.  
+
+When: 6pm
+
+Where: Puppet Labs
+
+[ta3m]:https://wiki.openitp.org/events:techno-activism_3rd_mondays:portland
+[rsvp]:http://ta3m-pdx-4.eventbrite.com/

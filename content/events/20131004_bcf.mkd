@@ -1,0 +1,17 @@
+title: Beaver Community Fair
+datetime: 2013-10-04 12:00:00
+category: events
+slug: bcf2013
+preview: Spreading the Linux word to new students!
+location: MU Quad
+
+---
+
+We'll have a booth at the Beaver Community Fair. Veteran LUG students should
+come staff the table and tell freshmen about why they might be interested
+in getting involved with LUG, BarCamp, and the OSL. Newbies should come to 
+use Linux for the first time and find out more about our group! 
+
+When: October 4th, noon-4pm
+
+Where: MU Quad, exact location TBD.

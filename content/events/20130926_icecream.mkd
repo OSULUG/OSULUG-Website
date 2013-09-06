@@ -1,0 +1,15 @@
+title: College of Engineering Icecream Social
+datetime: 2013-04-30 13:00:00
+category: events
+slug: icecream2013
+preview: New Engineers, meet LUG; LUG, meet New Engineers :)
+location: Kelley Engineering Center
+
+---
+
+There'll be icecream, and electricity, and a whole bunch of future 
+hackers to befriend! Be there. 
+
+When: Thursday September 26th, 1-3pm
+
+Where: KEC
