@@ -1,0 +1,16 @@
+title: B-Sides PDX
+datetime: 2013-09-27 09:00:00
+category: events
+slug: bsides2013
+preview: A community security conference
+location: Refuge PDX
+
+---
+
+[B-Sides PDX][bsides] combines the community nature of a BarCamp with 
+the technical focus of a top-tier security conference. Carpools will probably 
+be available -- stay tuned for more info. 
+
+When: Daytime... Exact hours TBD
+
+Where: Portland. 
