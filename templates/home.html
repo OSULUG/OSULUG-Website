@@ -4,35 +4,9 @@
   <div class="container" id="home">
     {{ page.content }}
 
-    <!--Featured Blog Post-->
+   <!--Featured Blog Post-->
     <div class="c">
-    {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
-      {% if loop.first %}
-        <div class="featured-blog">
-          <h3 class="featured-header">Featured Blog</h3>
-          {% if blog.image %}
-            <img class="thumbnail" src="{{blog.image.url}}"/>
-          {% endif %}
-          <div>
-            <h3 class="big-index-title"><a href="{{blog.url}}">{{
-blog.title }}</a></h3>
-            {% set page = blog %}
-            {% include "metadata.html" %}
-            <div class="big-index-post">
-              {{blog.content|truncate(length=700)}}
-              </pre>
-              </code>
-              <a href="{{blog.url}}">more</a>
-            </div>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-    </div>
-    <!--End Featured Blog Post-->
-
-    <div class="row">
-      <div class="events span5 columns">
+       <div class="events span5 columns">
          <!--Upcoming Events-->
          <h3>Upcoming Events</h3>
          <ul>
@@ -59,6 +33,32 @@ blog.title }}</a></h3>
          <!--End Upcoming Events-->
       </div>
 
+    {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
+      {% if loop.first %}
+        <div class="featured-blog">
+          <h3 class="featured-header">Featured Blog</h3>
+          {% if blog.image %}
+            <img class="thumbnail" src="{{blog.image.url}}"/>
+          {% endif %}
+          <div>
+            <h3 class="big-index-title"><a href="{{blog.url}}">{{
+blog.title }}</a></h3>
+            {% set page = blog %}
+            {% include "metadata.html" %}
+            <div class="big-index-post">
+              {{blog.content|truncate(length=700)}}
+              </pre>
+              </code>
+              <a href="{{blog.url}}">more</a>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+    <!--End Featured Blog Post-->
+
+    <div class="row">
       <!--Blog Posts-->
       <div class="span10 columns recent-blogs">
         <div class="big-index">
