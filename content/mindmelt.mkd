@@ -1,0 +1,71 @@
+title: Mindmelt 
+slug: mindmelt
+tags: navigation
+navrank: 4
+---
+The [OSU Open Source Lab][osuosl] provides qulity hosting for more then 160 open source projects. Along with delivering over 460 terabytes of opensource data a mounth, the OSL trains students to be expert systems administratiors and software developers to enter industry. The OSL encounters more demand from industry for qualified students than the employees graduating each year can supply. We'd like to give back to OSU and the wider open source community by training interested students from all disciplines in the real-world skills necessary for success as software developers and systems engineers. To this end, we'll be offering an extracurricular training program with 2 to 3 sessions per month through the school year, in which current OSL students and software professionals will teach all of the topics with which one must be familiar in order to succeed. Although hands-on labs will be offered later in the program, no initial familiarity with software development or Linux will be assumed.
+
+This program is based on the [PSU Braindump][braindump], for more then a decade they have been turning PSU students into sysadmins that have rappitly been flowing into the growing number of startups in portland.  
+
+This program will be dynamically shaping itself based on the feedbake we get from those involed. Below we have an outline for the first four meetings to give you an idea of where we are going to be starting. 
+
+Week 1: 
+ -What's mindmelt
+ -Who are we
+ -Who's our target audience
+ -What types of jobs do people with these skills end up in
+ -What's Unix/Linux
+ -Brief history of open source
+
+Week 2:
+ -How to get to Linux
+    -OSU/ENGR shell access
+    -Ways to install it
+ -What's the terminal?
+    -Some useful commands
+    -How to get out when you're stuck
+    -Man pages
+ -How to IRC
+    -How to ask useful questions
+    -Basic jargon and how/where to look up translations (box? fall over? plumbing?)
+
+Week 3:
+ -What're files
+    -Everything!
+    -Permissions/users
+ -What're user accounts?
+    -permissions
+    -sudo
+    -overview of how users are managed
+ -What're packages?
+    -repositories
+    -tarballs etc.
+    -how installation works
+    -Difference between scripts and installed programs
+ -Backups. 
+    -A good idea
+    -What should you back up?
+
+Week 4:
+ -What's a (real) editor?
+    -Not an IDE
+    -Useful in remote terminal
+    -Vim, Emacs and related contention
+ -Features of an editor
+    -Modes
+    -Commands
+    -Configuration/customization
+    -Regexp
+ -Now you're changing all the things, Git!
+    -Why we need it
+    -What it does
+    -The basics you need to know
+      -Create/fork repo
+      -Clone
+      -Add/Commit/Push
+      -Pull
+    -Help everything is broken get me out of here
+
+
+[osuosl]: http://osuosl.org
+[braindump]: http://cat.pdx.edu
