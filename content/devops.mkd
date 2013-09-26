@@ -1,0 +1,64 @@
+title: DevOps Bootcamp 
+slug: devops 
+tags: navigation
+navrank: 4
+---
+The [OSU Open Source Lab][osuosl] provides quality hosting for more then 160
+open source projects. Along with delivering over 460 terabytes of open source
+data a month, the OSL trains students to be expert systems administrators
+and software developers ready to enter industry. The OSL encounters more
+demand for qualified students than the employees graduating each year can
+supply. We'd like to give back to OSU and the wider open source community by
+training interested students from all disciplines in the real-world skills
+necessary for success as software developers and systems engineers. To this
+end, we'll be offering an extracurricular training program with 2 to 3
+sessions per month through the school year, in which current OSL students and
+software professionals will teach all of the topics with which one must be
+familiar in order to succeed. Although hands-on labs will be offered later in
+the program, no initial familiarity with software development or Linux will be
+assumed. 
+
+This program is based on the [PSU Braindump][braindump], where for over a
+decade they have been turning PSU students into sysadmins that have rapidly 
+been flowing into the growing number of startups in Portland.  
+
+This program will be dynamically shaping itself based on the feedback we get
+from those involved. Below we have an outline for the first four meetings to
+give you an idea of where we are going to be starting. 
+
+Format of a meeting: 
+
+ - 45-90 minutes of well-prepared lecture, with slides posted online
+ - 30-45 minute break for food (have companies sponsor to provide pizza/sandwiches??)
+ - 45-60 minutes of either hands-on activity or more lecture
+
+Week 1: 
+
+ - What's DevOps Bootcamp
+ - Who we are 
+ - Who's our target audience
+ - What types of jobs do people with these skills end up in
+ - What's Unix/Linux
+ - Brief history of open source
+
+Week 2:
+
+ - How to get to Linux
+ - What's the terminal?
+ - How to IRC
+
+Week 3:
+
+ - What're files
+ - What're user accounts?
+ - What're packages?
+
+Week 4:
+
+ - What's a (real) editor?
+ - Features of an editor
+ - Version control with Git
+
+
+[osuosl]: http://osuosl.org
+[braindump]:http://cat.pdx.edu/thecat/thecat-presents-braindump-orientation.html 
