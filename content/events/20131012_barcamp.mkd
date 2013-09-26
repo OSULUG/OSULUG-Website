@@ -1,0 +1,37 @@
+title: Beaver Bar Camp 12
+datetime: 2013-10-12 10:00:00
+slug: barcamp12
+category: events
+preview: barcamp BarCamp BARCAMP!
+location: Kelley Engineering Center
+image:
+    url: /img/events/20111029_barcamp.png
+    where: top
+---
+
+OSU is once again hosting Beaver BarCamp!
+
+Barcamp is an interactive user-generated conference, where the attendees give
+all the talks. When you show up you will find a complex graphing system
+(butcher paper and sticky notes) that will tell you what rooms are available
+when. If you have something you want to give a talk on, write down the subject
+and put it on the wall. Talk about gardening, programming, cooking, spider
+eradication, anything!
+
+Everyone is welcome to come and go throughout the day to attend talks. Not only
+is the event *FREE*, but there will be swag and food.
+
+Attendees are encouraged to [register][reg] to guarantee that we'll have food
+that meets your requirements and shirts in your size. 
+
+[reg]:http://www.eventbrite.com/event/7825611615
+ 
+
+When: October 12, 10 AM to 6 PM
+
+Where: Kelley Engineering Center (yes, all of it!)
+
+For more information check out: [beaverbarcamp.org][bbc]
+
+
+[bbc]:http://beaverbarcamp.org
