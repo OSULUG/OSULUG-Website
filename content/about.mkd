@@ -31,4 +31,4 @@ to attend.
 [osel]: http://osel.oregonstate.edu
 [osuosl]: http://osuosl.org
 [constitution]: /constitution/
-[KEC]: oregonstate.edu/campusmap/locations/info/870
+[KEC]: http://oregonstate.edu/campusmap/locations/info/870
