@@ -22,8 +22,8 @@ creating events with other groups on campus. We share many members with the
 [OSU Open Source Education Lab][osel] and are hosted by the [OSU Open Source
 Lab][osuosl].
 
-We have open meetings every Tuesday at 6:00 pm in the EECS Library, room 212
-in [Dearborn Hall][dearborn]. All students and community members are welcome
+We have open meetings every Tuesday at 6:00 pm in the KEC, room 1007
+in [Kelly Engineering Center][KEC]. All students and community members are welcome
 to attend. 
 
 [Our Constitution][constitution].
@@ -31,4 +31,4 @@ to attend.
 [osel]: http://osel.oregonstate.edu
 [osuosl]: http://osuosl.org
 [constitution]: /constitution/
-[dearborn]: http://oregonstate.edu/campusmap/locations/info/752
+[KEC]: oregonstate.edu/campusmap/locations/info/870
