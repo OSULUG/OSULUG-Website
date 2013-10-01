@@ -8,8 +8,6 @@ person:
     image: /img/people/justinnoah.jpg
 
 ---
-Justin is a student developer for the [OSU Open Source Lab](http://osuosl.org/) and a CS Major at
-Oregon State University. Currently Justin's main focus is getting through
-school, though in his free time he will get some work done on [bravo](https://github.com/bravoserver/bravo)
-and a few other side projects. When Justin is being lazy, you can find him as
-Ecka Solios on [Vendetta Online](http://www.vendetta-online.com/).
+Justin is a student developer for the [OSU Open Source Lab](http://osuosl.org/) and a Philosophy Major at
+Oregon State University. Currently Justin's main focus is getting through school
+and a few side projects.
