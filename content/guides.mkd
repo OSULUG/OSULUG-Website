@@ -8,4 +8,4 @@ image:
     where: right
 ---
 
-"Linux Survival Guide" or "How Not to Suck at Linux" by fellow OSULUG members.
+"Linux Survival Guide" or "How To Linux and LUG" by fellow OSULUG members.
