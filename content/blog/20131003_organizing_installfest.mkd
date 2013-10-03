@@ -5,7 +5,7 @@ author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
 date: 2013-10-03
 ---
 
-1) **Before Term Starts**
+0) **Before Term Starts**
 
 Pick a time and date for the InstallFest. The usual LUG time (Tuesday at
 6pm) generally works, and we usually have a room for it as well. Contact Tina
@@ -13,7 +13,7 @@ Batten from EECS to reserve KEC1005 or KEC1007. Week 2 or 3 is generally a
 good time to have InstallFest, since students in the introductory CS classes
 have realized they need Linux but haven't gotten it yet. 
 
-2) **During Week 1**
+1) **During Week 1**
 
 Make a list of which classes the LUG should present about InstallFest in.
 Depending on the term, the table you'll fill out might look something like: 
@@ -67,7 +67,7 @@ them. Make sure that there are actually LUG students available to visit each
 class we ask to visit. If nobody is available to visit, ask to just send a
 message to the class lists instead. 
 
-3) **Send Emails.** This is easiest if one person (probably president, VP, or
+2) **Send Emails.** This is easiest if one person (probably president, VP, or
 secretary) handles all the scheduling. This person should send the messages
 from their ONID or ENGR address, since some professors filter out messages
 from gmail and other non-student accounts.
