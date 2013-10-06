@@ -3,7 +3,7 @@ slug: devops
 tags: navigation
 navrank: 4
 ---
-The [OSU Open Source Lab][osuosl] provides quality hosting for more then 160
+The [OSU Open Source Lab][osuosl] provides quality hosting for more than 160
 open source projects. Along with delivering over 460 terabytes of open source
 data a month, the OSL trains students to be expert systems administrators
 and software developers ready to enter industry. The OSL encounters more
