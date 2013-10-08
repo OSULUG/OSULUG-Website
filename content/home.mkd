@@ -23,9 +23,13 @@ LUG meets every week on
 **Tuesday at 6:00pm at Kelly Engineering Center in KEC 1007**.
 Keep an eye out for helpful information and upcoming events posted here.
 
+We are also holding elections soon. If there is a student member you want to nominate
+(you are encouraged to nominate yourself.) then fill out this form [Nominate a Member][nominate]
+
 [form]: https://docs.google.com/spreadsheet/viewform?formkey=dDIySHZQeHNhbFhkd25uaTFUNEZubnc6MQ
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 [source]: https://github.com/OSULUG/OSULUG-Website/
 [ircguide]: /blog/20110915-irc/
 [ml]: http://lists.oregonstate.edu/mailman/listinfo/linux
+[nominate]: https://docs.google.com/forms/d/17djTsbEoGTfpr4mQHSO_Bo7UcafLrf4S5w8T4GgjyAQ/viewform
 
