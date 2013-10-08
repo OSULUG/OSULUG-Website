@@ -24,7 +24,7 @@ LUG meets every week on
 Keep an eye out for helpful information and upcoming events posted here.
 
 We are also holding elections soon. If there is a student member you want to nominate
-(you are encouraged to nominate yourself.) then fill out this form [Nominate a Member][nominate]
+(you are encouraged to nominate yourself.) then fill out this form [Nominate a Member][nominate].
 
 [form]: https://docs.google.com/spreadsheet/viewform?formkey=dDIySHZQeHNhbFhkd25uaTFUNEZubnc6MQ
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
