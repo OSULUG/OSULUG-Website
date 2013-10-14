@@ -152,7 +152,7 @@ number represents its state.
 -   Purple: someone is speaking directly to you 
 -   No number: nothing has happened in that channel since you last checked
 
-You can change the theme of the colors if you wihs.
+You can change the theme of the colors if you wish.
 
 Here are some other commands:
 
