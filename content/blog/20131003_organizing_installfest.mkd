@@ -4,14 +4,23 @@ tags: guide
 author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
 date: 2013-10-03
 ---
-
-0) **Before Term Starts**
+0) **1-2 weeks Before Term Starts**
 
 Pick a time and date for the InstallFest. The usual LUG time (Tuesday at
 6pm) generally works, and we usually have a room for it as well. Contact Tina
 Batten from EECS to reserve KEC1005 or KEC1007. Week 2 or 3 is generally a
 good time to have InstallFest, since students in the introductory CS classes
 have realized they need Linux but haven't gotten it yet. 
+
+* Take inventory of the USB sticks available. If there are less than about 20
+  install disks available, get a bunch of cheap 1-2GB ones online if you'd like
+  to hand them out to participants. Print stickers with the LUG's logo and url,
+  and label the giveaway sticks before handing them out. 
+
+Alternately, if the USB sticks available are 4GB or larger, make them able to
+install multiple distros using [this guide][multiboot]. 
+
+[multiboot]: http://www.pendrivelinux.com/boot-multiple-iso-from-usb-via-grub2-using-linux/
 
 1) **During Week 1**
 
@@ -159,6 +168,31 @@ on their listserves, and to the online classes. It'll probably look something li
 4) **Visit the Classes**. Hand out handouts with the LUG logo, web site, and irc
 information. Tell people about InstallFest, BarCamp, DevOps Bootcamp, and any
 cool speakers who've been scheduled for the term. 
+
+* A note about handouts: Use the documents from [here][handouts] as a
+  template, and update them to be correct for the current term. Leave a stack
+  of handouts in the room for students to take at the end of class.
+
+[handouts]: https://github.com/OSULUG/documents
+
+"The Spiel" takes about 2 to 3 minutes, and is pretty straightforward: 
+
+* First, introduce yourself and Linux. Ask a show of hands for who's heard of
+  Linux before, if you want to be interactive, then saying it's "a free
+  alternative to Mac or Windows, widely used in industry and academia" is about
+  all that an intro-level class needs to know.
+
+* Explain that the Linux Users Group is a club of students on campus who use and
+  contribute to free and open source software, and we have a variety of events
+  that CS/engineering (customize based on what class it is) might be interested
+  in.
+
+* Give a 1-2 sentence summary of Installfest, BarCamp, regular meetings, and
+  whatever else is interesting and relevant this term. 
+
+* Tell them how to get more information -- encourage them to take the 
+  handouts that you've set on a table near the door. Thank them for their time
+  and encourage them to attend installfest, BarCamp, etc.
 
 5) **Prepare Installation Media**. CDs and bootable USB sticks, latest Ubuntu and
 some Mint at least. Let people know that they can bring other distros if
