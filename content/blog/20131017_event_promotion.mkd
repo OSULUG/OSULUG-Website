@@ -1,0 +1,64 @@
+title: Event Publicity 
+category: blog
+tags: guide
+author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
+date: 2013-10-17
+---
+
+The Event Publicity Cheat Sheet
+===============================
+
+LUG runs or contributes to a variety of events, from Installfests to BarCamps
+to regular outreach activities. This guide will be a work in progress --
+please update it with what you learn as you try to implement its suggestions.
+
+A month before the event: 
+-------------------------
+ 
+* Talk to whoever runs the mailing lists for the departments you're recruiting
+  from, to make them aware of your event and get permission to post to their
+  mailing lists closer to the time it's happening. For EECS, talk to Calvin. 
+
+* Contact that Daily Barometer and KBVR (the campus radio station) to find out
+  whether they can run ads for or articles about the event. Get permission to
+  stick posters on Barometer kiosks.
+
+* Design flyers (8.5x11") for posting around campus, and signs or banners to
+  put outside the building on the day of the event. Get the signs or banners
+  printed sooner rather than later. 
+
+* Draft emails to relevant mailing lists about the event.
+
+* If it coincides with the start of a term, make sure the event is mentioned
+  in the handouts that we distribute when talking to classes about
+  installfest.
+
+* Contact leaders of relevant student clubs, depending on the event's theme. 
+  Get their contact information from [this link][seac].
+
+[seac]: http://oregonstate.edu/seac/sos/find_org
+
+The week of the event: 
+----------------------
+
+* Actually send the emails to the mailing lists for which you got permission
+  earlier. 
+
+* Post flyers around campus, on MU tables and barometer kiosks if you got
+  permission from the relevant authorities.
+
+Day before event: 
+-----------------
+
+* If the weather looks good, write about the event in sidewalk chalk near the
+  building where it'll take place. 
+
+* Put up the signs or banners or sandwichboards to make the building
+  noticeable.
+
+
+After the event: 
+----------------
+
+* Update this guide to correct timing and recommendations for each publicity
+  tactic. 
