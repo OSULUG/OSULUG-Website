@@ -1,13 +1,16 @@
-title: Week 4 meeting, topic TBD
+title: Week 4: Intermediate IRC 
 datetime: 2013-10-22 18:00:00
 category: events
 slug: meeting20131022
-preview: Check back for updates on this week's schedule
+preview: how to run your own channels, hack on bots, and more
 location: KEC 1007
 
 ---
 
-There will be a meeting this week. We'll update this page when we know what it is.
+Since we have so many newbies this term, edunham will talk about cool stuff
+you can do with IRC other than just talk to people: Create your own channel,
+administer who's allowed to do what in it, get your nickname back if someone
+steals it, and write bots to automate anything! 
 
 When: 6pm
 
