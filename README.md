@@ -13,7 +13,8 @@ Markdown explanation is at http://daringfireball.net/projects/markdown/
 Testing changes:
 ----------------
 
-You probably need to have Wok installed. Then in the main directory of your clone of the site, run `wok --server`. 
+You probably need to have Wok installed. `sudo pip install wok`
+In the main directory of your copy of the site, run `wok --server`. 
 
 More info about wok is at http://wok.mythmon.com/
 
