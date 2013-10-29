@@ -1,4 +1,4 @@
-title: Linux Filesystem Hierarchy Primer
+title: Linux Filesystem Hierarchy Primer: A Guide for Windows Users
 category: blog
 tags: guide
 slug: fshguide
