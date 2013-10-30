@@ -5,42 +5,92 @@ author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
 date: 2013-01-12
 ---
 
-0) **Identify a topic** about which we need a guide. If you have an idea, great! If you're looking for something to write about, check out the [open issues][issues] about Guides. Ask around in the IRC channel and at meetings about what people would like to see guides on, as well.
+0) **Identify a topic** about which we need a guide. If you have an idea,
+great! If you're looking for something to write about, check out the [open
+issues][issues] about Guides. Ask around in the IRC channel and at meetings
+about what people would like to see guides on, as well.
 
-* Remember that you don't have to start out as an expert on a topic in order to create a great guide. In fact, someone new to a subject is at an advantage when writing an introduction for other newbies, because experts often leave out information that seems obvious based on their years of experience.
+* Remember that you don't have to start out as an expert on a topic in order
+  to create a great guide. In fact, someone new to a subject is at an
+  advantage when writing an introduction for other newbies, because experts
+  often leave out information that seems obvious based on their years of
+  experience.
 
-* To  learn more about best practices and other areas that require expertise with your subject, interview an expert! They're usually happy to share, especially to help make a guide from which many people will benefit, and they'll thank you for taking the time to write up and publish their advice.
+* To  learn more about best practices and other areas that require expertise 
+  with your subject, interview an expert! They're usually happy to share, 
+  especially to help make a guide from which many people will benefit, and 
+  they'll thank you for taking the time to write up and publish their advice.
 
-1) Make sure that your idea has a ticket open and assigned to you in the [guides category][issues] on our GitHub issue tracker. This will allow others to give feedback on your idea and what information they'd like to see in your guide, and it's good practice for professional software development workflows.
-* If you're unable to create issues or assign an issue to yourself, make sure you're a member of the LUG organization. To become a member on GitHub, contact [an admin][ghlist].
+1) Make sure that your idea has a ticket open and assigned to you in the 
+[guides category][issues] on our GitHub issue tracker. This will allow others 
+to give feedback on your idea and what information they'd like to see in your 
+guide, and it's good practice for professional software development workflows.
 
-2) **Outline the topic** of your guide. [Etherpad][etherpad] is a great place to draft your ideas and share them with others. You can create a custom URL for your etherpad by navigating to etherpad.osuosl.org/your-guide-topic-idea, substituting your topic for the placeholder text. If a pad by that name doesn't exist yet, you'll get the option of creating it.
+* If you're unable to create issues or assign an issue to yourself, make sure 
+  you're a member of the LUG organization. To become a member on GitHub, 
+  contact [an admin][ghlist].
+
+2) **Outline the topic** of your guide. [Etherpad][etherpad] is a great place
+to draft your ideas and share them with others. You can create a custom URL
+for your etherpad by navigating to etherpad.osuosl.org/your-guide-topic-idea,
+substituting your topic for the placeholder text. If a pad by that name
+doesn't exist yet, you'll get the option of creating it.
 
 #### Your guide should include:
 
 * What tool or process the guide is about
 
-* Who the guide's intended audience includes (newbies? experts? coders of a particular language? non-programmers?)
+* Who the guide's intended audience includes (newbies? experts? coders of a
+  particular language? non-programmers?)
 
-* Prerequisite knowledge, and how to get it. For instance, a guide on modifying [Wok][wok] should probably include referances to a Python tutorial.
+* Prerequisite knowledge, and how to get it. For instance, a guide on
+  modifying [Wok][wok] should probably include referances to a Python
+  tutorial. 
 
-* List topics which overlap with the subject of your guide, and discuss the reasons to choose each option. As an example, a guide about Git should probably mention SVN, and give a quick recap of the benefits and drawbacks of each tool.
+* List topics which overlap with the subject of your guide, and discuss the
+  reasons to choose each option. As an example, a guide about Git should
+  probably mention SVN, and give a quick recap of the benefits and drawbacks
+  of each tool.
 
 * The actual how-to section.
 
 * Summary or checklist of the most important steps
 
-3) **Get feedback** on your outline. If you're new to the topic, check with an expert to see whether there are any holes or inaccuracies in the planned article. If you're an expert, have someone less familiar with the topic read through your outline to be sure you don't leave any major questions unanswered for the people that your writeup is supposed to be guiding.
+3) **Get feedback** on your outline. If you're new to the topic, check with an
+expert to see whether there are any holes or inaccuracies in the planned
+article. If you're an expert, have someone less familiar with the topic read
+through your outline to be sure you don't leave any major questions unanswered
+for the people that your writeup is supposed to be guiding.
 
-4) **Complete the content** of your guide. Try to keep it clear and concise. When you think you're finished, read it out loud to your roommate, laptop, or cat. Fix the parts that sound funny, because if it doesn't sound good to you, it'll be just as bad for everyone else who tries to read it.
+4) **Complete the content** of your guide. Try to keep it clear and concise.
+When you think you're finished, read it out loud to your roommate, laptop, or
+cat. Fix the parts that sound funny, because if it doesn't sound good to you,
+it'll be just as bad for everyone else who tries to read it.
 
-5) **Make it pretty**. Most LUG guides are formatted using [Markdown][mkd], which is an easy markup language to learn. Look at the source of the [other guides][guides]and compare it to how they show up on the website, to get a feel for how Markdown syntax works. And, for the love of grammar, PROOFREAD IT! If you're not sure you've caught all the errors, or just want some feedback, drop a link to your draft in the IRC channel and we'll help you out.
+5) **Make it pretty**. Most LUG guides are formatted using [Markdown][mkd],
+which is an easy markup language to learn. Look at the source of the [other
+guides][guides]and compare it to how they show up on the website, to get a
+feel for how Markdown syntax works. And, for the love of grammar, PROOFREAD
+IT! If you're not sure you've caught all the errors, or just want some
+feedback, drop a link to your draft in the IRC channel and we'll help you
+out.
 
-6) **Get it online!** Clone or fork the [website repository][site] on Github, add your guide to the [content section][guides], then submit your changes for approval via patch or pull request. If you'd like help, any [LUG officer][officers] or [LUG github admin][ghlist] can walk you through the process or help you find resources to answer your questions.
+* Test your changes with `wok --server` to examine how the browser will really
+  display what you wrote
 
-* You can create a new file without leaving the Github web page using the + icon which appears after "OSULUG-Website / content / " in [the source][guides].
+6) **Get it online!** Clone or fork the [website repository][site] on Github,
+add your guide to the [content section][guides], then submit your changes for
+approval via patch or pull request. If you'd like help, any [LUG
+officer][officers] or [LUG github admin][ghlist] can walk you through the
+process or help you find resources to answer your questions.
 
-7) Congratulations, **you're done!** Double-check that your guide appears correctly on the LUG website, and brag about your successful writing career to all your friends.
+* You can create a new file without leaving the Github web page using the +
+  icon which appears after "OSULUG-Website / content / " in [the
+  source][guides].
+
+7) Congratulations, **you're done!** Double-check that your guide appears
+correctly on the LUG website, and brag about your successful writing career to
+all your friends.
 
 [issues]:https://github.com/OSULUG/OSULUG-Website/issues?labels=Guides&state=open
 [ghlist]:https://github.com/OSULUG?tab=members
