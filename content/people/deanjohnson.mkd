@@ -1,0 +1,12 @@
+title: Dean Johnson
+tags: officer
+rank: 6 
+person:
+    name: Dean Johnson
+    title: Public Relations Officer
+    irc: johnsdea
+    image: /img/people/deanjohnson.png
+
+---
+
+Dean needs to update his bio.

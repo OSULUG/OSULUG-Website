@@ -1,0 +1,13 @@
+title: Isaac Archer 
+tags: officer
+rank: 2
+person:
+  name: Isaac Archer
+  title: Vice President
+  site: https://github.com/iruel01 
+  irc: _iruel_
+  image: /img/people/isaacarcher.png
+
+---
+
+Iruel needs to update his bio here. 

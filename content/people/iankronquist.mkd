@@ -1,0 +1,11 @@
+title: Ian Kronquist 
+tags: officer
+rank: 3
+person:
+    name: Ian Kronquist
+    title: Secretary
+    irc: muricula
+    image: /img/people/iankronquist.jpeg
+---
+
+Muricula needs to update his bio.

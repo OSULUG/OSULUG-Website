@@ -1,0 +1,12 @@
+title: Megan Goossens 
+tags: officer
+rank: 5
+person:
+    name: Megan Goossens
+    title: Webmaster
+    irc: Mara_Jade
+    image: /img/people/megangoossens.png
+
+---
+
+Mara needs to update her bio.
