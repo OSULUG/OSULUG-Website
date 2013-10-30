@@ -5,7 +5,7 @@ person:
     name: Dean Johnson
     title: Public Relations Officer
     irc: johnsdea
-    image: /img/people/deanjohnson.png
+    image: /img/people/deanjohnson.jpg
 
 ---
 
