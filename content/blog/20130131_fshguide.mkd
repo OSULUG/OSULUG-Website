@@ -1,4 +1,4 @@
-title: Linux Filesystem Hierarchy Primer
+title: Linux Filesystem Hierarchy Primer: A Guide for Windows Users
 category: blog
 tags: guide
 slug: fshguide
@@ -172,6 +172,15 @@ invocation of which is outside the scope of this document). In either case, the
 *block device* is still located under the `/dev` directory while the contents
 of the block device may be easily accessed at the *mount point*
 `/home/vladimir/usb_stick`.
+
+## Where are my hard drives ('C:', 'D:', &c) located?
+
+Hard drives, like USB storage devices (see above), have a corresponding *block
+device* file in the '/dev' directory. This even includes the hard drive that
+your Linux machine is currently running on (which is usually '/dev/sda'). This
+is because, from an abstract standpoint, there is no difference between a hard
+drive and a USB storage device, since both provide the same functionality
+(random access storage).
 
 # The Filesystem Hierarchy
 
