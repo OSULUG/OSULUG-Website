@@ -1,5 +1,4 @@
 title: Kevin Ngo
-tags: officer
 person:
     name: Kevin Ngo
     title: Webmaster

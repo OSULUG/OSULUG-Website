@@ -1,5 +1,4 @@
 title: Chance Zibolski
-tags: officer
 person:
   name: Chance Zibolski
   title: Vice President
