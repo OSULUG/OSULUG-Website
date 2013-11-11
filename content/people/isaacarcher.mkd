@@ -5,9 +5,10 @@ person:
   name: Isaac Archer
   title: Vice President
   site: https://github.com/iruel01 
-  irc: _iruel_
+  irc: _iruel
   image: /img/people/isaacarcher.png
 
 ---
 
-Iruel needs to update his bio here. 
+Isaac is a CS major at Oregon State University studying security. Currently he is interested in graduating
+by 2015 and looking for work in Washington.
