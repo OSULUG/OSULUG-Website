@@ -15,13 +15,13 @@ channel on `irc.freenode.net`. For more info on IRC, check out our [IRC
 guide][ircguide].
 
 **If you're currently an OSU student and would like to become an official
-voting member of LUG**, please fill out this [member form][form]. Be aware that
-by giving us your onid, you're inviting us to email you each spring and ask if
-you plan on remaining a LUG member for the following year.
+voting member of LUG**, please fill out this [member form][form].
 
 LUG meets every week on
 **Tuesday at 6:00pm at Kelly Engineering Center in KEC 1007**.
-Keep an eye out for helpful information and upcoming events posted here.
+Keep an eye out for helpful information and upcoming events posted here. We
+also have lunch together on Fridays, at a time determined by the [doodle
+poll][chovda] and confirmed in the IRC channel.
 
 LUG is also on [GitHub][gh] and [Google Plus][gplus].
 
@@ -32,3 +32,4 @@ LUG is also on [GitHub][gh] and [Google Plus][gplus].
 [source]: https://github.com/OSULUG/OSULUG-Website/
 [ircguide]: /blog/20110915-irc/
 [ml]: http://lists.oregonstate.edu/mailman/listinfo/linux
+[chovda]: http://doodle.com/ragrnapd72x4vcmm
