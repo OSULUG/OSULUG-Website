@@ -3,7 +3,7 @@ datetime: 2014-01-07 18:00:00
 category: events
 slug: meeting20140107
 preview: We'll be planning the installfest and various events.
-location: KEC 1007?
+location: KEC 1005
 
 ---
 
@@ -16,4 +16,4 @@ dunhame@onid.orst.edu or mention it in #osu-lug-admin on Freenode.
 
 When: 6pm
 
-Where: Probably Kelley Engineering Center room 1007
+Where: Kelley Engineering Center room 1005
