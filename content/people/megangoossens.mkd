@@ -4,9 +4,10 @@ rank: 5
 person:
     name: Megan Goossens
     title: Webmaster
+    site: https://github.com/marajade
     irc: Mara_Jade
     image: /img/people/megangoossens.png
 
 ---
 
-Mara needs to update her bio.
+Megan is a Drupal Developer for Central Web Services, and a CS major at Oregon State University.
