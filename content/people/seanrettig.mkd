@@ -7,4 +7,9 @@ person:
     irc: rettigs
     image: /img/people/seanrettig.jpg
 ---
-Sean needs to update his bio.
+
+Sean, sometimes known as chekkaa, is a Computer Science student at OSU and a
+systems administrator at the [Open Source Lab][osl]. He is known for working
+at odd hours and fixing the backup systems.
+
+[osl]: http://osuosl.org/
