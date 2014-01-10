@@ -4,7 +4,6 @@
   <div class="container" id="home">
     {{ page.content }}
 
-   <!--Featured Blog Post-->
     <div class="c">
        <div class="events span5 row">
          <!--Upcoming Events-->
@@ -32,8 +31,10 @@
               <p class="no-events">Check back soon for future events!</p>
             {% endif %}
           {% endfor %}
-         <!--End Upcoming Events-->
       </div>
+      <!--End Upcoming Events-->
+
+      <!--Featured Blog Post-->
       <div class="span10 columns">
       {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
         {% if loop.first %}
