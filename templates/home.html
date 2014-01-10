@@ -4,9 +4,8 @@
   <div class="container" id="home">
     {{ page.content }}
 
-   <!--Featured Blog Post-->
     <div class="c">
-       <div class="events span5 columns">
+       <div class="events span5 row">
          <!--Upcoming Events-->
          <h3>Upcoming Events</h3>
          <ul>
@@ -32,37 +31,40 @@
               <p class="no-events">Check back soon for future events!</p>
             {% endif %}
           {% endfor %}
-         <!--End Upcoming Events-->
       </div>
+      <!--End Upcoming Events-->
 
-    {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
-      {% if loop.first %}
-        <div class="featured-blog">
-          <h3 class="featured-header">Featured Blog</h3>
-          {% if blog.image %}
-            <img class="thumbnail" src="{{blog.image.url}}"/>
-          {% endif %}
-          <div>
-            <h3 class="big-index-title"><a href="{{blog.url}}">{{
-blog.title }}</a></h3>
-            {% set page = blog %}
-            {% include "metadata.html" %}
-            <div class="big-index-post">
-              {{blog.content|truncate(length=700)}}
-              </pre>
+      <!--Featured Blog Post-->
+      <div class="span10 columns">
+      {% for blog in site.categories['blog'] | sort(attribute='datetime', reverse=True) if blog.featured %}
+        {% if loop.first %}
+          <div class="featured-blog">
+            <h3 class="featured-header">Featured Blog</h3>
+            {% if blog.image %}
+              <img class="thumbnail" src="{{blog.image.url}}"/>
+            {% endif %}
+            <div>
+              <h3 class="big-index-title"><a href="{{blog.url}}">{{
+  blog.title }}</a></h3>
+              {% set page = blog %}
+              {% include "metadata.html" %}
+              <div class="big-index-post">
+                {{blog.content|truncate(length=700)}}
+                </pre>
               </code>
               <a href="{{blog.url}}">more</a>
             </div>
           </div>
         </div>
-      {% endif %}
-    {% endfor %}
+        {% endif %}
+        {% endfor %}
+      </div>
     </div>
     <!--End Featured Blog Post-->
 
     <div class="row">
       <!--Blog Posts-->
-      <div class="span10 columns recent-blogs">
+      <div class="recent-blogs">
         <div class="big-index">
           <h3 class="recent-blogs-header">Recent Blogs</h3>
           <form class="sliding-btn" method="link" action="/blog/index.html">
