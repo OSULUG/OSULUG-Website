@@ -1,5 +1,4 @@
 title: Justin Noah
-tags: officer
 person:
     name: Justin Noah
     title: Treasurer
