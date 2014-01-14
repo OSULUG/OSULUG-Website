@@ -16,10 +16,10 @@ would like help, or because they are active users and want to help promote
 FOSS.  Because of the infectious nature of open source, the group nearly builds
 itself.
 
-We have benefited the Oregon State student body by providing free support for
-Linux, increasing awareness about the open source revolution, and jointly
-creating events with other groups on campus. We share many members with the
-[OSU Open Source Education Lab][osel] and are hosted by the [OSU Open Source
+Since 2004 we have benefited the Oregon State student body by providing free 
+support for Linux, increasing awareness about the open source revolution, and 
+jointly creating events with other groups on campus. We share many members with 
+the [OSU Open Source Education Lab][osel] and are hosted by the [OSU Open Source
 Lab][osuosl].
 
 We have open meetings every Tuesday at 6:00 pm in the KEC, room 1007
