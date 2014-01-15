@@ -3,7 +3,7 @@ tags: officer
 rank: 2
 person:
     name: Sean Rettig
-    title: Treasuer
+    title: Treasurer
     irc: rettigs
     image: /img/people/seanrettig.jpg
 ---
