@@ -1,8 +1,8 @@
-title: I installed Linux... Now what?
+title: Gaming on Linux
 datetime: 2014-01-28 18:00:00
 category: events
 slug: meeting20140128
-preview: Intro to command line, text editors, version control, and more
+preview: LUG VP Iruel will share tips and tricks
 location: KEC 1005
 
 ---
