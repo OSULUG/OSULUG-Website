@@ -90,7 +90,7 @@ For CS classes:
 > Dr. `PROFESSORNAME`,
 > 
 > I'm writing to you as a representative of the OSU Linux Users Group. We're
-> holding our annual InstallFest event on `DATE`, and would like
+> holding our quarterly InstallFest event on `DATE`, and would like
 > to request your permission to make a quick announcement to inform `CLASSNUMBER`
 > students about it at the start of your `TIME` and `TIME` lectures on either
 > `DATE` or `DATE`.

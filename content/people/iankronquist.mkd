@@ -8,4 +8,9 @@ person:
     image: /img/people/iankronquist.jpeg
 ---
 
-Muricula needs to update his bio.
+Ian is a Computer Science student at OSU and a web developer at the [Open
+Source Lab][osl]. He's fluent in Turkish and can often be found on IRC
+undertaking ambitious hacking projects such as booting a Rust kernel on a
+raspberry pi.
+
+[osl]: http://osuosl.org/
