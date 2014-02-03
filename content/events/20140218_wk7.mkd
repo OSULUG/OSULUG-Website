@@ -1,14 +1,14 @@
-title: Week 7 meeting, topic TBD
+title: Nibalizer on Stewardship of Open-Source Microprojects 
 datetime: 2014-02-18 18:00:00
 category: events
 slug: meeting20140218
-preview: Check back for updates on this week's schedule
+preview: Nibz will come tell us cool stories, from which we can learn how to open source better.
 location: KEC 1005
 
 ---
 
-There will be a meeting this week. We'll update this page when we know what it is.
-
+It's more or less the same talk as listed on
+http://casitconf.org/casitconf14/talk-descriptions/. 
 When: 6pm
 
 Where: Kelley Engineering Center room 1005

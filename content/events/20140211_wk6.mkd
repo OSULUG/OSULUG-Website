@@ -1,13 +1,11 @@
-title: Week 6 meeting, topic TBD
+title: Week 6 meeting, Sage 
 datetime: 2014-02-11 18:00:00
 category: events
 slug: meeting20140211
-preview: Check back for updates on this week's schedule
+preview: Brian Sherson discussing an open-source alternative to Matlab and Mathematica
 location: KEC 1005
 
 ---
-
-There will be a meeting this week. We'll update this page when we know what it is.
 
 When: 6pm
 
