@@ -273,22 +273,22 @@ Some Examples
 
 [Emily Dunham](https://github.com/edunham/resume)
 
-    * LaTeX resume, an older version helped get an Intel internship
+* LaTeX resume, an older version helped get an Intel internship
 
 [Spencer Krum](https://github.com/nibalizer/resume)
 
-    * A different LaTeX template; got fulltime DevOps position at
-      [UTI](http://www.go2uti.com/)
+* A different LaTeX template; got fulltime DevOps position at
+  [UTI](http://www.go2uti.com/)
 
 [Rob McGuire-Dale](http://robmd.net/docs/mcguire-dale,rob-resume.txt)
 
-    * Plain text, but it looks great. He's worked for Boeing and REI.
+* Plain text, but it looks great. He's worked for Boeing and REI.
 
 [Major Hayden](http://majorhayden.com/)
 
-    * Not a LUG or CAT acquaintance, but it's a man page. An actual man page.
+* Not a LUG or CAT acquaintance, but it's a man page. An actual man page.
 
-    * Not sure how this design theme would work for ladies in tech, though.
+* Not sure how this design theme would work for ladies in tech, though.
 
 Other Resources
 ---------------
