@@ -1,0 +1,297 @@
+title: Technical Resume Hints
+category: blog
+tags: guide
+author: Emily Dunham <dunhame@onid.oregonstate.edu>
+date: 2014-02-06
+---
+
+Technical Resume Advice
+=======================
+
+The advice you'll get at a place like [OSU Career Services](http://oregonstate.edu/career/)
+is appropriate for generic resumes, but not all of it applies when tailoring
+your resume for a technical role. Technical resumes will typically be read by
+automated systems, HR people, and the professional engineers who conduct your
+interview.
+
+Know Your Audience
+------------------
+
+Once you get your resume into the hands of an interviewer or hiring manager,
+it needs to accurately reflect who you are and what you can do. Don't lie, and
+don't bullshit. Sure, claiming to be proficient in technologies you don't know 
+might get you an interview, but that interview will ask questions that you
+can't answer and generally waste everyone's time. 
+
+Conversely, don't underestimate your own abilities. If there's a project that
+you've done which you're reluctant to include on your resume because you think
+it's too trivial, ask in the IRC channel for feedback on whether it seems
+relevant to the position for which you're applying.
+
+Engineers and technical recruiters like numbers and facts more than vague
+claims. For example, "Improved Android system throughput by 25% in some use 
+cases" is much clearer and better quantified than "worked on Android devices". 
+
+### SEO (search engine optimization)
+
+If you're unlucky enough to be applying through automated systems rather than
+personal recommendations, it's especially important to list the names of all
+the technologies you're confident with. The automated systems for deciding
+whose resumes get seen by humans basically just search for buzzwords that
+match the job postings. 
+
+However, this is no excuse to include a wall of acronyms which people can't
+read. Put the names of the technologies you've worked with in places that make
+sense.
+
+How many pages?
+---------------
+
+For most students in their first few years of open source involvement, one
+page is sufficient. A curriculum vitae includes publications and speaking
+experience, and is expected to exceed a single page if those sections have
+several items in each.
+
+Although some recruiters believe that multiple-page resumes are acceptable,
+others will discard anything over a single page on the grounds that it shows
+you can't communicate concisely. 
+
+As a practical consideration, a single page is more convenient than multiple,
+because most of the resumes you print will be for career fairs on campus. If
+you're busy, you'll probably be updating and printing your resume in a hurry,
+and collating several pages then finding a stapler is inconvenient. 
+
+In short, resumes are best kept to a single page unless you have a compelling
+reason to do otherwise. 
+
+Resume Sections
+---------------
+
+### Contact information
+
+Include your full name, email address, GitHub, probably phone number, and
+possibly IRC handle. Be cautious about including your phone number or home
+address if you plan to share your resume on GitHub or your personal web site. 
+
+### Mission Statement or Statement of Purpose
+
+If you can sum up your goal in a single sentence, it doesn't hurt to include
+it. It might be especially helpful if you're trying to pivot your career by
+applying for jobs that don't precisely match your experience. However, if your
+qualifications and hobbies tell a cohesive story of what you enjoy doing, it
+doesn't hurt to omit the mission statement entirely.
+
+### Education
+
+If you're applying through channels that recruit college students, they will
+expect you to have your education listed. This section should include school,
+year and month of anticipated graduation, major, and GPA.
+
+Some positions require GPA to apply, others will assume the worst if you omit
+it, and others don't care. As a general rule, you should include your GPA
+unless it's worse than what the recruiter will assume if you leave it out.
+Alternatively, talk to the recruiters of each company you apply to, and
+customize your resume for their requirements. 
+
+### Skills
+
+Most people use a centralized skills section to list all their buzzwords at
+once. If you have skills that you've picked up independently of any work or
+open source experience that appears elsewhere on your resume, you should
+include a skills section. However, if all of your major skills relevant to the
+job correlate to work or open source experience that's already on your resume,
+include them in those sections and use the space that would have gone to
+skills for other things.
+
+### Employment
+
+List 3-5 recent, relevant jobs. List job title, employer, start month and
+year, and end month and year. Follow it with a couple of lines about what you
+did. Don't say "I"; they already know who you are. Use quantifiable metrics
+whenever possible. Brag. Name the technologies you learned at each job,
+preferably in a way that indicates your level of expertise with them.
+
+### Projects/Contributions
+
+Do you maintain an open source project? List it, with a few words about what
+it does and a link to its site. Did you write a cool, open-source thing that
+shows off your skills? List it and link to it. Have you gotten code into
+somebody else's open-source project? Again, mention what the project does and
+where to see your contributions, unless it's extremely popular or used by the
+company where you're applying. 
+
+### References
+
+Don't include them. It's debatable whether "references available upon request"
+is necessary at all -- typically, if a job requires references, it'll ask you
+for them directly. 
+
+It's especially important to avoid including your references' contact
+information if you post your resume online, on your personal site or in a
+GitHub repo. Web crawlers come through from time to time and scrape out
+everything formatted like a phone number or email address, and then spam them.
+
+### Hobbies
+
+If you have a hobby that relates directly to the position you're applying for
+or makes you stand out meaningfully, include it. For example, if you're a
+world champion at a well-known game, or an avid golfer who's applying to write
+the website of a golf supplies company, include these facts about yourself. If
+the fact that you do a hobby carries useful information about why you'd be a
+better choice than other candidates for the job, include it. Otherwise, leave
+it out. 
+
+### Activities
+
+If you've been actively involved in a club's leadership while in school, it's
+worth mentioning. Your involvement with clubs also demonstrates that you can
+manage your time well, and are self-motivated to go do cool things.
+
+Leave out high school activities unless they're directly relevant to the job
+(robotics club when applying to a robotics company, for instance) or they
+showcase skills that you haven't demonstrated in any other experience you've
+listed.
+
+Formatting
+----------
+
+Make it pretty. 
+
+In this case, pretty means clean and elegant. Words should be distributed over
+the page in a way that leaves neither too much nor too little whitespace
+between sections. Extraneous icons and blocks of color rarely improve simple
+layouts, and often detract from them.
+
+Imagine that you're a recruiter looking at your 50th resume of the day, and
+this resume on is currently at the top of the stack. Is it enjoyable to look 
+at?
+
+As an applicant it's easy to feel like you're the center of the universe and
+your resume's primary purpose is to show off your achievements, but it isn't.
+It actually exists to make the recruiter's day better, because they feel good
+when they come across the resume of a well-qualified and promising candidate. 
+
+To show that you respect the recruiter's time and don't want to hurt their
+eyes, don't pack too much information onto the page. It's okay to tease them
+with high-level summaries of your accomplishments and leave them wanting more
+detail, because you can share those details in the interview.
+
+### Whitespace
+
+Don't leave big empty blocks of space on the page. Spread out your content,
+vertically and horizontally, and tweak bullet indentation until things look
+nice and lines don't wrap at awkward locations. 
+
+### Font size
+
+Keep the default LaTeX font (more about that in a moment) for most of your
+resume, and never go smaller than 10pt.
+
+### Paragraphs
+
+No. Bulleted lists, or lists without bullets. Short, easy-to-read sentences
+about what you've done. 
+
+### Line width
+
+If for some reason you've chosen to go with a plain-text resume, wrap the
+lines at 80 characters. Yes, it's old-fashioned. But 80 characters is about
+the width of a column of text that it's comfortable to read on the web, and
+a different width will look subtly wrong to coders accustomed to reading
+documents of the more standard size.
+
+### Margins
+
+1" is good. With smaller margins, be especially cautious to avoid the hazards
+of tiny font sizes, walls of text, and awkward horizontal spacing.
+
+File Format
+-----------
+
+Use LaTeX to generate your resume. LaTeX is useful for all writeups, and will
+prove invaluable when you get to CS311. Most importantly, it more or less
+guarantees that your resume will end up looking pretty. 
+
+LaTeX is easy to keep under version control when you add and remove sections,
+as well. 
+
+Companies should allow you to submit your resume in .pdf format, which is a
+good choice because it displays pretty consistently across all systems and is
+harder to inadvertently modify. If they demand a .doc, LaTeX can be rendered
+to .rtf, which can then be renamed to .doc, and then allegedly it works fine
+in Word. Test this, though, as your mileage may vary. 
+
+Upload your .tex, your Makefile, and probably a .pdf to GitHub. It's not
+usually a good idea to upload pdfs to GitHub, but resumes are an exception
+because it's convenient to have a pdf file available online whenever you need
+to link to it.
+
+Specialized resumes
+-------------------
+
+Keep a single master resume with all of the sections and content you might
+want. Trim it down to the most applicable page of content for a given
+position, then render a nice pdf, give it a useful name, and submit.
+
+Be sure to keep a copy of each specialized resume you send out so you can
+review what the company knows about you when you're called for an interview.
+
+Be aware of the company's mission, vision, and culture, and refer to how
+you're a good fit for them in your cover letter. Include a cover letter, even
+if it's just the email message to which you attach your resume, even if it's
+nominally optional. It's ok to tailor your mission statement to reflect the
+company's values, but it's generally considered overkill to refer to the
+company by name in your resume. That's what the cover letter is for.
+
+Proofread
+---------
+
+Have several other people look over your resume for typos. Triple-check that
+your email address and phone number are correct. 
+
+Render your .pdf and see how the layout looks. 
+
+Go through every single line on the page and ask yourself whether it helps
+prove that you're the best candidate for the job to which you're applying.
+Delete any useless information -- remember the part about how you're the 50th
+resume on the stack and want to show that you respect the recruiter's time? 
+
+Once you've pruned all of the unnecesary parts, render the .pdf again and ask
+yourself whether it's pretty. Since you've been staring at this same document
+for several hours by now, try looking at your screen in a mirror. You won't be
+able to read the writing, but it'll show you whether the text is arranged
+across the page in a balanced and generally nice-looking way.
+
+Remember to commit and push your .tex file after making everything pretty.
+
+Finally, read the entire thing out loud. This might feel silly. I don't care.
+Read it to your roommate, your cat, your teddy bear... but verbalize the exact
+words on the page. If a sentence sounds awkard, fix it.
+
+Some Examples
+-------------
+
+[Emily Dunham](https://github.com/edunham/resume)
+    * LaTeX resume, an older version helped get an Intel internship
+
+[Spencer Krum](https://github.com/nibalizer/resume)
+    * A different LaTeX template; got fulltime DevOps position at
+      [UTI](http://www.go2uti.com/)
+
+[Rob McGuire-Dale](http://robmd.net/docs/mcguire-dale,rob-resume.txt)
+    * Plain text, but it looks great. He's worked for Boeing and REI.
+
+[Major Hayden](http://majorhayden.com/)
+    * Not a LUG or CAT acquaintance, but it's a man page. An actual man page.
+    * Not sure how this design theme would work for ladies in tech, though.
+
+Other Resources
+---------------
+
+If you find good resource for this section, please update the document! Or
+ping edunham and she'll add the link.
+
+[How to focus on
+accomplishments](http://www.askamanager.org/2014/02/how-to-rewrite-your-resume-to-focus-on-accomplishments-not-just-job-duties.html)
+
+[Fonts in LaTeX](https://www.tug.org/pracjourn/2006-1/schmidt/schmidt.pdf)
