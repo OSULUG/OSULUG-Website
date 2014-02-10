@@ -1,14 +1,7 @@
-title: Week 9 meeting, topic TBD
+title: Full-Disk Encryption 
 datetime: 2014-03-04 18:00:00
 category: events
 slug: meeting20140304
-preview: Check back for updates on this week's schedule
+preview: Wade Cline (Frostsnow) will teach us about full-disk encryption in Linux
 location: KEC 1005
-
 ---
-
-There will be a meeting this week. We'll update this page when we know what it is.
-
-When: 6pm
-
-Where: Kelley Engineering Center room 1005

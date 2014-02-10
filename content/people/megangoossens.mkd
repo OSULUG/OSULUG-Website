@@ -5,7 +5,7 @@ person:
     name: Megan Goossens
     title: Webmaster
     site: https://github.com/marajade
-    irc: Mara_Jade
+    irc: MaraJade
     image: /img/people/megangoossens.png
 
 ---

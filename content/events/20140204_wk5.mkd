@@ -1,14 +1,7 @@
-title: Week 5 meeting, topic TBD
+title: Week 5 meeting, Lightning Talks
 datetime: 2014-02-04 18:00:00
 category: events
 slug: meeting20140204
-preview: Check back for updates on this week's schedule
+preview: Share something awesome, or just come to learn from others
 location: KEC 1005
-
 ---
-
-There will be a meeting this week. We'll update this page when we know what it is.
-
-When: 6pm
-
-Where: Kelley Engineering Center room 1005

@@ -1,14 +1,12 @@
-title: Week 8 meeting, topic TBD
+title: Hackathon! 
 datetime: 2014-02-25 18:00:00
 category: events
 slug: meeting20140225
-preview: Check back for updates on this week's schedule
+preview: Mike Cooper, author of Hamper and Wok, will be here to advise
 location: KEC 1005
-
 ---
+Ever wanted to write an awesome plugin for our friendly local robot, but not
+known where to start? How about updating and improving the web site? Or maybe
+something else entirely? 
 
-There will be a meeting this week. We'll update this page when we know what it is.
-
-When: 6pm
-
-Where: Kelley Engineering Center room 1005
+There'll probably be pizza.

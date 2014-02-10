@@ -30,6 +30,6 @@ LUG is also on [GitHub][gh] and [Google Plus][gplus].
 [form]: https://docs.google.com/spreadsheet/viewform?formkey=dDIySHZQeHNhbFhkd25uaTFUNEZubnc6MQ
 [gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
 [source]: https://github.com/OSULUG/OSULUG-Website/
-[ircguide]: /blog/20110915-irc/
+[ircguide]: /blog/irc/
 [ml]: http://lists.oregonstate.edu/mailman/listinfo/linux
 [chovda]: http://doodle.com/ragrnapd72x4vcmm
