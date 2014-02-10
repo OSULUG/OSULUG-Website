@@ -6,6 +6,11 @@
 {% endblock %}
 {% block content %}
     <div class="page">
+        {% if page in site.categories['events'] %}
+            <ul>
+                <li class="list">{{page.preview}}</li>
+            </ul>
+        {% endif %}
         {{ page.content }}
     </div>
 {% endblock %}
