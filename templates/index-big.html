@@ -53,6 +53,17 @@
             {% if subpage.image %}
               <img style="float:left; display:inline" src="{{subpage.image.url}}"/>
             {% endif %}
+            {% if subpage in site.categories['events'] %}
+                <span class="metadata">
+                    {% if subpage.location %}
+                      {{ subpage.location }} |
+                    {% endif %}
+                    {{ subpage.date.strftime('%A %B %d, %Y') }}
+                </span>
+                {% if not subpage.content %}
+                    <p>{{subpage.preview}}</p>
+                {% endif %}
+            {% endif %}
             {{subpage.content|truncate(length=char_limit, end="<a href="+subpage.url+">...more</a>")}}
             </pre>
           </span>
