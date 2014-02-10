@@ -9,8 +9,11 @@
         {% if page in site.categories['events'] %}
             <ul>
                 <li class="list">{{page.preview}}</li>
+                <li class="list">{{page.datetime}}</li>
+                <li class="list">{{page.location}}</li>
             </ul>
+        {% else %}
+            {{ page.content }}
         {% endif %}
-        {{ page.content }}
     </div>
 {% endblock %}
