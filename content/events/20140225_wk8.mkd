@@ -4,16 +4,9 @@ category: events
 slug: meeting20140225
 preview: Mike Cooper, author of Hamper and Wok, will be here to advise
 location: KEC 1005
-
 ---
-
 Ever wanted to write an awesome plugin for our friendly local robot, but not
 known where to start? How about updating and improving the web site? Or maybe
 something else entirely? 
 
 There'll probably be pizza.
-
-
-When: 6pm
-
-Where: Kelley Engineering Center room 1005
