@@ -13,8 +13,15 @@ Markdown explanation is at http://daringfireball.net/projects/markdown/
 Testing changes:
 ----------------
 
-You probably need to have Wok installed. `sudo pip install wok`
-In the main directory of your copy of the site, run `wok --server`. 
+```
+$ cd OSULUG-Website
+$ virtualenv venv                   # only the first time
+$ source venv/bin/activate
+$ pip install -r requirements.txt   # only the first time and if the reqs change
+$ wok --server
+$ deactivate
+
+```
 
 More info about wok is at http://wok.mythmon.com/
 
