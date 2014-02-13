@@ -1,14 +1,13 @@
-title: Isaac Archer 
+title: Alice Archer 
 tags: officer
 rank: 2
 person:
-  name: Isaac Archer
+  name: Alice Archer
   title: Vice President
   site: https://github.com/iruel01 
-  irc: _iruel
+  irc: _Alice_
   image: /img/people/isaacarcher.png
 
 ---
 
-Isaac is a CS major at Oregon State University studying security. Currently he is interested in graduating
-by 2015 and looking for work in Washington.
+Alice is a CS major at Oregon State University studying security. Currently she is looking at transfering to PSU and finishing her degree in CS and working as a sysadmin or pen tester.
