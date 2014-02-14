@@ -362,3 +362,6 @@ html[xmlns] .c {
 * html .c {
     height: 1%;
 }
+/*Quick fix for inline-button problem*/
+#all-button{
+display:inline-block;}
