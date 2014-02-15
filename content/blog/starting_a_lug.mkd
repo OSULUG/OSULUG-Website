@@ -1,0 +1,129 @@
+title: Hints on Running a University LUG
+category: blog
+tags: guide
+author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
+date: 2014-02-14
+---
+
+So, you want to start a LUG? DO IT! Here are some hints that I've picked up in
+2 years as President and 1 year as Vice President of the OSU LUG. 
+
+## Resources
+
+Your first task is to evaluate what already exists in your community, to
+determine whether a LUG is needed. 
+
+### Current and former local LUGs and friends
+
+Has your campus ever had a LUG? If so, find its web site and mailing list. Use
+the names, IRC handles, and your Facebook and LinkedIn stalking skills to
+track down the LUG's former leaders and reach out to them to see whether
+they'd be willing to advise and mentor you in resurrecting their old group. 
+
+Other people who might know about old LUGs include CS faculty, academic
+advisors (if they've worked at the university for longer than you've been
+there), and the full-time network services staff who run mailing lists and
+student organization web hosting. 
+
+### Alumni
+
+If you can get ahold of an old LUG's mailing list, it's a valuable tool for
+recruiting alumni who are pursuing Linux-related jobs in the area to speak at
+meetings or help you find speakers. 
+
+Make friends with these people -- they're one of your best resources for
+advice on how student groups work at your particular university. 
+
+### Student-org support on your campus
+
+Larger universities often have an association for student clubs. Ask the
+leaders of an existing club who to talk to about becoming an official student
+organization. The office where you sign up for that status often has a variety
+of resources for leadership development, club recruitment, industry
+relationships, and other advice specific to your university. 
+
+### Shell server
+
+Do students at your university have access to a shell server where they can
+run persistent IRC or just mess around with Linux? If you don't know, talk to
+the Computer Science department and university network administrators or
+helpdesk to find out. 
+
+If a shell server isn't provided by your university, consider setting one up
+for LUG members. IRC is a critical tool for LUG engagement, and students need
+access to somewhere they can set up a persistent session. 
+
+### Conferences
+
+Are there any open-source-related tech conferences in your city or state? Talk
+to the conference organizers about getting free or discounted admission to at
+least the exhibit hall. While conference talks are cool, you can often watch
+them online later. The exhibit hall is where you network with local
+businesses, ask them nicely to donate promotional items with their company's
+branding which your group can in turn distribute to students as free handouts
+or prizes in coding competitions, and make connections with possible speakers
+for your meetings. 
+
+### Local companies
+
+Compile a list of all the companies in your city who use Linux or other Open
+Source software in any capacity. Connect with them to explain how the skills
+that students learn by participating in a LUG will benefit their businesses,
+and ask them what open source-related skills they'd like to see in prospective
+new employees. Use this feedback to make your meetings and content more useful
+to the students who get involved. 
+
+Think outside the box. For instance, a LUG in Detroit won't be near many tech
+startups, but they could research the places where Linux is used in the
+automotive manufacturing industry, such as production line robots and test
+equipment. By connecting with a company who hires technicians to develop and
+maintain those embedded systems, they can not only improve their group's
+usefulness to students by preparing them for likely careers, but possibly
+score some neat hardware to practice programming on. 
+
+### National organizations
+
+Does your school have an ACM chapter or Ubuntu LoCo group, or an active branch
+of the Mozilla ambassador program? Talk to them! Depending on your user base,
+consider starting one of these groups in conjunction with the LUG, because
+support and mentorship from the national organization will benefit the LUG as
+well as the more specialized group's chapter. 
+
+## Group Culture
+
+## Recruitment
+
+### Posters
+
+
+### Classes
+### Other Clubs
+### Campus Departments
+
+## Running Meetings
+
+### Herding cats
+### Staying on topic
+### Getting feedback
+
+## Events
+
+### Planning
+### Publicity
+### Delegation
+
+## IRC Channels
+
+### Main channel
+### Side-channel
+
+## Website
+
+### URL
+### Campus hosting
+### Information to include
+### Updates
+### Mailing list
+### IRC information
+[officers]:http://lug.oregonstate.edu/contact/
+
