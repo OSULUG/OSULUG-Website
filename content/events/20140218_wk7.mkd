@@ -8,3 +8,6 @@ location: KEC 1005
 It's more or less the same talk as listed on
 http://casitconf.org/casitconf14/talk-descriptions/. 
 
+Nibz and blkperl presented
+
+https://github.com/nibalizer/stewardship-of-foss
