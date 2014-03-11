@@ -1,8 +1,7 @@
 #! /bin/bash
 
 # Update repo
-git checkout master
-git pull -q --ff-only origin master
+git pull --ff-only origin master
 
 # Enable venv
 if [ ! -d venv ]; then
