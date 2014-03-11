@@ -12,6 +12,10 @@ source venv/bin/activate
 # Update packages
 pip install -r requirements.txt
 
+# Delete old output. If files were removed by a commit, they should 
+# no longer be available on the site.
+rm -rf output/
+
 # Rebuild static content
 wok 
 
