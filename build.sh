@@ -1,7 +1,8 @@
 #! /bin/bash
 
-# Update repo
-git pull --ff-only origin master
+# Update repo, overwriting local changes
+git fetch --all
+git reset --hard origin/master
 
 # Enable venv
 if [ ! -d venv ]; then
