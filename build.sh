@@ -17,7 +17,7 @@ pip install -r requirements.txt
 rm -rf output/
 
 # Rebuild static content
-wok 
+wok -v
 
 # Disable venv
 deactivate
