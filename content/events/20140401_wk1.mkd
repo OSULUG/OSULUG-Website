@@ -1,14 +1,6 @@
-title: Week 1 meeting, topic TBD
+title: Week 1 meeting, no formal talk 
 datetime: 2014-04-01 18:00:00
 category: events
 slug: meeting20140401
-preview: Check back for updates on this week's schedule
+preview: But there might be pizza!
 location: KEC 1005
-
----
-
-There will be a meeting this week. We'll update this page when we know what it is.
-
-When: 6pm
-
-Where: Kelley Engineering Center room 1007

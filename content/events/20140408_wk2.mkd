@@ -1,14 +1,6 @@
-title: Week 2 meeting, topic TBD
+title: Week 2, coding puzzles 
 datetime: 2014-04-08 18:00:00
 category: events
 slug: meeting20140408
-preview: Check back for updates on this week's schedule
+preview: Project Euler with the math club
 location: KEC 1005
-
----
-
-There will be a meeting this week. We'll update this page when we know what it is.
-
-When: 6pm
-
-Where: Kelley Engineering Center room 1007
