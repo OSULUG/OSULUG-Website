@@ -4,3 +4,8 @@ category: events
 slug: meeting20140408
 preview: Project Euler with the math club
 location: KEC 1005
+
+---
+
+Kind of like the last coding puzzles day, but with problems better suited to a
+variety of skill levels. 
