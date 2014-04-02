@@ -126,7 +126,7 @@ Irssi Commands
 First thing you need to do is connect to freenode's IRC server. This will
 take a moment.
 
-	/connect irc.freenode.net
+	/connect -ssl irc.freenode.net 6697
 
 Now set your handle (screenname).
 
