@@ -135,6 +135,19 @@ Now set your handle (screenname).
 If the handle you want is taken, the server will tell you, and you can choose
 another.
 
+You may also want to register your nick so other people cannot take it.
+
+	/msg nickserv register <password for your nick> <email>
+	
+Then you will need to confirm your email by following the instructions in your
+email.
+
+Then in the future you can identify for that nick and also set your nick to enforce
+which means people only have 30 seconds to try to identify to your nick.
+
+	/msg nickserv identify <password>
+	/msg nickserv set enforce
+
 Now join the LUG channel.
 
 	/join #osu-lug
