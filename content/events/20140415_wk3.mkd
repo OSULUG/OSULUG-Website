@@ -1,4 +1,4 @@
-title: Week 3 meeting, topic TBD
+title: Week 3 meeting, no topic
 datetime: 2014-04-15 18:00:00
 category: events
 slug: meeting20140415
@@ -7,7 +7,7 @@ location: KEC 1005
 
 ---
 
-There will be a meeting this week. We'll update this page when we know what it is.
+There will be a meeting this week, but no planned talk.  It's a good time to get help with Linux-y things from fellow LUGers!
 
 When: 6pm
 
