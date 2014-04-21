@@ -1,13 +1,11 @@
-title: Week 4 meeting, topic TBD
+title: Week 4 meeting, Security
 datetime: 2014-04-22 18:00:00
 category: events
 slug: meeting20140422
-preview: Check back for updates on this week's schedule
+preview: Heartbleed, breaking WEP, etc.
 location: KEC 1005
 
 ---
-
-There will be a meeting this week. We'll update this page when we know what it is.
 
 When: 6pm
 
