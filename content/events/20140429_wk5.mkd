@@ -1,8 +1,8 @@
-title: Week 5, Advanced Git 
+title: Week 5, Testing 
 datetime: 2014-04-29 18:00:00
 category: events
 slug: meeting20140429
-preview: OSL fulltimer Jordane will present
+preview: OSL dev Trevor will present
 location: KEC 1005
 
 ---
