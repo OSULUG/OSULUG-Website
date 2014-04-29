@@ -2,7 +2,7 @@ title: Getting Started with Web Development
 category: blog
 tags: guide
 author: Lucy Wyman 
-date: 2014-04-29
+datetime: 2014-04-29 00:00:00
 
 ---
 1) **Get familiar with Python**.  Many (but certainly not all) web apps and web frameworks are written in python, which makes it very handy to know your way around the language.  And if you don't already know python very well, or have a lot of programming experience, writing web apps are a great way to develop your skills and learn some awesome stuff!  There are lots of great resources to help you get familiar with python, including (but not limited to):

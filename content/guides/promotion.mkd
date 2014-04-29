@@ -2,7 +2,7 @@ title: Event Publicity
 category: blog
 tags: guide
 author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
-date: 2013-10-17
+datetime: 2013-10-17 00:00:00
 ---
 
 The Event Publicity Cheat Sheet

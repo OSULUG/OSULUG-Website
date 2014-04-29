@@ -2,7 +2,7 @@ title: Technical Resume Hints
 category: blog
 tags: guide
 author: Emily Dunham <dunhame@onid.oregonstate.edu>
-date: 2014-02-06
+datetime: 2014-02-06 00:00:00
 ---
 
 Technical Resume Advice

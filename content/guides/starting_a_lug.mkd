@@ -2,7 +2,7 @@ title: Hints on Running a University LUG
 category: blog
 tags: guide
 author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
-date: 2014-02-14
+datetime: 2014-02-14 00:00:00
 ---
 
 So, you want to start a LUG? DO IT! Here are some hints that I've picked up in

@@ -2,7 +2,7 @@ title: Running an InstallFest
 category: blog
 tags: guide
 author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
-date: 2013-10-03
+datetime: 2013-10-03 00:00:00
 ---
 0) **1-2 weeks Before Term Starts**
 
