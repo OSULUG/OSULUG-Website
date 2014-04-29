@@ -1,11 +1,10 @@
 Jinja2==2.7.2
-Markdown==2.3.1
-MarkupSafe==0.18
-PyYAML==3.10
+Markdown==2.4
+MarkupSafe==0.21
+PyYAML==3.11
 Pygments==1.6
-argparse==1.2.1
-distribute==0.6.34
+argparse==1.1
 docutils==0.11
 textile==2.1.5
-wok==1.0.0b
+wok==1.1.0
 wsgiref==0.1.2
