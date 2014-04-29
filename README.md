@@ -1,6 +1,9 @@
 OSULUG-Website
 ==============
 
+[![Build
+Status](https://travis-ci.org/OSULUG/OSULUG-Website.svg?branch=master)](https://travis-ci.org/OSULUG/OSULUG-Website)
+
 Website for the Linux User's Group of Oregon State University
 
 Modifying the website: 
