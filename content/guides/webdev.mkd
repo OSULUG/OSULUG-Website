@@ -1,0 +1,48 @@
+title: Getting Started with Web Development
+category: blog
+tags: guide
+author: Lucy Wyman 
+date: 2014-04-29
+
+---
+1) **Get familiar with Python**.  Many (but certainly not all) web apps and web frameworks are written in python, which makes it very handy to know your way around the language.  And if you don't already know python very well, or have a lot of programming experience, writing web apps are a great way to develop your skills and learn some awesome stuff!  There are lots of great resources to help you get familiar with python, including (but not limited to):
+
+* [Learn Python the Hard Way][python]
+
+* [Codecademy][codecademy]
+
+* [And a class on Web development by our own Dean Johnson][slides]
+
+* Come to LUG meetings!  We can help you through any issues or questions you have, and are generally a great community to be a part of.
+
+Overall, learning python is a great first step to learning to code or develop web applications.
+
+2)**Get familiar with HTML and CSS**.  Hyper-text markup language (HTML) and Cascading Stylesheets (CSS) are used to construct and stylize webpages.  HTML provides the structure or layout of the page (think of this like the floor plans of a building--how the rooms will be arranged), while CSS is used to make things pretty (think of this as the paint and carpets of the building).  [W3schools][w3schools] is, [controversially][w3fools], the first place most people go to learn html and css, and can be a great resource.  There are several other awesome resources to help you learn HTML and CSS though:
+
+* [Codecademy][codecademy]
+
+* [HTMLdog][htmldog]
+
+* [Dash][dash]
+
+* [A beginner's guide to HTML and CSS][guide]
+
+3) **Come up with some project ideas** and remember to start small--a simple calculator or game of tic-tac-toe might be good places to start, or projects of that size.   You should start coding with a clear idea of what you want your program to do, and some pseudo-code laying out the logic of your program.    
+
+4)**Do some research into frameworks and development tools.**  [Django][django] and [Flask][flask]are both excellent resources to help you create your project, depending on it's scope and your capabilities.  Django is like getting a desk at ikea--you're provided all the tools to put things together, and great documentation to help you along.  Flask is like getting a pile of wood, a hammer, and some nails--you're given more power (and still awesome documentation!), but also a lot more freedom in what you can build (including hammering a nail into your hand.) (Good analogy?) There are lots of other great tools you can use--find one that works best for your project!
+
+5) **Start coding!**.  Try to break your project into bite-sized pieces, and start from the ground up: what basic functionality does your program need?  If you're building a simple tic-tac-toe game, for example, you need to start with a board.  Then you need to create two players, X and O, and have a way for them to place their moves.  And so on.  If you get stuck, or frustrated, there are very knowledgable and supportive communities on IRC, Stackoverflow, and at LUG to help you out.  It's also ok to step away from your code for a while.  But don't give up completely!
+
+6) **Hosting** 
+
+
+[python]:http://learnpythonthehardway.org/book/
+[codecademy]: http://www.codecademy.com/tracks/python
+[slides]:http://slides.osuosl.org/devopsbootcamp/05_services_app.html#1  
+[django]:https://docs.djangoproject.com/en/1.6/intro/tutorial01/
+[flask]:http://flask.pocoo.org/
+[w3schools]: http://www.w3schools.com/
+[w3fools]: http://www.w3fools.com/i
+[htmldog]: http://htmldog.com/guides/html/beginner/
+[dash]: https://dash.generalassemb.ly/?vip=bento
+[guide]: http://learn.shayhowe.com/html-css/
