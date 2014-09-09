@@ -173,6 +173,28 @@ Leave out high school activities unless they're directly relevant to the job
 showcase skills that you haven't demonstrated in any other experience you've
 listed.
 
+### Anything Else
+
+Don't include it. In the tech industry, it's considered strange and uncouth to 
+state your age, gender, marital status, or similarly personal information
+on your resume. There is no reason to attach a photo of yourself, either -
+if you want to brag about how pretty your face is, do it by choosing a 
+flattering avatar on your GitHub and LinkedIn profiles. 
+
+However, your name may leak information about your gender or cultural heritage.
+Some people whose names are hard for Americans to pronounce prefer to go by
+an easier-to-pronounce alias. The author's personal experience suggests that
+those whose names read to an American interviewer as female may be at an
+advantage in obtaining interviews because of companies' affirmative action
+policies, but your mileage may vary. 
+
+Additionally, be cautious of bragging about involvement with stereotypically
+obsolete technologies or controversial organizations. Hiring personnel and
+interviewers do their best to judge you only on your technical merits, but 
+they're only human: It might be safer to say "wrote website in Ruby on Rails
+for national political campaign" than "helped campaign for Democrat candidate"
+if you have reason to suspect that your interviewer might be a staunch Republican.
+
 Formatting
 ----------
 
@@ -289,21 +311,21 @@ nominally optional.
 If you met a recruiter in person and got their card, your cover letter is
 probably your email to them. Here's a "mad libs" version of that email:
 
-  Dear [name],
+    Dear [name],
   
-  It was great to talk to you about [company] at [event where you met them]!
-  I'm really excited about [cool thing company is doing] and wanted to reach
-  out to you about the openings for [position that they mentioned]. 
+    It was great to talk to you about [company] at [event where you met them]!
+    I'm really excited about [cool thing company is doing] and wanted to reach
+    out to you about the openings for [position that they mentioned]. 
   
-  My resume is attached, and you can browse the code for [project that you 
-  talked with them about] at [link to the project on your GitHub]. I hope
-  to hear from you about the [position that they mentioned] opportunities
-  soon!
+    My resume is attached, and you can browse the code for [project that you 
+    talked with them about] at [link to the project on your GitHub]. I hope
+    to hear from you about the [position that they mentioned] opportunities
+    soon!
   
-  Thanks,
-  [your name]
-  [useful descriptor, such as "Student, Oregon State University" or 
-  "Developer, [your open source project]" if you work on a popular project]
+    Thanks,
+    [your name]
+    [useful descriptor, such as "Student, Oregon State University" or 
+    "Developer, [your open source project]" if you work on a popular project]
 
 You should of course use your most appropriate email address. For OSU 
 students, this will be username@onid.oregonstate.edu. It lends credibility 
