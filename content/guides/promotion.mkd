@@ -47,6 +47,10 @@ The week of the event:
 * Post flyers around campus, on MU tables and barometer kiosks if you got
   permission from the relevant authorities.
 
+* Print out some [flyers][handout] to give to people curious about LUG.
+
+[handout]: https://github.com/OSULUG/admin
+
 Day before event: 
 -----------------
 
