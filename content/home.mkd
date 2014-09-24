@@ -9,7 +9,9 @@ pagination:
 
 ##Welcome to the OSU LUG website!
 <br/>
-[Election nominations are open! Click here to nominate candidates.][election]
+[Voting for 2014-2015 officers is open until 5pm 10/7! Click here to vote.][election]
+
+To contribute ideas about what you'd like to see at LUG meetings this year, add them to [the etherpad][meetings].
 
 
 We keep in touch via the [mailing list][ml], and via the `#osu-lug` IRC
@@ -35,4 +37,5 @@ LUG is also on [GitHub][gh] and [Google Plus][gplus].
 [ircguide]: /blog/irc/
 [ml]: http://lists.oregonstate.edu/mailman/listinfo/linux
 [chovda]: http://doodle.com/ragrnapd72x4vcmm
-[election]: https://docs.google.com/a/onid.oregonstate.edu/forms/d/1ZMo4vCxKPZZAXYl6BhaR6mljwaivVfGVd1M3EyYAsng/viewform
+[election]: https://docs.google.com/a/onid.oregonstate.edu/forms/d/1gi4guXjJ9_iWko2wdekpPpCRFv35TfA0NxRMU9DHGfQ/viewform
+[meetings]: http://etherpad.osuosl.org/lugfall2014ideas
