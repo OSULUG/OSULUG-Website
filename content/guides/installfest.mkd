@@ -65,6 +65,7 @@ Classes to visit:
 * CS162
 * CS261
 * CS275
+* CS344
 * ENGR111
 * ENGR112
 * MTH231
@@ -99,6 +100,12 @@ For CS classes:
 > The InstallFest is an outreach event where experienced Linux users help
 > students interested in the operating system try it out and install it on their
 > laptops.
+>
+> 
+> Additionally, we would like to inform students of the Devops Daycamp event
+> coming up on Saturday, Oct. 11th (osl.io/devopsdaycamp), where students have
+> the opportunity to participate in various tech workshops related to open
+> source software.
 > 
 > 
 > Please let me know whether we can send a LUG representative to make a quick
