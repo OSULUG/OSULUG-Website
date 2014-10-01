@@ -27,8 +27,9 @@ Keep an eye out for helpful information and upcoming events posted here. We
 also have lunch together on Fridays, at a time determined by the [doodle
 poll][chovda] and confirmed in the IRC channel.
 
-LUG is also on [GitHub][gh] and [Google Plus][gplus].
+LUG is also on [GitHub][gh], [Google Plus][gplus] and [Facebook][fb].
 
+[fb]:https://www.facebook.com/groups/osulug/
 [gh]:https://github.com/osulug/
 [gplus]: https://plus.google.com/117247882593240353754
 [form]: https://docs.google.com/spreadsheet/viewform?formkey=dDIySHZQeHNhbFhkd25uaTFUNEZubnc6MQ
