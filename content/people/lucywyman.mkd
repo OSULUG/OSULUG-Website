@@ -1,0 +1,12 @@
+title: Lucy Wyman 
+tags: officer
+rank: 2
+person:
+    name: Lucy Wyman
+    title: Vice President
+    irc: lucyw
+    image: /img/people/lucywyman.png
+
+---
+
+Lucy needs to write a bio about herself here. And also upload a photo.

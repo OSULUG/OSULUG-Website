@@ -1,0 +1,12 @@
+title: Elijah Voigt
+tags: officer
+rank: 1 
+person:
+    name: Elijah Voigt
+    title: President
+    irc: pop_n_fresh
+    image: /img/people/elijahvoigt.png
+
+---
+
+pop_n_fresh needs to write a bio about himself here. And also upload a photo.
