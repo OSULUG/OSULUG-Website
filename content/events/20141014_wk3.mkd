@@ -1,13 +1,29 @@
-title: Week 3 meeting, topic TBD
+title: Introductory DNS with Jordan Evans 
 datetime: 2014-10-14 18:00:00
 category: events
 slug: meeting20141014
-preview: Check back for updates on this week's schedule
-location: KEC 1003
+preview: An introduction to the Domain Name System (DNS) 
+location: KEC 1004
 
 ---
 
-There will be a meeting this week. We'll update this page when we know what it is.
+This talk will begin with a very general introduction to DNS, covering:
+
+* What DNS is
+* Why it is important
+* How a catastrophic world war might start if it failed
+* Who 'the 13' are.
+
+After introducing some of the basic record types (A,AAAA,CNAME,MX,NS,SOA), 
+Jordan will present an examination of recursive DNS resolution, including 
+walking through manual examples of different DNS queries. This section will 
+include a discussion of authoritative vs nonauthoritative DNS servers. From 
+this point, if there is time, some other topics that could be covered are:
+
+* DNS hijacking and running your own recursive resolver to avoid this
+* More advanced DNS records
+* Why CNAME records can cause lots of problems if they are used incorrectly.
+* DNS cache poisoning
 
 When: 6pm
 
