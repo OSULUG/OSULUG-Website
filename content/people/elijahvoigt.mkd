@@ -4,7 +4,7 @@ rank: 1
 person:
     name: Elijah Voigt
     title: President
-    irc: pop_n_fresh
+    irc: pop`
     image: /img/people/elijahvoigt.png
 
 ---
