@@ -19,12 +19,12 @@ Getting help
 Rather than Googling around, the best way to get help with nick, channel, and
 channel listing on Freenode is:
 
-> /msg nickserv help
-> /msg chanserv help
-> /msg alis help
-> /msg chanserv help flags
-> /msg chanserv help register
-> etc.
+    /msg nickserv help
+    /msg chanserv help
+    /msg alis help
+    /msg chanserv help flags
+    /msg chanserv help register
+    etc.
 
 Note that services (such as nickserv, chanserv, and alis) are bots and their
 replies to you will appear in a separate buffer and not highlight you the way
@@ -54,64 +54,64 @@ instructions if you haven't registered your nick yet.
 Flags
 -----
 
-> ***** ChanServ Help *****
-> Help for FLAGS:
->  
-> The FLAGS command allows for the granting/removal of channel
-> privileges on a more specific, non-generalized level. It
-> supports nicknames, groups and hostmasks as targets.
->  
-> When only the channel argument is given, a listing of
-> permissions granted to users will be displayed.
->  
-> Syntax: FLAGS <#channel>
->  
-> Otherwise, an access entry is modified. A modification may be
-> specified by a template name (changes the access to the
-> template) or a flags change (starts with + or -). See the
-> TEMPLATE help entry for more information about templates.
->  
-> If you are not a founder, you may only manipulate flags you
-> have yourself, and may not edit users that have flags you
-> don't have. For this purpose, +v grants +V, +o grants +O
-> and +r grants +b.
->  
->  
->  
-> If you do not have +f you may still remove your own access
-> with -*.
-> 
-> Syntax: FLAGS <#channel> [nickname|hostmask|group template]
-> Syntax: FLAGS <#channel> [nickname|hostmask|group flag_changes]
->  
-> Permissions:
->     +v - Enables use of the voice/devoice commands.
->     +V - Enables automatic voice.
->     +o - Enables use of the op/deop commands.
->     +O - Enables automatic op.
->     +s - Enables use of the set command.
->     +i - Enables use of the invite and getkey commands.
->     +r - Enables use of the unban command.
->     +R - Enables use of the recover and clear commands.
->     +f - Enables modification of channel access lists.
->     +t - Enables use of the topic and topicappend commands.
->     +A - Enables viewing of channel access lists.
->     +S - Marks the user as a successor.
->     +F - Grants full founder access.
->     +b - Enables automatic kickban.
-> 
-> The special permission +* adds all permissions except +b, +S, and +F.
-> The special permission -* removes all permissions including +b and +F.
->  
-> Examples:
->     /msg ChanServ FLAGS #foo
->     /msg ChanServ FLAGS #foo foo!*@bar.com VOP
->     /msg ChanServ FLAGS #foo foo!*@bar.com -V+oO
->     /msg ChanServ FLAGS #foo foo!*@bar.com -*
->     /msg ChanServ FLAGS #foo foo +oOtsi
->     /msg ChanServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
->     /msg ChanServ FLAGS #foo !baz +*
-> ***** End of Help *****
+    ***** ChanServ Help *****
+    Help for FLAGS:
+     
+    The FLAGS command allows for the granting/removal of channel
+    privileges on a more specific, non-generalized level. It
+    supports nicknames, groups and hostmasks as targets.
+     
+    When only the channel argument is given, a listing of
+    permissions granted to users will be displayed.
+     
+    Syntax: FLAGS <#channel>
+     
+    Otherwise, an access entry is modified. A modification may be
+    specified by a template name (changes the access to the
+    template) or a flags change (starts with + or -). See the
+    TEMPLATE help entry for more information about templates.
+     
+    If you are not a founder, you may only manipulate flags you
+    have yourself, and may not edit users that have flags you
+    don't have. For this purpose, +v grants +V, +o grants +O
+    and +r grants +b.
+     
+     
+     
+    If you do not have +f you may still remove your own access
+    with -*.
+    
+    Syntax: FLAGS <#channel> [nickname|hostmask|group template]
+    Syntax: FLAGS <#channel> [nickname|hostmask|group flag_changes]
+     
+    Permissions:
+        +v - Enables use of the voice/devoice commands.
+        +V - Enables automatic voice.
+        +o - Enables use of the op/deop commands.
+        +O - Enables automatic op.
+        +s - Enables use of the set command.
+        +i - Enables use of the invite and getkey commands.
+        +r - Enables use of the unban command.
+        +R - Enables use of the recover and clear commands.
+        +f - Enables modification of channel access lists.
+        +t - Enables use of the topic and topicappend commands.
+        +A - Enables viewing of channel access lists.
+        +S - Marks the user as a successor.
+        +F - Grants full founder access.
+        +b - Enables automatic kickban.
+    
+    The special permission +* adds all permissions except +b, +S, and +F.
+    The special permission -* removes all permissions including +b and +F.
+     
+    Examples:
+        /msg ChanServ FLAGS #foo
+        /msg ChanServ FLAGS #foo foo!*@bar.com VOP
+        /msg ChanServ FLAGS #foo foo!*@bar.com -V+oO
+        /msg ChanServ FLAGS #foo foo!*@bar.com -*
+        /msg ChanServ FLAGS #foo foo +oOtsi
+        /msg ChanServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
+        /msg ChanServ FLAGS #foo !baz +*
+    ***** End of Help *****
 
 
 Note that setting +b on someone *bans them from your channel*. 
@@ -119,16 +119,16 @@ Note that setting +b on someone *bans them from your channel*.
 Topic
 -----
 
-> ***** ChanServ Help *****
-> Help for TOPIC:
->  
-> The TOPIC command allows for the changing of a topic on a channel.
->  
-> Syntax: TOPIC <#channel> <topic>
->  
-> Examples:
->     /msg ChanServ TOPIC #foo bar
-> ***** End of Help *****
+    ***** ChanServ Help *****
+    Help for TOPIC:
+     
+    The TOPIC command allows for the changing of a topic on a channel.
+     
+    Syntax: TOPIC <#channel> <topic>
+     
+    Examples:
+        /msg ChanServ TOPIC #foo bar
+    ***** End of Help *****
 
 Setting the topic through Chanserv means you don't have to op up in channel. 
 This is good because a bunch of LUG alumni still have flags in the channel and
@@ -157,12 +157,3 @@ that they won't need assistance any more.
 [freenode]: http://freenode.net/
 [channel]: http://freenode.net/channel_guidelines.shtml
 [faq]: http://freenode.net/faq.shtml
-
-> dunhame@onid.orst.edu
-> 
-> edunham on irc.freenode.net
-
-* A note about handouts: Use the documents from [here][handouts] as a
-
-[handouts]: https://github.com/OSULUG/documents
-
