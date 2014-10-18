@@ -1,13 +1,19 @@
-title: Week 7 meeting, topic TBD
+title: Coding Puzzles! 
 datetime: 2014-11-11 18:00:00
 category: events
 slug: meeting20141111
-preview: Check back for updates on this week's schedule
+preview: YOU GET A PUZZLE AND YOU GET A PUZZLE AND YOU GET A PUZZLE... 
 location: KEC 1003
 
 ---
 
-There will be a meeting this week. We'll update this page when we know what it is.
+Weather you've been programming since the age of two or just learned started
+learning python last night, Coding Puzzles Day is for you! There's a puzzle for
+every skill level, and many don't even require a computer if you'd prefer to
+solve them mathematically.
+
+To get a head start on coding puzzles day check out [Project Euler](https://projecteuler.net/)
+for some puzzle practce!
 
 When: 6pm
 
