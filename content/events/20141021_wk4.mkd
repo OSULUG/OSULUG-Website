@@ -18,6 +18,10 @@ Blender3D' for the Linux User's Group this week. If you want to learn the
 basics of the most powerful Open-Source media production-suites this is the 
 talk for you!
 
+This talk can be found at the following link:
+
+<a href="http://youtu.be/rt-Izup2YWA">http://youtu.be/rt-Izup2YWA</a>
+
 When: 6pm
 
 Where: Kelley Engineering Center room 1003
