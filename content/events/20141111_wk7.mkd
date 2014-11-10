@@ -7,7 +7,7 @@ location: KEC 1003
 
 ---
 
-Weather you've been programming since the age of two or just learned started
+Whether you've been programming since the age of two or just learned started
 learning python last night, Coding Puzzles Day is for you! There's a puzzle for
 every skill level, and many don't even require a computer if you'd prefer to
 solve them mathematically.
