@@ -2,7 +2,7 @@ title: IRC
 category: blog
 tags: guide
 author: ["Emily Dunham <dunhame@onid.oregonstate.edu>", "Alan Sherman <shermana@onid.oregonstate.edu>"]
-date: 2011-09-15
+datetime: 2011-09-15 00:00:00
 ---
 
 IRC is a real-time relay based chat protocol with no archiving. This means that
@@ -126,7 +126,7 @@ Irssi Commands
 First thing you need to do is connect to freenode's IRC server. This will
 take a moment.
 
-	/connect irc.freenode.net
+	/connect -ssl irc.freenode.net 6697
 
 Now set your handle (screenname).
 
@@ -134,6 +134,19 @@ Now set your handle (screenname).
 
 If the handle you want is taken, the server will tell you, and you can choose
 another.
+
+You may also want to register your nick so other people cannot take it.
+
+	/msg nickserv register <password for your nick> <email>
+	
+Then you will need to confirm your email by following the instructions in your
+email.
+
+Then in the future you can identify for that nick and also set your nick to enforce
+which means people only have 30 seconds to try to identify to your nick.
+
+	/msg nickserv identify <password>
+	/msg nickserv set enforce
 
 Now join the LUG channel.
 

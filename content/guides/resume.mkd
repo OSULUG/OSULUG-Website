@@ -2,7 +2,7 @@ title: Technical Resume Hints
 category: blog
 tags: guide
 author: Emily Dunham <dunhame@onid.oregonstate.edu>
-date: 2014-02-06
+datetime: 2014-02-06 00:00:00
 ---
 
 Technical Resume Advice
@@ -24,13 +24,20 @@ might get you an interview, but that interview will ask questions that you
 can't answer and generally waste everyone's time. 
 
 Conversely, don't underestimate your own abilities. If there's a project that
-you've done which you're reluctant to include on your resume because you think
-it's too trivial, ask in the IRC channel for feedback on whether it seems
+you've done which you're reluctant to include on your resume because it seems
+too trivial, ask in the IRC channel for feedback on whether others consider it
 relevant to the position for which you're applying.
 
 Engineers and technical recruiters like numbers and facts more than vague
 claims. For example, "Improved Android system throughput by 25% in some use 
 cases" is much clearer and better quantified than "worked on Android devices". 
+
+If the resume is for a specific job, read the posting carefully to get a feel
+for what the company values. If they emphasize communication skills, for example,
+your resume should highlight times you've taught, written documentation, and 
+worked with others. It can also help to interview someone who works at the
+company where you're applying, to learn what traits the recruiters tend to focus
+on. 
 
 ### SEO (search engine optimization)
 
@@ -76,22 +83,30 @@ address if you plan to share your resume on GitHub or your personal web site.
 ### Mission Statement or Statement of Purpose
 
 If you can sum up your goal in a single sentence, it doesn't hurt to include
-it. It might be especially helpful if you're trying to pivot your career by
-applying for jobs that don't precisely match your experience. However, if your
-qualifications and hobbies tell a cohesive story of what you enjoy doing, it
-doesn't hurt to omit the mission statement entirely.
+a mission statement. It can help focus and clarify your resume if you're trying
+to pivot your career by applying for jobs which don't precisely match your 
+experience. However, if your qualifications and hobbies tell a cohesive story 
+of what you enjoy doing, a mission statement would be redundant and you're
+better off using the space for useful information.
+
+It's ok to tailor your mission statement to reflect the
+company's values, but it's generally considered overkill to refer to the
+company by name in your resume. That's what the cover letter is for.
+
 
 ### Education
 
-If you're applying through channels that recruit college students, they will
-expect you to have your education listed. This section should include school,
-year and month of anticipated graduation, major, and GPA.
+If you're applying through channels which focus on recruiting college students,
+they will expect an education section on your resume. It should include school,
+year and month of anticipated graduation, major, and GPA. Be sure to spell out
+the name of your school - for example, OSU stands for both Oregon and Ohio 
+state universities!
 
 Some positions require GPA to apply, others will assume the worst if you omit
 it, and others don't care. As a general rule, you should include your GPA
-unless it's worse than what the recruiter will assume if you leave it out.
+unless it's worse than what the recruiter will guess if you leave it out.
 Alternatively, talk to the recruiters of each company you apply to, and
-customize your resume for their requirements. 
+customize your resume for their preferences. 
 
 ### Skills
 
@@ -131,13 +146,19 @@ information if you post your resume online, on your personal site or in a
 GitHub repo. Web crawlers come through from time to time and scrape out
 everything formatted like a phone number or email address, and then spam them.
 
+If you use someone's contact information in the references section of a job
+application, remember that it's polite to ask them before listing them and keep
+them up to date with where you're applying so they know when to expect calls
+from recruiters asking about you.
+
 ### Hobbies
 
 If you have a hobby that relates directly to the position you're applying for
 or makes you stand out meaningfully, include it. For example, if you're a
 world champion at a well-known game, or an avid golfer who's applying to write
-the website of a golf supplies company, include these facts about yourself. If
-the fact that you do a hobby carries useful information about why you'd be a
+the website of a golf supplies company, include these facts about yourself.
+
+If the fact that you do a hobby carries useful information about why you'd be a
 better choice than other candidates for the job, include it. Otherwise, leave
 it out. 
 
@@ -152,6 +173,28 @@ Leave out high school activities unless they're directly relevant to the job
 showcase skills that you haven't demonstrated in any other experience you've
 listed.
 
+### Anything Else
+
+Don't include it. In the tech industry, it's considered strange and uncouth to 
+state your age, gender, marital status, or similarly personal information
+on your resume. There is no reason to attach a photo of yourself, either -
+if you want to brag about how pretty your face is, do it by choosing a 
+flattering avatar on your GitHub and LinkedIn profiles. 
+
+However, your name may leak information about your gender or cultural heritage.
+Some people whose names are hard for Americans to pronounce prefer to go by
+an easier-to-pronounce alias. The author's personal experience suggests that
+those whose names read to an American interviewer as female may be at an
+advantage in obtaining interviews because of companies' affirmative action
+policies, but your mileage may vary. 
+
+Additionally, be cautious of bragging about involvement with stereotypically
+obsolete technologies or controversial organizations. Hiring personnel and
+interviewers do their best to judge you only on your technical merits, but 
+they're only human: It might be safer to say "wrote website in Ruby on Rails
+for national political campaign" than "helped campaign for Democrat candidate"
+if you have reason to suspect that your interviewer might be a staunch Republican.
+
 Formatting
 ----------
 
@@ -163,24 +206,27 @@ between sections. Extraneous icons and blocks of color rarely improve simple
 layouts, and often detract from them.
 
 Imagine that you're a recruiter looking at your 50th resume of the day, and
-this resume on is currently at the top of the stack. Is it enjoyable to look 
-at?
+this resume on is currently at the top of the stack. Is it enjoyable to read?
 
 As an applicant it's easy to feel like you're the center of the universe and
 your resume's primary purpose is to show off your achievements, but it isn't.
 It actually exists to make the recruiter's day better, because they feel good
-when they come across the resume of a well-qualified and promising candidate. 
+when they come across the beautifully presented resume of a well-qualified 
+candidate. 
 
 To show that you respect the recruiter's time and don't want to hurt their
-eyes, don't pack too much information onto the page. It's okay to tease them
+eyes, avoid packing too much information onto the page. It's okay to tease them
 with high-level summaries of your accomplishments and leave them wanting more
 detail, because you can share those details in the interview.
 
 ### Whitespace
 
 Don't leave big empty blocks of space on the page. Spread out your content,
-vertically and horizontally, and tweak bullet indentation until things look
-nice and lines don't wrap at awkward locations. 
+vertically and horizontally, and tweak bullet indentation until the page 
+looks balanced and lines don't wrap at awkward locations. It's never pretty
+to let a line break fall in the middle of the word and have to hyphenate it.
+If your sentence leaves a single word hanging out on the next line, reword
+or tweak font sizes until it's no longer lonely and uncomfortable.
 
 ### Font size
 
@@ -205,12 +251,22 @@ documents of the more standard size.
 1" is good. With smaller margins, be especially cautious to avoid the hazards
 of tiny font sizes, walls of text, and awkward horizontal spacing.
 
+However, it's fine to take margins down to as small as 3/4" in order to avoid
+the hazards discussed above in the section on whitespace.
+
 File Format
 -----------
 
 Use LaTeX to generate your resume. LaTeX is useful for all writeups, and will
 prove invaluable when you get to CS311. Most importantly, it more or less
 guarantees that your resume will end up looking pretty. 
+
+The human resources person who looks at your resume is unlikely to think other
+than "that's pretty", but the engineers who interview you will instantly
+recognize the LaTeX formatting and subconsciously assume that you know your
+way around a command line and text editor. This is a tiny, subtle point in your
+favor that helps you start making a good impression before you even walk in the
+company's door.
 
 LaTeX is easy to keep under version control when you add and remove sections,
 as well. 
@@ -233,15 +289,48 @@ Keep a single master resume with all of the sections and content you might
 want. Trim it down to the most applicable page of content for a given
 position, then render a nice pdf, give it a useful name, and submit.
 
+A useful file name tells both you and the company what the document contains.
+Firstname\_Lastname\_Resume.pdf is great for the company, but doesn't tell
+you anything about where you submitted it or when you rendered the document.
+Similarly, a company might get hundreds of companyname\_resume.pdf submissions
+and have a hard time telling them apart. Unless the job application specifies
+the filename they'd like you to use for your resume, err on the side of
+clarity with a title like Firstname\_Lastname\_MMYYYY.pdf or Firstname\_Lastname\_Company\_YYYY.pdf. 
+
 Be sure to keep a copy of each specialized resume you send out so you can
 review what the company knows about you when you're called for an interview.
+
+Cover Letters
+-------------
 
 Be aware of the company's mission, vision, and culture, and refer to how
 you're a good fit for them in your cover letter. Include a cover letter, even
 if it's just the email message to which you attach your resume, even if it's
-nominally optional. It's ok to tailor your mission statement to reflect the
-company's values, but it's generally considered overkill to refer to the
-company by name in your resume. That's what the cover letter is for.
+nominally optional. 
+
+If you met a recruiter in person and got their card, your cover letter is
+probably your email to them. Here's a "mad libs" version of that email:
+
+    Dear [name],
+  
+    It was great to talk to you about [company] at [event where you met them]!
+    I'm really excited about [cool thing company is doing] and wanted to reach
+    out to you about the openings for [position that they mentioned]. 
+  
+    My resume is attached, and you can browse the code for [project that you 
+    talked with them about] at [link to the project on your GitHub]. I hope
+    to hear from you about the [position that they mentioned] opportunities
+    soon!
+  
+    Thanks,
+    [your name]
+    [useful descriptor, such as "Student, Oregon State University" or 
+    "Developer, [your open source project]" if you work on a popular project]
+
+You should of course use your most appropriate email address. For OSU 
+students, this will be username@onid.oregonstate.edu. It lends credibility 
+to your identity and you should have it forwarding to something that you
+regularly check anyways.
 
 Proofread
 ---------

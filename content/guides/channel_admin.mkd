@@ -1,0 +1,159 @@
+title: Channel Administration on Freenode  
+category: blog
+tags: guide
+author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
+datetime: 2014-10-12 00:00:00
+---
+
+This guide will be targeted toward LUG officers who haven't done channel
+administration on Freenode before, but contains information that's relevant if
+you want to start your own channel as well. 
+
+First, go read all the [freenode][freenode] guidelines, but especially the
+[channel guidelines][channel] and [faq][faq]. These will explain why you 
+should not wear your "hat" indoors, and other essential pieces of etiquette.
+
+Getting help
+------------
+
+Rather than Googling around, the best way to get help with nick, channel, and
+channel listing on Freenode is:
+
+    /msg nickserv help
+    /msg chanserv help
+    /msg alis help
+    /msg chanserv help flags
+    /msg chanserv help register
+    etc.
+
+Note that services (such as nickserv, chanserv, and alis) are bots and their
+replies to you will appear in a separate buffer and not highlight you the way
+a private message from a human would.
+
+Creating a channel
+------------------
+
+To create a new channel, simply `/join #channelname`. If the channel is a FOSS
+project, use a single `#`. Otherwise, use two or more of them, such as
+`###mysupersecretbackchannel`. If you're diverting people into a backchannel
+for a conversation that might offend delicate sensibilities, do not use `LUG`
+or `OSU` in the channel name.
+
+When you join an empty channel, such as when creating a new channel, you will 
+be automatically opped (an `@` will appear before your name). If someone else
+joins, then you leave and rejoin, *nobody* will have ops and the only way to
+get them back is to empty the room and come back in, since the first person
+back will get auto-opped. 
+
+Since clearing a room is between annoying and impossible, and you need ops for
+cool stuff like setting channel topics and banning spammers, you need to
+*register* your channel. You have to be identified to a registered nickname to
+register channels, so `/msg nickserv help register` and follow NickServ's
+instructions if you haven't registered your nick yet.
+
+Flags
+-----
+
+    ***** ChanServ Help *****
+    Help for FLAGS:
+     
+    The FLAGS command allows for the granting/removal of channel
+    privileges on a more specific, non-generalized level. It
+    supports nicknames, groups and hostmasks as targets.
+     
+    When only the channel argument is given, a listing of
+    permissions granted to users will be displayed.
+     
+    Syntax: FLAGS <#channel>
+     
+    Otherwise, an access entry is modified. A modification may be
+    specified by a template name (changes the access to the
+    template) or a flags change (starts with + or -). See the
+    TEMPLATE help entry for more information about templates.
+     
+    If you are not a founder, you may only manipulate flags you
+    have yourself, and may not edit users that have flags you
+    don't have. For this purpose, +v grants +V, +o grants +O
+    and +r grants +b.
+     
+     
+     
+    If you do not have +f you may still remove your own access
+    with -*.
+    
+    Syntax: FLAGS <#channel> [nickname|hostmask|group template]
+    Syntax: FLAGS <#channel> [nickname|hostmask|group flag_changes]
+     
+    Permissions:
+        +v - Enables use of the voice/devoice commands.
+        +V - Enables automatic voice.
+        +o - Enables use of the op/deop commands.
+        +O - Enables automatic op.
+        +s - Enables use of the set command.
+        +i - Enables use of the invite and getkey commands.
+        +r - Enables use of the unban command.
+        +R - Enables use of the recover and clear commands.
+        +f - Enables modification of channel access lists.
+        +t - Enables use of the topic and topicappend commands.
+        +A - Enables viewing of channel access lists.
+        +S - Marks the user as a successor.
+        +F - Grants full founder access.
+        +b - Enables automatic kickban.
+    
+    The special permission +* adds all permissions except +b, +S, and +F.
+    The special permission -* removes all permissions including +b and +F.
+     
+    Examples:
+        /msg ChanServ FLAGS #foo
+        /msg ChanServ FLAGS #foo foo!*@bar.com VOP
+        /msg ChanServ FLAGS #foo foo!*@bar.com -V+oO
+        /msg ChanServ FLAGS #foo foo!*@bar.com -*
+        /msg ChanServ FLAGS #foo foo +oOtsi
+        /msg ChanServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
+        /msg ChanServ FLAGS #foo !baz +*
+    ***** End of Help *****
+
+
+Note that setting +b on someone *bans them from your channel*. 
+
+Topic
+-----
+
+    ***** ChanServ Help *****
+    Help for TOPIC:
+     
+    The TOPIC command allows for the changing of a topic on a channel.
+     
+    Syntax: TOPIC <#channel> <topic>
+     
+    Examples:
+        /msg ChanServ TOPIC #foo bar
+    ***** End of Help *****
+
+Setting the topic through Chanserv means you don't have to op up in channel. 
+This is good because a bunch of LUG alumni still have flags in the channel and
+quietly lurk there, enforcing Freenode's guidelines including the rules that
+say you shouldn't be opped up in channel (displaying the @ by your name)
+unless it's necessary for some reason. If you're wearing your hat (another
+synonym for displaying the @ sign) unnecessarily and ChanServ takes it off for
+you, that's because somebody messaged ChanServ and told it to.
+
+Channel Founder Flags
+---------------------
+
+Of all the flags, `+F` is special. The Founder can modify everyone else's
+flags, so for instance if one op decides to be a terrible person and takes
+away flags from the other ops, the Founder can step in to resolve the dispute.
+This level of power makes the Founder the person who has to step in and fix it
+if a novice channel operator makes an innocent but highly problematic mistake,
+as well. 
+
+For this reason, the `#osu-lug` founder flag is traditionally not handed off
+at election time in the way that the `+*` flags are granted to new officers.
+Instead, it's reassigned to the LUG president once its former owner believes
+that the new president is sufficiently experienced with channel administration
+that they won't need assistance any more.
+
+[freenode]: http://freenode.net/
+[channel]: http://freenode.net/channel_guidelines.shtml
+[faq]: http://freenode.net/faq.shtml

@@ -1,0 +1,28 @@
+title: Ligntning Talks [Hack-Day!] 
+datetime: 2014-10-28 18:00:00
+category: events
+slug: meeting20141028
+preview: Come give a lightning talk! 
+location: KEC 1003
+
+---
+
+![Tux Lightning!](../../img/tux_lightning.png)
+
+Have you been working on an awesome open-source app? Or maybe you just started
+learning about a sweet python tool? Perhaps you just started brewing your own
+rootbeer from scratch? Whatever you've been excited about and want to share
+with the world, come to this week's meeting and give a quick lightning talk 
+about it!
+
+Lightning Talks are strictly five minutes in length and can be as prepared as
+the speaker would like. Some have decided to put together five minutes of 
+slides, others draw on the white-board, and some even stand up and talk with no
+visuals at all.
+
+Whatever you're excited about we encourage you to come and speak about at the
+LUG Lightning Talks!
+
+When: 6pm
+
+Where: Kelley Engineering Center room 1003

@@ -3,7 +3,7 @@ category: blog
 tags: guide
 slug: fshguide
 author: "Wade Cline <clinew@onid.oregonstate.edu>"
-date: 2013-01-31
+datetime: 2013-01-31 00:00:00
 
 ---
 

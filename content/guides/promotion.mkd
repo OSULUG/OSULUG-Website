@@ -2,7 +2,7 @@ title: Event Publicity
 category: blog
 tags: guide
 author: "Emily Dunham <dunhame@onid.oregonstate.edu>"
-date: 2013-10-17
+datetime: 2013-10-17 00:00:00
 ---
 
 The Event Publicity Cheat Sheet
@@ -46,6 +46,10 @@ The week of the event:
 
 * Post flyers around campus, on MU tables and barometer kiosks if you got
   permission from the relevant authorities.
+
+* Print out some [flyers][handout] to give to people curious about LUG.
+
+[handout]: https://github.com/OSULUG/admin
 
 Day before event: 
 -----------------

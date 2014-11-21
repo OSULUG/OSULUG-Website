@@ -3,7 +3,7 @@ slug: resources
 category: blog
 tags: guide
 author: Jacques Uber <uberj@onid.oregonstate.edu>
-date: 2011-10-23
+datetime: 2011-10-23 00:00:00
 ---
 
 Hello [your name here]! If you haven't already been told by someone, at OSU,

@@ -1,0 +1,20 @@
+title: Lucy Wyman 
+tags: officer
+rank: 2
+person:
+    name: Lucy Wyman
+    title: Vice President
+    irc: lucyw
+    image: /img/people/lucywyman.png
+
+---
+
+Lucy is a Junior studying Computer Science at [Oregon State University][osu].  She is a Front-End Engineer at the [OSU Open Source Lab][osl], where she designs the front-end for web-applications, maintains osuosl.org, and constructs websites for other OSL projects (such as [Devops Daycamp][daycamp] and [Beaver Barcamp][barcamp]). Lucy specializes in [web development][ac], and is skilled at HTML, CSS, Javascript and Python. She enjoys programming, running, and [cooking][recipes]. In addition, Lucy is Vice President of the OSU Linux Users Group, and leads [Devops Bootcamp][bootcamp], and outreach program for budding software developers.
+
+[osu]: http://oregonstate.edu
+[osl]: http://osuosl.org
+[daycamp]: http://devopsbootcamp.osuosl.org/daycamp
+[barcamp]: http://beaverbarcamp.org
+[ac]: http://arbitrary-converter.herokuapp.com
+[recipes]: http://github.com/lucywyman/recipes
+[bootcamp]: http://devopsbootcamp.osuosl.org
