@@ -1,0 +1,28 @@
+title: Masterless Puppet in AWS
+datetime: 2015-01-06 18:00:00
+category: events
+slug: meeting20150106
+preview: Masterless Puppet in AWS by Daniel Thorton
+location: KEC 1003
+
+---
+
+    In computing, Puppet is an open source configuration management utility. It runs on many Unix-like systems as well as on Microsoft Windows, and includes its own declarative language to describe system configuration.
+        - en.wikipedia.org/wiki/Puppet_(software)
+
+    Amazon Web Services (AWS) is a collection of remote computing services, also called web services, that make up a cloud computing platform by Amazon.com. The most central and well-known of these services are Amazon EC2 and Amazon S3. The service is advertised as providing a large computing capacity (potentially many servers) much faster and cheaper than building a physical server farm.[2]
+        - en.wikipedia.org/wiki/Amazon_Web_Services
+
+Daniel Thornton (relud on irc.freenode.net) will be presenting a talk on 
+Masterless [Puppet](http://puppetlabs.com/) in
+[Amazon Web Services](https://aws.amazon.com/). If this interests you and you
+want to learn more, or you have no idea what it means but want to hang out with
+some awesome linux folks come to LUG!
+
+We will also be hashing out the Winter Term schedule. If you have ideas for what
+LUG should do this coming term contribute to the working schedule etherpad
+[here](http://etherpad.osuosl.org/lugWin15Topics).
+
+When: 6pm
+
+Where: Kelley Engineering Center room 1003
