@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# Are we root? Fail if so
+[ $UID -eq 0 ] && echo "Please don't run this script as root...terminating" && exit 1
+
 # Update repo, overwriting local changes
 git fetch --all
 git reset --hard origin/master
