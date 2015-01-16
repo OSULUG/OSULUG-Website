@@ -1,13 +1,17 @@
-title: TBD [Hack Day] 
+title: History of Man(pages)
 datetime: 2015-03-03 18:00:00
 category: events
 slug: meeting20150303
-preview: Check back for updates on this week's schedule
+preview: Where did man come from? Why is man here on Earth? How do I search for a word in a man page again???
 location: KEC 1003
 
 ---
 
-This week's LUG is currently unscheduled.
+History of Man(pages) is a short talk (<30 minutes) about the origin of the
+program Man, where it came from, who made it, and probably some cool things
+you didn't know about it.
+
+tldr: $ man man
 
 When: 6pm
 

@@ -1,14 +1,17 @@
-title: TBD
+title: Languages Night / Valentines 
 datetime: 2015-02-10 18:00:00
 category: events
 slug: meeting20150210
-preview: Check back for updates on this week's schedule
-location: KEC 1003
+preview: We will discuss our favorite and least favorite langauges and why.
+location: KEC 1007
 
 ---
 
-This week's LUG is currently unscheduled.
+What is langauges night? This is the first time it's ever happened so nobody
+is really that sure. It's *probably* going to be a bunch of LUG peeps coming
+together, talking about their favorite langauges, frameworks, and how awesome
+some new fringe project they just found is. Everybody is welcome!
 
 When: 6pm
 
-Where: Kelley Engineering Center room 1003
+Where: Kelley Engineering Center room 1007

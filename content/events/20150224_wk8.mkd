@@ -1,13 +1,17 @@
-title: TBD
+title: Monte with Corbin Simpson
 datetime: 2015-02-24 18:00:00
 category: events
 slug: meeting20150224
-preview: Check back for updates on this week's schedule
+preview: Corbin Simpson will discuss his langauge Monte. Bring questions!
 location: KEC 1003
 
 ---
 
-This week's LUG is currently unscheduled.
+[Corbin Simpson](http://corbinsimpson.com/)
+, LUG alumni and previous president, will be talking about his programming language
+[Monte](https://github.com/monte-language/monte).
+Ever wondered how you get started making a langauge? Every wonder why you'd want
+to make a language? Come and find out! 
 
 When: 6pm
 

@@ -1,14 +1,21 @@
-title: TBD
+title: Coding Puzzles!
 datetime: 2015-01-27 18:00:00
 category: events
 slug: meeting20150127
-preview: Check back for updates on this week's schedule
-location: KEC 1003
+preview: The OSU math Club bring some Coding Puzzles.
+location: KEC 1007
 
 ---
+
+Coding Puzzles w/ Math Club - Promoting A Fun Math Competition!
+
+[Daniel Takamori]()
+and the OSU Math Club will be at LUG to promote the
+[COMAP MCM](http://www.comap.com/undergraduate/contests/mcm/)
+(read: awesome challanging math competition) as this term's Coding Puzzles day.
 
 This week's LUG is currently unscheduled.
 
 When: 6pm
 
-Where: Kelley Engineering Center room 1003
+Where: Kelley Engineering Center room 1007
