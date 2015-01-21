@@ -1,22 +1,17 @@
-title: Jekyll vs Pelican for Wordpress - Lucy Wyman
+title: History of Man(pages)
 datetime: 2015-01-20 18:00:00
 category: events
 slug: meeting20150120
-preview: Lucy Wyman will teach the pros and cons of Jekyll vs Pelican.
+preview: Where did man come from? Why is man here on Earth? How do I search for a word in a man page again???
 location: KEC 1007
 
 ---
-This week's presentation will be given by
-[Lucy Wyman](https://github.com/lucywyman/)
-on the differences between
-[Jekyll](http://jekyllrb.com/)
-and
-[Pelican](http://docs.getpelican.com/en/3.5.0/)
-for
-[Wordpress Users](https://wordpress.org/).
 
-If you had any troubles getting linux working over this past week after 
-Instal Festival come to LUG and we'll help get you sorted out.
+History of Man(pages) is a short talk (<30 minutes) about the origin of the
+program Man, where it came from, who made it, and probably some cool things
+you didn't know about it.
+
+tldr: $ man man
 
 When: 6pm
 
