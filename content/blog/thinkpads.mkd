@@ -84,6 +84,31 @@ It shipped with a 3-cell battery, which slowly wore out until it only held
 about 2 hours' charge when it was 3 years old. Upgraded to an SSD and 9-cell
 battery in 2014 and can now get ~8 hours of battery life.  
 
+### T440s
+
+I was issued a T440s for my 2014 internship on the Urban Airship ops team.
+It's a reasonable work machine, since work constitutes sitting in its docking
+station hooked up to external keyboard, mouse, and monitor, impersonating a
+desktop computer. 
+
+However, I would never buy a T440s for my personal machine. Its build
+construction is lightweight at the expense of the strurdiness that I've come
+to expect with even the X2xx series, the chicklet keyboard is deeply
+unpleasant to type on, and it lacks separate buttons to go with the xkcd
+mouse. It took me several months to find the magic settings which allow me to
+right-click when using the laptop as a laptop. It's also physically larger
+than I need, which makes me find it awkward to use on the go. Plus it has the
+new, rectangular power connector, instead of the old round one that's been
+interchangeable on every other Thinkpad I've ever had.
+
+It basically feels like Lenovo tried to impersonate a Mac, so you might like
+this machine if you're a fan of Apple hardware. However, I buy Thinkpads
+because I like the sturdy construction and boxy lines which make you feel like
+you could bludgeon a wild animal to death with it and then happily resume
+coding. The T440s is the furthest from classic Lenovo construction that I've
+ever used, and I don't enjoy it.
+
+
 ### Other Advice
 
 Assess your priorities for weight and battery life, then buy whatever battery
