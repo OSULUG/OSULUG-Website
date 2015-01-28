@@ -1,0 +1,97 @@
+title: "LUG's Laptop Reviews"
+category: blog
+slug: thinkpads
+author: Emily Dunham <dunhame@onid.orst.edu>
+
+image:
+    url: http://cdn.ubergizmo.com/photos/2007/5/thinkpad-santa-rosa.jpg
+    where: right
+datetime: 2015-01-28 17:00:00
+
+---
+
+The #osu-lug channel on Freenode has recently seen a lot of requests for
+advice on choosing laptops. Here's a summary of the advice you're likely to
+get from each channel member. 
+
+## edunham
+
+### Preferences
+
+I play a bit of Minecraft and occasionally like to compile code or run VMs
+locally, so a machine's performace is moderately important. Most of my
+schoolwork and real work is done on remote machines while I'm at home or on
+campus, so I need at least a couple hours of battery life and good wireless
+performance. I usually run Linux Mint or Arch on laptops, and am not a fan of
+troubleshooting proprietary driver problems. 
+
+Display quality is not important to me and I don't mind small screens.
+Input devices are extremely important to me. I strongly prefer the old style
+Thinkpad keyboards and find chicklets unpleasant to type on. The [xkcd
+mouse](http://xkcd.com/243/) is my preferred pointing device, so physical
+buttons at the top of the touchpad are important to me. I find "clicky"
+touchpads difficult to use and dislike integrated buttons. 
+
+### Thinkpad x100e/x120e
+
+They're tiny, light, cheap, and have a flimsy feel compared to "real"
+Thinkpads. I got an X100e in my freshman year (2010) and it was fine for
+schoolwork, though it tended to heat up badly when playing Minecraft and the
+chicklet keyboard was less than ideal. Linux Mint worked out of the box. 
+
+I was carrying the X100e in a non-padded bag with a bunch of other stuff,
+dropped it wrong on a tile floor, and the outside of the screen suffered a
+sharp impact which caused the display to crack. I replaced it with an X120e,
+which was lighter and didn't overheat quite as badly. The batteries of the two
+models are interchangeable, as is standard for models within the same Thinkpad
+line, which is extremely convenient. 
+
+### Thinkpad T420?
+
+Intel issued it to me during my internship in the summer of 2012. Nice
+machine, bombproof-feeling construction, but I found it huge and unwieldy and
+it weighed a TON. The keyboard spoiled me for life, and desire for the same
+type of keyboard factored into my decision to retire my X120e. 
+
+### Thinkpad X230
+
+Got it new in September 2012, when the model had just been released, due to a
+Lenovo store discount for Intel employees at the end of my internship. 
+
+Pros: 
+    * light
+    * nice screen
+    * good specs for the time, 4GB RAM, Intel Core i5 processor, etc.
+    * came with option to not include webcam, since I was buying it new
+    * xkcd mouse has physical buttons at top of touchpad
+Cons: 
+    * Chicklet keyboard
+    * Clicky touchpad
+    * Linux didn't Just Work immediately -- I "fixed" this with the classic
+      technique of waiting a couple months then trying again
+
+After having used a nice Thinkpad keyboard all summer, the chicklet keyboard
+that shipped with the X230 annoyed me so badly that I ordered an X220 keyboard
+(the old style of keys, and more or less the same form factor), dremeled down
+the bits that didn't fit, and stuffed it into the X230 chassis. All the
+regular keys work fine; the delete/home/end keys in the upper right don't
+perform the same functions as they're labeled with but I've just memorized
+their new positions and it's not annoying enough to warrant figuring out how
+to change their mappings in software. From 2013 onward, Linux Mint and Arch
+have Just Worked on this machine. 
+
+It shipped with a 3-cell battery, which slowly wore out until it only held
+about 2 hours' charge when it was 3 years old. Upgraded to an SSD and 9-cell
+battery in 2014 and can now get ~8 hours of battery life.  
+
+### Other Advice
+
+Assess your priorities for weight and battery life, then buy whatever battery
+best fits your use case. The weight and performance differences between
+battery sizes are huge. Plan on replacing your battery every 18 months or so
+for optimal performance. 
+
+If typing on your machine doesn't feel pleasant any more, try replacing the
+keyboard. A new one is typically $15 to $30 and the difference between an old,
+grungy laptop keyboard and a brand new one cannot be overstated. It makes it
+feel like a new computer, in a way that cleaning the old keyboard just can't.
