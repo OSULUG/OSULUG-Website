@@ -129,16 +129,16 @@ feel like a new computer, in a way that cleaning the old keyboard just can't.
 In many ways, I'm opposite of edunham in my laptop preferences. I'm out of
 school, and I use my "work" laptop as my primary machine. I hate working on
 remote systems for day to day work. I work locally most of the time. My laptop
-spends about half it's time in some sort of desk setup, and the other half in
+spends about half its time in some sort of desk setup, and the other half in
 my lap. Portability is important, but so is expandibility with ports.
 
-My day job involves hacking on a couple decently Django website. This means I
-run Mariadb, Postgres, Redis, Memcached, Elasticsearch, and a bunch of other
-services most of the time. In short, I need a decently beefy system. I run
-Arch. I play some games, but anything graphically intensive goes on another
-box. I like high resolution displays, though not too high density. More on this
-later. I'm not a huge stickler about input, and I generally don't mind Apple
-laptops (except the software). I never use the xkcd mouse.
+My day job involves hacking on a couple decently sized Django website. This
+means I run Mariadb, Postgres, Redis, Memcached, Elasticsearch, and a bunch of
+other services most of the time. In short, I need a decently beefy system. I
+run Arch. I play some games, but anything graphically intensive goes on
+another box. I like high resolution displays, though not too high density.
+More on this later. I'm not a huge stickler about input, and I generally don't
+mind Apple laptops (except the software). I never use the xkcd mouse.
 
 ### Thinkpad T420
 
@@ -153,17 +153,17 @@ laptops (except the software). I never use the xkcd mouse.
 * Silly GPUs
 * Huge
 
-This was my first Thinkpad. It is huge by todays standards, but isn't that big
-of a Thinkpad, thickness wise. Today it seems like a behemoth, but it was fine
-then. It's bulk came with some advantages. It was quite sturdy, and served me
-well for its lifetime. It had the old style non-chiclet keys and a class 5
-button Thinkpad trackpad, but I went so far as to disable the nub or remove it
-entirely sometimes.
+This was my first Thinkpad. It is huge by todays standards, but isn't a very
+largeThinkpad, thickness wise. Today it seems like a behemoth, but it was fine
+back in 2012. It's bulk came with some advantages. It was quite sturdy, and
+served me well for its lifetime. It had the old style non-chiclet keys and a
+classic 5 button Thinkpad trackpad, but I went so far as to disable the nub or
+remove it entirely sometimes.
 
-I enjoyed it's docking port. It worked well for external headphones, mouse
+I enjoyed its docking port. It worked well for external headphones, mouse
 keyboard, and a single extra monitor.
 
-The single biggest problem with this laptop was it's graphics stack. It was a
+The single biggest problem with this laptop was its graphics stack. It was a
 dual GPU card, one Nvidia, one Intel. Running Windows, this would allow the
 laptop to switch back and forth, or even use both, to achieve a good balance of
 power and efficiency. In Linux however, getting this kind of feature is quite
@@ -174,7 +174,7 @@ choose one or the other. Luckily the BIOS makes this extermely easy.
 The next problem is that, for some reason, the external video ports are not
 wired to both cards. The VGA port is wired only to the Intel card, and the
 DisplayPort port is wired only to the Nvidia card. Additionally, all the shiny
-video outputs on the Dock except the VGA portG are wired through to the Nvidia
+video outputs on the Dock except the VGA port are wired through to the Nvidia
 card.
 
 I chose efficiency over power, going with Intel GPU all the time. This means I
@@ -198,10 +198,10 @@ Cons
 
 This was my second thinkpad. Gone are the buttons on the trackpad, here is a
 strange keyboard layout. This thinkpad uses the newer style buttonless
-clickpad, and a very strange keyboard layout. It had things like the home and
-end key sharing the space caps lock used to, moving ~ to to the right of the
-space bar, and completely removing the F-key (F1, F2, etc) in favor of a light
-up touch strip.
+clickpad, and a very strange keyboard layout. It had changes like the home and
+end key sharing the space where caps lock used to be, moving ~ to to the right
+of the space bar, and completely removing the F-key (F1, F2, etc) in favor of
+a light up touch strip.
 
 This sounds horrible. It looks awful. It is a chiclet style keyboard, so take
 that as you will. That being said, I grew to tolerate, and in some cases even
@@ -218,7 +218,7 @@ X1's excuse for an ethernet port was a small, proprietary port that could take
 a proprietary adaptor, which I prompty lost. Oh well.
 
 The docking port on the bottom is gone in favor of a dock port on the side of
-the laptop that doubles with the power cord. It works fine, but it isn't quite
+the laptop, which doubles as the power jack. It works fine, but it isn't quite
 as satisifying as dropping a laptop on a dock.
 
 And then there is the screen. 2560x1440 on a 14" display. I stubornly ran it in
@@ -234,7 +234,7 @@ pretty good). I opted for Linux Kernel Stubloader instead of Grub.
 The biggest problem, and this is absolute killer, and makes me recommend
 avoiding this model at all costs: quality. In six months I went through three
 X1s. The first failed within a week, refusing to boot with a cryptic error
-message. The next would run find for several hours, and then it's screen would
+message. The next would run fine for several hours, and then its screen would
 freak out and it would refuse to boot for a few cycles. The third lasted
 several months before turning off and never turning on again.
 
@@ -257,7 +257,7 @@ Cons
 
 This laptop is my favorite so far. It still has the clickpad, which I enjoy,
 but is not a good choice for nubbin users. It has a real dock port on the
-bottom. It has a neat trick with two batteries: one internal (btw, screwed and
+bottom. It has a neat trick with two batteries: one internal (screwed and
 wired in, no solder here), and one external. The external can be removed and
 the laptop keeps running. It drains the external one first, then switches to
 internal. Charging runs in reverse.
@@ -278,4 +278,4 @@ support is a little lacking.
 
 The screen on mine is only 1366x768, which is radically different than the
 2560x1440 I had. The X1C is a bit too dense, but this is too sparse. I imagine
-the 1080p option would be a good level, but this is what I got.
+the 1080p option would be a good level, but the this is what I got.
