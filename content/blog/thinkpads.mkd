@@ -81,7 +81,7 @@ to change their mappings in software. From 2013 onward, Linux Mint and Arch
 have Just Worked on this machine. 
 
 It shipped with a 3-cell battery, which slowly wore out until it only held
-about 2 hours' charge when it was 3 years old. Upgraded to an SSD and 9-cell
+about 2 hours' charge when it was 2 years old. Upgraded to an SSD and 9-cell
 battery in 2014 and can now get ~8 hours of battery life.  
 
 ### T440s
