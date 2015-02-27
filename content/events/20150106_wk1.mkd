@@ -3,7 +3,7 @@ datetime: 2015-01-06 18:00:00
 category: events
 slug: meeting20150106
 preview: Masterless Puppet in AWS by Daniel Thorton
-location: KEC 1003
+location: KEC 1007
 
 ---
 
@@ -25,4 +25,4 @@ LUG should do this coming term contribute to the working schedule etherpad
 
 When: 6pm
 
-Where: Kelley Engineering Center room 1003
+Where: Kelley Engineering Center room 1007

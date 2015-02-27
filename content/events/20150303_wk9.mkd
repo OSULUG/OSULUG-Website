@@ -3,7 +3,7 @@ datetime: 2015-03-03 18:00:00
 category: events
 slug: meeting20150303
 preview: Lucy Wyman will teach the pros and cons of Jekyll vs Pelican.
-location: KEC 1003
+location: KEC 1007
 
 ---
 
@@ -21,4 +21,4 @@ Instal Festival come to LUG and we'll help get you sorted out.
 
 When: 6pm
 
-Where: Kelley Engineering Center room 1003
+Where: Kelley Engineering Center room 1007
