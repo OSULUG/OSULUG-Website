@@ -1,0 +1,109 @@
+title: "Reminder: Test Your Backups"
+category: blog
+author: E. Dunham <edunham@edunham.net>
+
+datetime: 2015-03-04 10:00:00
+
+---
+
+It's week 9, which means that you've probably invested many hours in a final
+paper or project for at least one class. 
+
+This is your reminder to stop and ask yourself: 
+    
+# If the most important file in my project suddenly disappeared, what would I do?  
+
+If the answer is `git checkout -- filename` or `cp filename_yesterdays_date
+filename`, you're on the right track! If losing the file would ruin your day,
+take a few minutes now to prevent it from getting lost in the future. 
+
+## Verify your backups.
+
+If you think that you know how to restore your file, do a test right now. Make
+a copy of the project's entire folder and, in that copy, actually delete the
+file. Now try to get it back.  If you don't have a plan for getting your work
+back, or the backup solution you thought you had isn't working, you can set
+one up now while your work still exists! 
+
+## Decide how serious a disaster you want to recover from. 
+
+You might face one or more of the following threats: 
+    
+    * User error, such as `mv junk importantfile`, `tar importantfile junk`,
+      or `cat junk > importantfile`
+
+    * Hardware failure, such as dropping your laptop and irreparably breaking
+      its hard drive
+
+    * Local catastrophe, such as your backpack getting stolen (containing your
+      phone, laptop, and USB stick)
+
+    * Regional disaster, such as an earthquake  (your laptop, USB drives, and
+      Flip are all destroyed)
+    
+The secret to avoiding file loss in all of those scenarios is to have multiple
+off-site backups. In the situations that you're likely to encounter, having
+even one recent backup can save you hours of work re-doing your project. 
+
+## Which files should you back up?
+
+One rule of thumb is *any file that you modify by hand*. Files that only get
+modified by your tools, such as executables that you've compiled, can be
+regenerated whenever you want as long as their sources are available.
+
+If you generate executables from c code and you have the .c files and Makefile
+safely backed up and verified, there's no need to back up the executables as
+well.
+
+If you generate a pdf from LaTeX source, you don't need to back up the pdf as
+long as you have the .tex file backed up.
+
+## Here are some techniques for backing up your work: 
+    
+* Email a copy to yourself every night. If you use gmail, even the
+  destruction of every computer in Corvallis wouldn't cause you to lose
+  your work, since Google stores copies of your mail in datacenters all 
+  over the world. 
+
+* Keep your code in a repo on
+  [GitHub](https://help.github.com/articles/set-up-git/) (which offers 5
+  free private repositories to anyone with a .edu email address; see
+  https://education.github.com/) or BitBucket (which offers unlimited free
+  private repositories but is a less effective portfolio of your public work).
+  Commit every change you make, and push to the remote repository frequently. 
+
+* Make a copy with a name like `myfile_description_of_changes` every time
+  you make a major change, and save that copy on a USB stick (or even a
+  different folder on your computer)
+
+* Transfer your files to flip.engr.oregonstate.edu, using a program like
+  [sftp](http://www.thegeekstuff.com/2010/06/ftp-sftp-tutorial/) or
+  [FileZilla](https://filezilla-project.org/)
+
+* Use an rsync tool, such as
+  [obnam](http://code.liw.fi/obnam/manual/manual.html) or
+  [rdiff-backup](http://en.kioskea.net/faq/746-rdiff-backup-making-effective-and-incremental-backups),
+  to copy only the changed parts of your project onto an external disk or into a
+  different folder. You can run it by hand every time you want to save a change,
+  or set up a cron job to run it automatically at specified intervals.
+
+## When should you back up your work? 
+
+* Every time you make progress on a part of the project, however tiny, and
+  think "wow, I never want to have to do that again". 
+
+* Every time you think "I might want to put it back like this if the change
+  I'm trying doesn't work". 
+
+* Before deleting any part of it, for any reason
+
+* Before running a shell command that could inadvertantly delete or overwrite
+  it. Some common culprits are `mv`, `tar`, `>` (instead of `>>`) and any
+  command to your compiler that specifies the input filename as the output file. 
+
+Please take a couple of minutes right now to back up any work that it would be
+inconvenient to lose. If you have any questions about open-source version
+control or backup tools, or need advice on finding the one that's best for
+your use case, just ask in #osu-lug on irc.freenode.net or on the mailing
+list!
+
