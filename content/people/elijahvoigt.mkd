@@ -14,7 +14,7 @@ at the [Open Source Lab][osl]. In his spare time he writes games in [lua][lua]
 and plans LUG meetings. He also enjoys long walks on the beach and writing 
 bios in the third person. 
 
-He has many names to many people but you will most likely see him referd to as
+He has many names to many people but you will most likely see him referred to as
 pop_n_fresh on the internet.
 
 [osl]: http://osuosl.org/
