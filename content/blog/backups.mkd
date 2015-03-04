@@ -28,19 +28,19 @@ one up now while your work still exists!
 ## Decide how serious a disaster you want to recover from. 
 
 You might face one or more of the following threats: 
-    
-    * User error, such as `mv junk importantfile`, `tar importantfile junk`,
-      or `cat junk > importantfile`
 
-    * Hardware failure, such as dropping your laptop and irreparably breaking
-      its hard drive
+* User error, such as `mv junk importantfile`, `tar importantfile junk`,
+  or `cat junk > importantfile`
 
-    * Local catastrophe, such as your backpack getting stolen (containing your
-      phone, laptop, and USB stick)
+* Hardware failure, such as dropping your laptop and irreparably breaking
+  its hard drive
 
-    * Regional disaster, such as an earthquake  (your laptop, USB drives, and
-      Flip are all destroyed)
-    
+* Local catastrophe, such as your backpack getting stolen (containing your
+  phone, laptop, and USB stick)
+
+* Regional disaster, such as an earthquake  (your laptop, USB drives, and
+  Flip are all destroyed)
+
 The secret to avoiding file loss in all of those scenarios is to have multiple
 off-site backups. In the situations that you're likely to encounter, having
 even one recent backup can save you hours of work re-doing your project. 
