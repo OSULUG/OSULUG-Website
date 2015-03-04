@@ -60,28 +60,32 @@ long as you have the .tex file backed up.
 
 ## Here are some techniques for backing up your work: 
     
-    * Email a copy to yourself every night. If you use gmail, even the
-      destruction of every computer in Corvallis wouldn't cause you to lose
-      your work, since Google stores copies of your mail in datacenters all 
-      over the world. 
+* Email a copy to yourself every night. If you use gmail, even the
+  destruction of every computer in Corvallis wouldn't cause you to lose
+  your work, since Google stores copies of your mail in datacenters all 
+  over the world. 
 
-    * Keep your code in a repo on GitHub (which offers 5 free private
-      repositories to anyone with a .edu email address; see
-      https://education.github.com/) or BitBucket (which offers unlimited free
-      private repositories but is a less effective portfolio of your public work).
-      Commit every change you make, and push to the remote repository frequently. 
+* Keep your code in a repo on
+  [GitHub](https://help.github.com/articles/set-up-git/) (which offers 5
+  free private repositories to anyone with a .edu email address; see
+  https://education.github.com/) or BitBucket (which offers unlimited free
+  private repositories but is a less effective portfolio of your public work).
+  Commit every change you make, and push to the remote repository frequently. 
 
-    * Make a copy with a name like `myfile_description_of_changes` every time
-      you make a major change, and save that copy on a USB stick (or even a
-      different folder on your computer)
+* Make a copy with a name like `myfile_description_of_changes` every time
+  you make a major change, and save that copy on a USB stick (or even a
+  different folder on your computer)
 
-    * Transfer your files to flip.engr.oregonstate.edu, using a program like
-      sftp or FileZilla
+* Transfer your files to flip.engr.oregonstate.edu, using a program like
+  [sftp](http://www.thegeekstuff.com/2010/06/ftp-sftp-tutorial/) or
+  [FileZilla](https://filezilla-project.org/)
 
-    * Use an rsync tool, such as obnam or rdiff-backup, to copy only the
-      changed parts of your project onto an external disk or into a different
-      folder. You can run it by hand every time you want to save a change, or set up
-      a cron job to run it automatically at specified intervals.
+* Use an rsync tool, such as
+  [obnam](http://code.liw.fi/obnam/manual/manual.html) or
+  [rdiff-backup](http://en.kioskea.net/faq/746-rdiff-backup-making-effective-and-incremental-backups),
+  to copy only the changed parts of your project onto an external disk or into a
+  different folder. You can run it by hand every time you want to save a change,
+  or set up a cron job to run it automatically at specified intervals.
 
 ## When should you back up your work? 
 
@@ -99,6 +103,7 @@ long as you have the .tex file backed up.
 
 Please take a couple of minutes right now to back up any work that it would be
 inconvenient to lose. If you have any questions about open-source version
-control or backup tools, such Git and Rsync, just ask in #osu-lug on
-irc.freenode.net or on the mailing list!
+control or backup tools, or need advice on finding the one that's best for
+your use case, just ask in #osu-lug on irc.freenode.net or on the mailing
+list!
 
