@@ -47,6 +47,8 @@ How to Connect
 
     - `Irssi Commands`_
 
+- `Pro (weechat)`_
+
 Easy (webchat)
 --------------
 
@@ -210,6 +212,103 @@ This will reattach your screen session. Alternatively, you can use ::
 These extra options will conform the screen to your current terminal and
 automatically detach any other screen session you may have.
 
+Pro (weechat)
+-------------
+
+Weechat is a simple, lightweight, and elegant IRC client for your terminal,
+while also being very extensable with plugins. Sane defaults allow for (in the
+author's opinion) an easier time for new users to adjust and become aquainted
+with IRC. The following will be a quick quide to getting onto OSU LUG's IRC
+channel :code:`#osu-lug` in just a few simple steps and some optional ones for
+going a bit more in depth.
+
+To start, it is ideal to run weechat in a screen_ or tmux_ session so you can
+come back to your irc session without reconnecting. Once you have a session up,
+start weechat: ::
+
+    weechat
+
+If you have an old weechat client, pre-0.4.1, you will need to invoke weechat
+with: ::
+
+    weechat-curses
+
+If you do not care about setting a username (default is the user you are logged
+in as) or connecting using ssl, connecting to IRC is as easy as: ::
+
+    /connect chat.freenode.net
+
+Followed by: ::
+
+    /join #osu-lug
+
+You can also change your nickname with: ::
+
+    /nick MyAwesomeNickname
+
+And that is all for weechat, welcome to the LUG's IRC channel on Freenode's
+IRC server.
+
+However, before connecting to freenode and joining the LUG's channel, a few
+settings can be set such as a username, real name, and SSL (client<->server
+encryption). The next few steps are simple, yet powerful, allowing you to
+configure weechat just the way you want and before you connect to freenode so
+you don't inadvertantly spam channels with nick name changes and the like.
+
+First, add freenode to weechat (end with 7000 instead of 6697 if you want
+SSL): ::
+
+    /server add freenode chat.freenode.net/6697
+
+If you opted for SSL, you will need to also do the following: ::
+
+    /set irc.server.freenode.ssl on
+    /set irc.server.freenode.ssl_verify off
+    /set irc.server.freenode.ssl_dhkey_size 1024
+
+*NOTE*: If you have a package similar to cacerts installed, you may not need to
+have ssl_verify turned off. Not having ssl_verify off is recommended, though,
+not always the easiest to do.
+
+Set a real name, user name, and a nick name: ::
+
+    /set irc.server.freenode.nicks "MyAwesomeNick,MyAwesomeFallbackNick"
+    /set irc.server.freenode.username "MyUsernameWhichCanBeTheSameAsMyNickName"
+    /set irc.server.freenode.realname "MyRealNameOrAFakeName,DoesNotMatter"
+
+Autoconnect to freenode when (re)opening weechat: ::
+
+    /set irc.server.freenode.autoconnect on
+
+Autojoin channels upon connecting to freenode: ::
+
+    /set irc.server.freenode.autojoin "#osu-lug,#MyOtherChannels"
+
+One last step before connecting, SAVE: ::
+
+    /save
+
+That will save your configuration for next time.
+
+Connect to freenode and join the LUG channel: ::
+
+    /connect freenode
+
+If you opted to autojoin the :code:`#osu-lug` channel in a previous step, the
+buffer (also called a window sometimes) will open for you, otherwise you will
+need to: ::
+
+    /join #osu-lug
+
+These steps were taken and modified from `weechat quickstart guide`_. It is
+highly recommended to look there first if you are running into issues as that
+guide is extremely helpful. If you are unable to connect though, feel free to
+use `Easy (webchat)`_ to quickly connect and get some help.
+
+
 .. _putty: http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
 .. _irssi: http://www.irssi.org
 .. _weechat: http://www.weechat.org
+.. _screen: https://www.gnu.org/software/screen/
+.. _tmux: http://tmux.sourceforge.net/
+.. _weechat quickstart guide: http://www.weechat.org/files/doc/stable/weechat_quickstart.en.html#create_irc_server
