@@ -36,6 +36,17 @@ First, let's go over some basic terms:
     has their name prefixed with an '@' symbol
 
 
+How to Connect
+--------------
+
+- `Easy (webchat)`_
+
+- `Medium (GUI Client)`_
+
+- `Pro (irssi)`_
+
+    - `Irssi Commands`_
+
 Easy (webchat)
 --------------
 
