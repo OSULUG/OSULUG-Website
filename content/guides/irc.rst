@@ -1,7 +1,7 @@
 title: IRC
 category: blog
 tags: guide
-author: ["Emily Dunham <dunhame@onid.oregonstate.edu>", "Alan Sherman <shermana@onid.oregonstate.edu>"]
+author: ["Emily Dunham <dunhame@onid.oregonstate.edu>", "Alan Sherman <shermana@onid.oregonstate.edu>", "Justin Noah <noahju@onid.oregonstate.edu>"]
 datetime: 2011-09-15 00:00:00
 ---
 
@@ -18,7 +18,7 @@ ideas. It is simple, light weight and runs on any platform. In this guide we
 will cover three ways in which you can use to get into IRC and into our
 channel.
 
-[irc]: http://en.wikipedia.org/wiki/IRC
+.. _irc: http://en.wikipedia.org/wiki/IRC
 
 First, let's go over some basic terms:
 
@@ -27,29 +27,31 @@ First, let's go over some basic terms:
 
 -   Network - a group of many interconnected servers, individual servers ferry
     messages back and forth to make sure that all the messages get to every
-user.
+    user.
 
 -   Channel - a basic means of communicating to a certain group of users,
     creating a channel is as simple as joining a channel that does not exist
 
-+   Operator - aka 'op', the channel administrator, moderates the channel and
-has their name prefixed with an '@' symbol
+-   Operator - aka 'op', the channel administrator, moderates the channel and
+    has their name prefixed with an '@' symbol
+
 
 Easy (webchat)
 --------------
 
 The fastest way to get in our channel is to go though your browser. To access
 Freenode (the irc network that the LUG channel is on) from your browser, you
-can use their [web interface][freenodeweb]. In the Nickname field, enter the
+can use their `web interface`_. In the Nickname field, enter the
 name that you want other people to see when you talk in the channel. This can
 be your ONID username, your real name, or something more creative. Note that if
-you pick a really long nick (I tried it with "`testing_freenode_web_chat`"), it
-will be truncated at around 16 characters (so I only show up as
-"`testing_freenode`" in the channel). In the channels field, type `#osu-lug`.
-Fill out the captcha, click connect, wait a few seconds, and you'll be in the
-LUG's primary discussion area.
+you pick a really long nick (I tried it with
+":code:`testing_freenode_web_chat`"), it will be truncated at around 16
+characters (so I only show up as ":code:`testing_freenode`" in the channel).
+In the channels field, type :code:`#osu-lug`. Fill out the captcha, click
+connect, wait a few seconds, and you'll be in the LUG's primary discussion
+area.
 
-[freenodeweb]: http://webchat.freenode.net/
+.. _web interface: http://webchat.freenode.net/
 
 Medium (GUI Client)
 -------------------
@@ -62,22 +64,25 @@ coding,  more advanced highlighting options and infinite idling (if your
 computer is on), because no one likes timing out. If you want something more
 than the web interface can give you, consider trying one of these clients.
 
--   [xchat][] - A popular GUI client.
--   [Pidgin][] - Pidgin supports irc, but it's not very good at it.  -   [mIRC][] - Another GUI client. Basic client, lacking advanced features. (Windows only)
-[xchat]: http://xchat.org
-[pidgin]: http://www.pidgin.im
-[mirc]: http://www.mirc.com
+-   xchat_ - A popular GUI client.
+-   Pidgin_ - Pidgin supports irc, but it's not very good at it.
+-   mIRC_ - Another GUI client. Basic client, lacking advanced features. (Windows only)
+
+.. _xchat: http://xchat.org
+.. _pidgin: http://www.pidgin.im
+.. _mirc: http://www.mirc.com
 
 Most of these are pretty straight forward. When it prompts you for the server
-connect to `chat.freenode.net`. Our channel on that network is `#osu-lug`. Just
-like the web interface your username can be whatever you want it to be as-long
-as it's not already in use, which it will tell you when you try to connect.
+connect to :code:`chat.freenode.net`. Our channel on that network is
+:code:`#osu-lug`. Just like the web interface your username can be whatever you
+want it to be as-long as it's not already in use, which it will tell you when
+you try to connect.
 
 Pro (irssi)
 -----------
 
-Command-line clients take a bit of work to get the hang of.
-However, their advantage lies in being simple, lightweight, yet powerful.
+Command-line clients take a bit of work to get the hang of. However, the
+advantage lies in being simple, lightweight, yet powerful.
 
 We mentioned above that if you are not online you miss out on messages others
 have sent. The solution is simple never go offline, but how would you do this
@@ -87,12 +92,12 @@ way, you will have a persistent IRC session, and you will get every message.
 Let's start by getting you on the server, via SSH.  If you have not used SSH
 before, check out our SSH guide or feel free to ask us.
 
-For *Windows* users: download and run [putty][putty]. Put in
+For *Windows* users: download and run putty_. Put in
 shell.onid.oregonstate.edu as your hostname and hit open. Then because it is an
 OSU server, authenticate with your ONID username and password.
 
 For *Mac and Linux* users, you are in luck; you should already have a terminal
-client with SSH built in. Simply run this command:
+client with SSH built in. Simply run this command: ::
 
 	ssh [your onid user name]@shell.onid.oregonstate.edu
 
@@ -103,19 +108,19 @@ any program that you run will be tied to your session, and when your session
 ends that program will end as well. So we haven't really gained anything from
 over running IRC locally on your laptop yet.
 
-The solution is a program called `screen` Screen creates a virtual terminal
-that is only attached to a session when you tell it to. After setting up a
-screen, you can detach from the session, and everything will keep running on
-the server, even if you completely terminate your SSH session.
+The solution is a program called :code:`screen` Screen creates a virtual
+terminal that is only attached to a session when you tell it to. After setting
+up a screen, you can detach from the session, and everything will keep running
+on the server, even if you completely terminate your SSH session.
 
-To start a screen session run
+To start a screen session run ::
 
 	screen -S irc
 
 Now it's finally time to start the IRC client itself. shell.onid has two
 different irc clients installed on it: [irssi][irssi] and [weechat][weechat].
 For this guide we are going to use irssi. To start irssi simply type, from
-within your screen
+within your screen ::
 
 	irssi
 
@@ -124,31 +129,32 @@ Irssi Commands
 --------------
 
 First thing you need to do is connect to freenode's IRC server. This will
-take a moment.
+take a moment. ::
 
 	/connect -ssl irc.freenode.net 6697
 
-Now set your handle (screenname).
+Now set your handle (screenname). ::
 
 	/nick [nickname]
 
 If the handle you want is taken, the server will tell you, and you can choose
 another.
 
-You may also want to register your nick so other people cannot take it.
+You may also want to register your nick so other people cannot take it. ::
 
 	/msg nickserv register <password for your nick> <email>
 
 Then you will need to confirm your email by following the instructions in your
 email.
 
-Then in the future you can identify for that nick and also set your nick to enforce
-which means people only have 30 seconds to try to identify to your nick.
+Then in the future you can identify for that nick and also set your nick to
+enforce which means people only have 30 seconds to try to identify to your
+nick. ::
 
 	/msg nickserv identify <password>
 	/msg nickserv set enforce
 
-Now join the LUG channel.
+Now join the LUG channel. ::
 
 	/join #osu-lug
 
@@ -177,22 +183,22 @@ Here are some other commands:
 
 A few more important things regarding to irssi and screen. First is how to
 *properly* end your session and how to get it back. In order to detach your
-current terminal from the virtual screen press `Ctrl-a d`. That is, press
-control+a, then release both and press d. `Ctrl-a` is the screen escape
-command, and `d` is the detach command. This will drop you back into your ssh
-terminal.
+current terminal from the virtual screen press :code:`Ctrl-a d`. That is, press
+control+a, then release both and press d. :code:`Ctrl-a` is the screen escape
+command, and :code:`d` is the detach command. This will drop you back into your
+ssh terminal.
 
-To get back into irssi from the shell, run the command:
+To get back into irssi from the shell, run the command: ::
 
 	screen -r irc
 
-This will *re*attach your screen session. Alternatively, you can use
+This will reattach your screen session. Alternatively, you can use ::
 
     screen -raAd irc
 
 These extra options will conform the screen to your current terminal and
 automatically detach any other screen session you may have.
 
-[putty]:http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
-[irssi]: http://www.irssi.org
-[weechat]: http://www.weechat.org
+.. _putty: http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
+.. _irssi: http://www.irssi.org
+.. _weechat: http://www.weechat.org
