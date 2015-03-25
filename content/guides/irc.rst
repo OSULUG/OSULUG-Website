@@ -1,7 +1,11 @@
 title: IRC
 category: blog
 tags: guide
-author: ["Emily Dunham <dunhame@onid.oregonstate.edu>", "Alan Sherman <shermana@onid.oregonstate.edu>", "Justin Noah <noahju@onid.oregonstate.edu>"]
+author: [
+    "Emily Dunham <dunhame@onid.oregonstate.edu>",
+    "Alan Sherman <shermana@onid.oregonstate.edu>",
+    "Justin Noah <noahju@onid.oregonstate.edu>"
+]
 datetime: 2011-09-15 00:00:00
 ---
 
