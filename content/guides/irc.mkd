@@ -9,7 +9,7 @@ IRC is a real-time relay based chat protocol with no archiving. This means that
 when you send a message from your client to the server, the server just
 forwards the message to all of the other clients in the channel. At no point is
 that message stored, hence the name "relay chat". A downside to this is that
-you do not receive any messages if you aren't connected to the server. 
+you do not receive any messages if you aren't connected to the server.
 
 What makes IRC so special is that is has been around for pretty much forever.
 Created in 1988 it was originally used by universities to help share ideas. To
@@ -30,7 +30,7 @@ First, let's go over some basic terms:
 user.
 
 -   Channel - a basic means of communicating to a certain group of users,
-    creating a channel is as simple as joining a channel that does not exist 
+    creating a channel is as simple as joining a channel that does not exist
 
 +   Operator - aka 'op', the channel administrator, moderates the channel and
 has their name prefixed with an '@' symbol
@@ -63,7 +63,7 @@ computer is on), because no one likes timing out. If you want something more
 than the web interface can give you, consider trying one of these clients.
 
 -   [xchat][] - A popular GUI client.
--   [Pidgin][] - Pidgin supports irc, but it's not very good at it.  -   [mIRC][] - Another GUI client. Basic client, lacking advanced features. (Windows only) 
+-   [Pidgin][] - Pidgin supports irc, but it's not very good at it.  -   [mIRC][] - Another GUI client. Basic client, lacking advanced features. (Windows only)
 [xchat]: http://xchat.org
 [pidgin]: http://www.pidgin.im
 [mirc]: http://www.mirc.com
@@ -71,12 +71,12 @@ than the web interface can give you, consider trying one of these clients.
 Most of these are pretty straight forward. When it prompts you for the server
 connect to `chat.freenode.net`. Our channel on that network is `#osu-lug`. Just
 like the web interface your username can be whatever you want it to be as-long
-as it's not already in use, which it will tell you when you try to connect. 
+as it's not already in use, which it will tell you when you try to connect.
 
 Pro (irssi)
 -----------
 
-Command-line clients take a bit of work to get the hang of. 
+Command-line clients take a bit of work to get the hang of.
 However, their advantage lies in being simple, lightweight, yet powerful.
 
 We mentioned above that if you are not online you miss out on messages others
@@ -85,7 +85,7 @@ with your laptop? You run your IRC on a server that is provided by OSU. That
 way, you will have a persistent IRC session, and you will get every message.
 
 Let's start by getting you on the server, via SSH.  If you have not used SSH
-before, check out our SSH guide or feel free to ask us.  
+before, check out our SSH guide or feel free to ask us.
 
 For *Windows* users: download and run [putty][putty]. Put in
 shell.onid.oregonstate.edu as your hostname and hit open. Then because it is an
@@ -93,7 +93,7 @@ OSU server, authenticate with your ONID username and password.
 
 For *Mac and Linux* users, you are in luck; you should already have a terminal
 client with SSH built in. Simply run this command:
-	
+
 	ssh [your onid user name]@shell.onid.oregonstate.edu
 
 Now you are dropped into in a shell inside the server. Cool, huh.
@@ -116,7 +116,7 @@ Now it's finally time to start the IRC client itself. shell.onid has two
 different irc clients installed on it: [irssi][irssi] and [weechat][weechat].
 For this guide we are going to use irssi. To start irssi simply type, from
 within your screen
-	
+
 	irssi
 
 
@@ -138,7 +138,7 @@ another.
 You may also want to register your nick so other people cannot take it.
 
 	/msg nickserv register <password for your nick> <email>
-	
+
 Then you will need to confirm your email by following the instructions in your
 email.
 
@@ -162,25 +162,25 @@ number represents its state.
 
 -   Light blue: non-talk activity (such as someone joining)
 -   White: someone has said something in that channel.
--   Purple: someone is speaking directly to you 
+-   Purple: someone is speaking directly to you
 -   No number: nothing has happened in that channel since you last checked
 
 You can change the theme of the colors if you wish.
 
 Here are some other commands:
 
--   /q [username] - query, creates a private message window with another user 
--   /wc - window close, closes the current window and disconnects from the channel 
--   /names - list all users in the current channel, 
+-   /q [username] - query, creates a private message window with another user
+-   /wc - window close, closes the current window and disconnects from the channel
+-   /names - list all users in the current channel,
 -   /help - shows all commands in the status window (Alt-1).
--   /help [command] - show help for a particular command in the status window.  
+-   /help [command] - show help for a particular command in the status window.
 
 A few more important things regarding to irssi and screen. First is how to
 *properly* end your session and how to get it back. In order to detach your
 current terminal from the virtual screen press `Ctrl-a d`. That is, press
 control+a, then release both and press d. `Ctrl-a` is the screen escape
 command, and `d` is the detach command. This will drop you back into your ssh
-terminal. 
+terminal.
 
 To get back into irssi from the shell, run the command:
 
