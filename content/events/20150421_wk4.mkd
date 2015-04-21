@@ -1,0 +1,17 @@
+title: Man Pag Madness!
+datetime: 2015-04-21 18:00:00
+category: events
+slug: meeting20150303
+preview: Lug Contributes to Man Pages
+location: KEC 1007
+
+---
+
+Today we will write examples for man pages and start contributing the changes
+we make upstream to the `man-pages` project.
+
+[Man Pages Contribution Information](https://www.kernel.org/doc/man-pages/patches.html)
+
+When: 6pm
+
+Where: Kelley Engineering Center room 1007
