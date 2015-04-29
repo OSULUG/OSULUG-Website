@@ -1,12 +1,14 @@
-title: Unscheduled LUG
+title: Languages Night Spring 2015
 datetime: 2015-5-12 18:00:00
 category: events
 slug: meeting20150303
-preview: This LUG meeting is currently unscheduled
+preview: Yet another Langauges Night!
 location: KEC 1007
 
 ---
 
+The Language's Night is back by popular demand! As before there will be Pizza,
+discussions, and hopefull you!
 
 When: 6pm
 

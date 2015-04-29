@@ -1,12 +1,17 @@
-title: Unscheduled LUG
+title: Hamper Hackathon Prep!
 datetime: 2015-04-28 18:00:00
 category: events
 slug: meeting20150303
-preview: This LUG meeting is currently unscheduled
+preview: This meeting we will prepare for the OSU-LUG Hamper Hackathon!
 location: KEC 1007
 
 ---
 
+There will be an OSU-LUG Hamper Hackathon this *sunday* May 3, 2015.
+
+In addition to hammering out the details for what exactly that entails Dean
+will give us the rundown of what Hamper is, how it works, and how hamper's
+plugin system works (and how you could make a hamper plugin this sunday!)
 
 When: 6pm
 
