@@ -1,0 +1,33 @@
+title: Fall 2015 Install-Festival!
+datetime: 2015-10-06 06:00:00
+category: events
+slug: meeting20151006
+preview: Join us for the Whimsical Install Festival (similar to the regular install-fest)!
+location: KEC 1001
+
+---
+
+The Install Festival is LUG's most popular event, and for good reason too!
+
+If you or a friend need help installing or fixing an installation of Linux come
+to this meeting and we will fix you up.
+
+**What do I bring to the install fest?**
+
+The only thing you need to bring to the Install Fest is your laptop and power
+cable. If you would also like to back up your data that would be wise, just in
+case things go poorly (they shouldn't, just *if*).
+
+We provide the following flavors of Linux on USB sticks:
+
+* Ubuntu
+* Linux Mint
+* Fedora
+
+If you would like to install your own version of Linux (not mentioned on that
+list) put it onto a piece of installation media and we will help you get things
+working from there.
+
+When: 06pm
+
+Where: Kelly Engineering Center room 1001
