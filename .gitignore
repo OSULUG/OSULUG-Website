@@ -3,3 +3,5 @@ output/
 update-lug
 *.scssc
 *.pyc
+venv/
+.venv/

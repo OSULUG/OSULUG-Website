@@ -7,37 +7,67 @@ pagination:
     post_limit: 9
 ---
 
-##Welcome to the OSU LUG website!
-<br/>
 
-**New officers have been elected!** See the [contact page][people] for their
-names, IRC handles, and bios!
+# Welcome to the OSU LUG website!
 
-To contribute ideas about what you'd like to see at LUG meetings this year, add them to [the etherpad][meetings].
+- - - - 
 
+## The OSU Linux Users Group meets every week
+## _Tuesday at 6:00pm at Kelly Engineering Center in KEC 1001_
 
-We keep in touch via the [mailing list][ml], and via the `#osu-lug` IRC
-channel on `irc.freenode.net`. For more info on IRC, check out our [IRC
-guide][ircguide].
+- - - - 
+
+### What is the Oregon State University Linux Users Group?
+
+We are self described as "mostly a group of nerds. However we are not your
+normal nerds. We are a highly active and self-organizing group dedicated to
+teaching and advocating free and open source software (FOSS) on campus."
+
+That might sound like we are on a bit of a high horse; put simply we are a
+group of students and community members in and around Oregon State University
+that believe in the use of and contribution to [Free and Open Source
+Software][foss] (FOSS). In practice this means we contribute to the tools we
+use and the use the tools we love.
+
+If you don't yet use Linux, or you want to learn more about FOSS, come to a
+meeting. We don't bite -- but we might offer you pizza.
+
+### How do I participate?
+
+Participation is completely voluntary and non-compulsory; show up to a meeting
+when you can at any point during the Fall, Winter, Spring term.
+
+When are are not at meetings, we keep in touch via...
+
+* the OSULUG [mailing list][ml] where we post about events and useful
+  information, and
+* the `#osu-lug` IRC channel on `irc.freenode.net`.
+    * For more info on IRC, check out our [guide to getting on IRC][ircguide].
 
 **If you're currently an OSU student and would like to become an official
 voting member of LUG**, please fill out this [member form][form].
 
-LUG meets every week on
-**Tuesday at 6:00pm at Kelly Engineering Center in KEC 1007**.
 Keep an eye out for helpful information and upcoming events posted here. We
 also have lunch together on Fridays, at a time determined in the IRC channel.
 
-LUG is also on [GitHub][gh], [Google Plus][gplus] and [Facebook][fb].
+LUG is also on [GitHub][gh] if you would like to read our Laws and the source
+code for this website.
 
-[fb]:https://www.facebook.com/groups/osulug/
+### Is there anything else like LUG at OSU?
+
+The [DevOps BootCamp][dobc] program, run by the [Open Source Lab][OSL], teaches
+students how to develop web applications (think: Facebook, Twitter, etc)
+software and run Linux servers (think: The Cloud). This program is free to
+attend, no strings attached.
+
 [gh]:https://github.com/osulug/
-[gplus]: https://plus.google.com/117247882593240353754
+
 [form]: https://docs.google.com/spreadsheet/viewform?formkey=dDIySHZQeHNhbFhkd25uaTFUNEZubnc6MQ
-[gh-issues]: https://github.com/OSULUG/OSULUG-Website/issues
-[source]: https://github.com/OSULUG/OSULUG-Website/
 [ircguide]: /blog/irc/
 [ml]: http://lists.oregonstate.edu/mailman/listinfo/linux
-[chovda]: http://doodle.com/ragrnapd72x4vcmm
-[meetings]: http://etherpad.osuosl.org/lugWin15Topics
 [people]: http://lug.oregonstate.edu/contact/
+
+[foss]: https://en.wikipedia.org/wiki/Free_and_open-source_software
+
+[OSL]: http://osuosl.org
+[dobc]: http://devopsbootcamp.osuosl.org

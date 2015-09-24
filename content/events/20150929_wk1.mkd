@@ -1,0 +1,19 @@
+title: Meet and Greet plus Elections
+datetime: 2015-09-29 06:00:00
+category: events
+slug: meeting20150929
+preview: LUG comes back from summer and elects a President (and VP, and officers)...
+location: KEC 1001
+
+---
+
+The OSU LUG will meet this week to say hello, share what they did over the
+summer, and **ELECT OFFICERS**.
+
+If you would like to vote before the day of the election, login to your
+Oregon State University Google account and visit [The Online
+Ballot](http://goo.gl/forms/vcmWpbyXUF)
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1001
