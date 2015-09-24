@@ -28,6 +28,6 @@ If you would like to install your own version of Linux (not mentioned on that
 list) put it onto a piece of installation media and we will help you get things
 working from there.
 
-When: 06pm
+When: 6pm
 
 Where: Kelly Engineering Center room 1001
