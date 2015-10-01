@@ -1,11 +1,19 @@
 title: Evan Tschuy
 tags: officer
-rank: 1 
+rank: 1
 person:
     name: Evan Tschuy
     title: Secretary
     irc: tschuy
-    image: /img/people/lug_penguin.png
+    image: /img/people/tschuy.png
 
 ---
 
+Evan is a third-year computer science student at OSU and is a software developer
+for the [Open Source Lab][osl]. He spends his spare time hacking on webapps,
+climbing at McAlexander, and annoying his friends speaking French. He's lucky
+enough to have a rare last name and uses it across the internet as his handle.
+
+His stuff is available on the internet at http://tschuy.com.
+
+[osl]: http://osuosl.org/
