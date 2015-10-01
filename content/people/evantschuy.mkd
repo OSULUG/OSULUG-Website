@@ -1,0 +1,11 @@
+title: Evan Tschuy
+tags: officer
+rank: 1 
+person:
+    name: Evan Tschuy
+    title: Secretary
+    irc: tschuy
+    image: /img/people/lug_penguin.png
+
+---
+
