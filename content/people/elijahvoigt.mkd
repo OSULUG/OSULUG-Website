@@ -4,18 +4,17 @@ rank: 1
 person:
     name: Elijah Voigt
     title: President
-    irc: pop`
+    irc: pop
     image: /img/people/elijahvoigt.png
 
 ---
 
-Elijah is a second year Computer Science student at OSU and a software devloper
-at the [Open Source Lab][osl]. In his spare time he writes games in [lua][lua] 
-and plans LUG meetings. He also enjoys long walks on the beach and writing 
-bios in the third person. 
+Elijah is a second year Computer Science student at OSU and a software
+developer at the [Open Source Lab][osl]. In his spare time he writes webapps in
+python and plans LUG meetings. He also enjoys long walks on the beach and
+writing bios in the third person. 
 
-He has many names to many people but you will most likely see him referred to as
-pop_n_fresh on the internet.
+He has many names to many people but you will most likely see him referred to
+as pop on the internet.
 
 [osl]: http://osuosl.org/
-[lua]: http://www.love2d.org/

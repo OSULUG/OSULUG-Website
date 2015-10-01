@@ -1,0 +1,11 @@
+title: Elsie Phillips
+tags: officer
+rank: 1 
+person:
+    name: Elijah Voigt
+    title: Public Relations
+    irc: mae
+    image: /img/people/lug_penguin.png
+
+---
+
