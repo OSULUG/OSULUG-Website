@@ -5,7 +5,7 @@ person:
     name: Elijah Voigt
     title: Public Relations
     irc: mae
-    image: /img/people/lug_penguin.png
+    image: 
 
 ---
-
+Elsie is a senior studying Economics and Computer Science. She works at the OSU Open Source Lab as the Project Manager. She has strong opinions about the way things should look. Relatedly, she hates the Linux penguin and only puts it on print materials because pop makes her. 
