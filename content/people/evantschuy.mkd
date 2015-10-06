@@ -5,7 +5,7 @@ person:
     name: Evan Tschuy
     title: Secretary
     irc: tschuy
-    image: /img/people/tschuy.png
+    image: /img/people/tschuy.jpg
 
 ---
 
