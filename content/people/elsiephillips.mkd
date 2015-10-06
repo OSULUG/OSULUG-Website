@@ -8,7 +8,7 @@ person:
     image: /img/people/elsiephillips.jpg
 
 ---
-Elsie is a senior studying Economics with a minor in computer scince.
+Elsie is a senior studying Economics with a minor in computer science.
 She works at the [OSU Open Source Lab][osl] as a project manager, where she 
 tracks the progress of projects, creates workflows, completes various 
 graphic design projects and manages the lab's social media presence. 
