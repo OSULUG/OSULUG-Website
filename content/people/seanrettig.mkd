@@ -4,12 +4,14 @@ rank: 2
 person:
     name: Sean Rettig
     title: Treasurer
-    irc: rettigs
+    irc: chekkaa
     image: /img/people/seanrettig.jpg
 ---
 
-Sean, sometimes known as chekkaa, is a Computer Science student at OSU and a
-systems administrator at the [Open Source Lab][osl]. He is known for working
-at odd hours and fixing the backup systems.
+Sean is a senior Computer Science student at OSU and a systems administrator at
+the [Open Source Lab][osl]. He specializes in configuration management and
+system programming, and is known for working at odd hours and fixing the backup
+systems. In his spare time, he enjoys hiking, listening to economics podcasts,
+and playing/making video games.
 
 [osl]: http://osuosl.org/

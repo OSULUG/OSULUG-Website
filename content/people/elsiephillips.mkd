@@ -1,0 +1,18 @@
+title: Elsie Phillips
+tags: officer
+rank: 1 
+person:
+    name: Elsie Phillips
+    title: Public Relations
+    irc: mae
+    image: /img/people/elsiephillips.jpg
+
+---
+Elsie is a senior studying Economics with a minor in computer science.
+She works at the [OSU Open Source Lab][osl] as a project manager, where she 
+tracks the progress of projects, creates workflows, completes various 
+graphic design projects and manages the lab's social media presence. 
+Elsie enjoys reading, cooking, photography and playing trivial 
+pursuit in her spare time. After she graduates, Elsie hopes to travel.
+
+[osl]: http://osuosl.org

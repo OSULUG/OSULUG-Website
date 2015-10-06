@@ -9,12 +9,18 @@ person:
 
 ---
 
-Lucy is a Junior studying Computer Science at [Oregon State University][osu].  She is a Front-End Engineer at the [OSU Open Source Lab][osl], where she designs the front-end for web-applications, maintains osuosl.org, and constructs websites for other OSL projects (such as [Devops Daycamp][daycamp] and [Beaver Barcamp][barcamp]). Lucy specializes in [web development][ac], and is skilled at HTML, CSS, Javascript and Python. She enjoys programming, running, and [cooking][recipes]. In addition, Lucy is Vice President of the OSU Linux Users Group, and leads [Devops Bootcamp][bootcamp], and outreach program for budding software developers.
+Lucy is a Senior studying Computer Science at [Oregon State University][osu].
+During the school year she works as a Front-End Engineer for the 
+[OSU Open Source Lab][osl]. Lucy specializes in web development, and 
+is proficient in HTML, Sass/CSS, Javascript and Python, as well as C/C++, Ruby, 
+and Haskell. In addition to LUG VP, she leads [DevOps BootCamp][bootcamp],
+an outreach program for budding software developers.
+
+You can see more of her work at http://lucywyman.me and http://github.com/lucywyman
+See conference presentations she has given at http://slides.lucywyman.me
+Or see her recipe blog at http://recipes.lucywyman.me
+
 
 [osu]: http://oregonstate.edu
 [osl]: http://osuosl.org
-[daycamp]: http://devopsbootcamp.osuosl.org/daycamp
-[barcamp]: http://beaverbarcamp.org
-[ac]: http://arbitrary-converter.herokuapp.com
-[recipes]: http://github.com/lucywyman/recipes
 [bootcamp]: http://devopsbootcamp.osuosl.org
