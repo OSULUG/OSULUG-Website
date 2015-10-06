@@ -10,7 +10,7 @@ person:
 ---
 
 Evan is a third-year computer science student at OSU and is a software developer
-for the [Open Source Lab][osl]. He spends his spare time hacking on webapps,
+for the [Open Source Lab][osl]. He spends his spare time hacking on web apps,
 climbing at McAlexander, and annoying his friends speaking French. He's lucky
 enough to have a rare last name and uses it across the internet as his handle.
 

@@ -10,7 +10,7 @@ person:
 ---
 
 Elijah is a third year Computer Science student at OSU and a software
-developer at the [Open Source Lab][osl]. In his spare time he writes web-apps in
+developer at the [Open Source Lab][osl]. In his spare time he writes web apps in
 python and plans LUG meetings. He also enjoys long walks on the beach and
 writing bios in the third person. 
 
