@@ -1,0 +1,382 @@
+title: WeeChat
+category: blog
+tags: guide
+author: ["Alan Sherman <shermana@onid.oregonstate.edu>"]
+datetime: 2014-05-10 00:00:00
+---
+
+In the irc guide the goal was to get you on irc and able to talk to people.
+hopefully once you start using irc you won't stop and with the amount of time
+you are about to spend on irc you should tune it for you.
+
+over the course of the guide we are going to be going over two things how to use weechat and how to configure weechat.
+
+To go along with this guide I have created a quick and dirty weechat guide.
+where this guide goes over the what why and how of changes made, the quick
+guide simply hands you some weechat configs and goes ovther the basics of how
+to use them. if you are a new user the quick guide will save you time and help
+get you going. if you are a current weechat user I recommned you go though this
+guide and decied for yourself what changes you want to make to your cofigs.
+
+
+Buffers
+-------
+
+In weechat everything lives in a buffer (kinda like a tab). The `/buffer`
+command is used to manipulate buffers. As you increase the number buffers you
+have Alt-[1-0] will no longer suffice. There are a few other ways to switch
+between buffers the most useful is simply `/buffer #`. You can set up an alias
+for this `/alias b /buffer` now you can just type `/b #`. You can also use
+`Alt-[left,right,up,down]` to move through them one buffer at a time.
+
+`/buffer move #` will move your current buffer to that number, pushing all
+others back. not only will this help you keep your buffers orginized, but
+latter on could help with your hotlist order (get to that in a little).
+
+To close your curent buffer use `/buffer close` or just `/close`.
+
+Weechat also supports merged buffers where you have two or more sources of
+content (that would otherwise be their own buffer) sharing one buffer. massage
+in this buffer are given an extra label to show what source they came from. An
+example of this is buffer 1 (by default) which is a merged buffer between the
+weechat application buffer and the freenode server buffer. if you join other
+servers additional server buffers will be merged into buffer 1. when you are in
+a merged buffer you can use `ctrl-x` to switch between what buffer you are
+typing in, the network and channel sections of the status bar will reflect the
+currently selected buffer.
+
+You can create merged buffers using `/buffer merge #` this will merge your
+current buffer with that buffer. you can then use `/buffer unmerge` to unmerge
+your current sub-buffer into its own new buffer. The only time I ever create
+merged buffers is for multi server pm's (see servers section).
+
+
+Scripts (not really)
+---------------------
+
+We will get to scripts latter in this guide but before we start doing anything
+there is one script we need to install.
+
+Weechat has built in script management simply run:
+
+    /script
+
+from there scroll down to `iset` and hit `i+enter` to install it, now just
+`/close` that buffer and we are ready to go.
+
+
+Settings
+--------
+
+WeeChat settings are really easy, we are going to start by opening up
+that script we just installed.
+
+    /iset
+
+This will open a new buffer with iset, it gives you a list of every setting in
+weechat. To search for a setting just start typing and hit enter, to clear your
+search just search for '*'. The top bar of iset will show you a few of the
+commands you can use. the 3 line box below that will show you a description of
+the current setting, available options, and its default option. To change a
+settings value you can use the following commands.
+
+-   Alt-enter: edit value*
+-   Alt-Space: toggle value*
+
+*You may have issues with you local terminal trying to grab these key combos,
+the solution to this can vary based on terminal. If you run into problems dont
+be afraid to ask in #osu-lug.
+
+once you have made a change it will go into effect immediately, you can run
+`/save` to save the changes to disk. DONT FORGET TO SAVE, if you don't save
+changes will not persist though weechat restarts. like any buffer you can close
+iset by running `/close` in the buffer.
+
+its also worth noting that without iset an opstion can be changed using `/set
+option value` or just `/set option` to see its current vaule.
+
+Status Bar
+----------
+
+I mentioned in the irc guide that weechat's default status colors suck
+(contrast hard??? idk) so lets fix that. pull up iset and search for `status`.
+We care about two sections here:
+
+-   weechat.bar.status.*: controls the bar itself (item orter, position,
+    background color...)
+-   weechat.color.status_*: controls the colors used in the hotlist
+
+I highly recommend that you try messing with the colors yourself until you find
+something you like. you can run `/color` to see supported colors (`e+enter`
+inside of /color will give you the supported colors in english).
+
+This is the theme I use personally: [][]
+
+    weechat.bar.status.color_bg = default
+    weechat.bar.status.color_delim = magenta
+    weechat.bar.status.color_fg = yellow
+
+    weechar.color.status_count_highlight = lightred
+    weechar.color.status_count_msg = blue
+    weechar.color.status_count_other = gray
+    weechar.color.status_count_private = lightred
+    weechar.color.status_data_highlight = lightred
+    weechar.color.status_data_msg = yellow
+    weechar.color.status_data_other = yellow
+    weechar.color.status_data_private = red
+    weechar.color.status_filter = green
+    weechar.color.status_more = red
+    weechar.color.status_name = lightgreen
+    weechar.color.status_name_ssl = lightgreen
+    weechar.color.status_number = lightgreen
+    weechar.color.status_time = yellow
+
+    weechar.color.status.separator = on
+
+Now that we have it looking good lets talk about functionality. by default
+weechat will order your hotbar based on the current channel activity (channel
+with most resent message first). This will often put any large public channels
+with frequent active conversations ahead of smaller channels that aren't as
+active. For me there more than a few smaller channels that take priority
+regardless of activity. I have weechat set to always display any buffer with
+activity in order of buffer number regardless of time or amount of activity.
+
+    weechat.look.hostlist_sort = group_number_asc
+
+You can also address the hotbar on a buffer to buffer level. `/buffer notify
+[level]` will set the notification level for the current buffer to one of the
+following levels
+
+-   none: never
+-   highlight: for highlights only
+-   message: for messages from users + highlights
+-   all: all messages
+
+Now that we have our hostlist in a good order a very usefull defult keybinding
+is Alt-a. `Alt-a` will take you to the first buffer in your hotlist (this is
+proably the biggest way I move between buffers).
+
+Look and Feel
+-------------
+
+In addishion to the defult status bar haveing horible colors, there are few more
+defualts that are pretty ugly, im not a big fan of the yellow on magenta
+highlight color that can be change at
+
+-   weechat.color.chat_highlight-   weechat.color.chat_highlight_bg
+
+weechat adds a place marker to unfocused buffers to show you where you last
+left off in that buffer. By defult it is a sparse magenta line. I like to have
+stand out more.
+
+-   weechat.color.chat_read_marker (change the color to somthing bighter, I use lightgreen)
+-   weechat.look.read_marker_string (I removed the space to make it a more soild line)
+
+Alot of people like to turn of the nicklist on the right side to save pexels.
+Inteded of disabling it lets set up a toggle key so we can easily turn it on
+and off.
+
+    `/key bind meta-n /bar toggle nicklist`.
+
+Servers
+-------
+
+When we first connected to freenode we didn't do anything special, but just
+like any other options servers can be configured using iset. search for
+irc.server, this will give you the settings for all of your servers by their
+names plus the defaults. Lets take a look at the "freenode" server
+(irc.server.freenode)
+
+-   irc.server.freenode.auto connect: automatically connect to this server when
+    weechat lunches. (on|off)
+-   irc.server.freenode.autojoin: comma separated list of channels to join when
+    connected to server. (there is a script to help populate this field, we'll
+    get to that soon)
+-   irc.server.freenode.nicks: comma separated list of nick(s), it will try the
+    nicks in order until it finds a free one.
+-   irc.server.freenode.password: weechat is smart enough to know how to
+    identify you with nickserv. I can't guarantee this will work on all
+    networks but most support the same standard.
+-   irc.server.freenode.username: will be used for identifying insted for you
+    nick if populated, you can have more than one nick registered to an account
+    (ask nickserv about groups)
+
+I'll let you go through the rest on your own but those are a few that you will
+probably want use.
+
+Freenode is only one of many irc networks, and while all of the cool channels
+are on freenode there are some kinda okay ones on other networks. With weechat
+we can connect to as many networks as we want with one unified interface. For
+this example lets connect to the [CAT][] irc server.
+
+    /server add cat irc.cat.pdx.edu -autoconnect -password=hunter2
+    (if you do connect I recommened you join #cschat, its kinda like PSU's #osu-lug)
+
+In this example we added a server named cat, we also edited a few options right
+off the bat so we wont have to go in and change/add them later. You will
+notice a new buffer has been merged into buffer 1. As mentioned before we
+can use `ctrl-x` to cycle between which sub-buffer we are in and you can look at
+the status bar to see the current buffer. From here you can join channels just
+like you would before the only difference is keeping track of what channels are
+on what network. You can also add another "server" to create multiple
+connections to the same network, this can be useful if you use different nicks
+in different channels.
+
+When connected to mulbible servers `/q` and `/msg` will be based on the server
+of your current buffer. I have been known to pm with the same person
+accross 2-3 servers, which is a great time to use merged buffers.
+
+[CAT]: http://cat.pdx.edu/
+
+
+Scripts (for relas)
+-------------------
+
+We installed one scripts at the start of this now lets take another look at
+`/script`. Scripts are weechat's versions of plugins (though weechat does also
+have "plugins" at a much lower level) they can be written in lua, perl, python,
+or ruby and can add a lot of extra functionality. Start by opening `/script`
+again, you will get a list of the available scripts.
+
+The first column will be almost empty (except for iset) but as you install more
+scripts it will be populated with a series of letters that represent the state
+of the scripts.
+
+-   *: popular scripts
+-   i: script is currently installed
+-   a: autoload, script will be loaded when weechat starts-up
+-   n: new version of the script available
+-   r: script is currently running
+
+The rest of `/script` is pretty straightforward with all of the useful
+commands listed on the top bar.
+
+So lets take a look at some spific scripts available. We'll start by
+looking at the "popular scripts", we've already used iset so lets start with
+buffers.
+
+### buffers
+
+Now that we are starting to open all of these buffers (iset, color, script...)
+it is getting hard to keep track of what's where, and thats not even counting
+channels. The buffers plugin will add a sidebar to show you all of your
+buffers. Once installed you can toggle the bar on and off using `/bar toggle
+buffers`. If that's not fast enough for you we can make a new keybind `/key
+bind meta-b /bar toggle buffers` now simply hit Alt-b to toggle the buffer
+list. You might also notice that the buffers sidebar has it own color scheme. If
+you pull up iset and search for 'buffers' you will see that its color
+options are very similar to nd meta-b /bar toggle buffersthe status bar options we were working with before.
+
+### beep
+
+The next recommended pugin is the beep plugin this plugin will let you perform
+an action when you are highlighted/massaged. By default it will use you shells
+$bell command to send the notification. If you pull up 'beep' in iset you can
+change what command/script it will run as well as set up whitelists/blacklists
+of any nicks/chans you do or don't want to be notify on. keep in mind at this
+point we are passing weechat though many layers, screen, remote shell, ssh,
+local shell, terminal, so actually getting alerts on your local system
+can be tricky. For the time being diving into beep is outside the scope of this
+guide. there are also many alternatives for this script, some of which are much
+more powerful, search for notify to see more then a few.
+
+### urlserver
+
+The finale recommended plugin is urlserver. when running in a smaller window
+urls tend to get mangled and become unclickable and hard to copy. in some
+channels there are bots like hamper that will shorten urls (I dont think hamper
+acctualy does but she could, /me blames mython). this plugin will shorten the
+urls client side insuring you can click links in all of your channels. the
+shortened urls will show up directly below any link. the big thing that makes
+urlserver special is that it actually runs its own web proxy to server the
+links.  that also means on some more lockeddown servers you many have
+firewall/port binding issues using this script.  like beep if you search for
+url in `/script` you will find more than a few alternatives. Most of them just
+use a traditional url shortener, personally I have found urlserver to work the
+best.
+
+### autojoin
+
+Outside the "popular scripts" there are a few more that I recommend you try
+out, the first of these is autojoin. Earlier I mentioned the
+irc.server.[server].autojoin server option for channels you want to autojoin.
+With this plugin you can simply run `/autojoin` and it will populate those
+fields for you with your current channel list. as you start joinning more
+channels you will want to rerun that commned to added them to the list.
+
+### colorize_nicks
+
+colorize_nicks will simply set the color of any nick manshaned in any message
+to the same color you would se if that nick sent a massage.
+
+
+Smart Filter
+------------
+
+Weechat supports arbitrary filters to any buffer. these filters simply hide any
+message/notify/action from been seen, it still keeps that information it just
+does not display it. when creating a new fillter there are three values you can
+give it.
+
+-   buffer: what buffer the filter will be applied to (* = all buffers, ! will
+    exclude a buffer, and you can do somthing like irc.freenode.*)
+-   tags: filter based on content's tags (see below)
+-   regex: a regex pattern to match
+
+the most interesting of the three is the tags field, pretty much everything in
+weechat is tagged. If you want to take a look that the tags you can toggle them
+on and off with `/debug tags`. Most of these tags are pretty start forward, and
+I never needed use any of them with one exception. Thats the irc_smart_filter tag,
+this tag is given to all joins/parts/nick changes if the user in question has
+not said anything in the past five minutes. it will also unmask (untag) any
+joins if the person says something within 30 minutes of their join. the theory
+is that you only care about joins/parts/nick changes if they could affect an
+immediate conversation, but otherwise they just create a lot of noise.
+personally I fillter this tag on all of my buffers. To turn this filter on just
+run:
+
+    /filter add irc_smart * irc_smart_filter *
+
+sometimes it nice to be able to see everything though so I also use this key
+binding to let be toggle the filter on and off
+
+    /key bind meta-f /filter toggle irc_smart
+
+If you like the idea of the smart filter but want to tweak it take a look at
+the `irc.look.smart_filter` options.
+
+
+Relay
+-----
+
+Finally one of my favorite fetures of weechat is relays. As you have all
+learned by now, one of the trobles of irc is that you always have to be
+connected. Running weechat on a remote server solves that probleam but if you
+have ever tried to connect to an irc screen from your phone you know its not
+great its not perfect. Weechat's relays give any other applicashion the abblity
+to talk directly to weechat. one of thoese is the weechat andriod app which
+makes checking irc from or phone easy. to start a relay just run
+
+    /relay add weechat 8001
+
+    (This will add a relay liestening on port 8001, you will need to find a free port that is not firewalled off. if your on a shell server this could be a little tricky, if all else fails aim high (30,000 - 40,000))
+
+now that we have a relay up and running we need to protect it you can set a
+password on the relay with
+
+    relay.network.password
+
+now just install what ever relay client you want to use (there still aient
+alot, thought i use the andriod app daily) and give it the server info.
+
+
+The Real Takeaway
+-----------------
+
+so by the end of this guide you should a pretty powerfull and good looking irc
+client setup. but thats not the importand part hopefully you also have a desen
+graspe on how weechat works, how to manage buffers, change settings, add
+keybinds and scripts and got a tates of some of the things you can do with
+weechat.
+
+# DONT FORGET TO /save
