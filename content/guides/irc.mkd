@@ -9,7 +9,7 @@ IRC is a real-time relay based chat protocol with no archiving. This means that
 when you send a message from your client to the server, the server just
 forwards the message to all of the other clients in the channel. At no point is
 that message stored, hence the name "relay chat". A downside to this is that
-you do not receive any messages if you aren't connected to the server.
+you do not receive any messages while you are not connected to the server.
 
 What makes IRC so special is that is has been around for pretty much forever.
 Created in 1988 it was originally used by universities to help share ideas. To
@@ -29,8 +29,8 @@ First, let's go over some basic terms:
     messages back and forth to make sure that all the messages get to every
 user.
 
--   Channel - a basic means of communicating to a certain group of users,
-    creating a channel is as simple as joining a channel that does not exist
+-   Channel - a basic means of communicating to a certain group of users.
+    Creating a channel is as simple as joining a channel that does not exist.
 
 +   Operator - aka 'op', the channel administrator, moderates the channel and
 has their name prefixed with an '@' symbol
@@ -86,7 +86,7 @@ with your laptop? You run your IRC on a server that is provided by OSU. That
 way, you will have a persistent IRC session, and you will get every message.
 
 Let's start by getting you on the server, via SSH.  If you have not used SSH
-before, check out our SSH guide or feel free to ask us.
+before, check out our [SSH guide][ssh] or feel free to ask us.
 
 For *Windows* users: download and run [putty][putty]. Put in
 shell.onid.oregonstate.edu as your hostname and hit open. Then because it is an
@@ -142,6 +142,7 @@ Now that you know how to get weecaht upand running we have another
 [guide][guide] just on how to use it.
 
 [putty]:http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
+[ssh]:http://lug.oregonstate.edu/blog/ssh/
 [irssi]: http://www.irssi.org
 [weechat]: http://www.weechat.org
 [guide]: somewhere

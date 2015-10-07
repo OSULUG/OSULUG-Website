@@ -269,7 +269,7 @@ options are very similar to nd meta-b /bar toggle buffersthe status bar options 
 
 ### beep
 
-The next recommended pugin is the beep plugin this plugin will let you perform
+The next recommended plugin is the beep plugin this plugin will let you perform
 an action when you are highlighted/massaged. By default it will use you shells
 $bell command to send the notification. If you pull up 'beep' in iset you can
 change what command/script it will run as well as set up whitelists/blacklists
@@ -282,7 +282,7 @@ more powerful, search for notify to see more then a few.
 
 ### urlserver
 
-The finale recommended plugin is urlserver. when running in a smaller window
+The final recommended plugin is urlserver. when running in a smaller window
 urls tend to get mangled and become unclickable and hard to copy. in some
 channels there are bots like hamper that will shorten urls (I dont think hamper
 acctualy does but she could, /me blames mython). this plugin will shorten the
