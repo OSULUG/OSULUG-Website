@@ -2,6 +2,7 @@ title: Getting Started with Digital Ocean
 category: blog
 tags: guide
 author: ["Lucy Wyman <wymanl@oregonstate.edu>"]
+datetime: 2015-10-06 00:00:00
 ---
 
 [Digital Ocean][do] is an accessible cloud computing resource, which 
