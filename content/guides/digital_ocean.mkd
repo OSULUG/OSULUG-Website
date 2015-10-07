@@ -1,0 +1,54 @@
+title: Getting Started with Digital Ocean
+category: blog
+tags: guide
+author: ["Lucy Wyman <wymanl@oregonstate.edu>"]
+datetime: 2015-10-06 00:00:00
+---
+
+[Digital Ocean][do] is an accessible cloud computing resource, which 
+will give you access to a system without needing to maintain it or
+give up your current set up.  It's great for getting familiar with
+linux, testing projects, and even deploying an application. Here's 
+how to get started.
+
+Through the [github education pack][education], you get $50 of 
+credit to Digital Ocean for free! This is about 10 months of usage,
+depending on what you're using it for.  To get the credit:
+1. Click the "Request a Discount" button in the top-right-hand corner
+   of the github education pack page. 
+2. Fill out the form as is appropriate for you (you almost certainly 
+   want an individual account, unless you know otherwise), and make 
+   sure you use your Oregon State email address when sending the 
+   request, **even if this is not the email you have your github 
+   account with**.  
+3. Within a few days you should get an email confirming your 
+   university account.  Then, if you go back to the [github education
+   pack][education] page, there should be a discount key waiting for
+   you. 
+4. Go to [Digital Ocean][do] and sign up for an account, using the
+   key provided by github in the Coupon section
+5. Now you can make a droplet! Login to Digital Ocean, and click the
+   green "Create a Droplet" button in the top-right-hand corner.
+6. If you're not sure what you want, name your droplet something 
+   sensible ("Schoolwork", "Learning Linux", "IRC", etc.), then choose
+   the $5/month sized machine -- this will more than likely be 
+   more than enough space for right now.
+7. Select either the San Francisco (recommended) or New York Regions, 
+   and the default ubuntu version (recommended).  
+8. If you would like for your droplet to be even more secure, you can 
+   create an ssh key by running ``ssh-keygen -t rsa -b 4096 -C "your_email@example.com"``
+   and add the public key (copy-paste it) to DO.  This is encouraged!
+9. Click "Create Droplet", and you're good to go!  You will receive
+   an email from Digital Ocean confirming your Droplet creations and
+   providing you with a password to your Droplet.  When you log in
+   to your droplet for the first time, it will prompt you to change
+   the password -- you have to do this!  
+10. You can now run ``ssh root@<IP Address>`` and either enter your password or 
+   authenticate with ssh (won't require action from you) and BOOM!
+   you're in a VM on the cloud!
+
+Congratulations! You've successfully spun up a Digital Ocean droplet.
+
+
+[do]: https://www.digitalocean.com/
+[education]: https://education.github.com/pack
