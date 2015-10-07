@@ -1,17 +1,22 @@
-title: UnPlanned LUG
+title: Security Night
 datetime: 2015-11-03 06:00:00
 category: events
 slug: meeting20151103
-preview: This LUG meeting is currently not planned.
+preview: A half hour talk on Kali Linux, and a half hour on Network Security
 location: Kelly Engineering Center 1001
 
 ---
 
-This LUG meeting is currently unplanned. Sometimes that can be fun, however
-if you have any suggestions for activates (hackathons, talks, etc) contribute
-them to the [LUG Event Suggestions
-Etherpad](http://etherpad.osuosl.org/osulug-event-suggestions)
+A LUG meeting in two parts:
 
+Kali Linux: Designed for penetration testing, on how it works, what 
+it's used for, and why it's cool.
+
+Network Security: The only truly secure computer is one that is 
+completely offline (and even though, you're at risk!). How do we
+manage security over a network as vast as The Internet?  We'll talk
+about protocols, defense against common attacks, and generally how
+to keep your communication safe.
 
 When: 6pm
 

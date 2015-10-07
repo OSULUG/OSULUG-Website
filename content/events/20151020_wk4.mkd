@@ -1,17 +1,15 @@
-title: UnPlanned LUG
+title: Languages Night
 datetime: 2015-10-20 06:00:00
 category: events
 slug: meeting20151020
-preview: This LUG meeting is currently not planned.
+preview: Languages Night!
 location: Kelly Engineering Center 1001
 
 ---
 
-This LUG meeting is currently unplanned. Sometimes that can be fun, however
-if you have any suggestions for activates (hackathons, talks, etc) contribute
-them to the [LUG Event Suggestions
-Etherpad](http://etherpad.osuosl.org/osulug-event-suggestions)
-
+Come together with other LUG members to discuss the newest, hippest,
+trendiest languages and JS frameworks!  This is a night of discussion,
+learning, and continuing the Go/Rust hype.
 
 When: 6pm
 
