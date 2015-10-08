@@ -1,17 +1,17 @@
-title: UnPlanned LUG
+title: Passwords Night
 datetime: 2015-11-10 06:00:00
 category: events
 slug: meeting20151110
-preview: This LUG meeting is currently not planned.
+preview: Are you passwords safe? Is there such a thing as ethical password cracking? Come find out!
 location: Kelly Engineering Center 1001
 
 ---
 
-This LUG meeting is currently unplanned. Sometimes that can be fun, however
-if you have any suggestions for activates (hackathons, talks, etc) contribute
-them to the [LUG Event Suggestions
-Etherpad](http://etherpad.osuosl.org/osulug-event-suggestions)
-
+How do you pick a good password?  Are there better 
+ways to authenticate online? When is it ethical to
+crack a password? This meeting is dedicated to answering
+your questions about your identity, and proving it
+online.
 
 When: 6pm
 

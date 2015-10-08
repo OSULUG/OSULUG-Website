@@ -1,17 +1,17 @@
-title: UnPlanned LUG
+title: Projects Exhibition
 datetime: 2015-11-24 06:00:00
 category: events
 slug: meeting20151124
-preview: This LUG meeting is currently not planned.
+preview: Bring a list of projects you've had your eye on, and we'll swap lists before the holidays!
 location: Kelly Engineering Center 1001
 
 ---
 
-This LUG meeting is currently unplanned. Sometimes that can be fun, however
-if you have any suggestions for activates (hackathons, talks, etc) contribute
-them to the [LUG Event Suggestions
-Etherpad](http://etherpad.osuosl.org/osulug-event-suggestions)
-
+As winter break approaches, it's awesome to go home
+with an open source project you're excited about, and 
+want to contribute to. This is your chance to bring in
+projects you've found, and see what other people bring
+as well!
 
 When: 6pm
 
