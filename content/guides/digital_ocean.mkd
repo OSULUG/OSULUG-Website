@@ -49,6 +49,22 @@ depending on what you're using it for.  To get the credit:
 
 Congratulations! You've successfully spun up a Digital Ocean droplet.
 
+Your digital ocean droplet will have an IP address that you use to ssh
+to.  IP addresses tend not to be very human-friendly, so there are a 
+few things you can do so you don't have to remember it:
+
+1. Use an alias. If you're in bash, open up your ``bashrc`` and add
+
+    alias linux="ssh root@<IP Address>"
+
+   to the bottom of it.  Then you only need to run ``$ linux`` to 
+   ssh into your machine.
+2. One of the other advantages to having a student account is you get
+   credit for a service called NameCheap. You can get an <thing>.me     
+   domain, and route it to the IP address of your droplet, so to 
+   ssh to your droplet would just be
+    
+    $ ssh root@yourname.me
 
 [do]: https://www.digitalocean.com/
 [education]: https://education.github.com/pack
