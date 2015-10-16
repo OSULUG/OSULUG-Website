@@ -1,17 +1,15 @@
-title: UnPlanned LUG
+title: Coding Puzzles
 datetime: 2015-11-17 06:00:00
 category: events
 slug: meeting20151117
-preview: This LUG meeting is currently not planned.
+preview: From beginner level python, to complex math and advanced C, there are puzzles here for you!
 location: Kelly Engineering Center 1001
 
 ---
 
-This LUG meeting is currently unplanned. Sometimes that can be fun, however
-if you have any suggestions for activates (hackathons, talks, etc) contribute
-them to the [LUG Event Suggestions
-Etherpad](http://etherpad.osuosl.org/osulug-event-suggestions)
-
+We will have a variety of puzzles for every
+level of programming experience and skill, pizza,
+and much fun trying to find elegant solutions.
 
 When: 6pm
 
