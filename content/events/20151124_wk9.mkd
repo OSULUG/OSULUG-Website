@@ -1,5 +1,5 @@
 title: Projects Exhibition
-datetime: 2015-11-24 06:00:00
+datetime: 2015-11-24 18:00:00
 category: events
 slug: meeting20151124
 preview: Bring a list of projects you've had your eye on, and we'll swap lists before the holidays!
