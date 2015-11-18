@@ -1,0 +1,318 @@
+title: IRC
+category: blog
+tags: guide
+author: [
+    "Emily Dunham <dunhame@onid.oregonstate.edu>",
+    "Alan Sherman <shermana@onid.oregonstate.edu>",
+    "Justin Noah <noahju@onid.oregonstate.edu>"
+]
+datetime: 2011-09-15 00:00:00
+---
+
+IRC is a real-time relay based chat protocol with no archiving. This means that
+when you send a message from your client to the server, the server just
+forwards the message to all of the other clients in the channel. At no point is
+that message stored, hence the name "relay chat". A downside to this is that
+you do not receive any messages if you aren't connected to the server.
+
+What makes IRC so special is that is has been around for pretty much forever.
+Created in 1988 it was originally used by universities to help share ideas. To
+this day LUG and many other communities around the world still use it to share
+ideas. It is simple, light weight and runs on any platform. In this guide we
+will cover three ways in which you can use to get into IRC and into our
+channel.
+
+.. _irc: http://en.wikipedia.org/wiki/IRC
+
+First, let's go over some basic terms:
+
+-   Server - the machine that your client connects to, it receives your
+    commands and messages and forwards them to other clients.
+
+-   Network - a group of many interconnected servers, individual servers ferry
+    messages back and forth to make sure that all the messages get to every
+    user.
+
+-   Channel - a basic means of communicating to a certain group of users,
+    creating a channel is as simple as joining a channel that does not exist
+
+-   Operator - aka 'op', the channel administrator, moderates the channel and
+    has their name prefixed with an '@' symbol
+
+
+How to Connect
+--------------
+
+- `Easy (webchat)`_
+
+- `Medium (GUI Client)`_
+
+- `Pro (irssi)`_
+
+    - `Irssi Commands`_
+
+- `Pro (weechat)`_
+
+Easy (webchat)
+--------------
+
+The fastest way to get in our channel is to go though your browser. To access
+Freenode (the irc network that the LUG channel is on) from your browser, you
+can use their `web interface`_. In the Nickname field, enter the
+name that you want other people to see when you talk in the channel. This can
+be your ONID username, your real name, or something more creative. Note that if
+you pick a really long nick (I tried it with
+":code:`testing_freenode_web_chat`"), it will be truncated at around 16
+characters (so I only show up as ":code:`testing_freenode`" in the channel).
+In the channels field, type :code:`#osu-lug`. Fill out the captcha, click
+connect, wait a few seconds, and you'll be in the LUG's primary discussion
+area.
+
+.. _web interface: http://webchat.freenode.net/
+
+Medium (GUI Client)
+-------------------
+
+GUI, or graphical user interface, clients perform much in the same way that the
+web interface works. The two big differences are automation and customization.
+Using a local client lets you connect to multiple channels or even servers with
+an icon on your desktop and a few clicks. GUI clients often support color
+coding,  more advanced highlighting options and infinite idling (if your
+computer is on), because no one likes timing out. If you want something more
+than the web interface can give you, consider trying one of these clients.
+
+-   xchat_ - A popular GUI client.
+-   Pidgin_ - Pidgin supports irc, but it's not very good at it.
+-   mIRC_ - Another GUI client. Basic client, lacking advanced features. (Windows only)
+
+.. _xchat: http://xchat.org
+.. _pidgin: http://www.pidgin.im
+.. _mirc: http://www.mirc.com
+
+Most of these are pretty straight forward. When it prompts you for the server
+connect to :code:`chat.freenode.net`. Our channel on that network is
+:code:`#osu-lug`. Just like the web interface your username can be whatever you
+want it to be as-long as it's not already in use, which it will tell you when
+you try to connect.
+
+Pro (irssi)
+-----------
+
+Command-line clients take a bit of work to get the hang of. However, the
+advantage lies in being simple, lightweight, yet powerful.
+
+We mentioned above that if you are not online you miss out on messages others
+have sent. The solution is simple never go offline, but how would you do this
+with your laptop? You run your IRC on a server that is provided by OSU. That
+way, you will have a persistent IRC session, and you will get every message.
+
+Let's start by getting you on the server, via SSH.  If you have not used SSH
+before, check out our SSH guide or feel free to ask us.
+
+For *Windows* users: download and run putty_. Put in
+shell.onid.oregonstate.edu as your hostname and hit open. Then because it is an
+OSU server, authenticate with your ONID username and password.
+
+For *Mac and Linux* users, you are in luck; you should already have a terminal
+client with SSH built in. Simply run this command: ::
+
+	ssh [your onid user name]@shell.onid.oregonstate.edu
+
+Now you are dropped into in a shell inside the server. Cool, huh.
+
+Because of the way Unix manages processes and sessions (like your SSH session),
+any program that you run will be tied to your session, and when your session
+ends that program will end as well. So we haven't really gained anything from
+over running IRC locally on your laptop yet.
+
+The solution is a program called :code:`screen` Screen creates a virtual
+terminal that is only attached to a session when you tell it to. After setting
+up a screen, you can detach from the session, and everything will keep running
+on the server, even if you completely terminate your SSH session.
+
+To start a screen session run ::
+
+	screen -S irc
+
+Now it's finally time to start the IRC client itself. shell.onid has two
+different irc clients installed on it: [irssi][irssi] and [weechat][weechat].
+For this guide we are going to use irssi. To start irssi simply type, from
+within your screen ::
+
+	irssi
+
+
+Irssi Commands
+--------------
+
+First thing you need to do is connect to freenode's IRC server. This will
+take a moment. ::
+
+	/connect -ssl irc.freenode.net 6697
+
+Now set your handle (screenname). ::
+
+	/nick [nickname]
+
+If the handle you want is taken, the server will tell you, and you can choose
+another.
+
+You may also want to register your nick so other people cannot take it. ::
+
+	/msg nickserv register <password for your nick> <email>
+
+Then you will need to confirm your email by following the instructions in your
+email.
+
+Then in the future you can identify for that nick and also set your nick to
+enforce which means people only have 30 seconds to try to identify to your
+nick. ::
+
+	/msg nickserv identify <password>
+	/msg nickserv set enforce
+
+Now join the LUG channel. ::
+
+	/join #osu-lug
+
+You can join as many channels as you want at the same time. To switch between
+different windows press Alt-[0-9]. Alt-1 will always the server channel that
+most irssi messages print out to. The second line from the bottom of your
+screen that is highlighted is your status bar. It will tell you the time, your
+screenname, server/channel and list of all of your windows. The last string of
+numbers represents windows that have activity in them and the color of each
+number represents its state.
+
+-   Light blue: non-talk activity (such as someone joining)
+-   White: someone has said something in that channel.
+-   Purple: someone is speaking directly to you
+-   No number: nothing has happened in that channel since you last checked
+
+You can change the theme of the colors if you wish.
+
+Here are some other commands:
+
+-   /q [username] - query, creates a private message window with another user
+-   /wc - window close, closes the current window and disconnects from the channel
+-   /names - list all users in the current channel,
+-   /help - shows all commands in the status window (Alt-1).
+-   /help [command] - show help for a particular command in the status window.
+
+A few more important things regarding to irssi and screen. First is how to
+*properly* end your session and how to get it back. In order to detach your
+current terminal from the virtual screen press :code:`Ctrl-a d`. That is, press
+control+a, then release both and press d. :code:`Ctrl-a` is the screen escape
+command, and :code:`d` is the detach command. This will drop you back into your
+ssh terminal.
+
+To get back into irssi from the shell, run the command: ::
+
+	screen -r irc
+
+This will reattach your screen session. Alternatively, you can use ::
+
+    screen -raAd irc
+
+These extra options will conform the screen to your current terminal and
+automatically detach any other screen session you may have.
+
+Pro (weechat)
+-------------
+
+Weechat is a simple, lightweight, and elegant IRC client for your terminal,
+while also being very extensable with plugins. Sane defaults allow for (in the
+author's opinion) an easier time for new users to adjust and become aquainted
+with IRC. The following will be a quick quide to getting onto OSU LUG's IRC
+channel :code:`#osu-lug` in just a few simple steps and some optional ones for
+going a bit more in depth.
+
+To start, it is ideal to run weechat in a screen_ or tmux_ session so you can
+come back to your irc session without reconnecting. Once you have a session up,
+start weechat: ::
+
+    weechat
+
+If you have an old weechat client, pre-0.4.1, you will need to invoke weechat
+with: ::
+
+    weechat-curses
+
+If you do not care about setting a username (default is the user you are logged
+in as) or connecting using ssl, connecting to IRC is as easy as: ::
+
+    /connect chat.freenode.net
+
+Followed by: ::
+
+    /join #osu-lug
+
+You can also change your nickname with: ::
+
+    /nick MyAwesomeNickname
+
+And that is all for weechat, welcome to the LUG's IRC channel on Freenode's
+IRC server.
+
+However, before connecting to freenode and joining the LUG's channel, a few
+settings can be set such as a username, real name, and SSL (client<->server
+encryption). The next few steps are simple, yet powerful, allowing you to
+configure weechat just the way you want and before you connect to freenode so
+you don't inadvertantly spam channels with nick name changes and the like.
+
+First, add freenode to weechat (end with 7000 instead of 6697 if you want
+SSL): ::
+
+    /server add freenode chat.freenode.net/6697
+
+If you opted for SSL, you will need to also do the following: ::
+
+    /set irc.server.freenode.ssl on
+    /set irc.server.freenode.ssl_verify off
+    /set irc.server.freenode.ssl_dhkey_size 1024
+
+*NOTE*: If you have a package similar to cacerts installed, you may not need to
+have ssl_verify turned off. Not having ssl_verify off is recommended, though,
+not always the easiest to do.
+
+Set a real name, user name, and a nick name: ::
+
+    /set irc.server.freenode.nicks "MyAwesomeNick,MyAwesomeFallbackNick"
+    /set irc.server.freenode.username "MyUsernameWhichCanBeTheSameAsMyNickName"
+    /set irc.server.freenode.realname "MyRealNameOrAFakeName,DoesNotMatter"
+
+Autoconnect to freenode when (re)opening weechat: ::
+
+    /set irc.server.freenode.autoconnect on
+
+Autojoin channels upon connecting to freenode: ::
+
+    /set irc.server.freenode.autojoin "#osu-lug,#MyOtherChannels"
+
+One last step before connecting, SAVE: ::
+
+    /save
+
+That will save your configuration for next time.
+
+Connect to freenode and join the LUG channel: ::
+
+    /connect freenode
+
+If you opted to autojoin the :code:`#osu-lug` channel in a previous step, the
+buffer (also called a window sometimes) will open for you, otherwise you will
+need to: ::
+
+    /join #osu-lug
+
+These steps were taken and modified from `weechat quickstart guide`_. It is
+highly recommended to look there first if you are running into issues as that
+guide is extremely helpful. If you are unable to connect though, feel free to
+use `Easy (webchat)`_ to quickly connect and get some help.
+
+
+.. _putty: http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
+.. _irssi: http://www.irssi.org
+.. _weechat: http://www.weechat.org
+.. _screen: https://www.gnu.org/software/screen/
+.. _tmux: http://tmux.sourceforge.net/
+.. _weechat quickstart guide: http://www.weechat.org/files/doc/stable/weechat_quickstart.en.html#create_irc_server
