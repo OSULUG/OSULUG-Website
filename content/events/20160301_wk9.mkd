@@ -1,0 +1,16 @@
+title: An explanation of Containers and what in the world they are/do.
+datetime: 2016-03-01 18:00:00
+category: events
+slug: meeting20160301
+preview: Learn about buzz words like 'Docker', 'Containers', and 'Operating-system-level virtualization'
+location: Kelly Engineering Center 1005
+
+---
+
+The tech industry is very interested in using this new fangled thing called a
+'Container' as a new way to 'virtualize'. Come learn what that all means and
+more.
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1005

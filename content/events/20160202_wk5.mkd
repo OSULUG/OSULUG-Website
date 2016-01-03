@@ -1,0 +1,14 @@
+title: Brian Sherson talks about his PHD Research
+datetime: 2016-02-02 18:00:00
+category: events
+slug: meeting20160202
+preview: Brian Sherson will present on a module he wrote as part of his PHD research.
+location: Kelly Engineering Center 1005
+
+---
+
+For more information visit [Brian's website](http://shersonb.net/).
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1005

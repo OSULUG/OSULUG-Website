@@ -1,0 +1,15 @@
+title: Open Source in Different Fields
+datetime: 2016-02-23 18:00:00
+category: events
+slug: meeting20160223
+preview: Learn how Open Source plays into different fields.
+location: Kelly Engineering Center 1005
+
+---
+
+Open Source is a great way to produce software, but it also plays a role in
+other fields such as medicine, writing, and academia, to name a few.
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1005

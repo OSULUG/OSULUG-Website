@@ -1,0 +1,14 @@
+title: Languages Night
+datetime: 2016-02-16 18:00:00
+category: events
+slug: meeting20160216
+preview: The night where we all sit at a (large) table, eat pizza, and discuss.
+location: Kelly Engineering Center 1005
+
+---
+
+Languages Night: Where we talk about Languages, Software, and Technology.
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1005
