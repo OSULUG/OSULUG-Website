@@ -1,15 +1,15 @@
-title: Unplanned LUG Meeting
+title: An explanation of Containers and what in the world they are/do.
 datetime: 2016-03-01 18:00:00
 category: events
 slug: meeting20160301
-preview: This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
+preview: Learn about buzz words like 'Docker', 'Containers', and 'Operating-system-level virtualization'
 location: Kelly Engineering Center 1005
 
 ---
 
-This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
-
-Come to KEC 1005 to hang out with the LUG crowd and check back in for schedule changes / updates.
+The tech industry is very interested in using this new fangled thing called a
+'Container' as a new way to 'virtualize'. Come learn what that all means and
+more.
 
 When: 6pm
 

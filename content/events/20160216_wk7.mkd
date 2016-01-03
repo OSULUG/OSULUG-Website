@@ -1,15 +1,13 @@
-title: Unplanned LUG Meeting
+title: Languages Night
 datetime: 2016-02-16 18:00:00
 category: events
 slug: meeting20160216
-preview: This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
+preview: The night where we all sit at a (large) table, eat pizza, and discuss.
 location: Kelly Engineering Center 1005
 
 ---
 
-This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
-
-Come to KEC 1005 to hang out with the LUG crowd and check back in for schedule changes / updates.
+Languages Night: Where we talk about Languages, Software, and Technology.
 
 When: 6pm
 

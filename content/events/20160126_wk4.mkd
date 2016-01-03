@@ -1,15 +1,14 @@
-title: Unplanned LUG Meeting
+title: Interview/Getting An Internship workshop
 datetime: 2016-01-26 18:00:00
 category: events
 slug: meeting20160105
-preview: This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
+preview: Advice, Tips, and Tricks on how to build a Resume and getting an Internship
 location: Kelly Engineering Center 1005
 
 ---
 
-This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
-
-Come to KEC 1005 to hang out with the LUG crowd and check back in for schedule changes / updates.
+This week Lucy will be presenting how to help you get an internship and build a
+resume using LaTeX. Bring questions.
 
 When: 6pm
 

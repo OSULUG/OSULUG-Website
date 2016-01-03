@@ -1,15 +1,17 @@
-title: Unplanned LUG Meeting
+title: Hackerrank Challenges & Secretary Elections
 datetime: 2016-01-19 18:00:00
 category: events
 slug: meeting20160119
-preview: This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
+preview: LUG will be hosting coding-puzzles and finalize the elections for our secretary position.
 location: Kelly Engineering Center 1005
 
 ---
 
-This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
+If you have never come to coding-puzzles day get some practice at
+[Hackerrank.com](http://hackerrank.com/). They are a great way to learn coding
+techniques, challenge yourself, and learn new programming languages.
 
-Come to KEC 1005 to hang out with the LUG crowd and check back in for schedule changes / updates.
+There will probably also be pizza.
 
 When: 6pm
 

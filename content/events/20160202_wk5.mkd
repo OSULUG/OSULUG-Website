@@ -1,15 +1,13 @@
-title: Unplanned LUG Meeting
+title: Brian Sherson talks about his PHD Research
 datetime: 2016-02-02 18:00:00
 category: events
 slug: meeting20160202
-preview: This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
+preview: Brian Sherson will present on a module he wrote as part of his PHD research.
 location: Kelly Engineering Center 1005
 
 ---
 
-This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
-
-Come to KEC 1005 to hang out with the LUG crowd and check back in for schedule changes / updates.
+For more information visit [Brian's website](http://shersonb.net/).
 
 When: 6pm
 

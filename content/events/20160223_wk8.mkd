@@ -1,15 +1,14 @@
-title: Unplanned LUG Meeting
+title: Open Source in Different Fields
 datetime: 2016-02-23 18:00:00
 category: events
 slug: meeting20160223
-preview: This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
+preview: Learn how Open Source plays into different fields.
 location: Kelly Engineering Center 1005
 
 ---
 
-This OSU LUG meeting has no officially planned *stuff*, but come on by anyway!
-
-Come to KEC 1005 to hang out with the LUG crowd and check back in for schedule changes / updates.
+Open Source is a great way to produce software, but it also plays a role in
+other fields such as medicine, writing, and academia, to name a few.
 
 When: 6pm
 
