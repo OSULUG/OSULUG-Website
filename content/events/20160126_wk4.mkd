@@ -1,7 +1,7 @@
 title: Interview/Getting An Internship workshop
 datetime: 2016-01-26 18:00:00
 category: events
-slug: meeting20160105
+slug: meeting20160126
 preview: Advice, Tips, and Tricks on how to build a Resume and getting an Internship
 location: Kelly Engineering Center 1005
 
