@@ -1,0 +1,226 @@
+title: Intro to Weechat
+category: blog
+tags: guide
+author: ["Alan Sherman <shermana@onid.oregonstate.edu>"]
+datetime: 2014-05-10 00:00:00
+---
+
+This weechat guide is broken into two parts. The first part is all about how to
+use weechat. It starts by handing you a git repo of weechat config files to
+give you a better "default". After getting that set up the rest of the guide will
+go over how to use these configs. The second guide is the advanced guide, which
+goes over the changes made to these configs as individual changes with the
+what, why, and how of the change. If you are an existing weechat user and dont
+want to uproot your current set up I recommend you go through the advanced guide
+and decide which parts of the guide you want to add to your configs.
+
+
+THE MOST AWESOMEST CONFIGS EVER
+-------------------------------
+Weechat stores all of its configs in `~/.weechat`. If you start up weechat without
+configs it will generate default configs and put them there. If you have
+already been using weechat you will want to save your old config at ~/.weechat
+first. Make sure that there is no `.weechat` folder in your home dir and
+run:
+
+  git pull something.cool/some/place/git.git
+
+
+This git repo has been set up to ignore the logs dir and the server config both
+of witch are stored in ~/.weechat.
+
+Connecting
+----------
+
+Now if you start weechat it will grab the new configs. The first thing you
+will want to do is pick your username(s). You can set more then one incase your
+first pick is already being used. This can be changed later and once you
+have a registered nick you can set this variable to that, but you do need to have
+at least one nick to connect to a server.
+
+  /set irc.server_default.nicks "nick1,nick2,nick3"
+
+Next we need to connect to freenode.
+
+  /connect freenode
+
+If the nick you set is already in use freenode will add '_' to the end until
+it finds a free nick (this is called a tail). In this case you will want to
+change your nick.
+
+	/nick [nickname]
+
+Once you find a nick you like you should register your nick so other people
+cannot take it.
+
+	/msg nickserv register <password for your nick> <email>
+
+Then you will need to confirm your email by following the instructions in your
+email.
+
+In the future you can identify for that nick and also set your nick to enforce
+which means people only have 30 seconds to try to identify to your nick.
+
+	/msg nickserv identify <password>
+	/msg nickserv set enforce
+
+Now join the LUG channel.
+
+	/join #osu-lug
+
+You can join as many channels as you want at the same time.
+
+You can also create a new buffer that is a private message with someone.
+
+  /q [username]
+
+Now we are going to set weechat to autoconnect to this network and auto authenticate
+
+  /set irc.server.freenode.autoconnect on
+  /set irc.server.freenode.nicks [nick]
+  /set irc.server.freenode.password [password]
+
+Lastly we want to save, anytime you use the `/set` command to change an option
+you need to run `/save` to write the changes to disk. If you don't save then
+when weechat is restarted it will not have any of these changes.
+
+  /save
+
+###DON'T FORGET TO SAVE
+
+Weechat 101
+-----------
+
+###Buffers
+
+In weechat everything lives in a buffer (kinda like a tab). On the left side of
+the screen there is a list of all of your current buffers. you can use
+`Alt-[1-0]` to go to buffers 1-10. As you get more then 10 buffers you can
+simply use:
+
+    /buffer #
+    /b # (an alias to /buffer)
+
+An even faster way of doing this is `Alt-j` (jump) quickly followed by the number of
+the buffer you want to go to 00-99, note that 01-09 have leading zeros.
+
+You can also use `Alt-[left,right,up,down]` to move through one buffer at a
+time.
+
+`Alt-a` will go to the next buffer in your hotlist (see status
+bar), This is the main why I move between buffers.
+
+`/buffer move #` will move your current buffer to that number, pushing all
+others back. Not only will this help you keep your buffers orginized, but
+latter on could help with your hotlist order (get to that in a little).
+
+To close your curent buffer use `/buffer close` or just `/close`.
+
+###Status Bar
+
+The second line from the bottom of your screen is your status bar, this is your
+hub for everthing happening in weechat:
+
+    [13:12] [2] [irc/freenode] 2:#osu-lug(+nt){86} [2(14,4) 3(2)]
+       ^     ^         ^       ^     ^     ^   ^   ^
+       |     |         |       |     |     |   |   |
+       |     |         |       |     |     |   |   -- hotlist (see below)
+       |     |         |       |     |     |   ------ Number of people in current channel
+       |     |         |       |     |     ---------- Current channle's flags (will talk more about this later, maybe)
+       |     |         |       |     ---------------- Current buffer's name (normally channel name)
+       |     |         |       ---------------------- Current buffer's number
+       |     |         ------------------------------ Current buffer's network
+       |     ---------------------------------------- Total number of buffers
+       ---------------------------------------------- Current time (based on local systeam clock)
+
+The hotlist shows buffers that have activity in them, activity can be
+someone joining/parting, saying a masage, changing the topic or anthing else
+that would apper in that buffer. In he above example we see that:
+
+-   Buffer number 2 has had 14 new massages and 4 non-massage actions
+-   Buffer number 3 has had 2 actions but with only one number we will have to
+    look at its color to see what type of action it is (probably a massage)
+
+The action could be repersented by one of the following colors:
+
+-   White: non-talk activity (such as someone joining).
+-   Blue: someone has said something in that channel.
+-   Red: someone is speaking directly to you (highlight) or someone has sent you a private massage.
+-   Buffer number not shown: nothing has happened in that channel since you last checked.
+
+The red and blue colors are also used on the buffers bar witht the same meaning.
+
+###Settings
+
+WeeChat settings are really easy, we are going to use a script installed as part of the configs.
+
+    /iset
+
+This will open a new buffer with iset, it gives you a list of every setting in
+weechat. To search for a setting just start typing and hit enter, to clear your
+search just search for '*'. The top bar of iset will show you a few of the
+commands you can use. The 3 line box below that will show you a description of
+the current setting, available options, and its default option. To change a
+settings value you can use the following commands.
+
+-   Alt-enter: edit value*
+-   Alt-Space: toggle value*
+
+*You may have issues with you local terminal trying to grab these key combos,
+the solution to this can vary based on terminal. If you run into problems
+just ask in #osu-lug.
+
+once you have made a change it will go into effect immediately, you can run
+`/save` to save the changes to disk. DONT FORGET TO SAVE, if you don't save
+changes will not persist though weechat restarts. like any buffer you can close
+iset by using `/close`.
+
+its also worth noting that without iset an option can be changed using `/set
+option value` or just `/set option` to see its current vaule.
+
+for more information on how settings are strucured and how to find diffrent
+settings look at the advanced guide.
+
+
+###Help
+
+`/help` is a pretty cool command, so much so it gets its own section. Weechat
+actually has pretty good documentation built into it. If you type `/help` you
+will get a list of all available commands, including commands added by scripts.
+If you then type `/help command` you will get a description and examples of how
+to use that command.
+
+  /help
+
+Using the Configs
+-----------------
+
+One of the biggest changes these configs give you is themes/colors.
+Congraulations you're using that part! Dosen't it look pretty?
+
+###New Keys
+
+There are a few new key bindings added in with these configs
+
+  Alt-n - toggles the nick list on the right of the screen on and off
+  Alt-b - toggles the buffers list of the left of the screen on and off
+  Alt-f - toggles the smart fillter (see below) on and off
+
+###Auto Join
+
+We set up weechat to auto connect to feenode but now lets set it to autojoin
+all of the channels we are in
+
+`/autojoin`
+`/save`
+
+That will populate the list of channels to autojoin and save those changes to
+disk, as you change which channels you are in you will need to rerun this
+command.
+
+###Smart Filters
+
+A smart filter intelligently hides information that weechat doesn't think you care
+about. It will hides all joins/parts unless the person joining/parting has talked
+in the last five minutes. It will unmask any joins if tha person talks within
+30 minutes of joining. This helps keep your channels clean.
