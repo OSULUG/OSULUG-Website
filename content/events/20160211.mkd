@@ -1,0 +1,15 @@
+title: CoreOS Guest Speaker
+datetime: 2016-02-11 06:00:00
+category: events
+slug: meeting20160211
+preview: Guest Speakers Matthew Garrett and Alex Crawford from CoreOS come to speak for LUG.
+location: Kelly Engineering Center 1001
+
+---
+
+[CoreOS](https://coreos.com/) leaders Matthew Garrett and Alex Crawford will be
+speaking day about Linux, Containers, and more!
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1001
