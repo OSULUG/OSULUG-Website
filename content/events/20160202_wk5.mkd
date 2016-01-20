@@ -3,7 +3,7 @@ datetime: 2016-02-02 18:00:00
 category: events
 slug: meeting20160202
 preview: Brian Sherson will present on a module he wrote as part of his PHD research.
-location: Kelly Engineering Center 1005
+location: Kelly Engineering Center 1007
 
 ---
 
@@ -11,4 +11,4 @@ For more information visit [Brian's website](http://shersonb.net/).
 
 When: 6pm
 
-Where: Kelly Engineering Center room 1005
+Where: Kelly Engineering Center room 1007

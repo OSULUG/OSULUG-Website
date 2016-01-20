@@ -3,7 +3,7 @@ datetime: 2016-02-09 18:00:00
 category: events
 slug: meeting20160209
 preview: The week when we learn what in the world '$ diff file1 file2 | grep 2015 > output.txt' means
-location: Kelly Engineering Center 1005
+location: Kelly Engineering Center 1007
 
 ---
 
@@ -15,4 +15,4 @@ questions about jargon *you've* heard, so bring questions.
 
 When: 6pm
 
-Where: Kelly Engineering Center room 1005
+Where: Kelly Engineering Center room 1007

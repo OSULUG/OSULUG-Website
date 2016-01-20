@@ -3,7 +3,7 @@ datetime: 2016-01-19 18:00:00
 category: events
 slug: meeting20160119
 preview: LUG will be hosting coding-puzzles and finalize the elections for our secretary position.
-location: Kelly Engineering Center 1005
+location: Kelly Engineering Center 1007
 
 ---
 
@@ -15,4 +15,4 @@ There will probably also be pizza.
 
 When: 6pm
 
-Where: Kelly Engineering Center room 1005
+Where: Kelly Engineering Center room 1007

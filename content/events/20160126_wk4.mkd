@@ -3,7 +3,7 @@ datetime: 2016-01-26 18:00:00
 category: events
 slug: meeting20160126
 preview: Advice, Tips, and Tricks on how to build a Resume and getting an Internship
-location: Kelly Engineering Center 1005
+location: Kelly Engineering Center 1007
 
 ---
 
@@ -12,4 +12,4 @@ resume using LaTeX. Bring questions.
 
 When: 6pm
 
-Where: Kelly Engineering Center room 1005
+Where: Kelly Engineering Center room 1007
