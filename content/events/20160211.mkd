@@ -37,7 +37,7 @@ This talk will discuss the technologies we're using at CoreOS to verify the
 state of a system, from the firmware to the filesystem. How do we ensure that a
 system only boots the OS we wanted it to boot? How do we prove that later
 components weren't interfered with? And how can we use the same technology to
-make it easier to deploy servers to untrusted data centres?
+make it easier to deploy servers to untrusted data centers?
 
 When: 6pm
 
