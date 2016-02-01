@@ -13,15 +13,15 @@ pagination:
 - - - -
 
 ## The OSU Linux Users Group meets every week
-## Tuesday at 6:00pm at Kelly Engineering Center in KEC 1007
+## Tuesday at 6:00pm at Kelley Engineering Center in KEC 1007
 
 - - - -
 
 *Upcoming Event...*
 
-## CoreOS Night Thursday February 11 @6pm | Kelly Engineering room 1003
+## CoreOS Night Thursday February 11 @6pm | Kelley Engineering room 1003
 
-**Thursday February 11, 2016 in Kelly Engineering Center room 1003 from 6pm to
+**Thursday February 11, 2016 in Kelley Engineering Center room 1003 from 6pm to
 8:30pm**, with **complimentary food and drinks** will be available at 6pm,
 presentations will start at 6:30pm, a **Q&A** begin at 7:30pm, and
 **information about working at CoreOS** will begin at 8:00 pm.
