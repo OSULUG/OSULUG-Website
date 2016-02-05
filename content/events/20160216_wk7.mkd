@@ -1,13 +1,45 @@
-title: Languages Night
+title: Spencer Krum (nibalizer) talks about TINC
 datetime: 2016-02-16 18:00:00
 category: events
 slug: meeting20160216
-preview: The night where we all sit at a (large) table, eat pizza, and discuss.
+preview: In the past, the network was a safer place. I personally never lived in this time, but I can imagine it being great.
 location: Kelly Engineering Center 1007
 
 ---
 
-Languages Night: Where we talk about Languages, Software, and Technology.
+Here's a blurb to get you ready:
+
+In the past, the network was a safer place. The difference between a
+workstation and a server was a bit more vague. Desktops had apache web servers
+and NFS mounts coming from them. Workstations could run finger and connect to
+other hosts on the network. Printers were available to anyone who could
+broadcast onto the network. Video was shipped across the network to random
+hosts or multicast addresses. Security wasn't something we worried about
+because we trusted everyone on the network.
+
+I personally never lived in this time, but I can imagine it being great. The
+early network was energized by awesome protocols for file sharing, video,
+communication, and peripherals. What I did experience was the last hoorah of
+this kind of 'open' network during my time at University.
+
+My friends and I have deployed a peer-to-peer mesh network using Tinc
+(http://www.tinc-vpn.org/). This technology allows us to build an overlay
+network on the public internet that looks like a flat layer 3 network. Tinc
+networks are encrypted using SSL. Since we (mostly)trust everyone on the
+network, and all communication is encrypted, we can do things with our network
+that we've not been able to do before.
+
+Given a secure way to do insecure things, a number of protocols that had been
+left in the wastebucket are back in play. NFS, UPnP, 515(print spooler),
+79(finger) and more can be used securely in this network. This means our
+computers can behave more like the workstations of old, and we can live that
+glorious unix workstation heyday.
+
+In addition, our laptops now have permanent IP addresses that have transparent
+encryption to other nodes on the network. This opens the door for all kinds of
+cool automation and tricks, that will be shown in this talk. This quickly
+became a service discovery problem and we deployed Consul (https://consul.io/)
+to detect service availability and to provide name services into the network.
 
 When: 6pm
 
