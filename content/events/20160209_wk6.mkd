@@ -1,17 +1,15 @@
-title: Linux Jargon for N00BZ
+title: An explanation of Containers and what in the world they are/do.
 datetime: 2016-02-09 18:00:00
 category: events
 slug: meeting20160209
-preview: The week when we learn what in the world '$ diff file1 file2 | grep 2015 > output.txt' means
+preview: Learn about buzz words like 'Docker', 'Containers', and 'Operating-system-level virtualization'
 location: Kelly Engineering Center 1007
 
 ---
 
-Does the world of Unix and Linux **jargon** puzzle you to no end? Do people
-throw out phrases left and right that go over your head? We've all been there.
-
-At this week's meeting we will explain some commonly used jargon and answer
-questions about jargon *you've* heard, so bring questions.
+The tech industry is very interested in using this new fangled thing called a
+'Container' as a new way to 'virtualize'. Come learn what that all means and
+more.
 
 When: 6pm
 
