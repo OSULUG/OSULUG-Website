@@ -41,4 +41,4 @@ make it easier to deploy servers to untrusted data centers?
 
 When: 6pm
 
-Where: Kelly Engineering Center room 1001
+Where: Kelly Engineering Center room 1003
