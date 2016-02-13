@@ -19,36 +19,13 @@ pagination:
 
 *Upcoming Event...*
 
-## CoreOS Night Thursday February 11 @6pm | Kelley Engineering room 1003
+## Spencer Krum on TINC | Febrary 16 @6pm | Kelley Engineering room 1007
 
-**Thursday February 11, 2016 in Kelley Engineering Center room 1003 from 6pm to
-8:30pm**, with **complimentary food and drinks** will be available at 6pm,
-presentations will start at 6:30pm, a **Q&A** begin at 7:30pm, and
-**information about working at CoreOS** will begin at 8:00 pm.
+"In the past, the network was a safer place. I personally never lived in this
+time, but I can imagine it being great..."
 
-*This special event will be on a* **Thursday**, *unlike our usual meetings*.
+[read more](/events/meeting20160216/)
 
-### The Lifetime of a CoreOS Machine (Alex Crawford)
-
-One of the tenets of CoreOS is that machines should be fairly ephemeral - it
-should be simple and straightforward to throw away a machine and bring up
-another in its place. This talk will cover the tools and techniques that make
-this possible; covering provisioning, in-place updates, coordinated reboots,
-and future work.
-
-### A Brief Introduction to Distributed Trusted Computing (Matthew Garrett)
-
-There's been plenty of work to figure out how to make sure that the container
-you deploy is the container you thought you deployed, and even more on how to
-avoid one container from being able to break into other containers. But
-trusting these containers is still difficult - how do you know whether
-everything your containers depend on can be trusted?
-
-This talk will discuss the technologies we're using at CoreOS to verify the
-state of a system, from the firmware to the filesystem. How do we ensure that a
-system only boots the OS we wanted it to boot? How do we prove that later
-components weren't interfered with? And how can we use the same technology to
-make it easier to deploy servers to untrusted data centers?
 
 - - - -
 
