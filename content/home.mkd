@@ -17,18 +17,6 @@ pagination:
 
 - - - -
 
-*Upcoming Event...*
-
-## Spencer Krum on TINC | Febrary 16 @6pm | Kelley Engineering room 1007
-
-"In the past, the network was a safer place. I personally never lived in this
-time, but I can imagine it being great..."
-
-[read more](/events/meeting20160216/)
-
-
-- - - -
-
 ### What is the Oregon State University Linux Users Group?
 
 We are self described as "mostly a group of nerds. However we are not your
