@@ -2,7 +2,7 @@
     {% if page.authors %}
         {% for author in page.authors %}
             {{ author.name }}{% if not loop.last %}, {% endif %}
-        {% endfor %} |
+			{% endfor %} | {% if page.datetime %}{{ page.datetime.strftime('%B %-d, %Y') }}{% endif %}
     {% endif %}
     {% if not page.navrank %}
         {{ page.date.strftime}}
