@@ -33,7 +33,15 @@ Overall, learning python is a great first step to learning to code or develop we
 
 5) **Start coding!**.  Try to break your project into bite-sized pieces, and start from the ground up: what basic functionality does your program need?  If you're building a simple tic-tac-toe game, for example, you need to start with a board.  Then you need to create two players, X and O, and have a way for them to place their moves.  And so on.  If you get stuck, or frustrated, there are very knowledgable and supportive communities on IRC, Stackoverflow, and at LUG to help you out.  It's also ok to step away from your code for a while.  But don't give up completely!
 
-6) **Hosting** 
+6) **Hosting**. The easiest place to host your website is as a 
+[github page][pages], which allows you to host a portfolio page at 
+http://{{ GH USERNAME }}.github.com or a project page at http://{{ GH USERNAME
+}}.github.com/{{ PROJECT NAME }}.  Either is a great option, and github
+has [tons of documentation][pages-docs] on getting set up with pages. 
+It even integrates super nicely with [jekyll][jekyll], a popular Ruby-based
+static site generator.  Other options include getting cloud space on 
+[digital ocean][do-guide] or another cloud computing platform that will give
+you some space for cheap, and throwing your website up there. 
 
 
 [python]:http://learnpythonthehardway.org/book/
@@ -46,3 +54,7 @@ Overall, learning python is a great first step to learning to code or develop we
 [htmldog]: http://htmldog.com/guides/html/beginner/
 [dash]: https://dash.generalassemb.ly/?vip=bento
 [guide]: http://learn.shayhowe.com/html-css/
+[pages]: https://pages.github.com/
+[pages-docs]: https://help.github.com/categories/github-pages-basics/
+[jekyll]: https://jekyllrb.com
+[do-guide]: http://lug.oregonstate.edu/blog/digital-ocean/

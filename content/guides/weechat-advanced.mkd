@@ -1,11 +1,11 @@
-title: WeeChat
+title: Advanced Weechat
 category: blog
 tags: guide
 author: ["Alan Sherman <shermana@onid.oregonstate.edu>"]
 datetime: 2014-05-10 00:00:00
 ---
 
-In the irc guide the goal was to get you on irc and able to talk to people.
+In the [irc guide][ircguide] the goal was to get you on irc and able to talk to people.
 hopefully once you start using irc you won't stop and with the amount of time
 you are about to spend on irc you should tune it for you.
 
@@ -373,10 +373,12 @@ alot, thought i use the andriod app daily) and give it the server info.
 The Real Takeaway
 -----------------
 
-so by the end of this guide you should a pretty powerfull and good looking irc
+So by the end of this guide you should a pretty powerfull and good looking irc
 client setup. but thats not the importand part hopefully you also have a desen
 graspe on how weechat works, how to manage buffers, change settings, add
 keybinds and scripts and got a tates of some of the things you can do with
 weechat.
 
 # DONT FORGET TO /save
+
+[ircguide]:http://lug.oregonstate.edu/blog/irc
