@@ -1,0 +1,86 @@
+title: Essential Github
+category: blog
+tags: guide
+author: Lucy Wyman 
+datetime: 2016-03-28 00:00:00
+
+---
+
+#### Install git locally
+
+You'll more than likely want access to git on your local machine, so will 
+need to install git or a git client.  On Debian based systems you'll 
+run ``sudo apt-get install git``, on RHEL you'll run ``sudo yum install git``,
+and for other systems we recommend following the [most up-to-date 
+instructions here][install-git].
+
+#### Create account
+
+Before doing anything else, you'll also want to create an account at
+https://github.com/join. Github is where others can see, comment on, improve, 
+and collaborate on your code. 
+
+#### Add ssh key
+
+In order to securely send code between Github and your computer, you also 
+want to [create and add an SSH key][ssh] which will let github know that it's 
+*actually* your computer sending the code and not a sneaky imposter.  You 
+can find instructions on how to do both of those things at 
+https://help.github.com/articles/generating-an-ssh-key/
+
+#### Fork a repo
+
+Using other people's code is a big part of using github, but sometimes you may
+not have permission to push directly to those repositories.  The solution is to
+"[fork][fork]" or copy the repository into your own account so that you do have
+access to it, then you can safely make a pull request to the main repository
+from there. Documentation on how to do that is at 
+https://help.github.com/articles/fork-a-repo/
+
+#### Clone a repo
+
+Cloning a repository basically downloads that repository to your local 
+machine so that you can make changes to it.  The specific steps to 
+cloning a repo will depend on your set up, but you can find how to do it at
+https://help.github.com/articles/cloning-a-repository/
+
+#### Make changes on a branch
+
+This may look different depending on which system you are on, but 
+if you're using a terminal you can `cd` to the directory where the repo
+was cloned to (generally, that will be the repo name in the directory 
+where you cloned it.  Run `ls` to see if it's there).  Then you want to run
+`git checkout -b {{ BRANCHNAME }}`, where {{ BRANCHNAME }} is the name of 
+the branch you want to create. Then you make your changes to the code, 
+and when you're ready to push to github you `git add {{ FILES }}`, 
+`git commit -m "{{ COMMIT MESSAGE }}"`, and `git push origin {{ BRANCHNAME }}`.
+More information can be found at https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+
+#### Submit pull request
+
+Once you've made changes on a branch, you can make a [pull request][pr] to 
+the master or development branch to have your changes merged into the main
+code.  Organizations and individual repos will usually have a document 
+titled CONTRIBUTING.md that details how to submit a PR to that repo, and 
+which branches are appropriate to merge your code into.  You should definitely
+read the guidelines before submitting your PR!  Github will remind you to do 
+that though.  You can see more about making a pull request at 
+https://help.github.com/articles/creating-a-pull-request/ or learn more about
+how pull requests are used at https://help.github.com/articles/using-pull-requests/
+
+#### File issue against osulug-website
+
+If you find an issue or area that could be improved on the LUG website,
+make an issue! You can do that by going to [the lug repo][repo] and finding
+the "Issues" tab underneath the repo title. More detailed instructions can
+be found at https://help.github.com/articles/creating-an-issue/
+
+
+Now, young grasshopper, you have begun the path to becoming a Git Guru. 
+Merge wisely, friend, and never lose respect for the Git.
+
+[install-git]:https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+[ssh]:https://help.github.com/articles/generating-an-ssh-key/
+[fork]:https://help.github.com/articles/fork-a-repo/
+[pr]:https://help.github.com/articles/creating-a-pull-request/
+[repo]:https://github.com/osulug/OSULUG-website
