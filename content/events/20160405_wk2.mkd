@@ -3,7 +3,7 @@ datetime: 2016-04-05 18:00:00
 category: events
 slug: meeting20160405
 preview: The OSU LUG quarterly install festival. Bring your friends and family.
-location: Kelly Engineering Center 100X (either 1001, 1003, 1005, or 1007)
+location: Kelly Engineering Center 1005 (either 1001, 1003, 1005, or 1007)
 
 ---
 
@@ -23,4 +23,4 @@ Before you come to the installfest please do the following:
 
 When: 6pm
 
-Where: Kelly Engineering Center room 100X (1001, 1003, 1005, or 1007)
+Where: Kelly Engineering Center room 1005 (1001, 1003, 1005, or 1007)

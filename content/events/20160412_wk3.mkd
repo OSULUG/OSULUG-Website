@@ -3,7 +3,7 @@ datetime: 2016-04-12 18:00:00
 category: events
 slug: meeting20160412
 preview: This LUG Meeting is currently unstructured.
-location: Kelly Engineering Center 100X
+location: Kelly Engineering Center 1005
 
 ---
 
@@ -12,4 +12,4 @@ This LUG Meeting is currently unstructured. If you have any ideas come to the
 
 When: 6pm
 
-Where: Kelly Engineering Center room 100X
+Where: Kelly Engineering Center room 1005
