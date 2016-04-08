@@ -1,0 +1,281 @@
+title: "LUG's Laptop Reviews"
+category: blog
+slug: thinkpads
+author: Emily Dunham <dunhame@onid.orst.edu>
+
+image:
+    url: http://cdn.ubergizmo.com/photos/2007/5/thinkpad-santa-rosa.jpg
+    where: right
+datetime: 2015-01-28 17:00:00
+
+---
+
+The #osu-lug channel on Freenode has recently seen a lot of requests for
+advice on choosing laptops. Here's a summary of the advice you're likely to
+get from each channel member. 
+
+## edunham
+
+### Preferences
+
+I play a bit of Minecraft and occasionally like to compile code or run VMs
+locally, so a machine's performace is moderately important. Most of my
+schoolwork and real work is done on remote machines while I'm at home or on
+campus, so I need at least a couple hours of battery life and good wireless
+performance. I usually run Linux Mint or Arch on laptops, and am not a fan of
+troubleshooting proprietary driver problems. 
+
+Display quality is not important to me and I don't mind small screens.
+Input devices are extremely important to me. I strongly prefer the old style
+Thinkpad keyboards and find chicklets unpleasant to type on. The [xkcd
+mouse](http://xkcd.com/243/) is my preferred pointing device, so physical
+buttons at the top of the touchpad are important to me. I find "clicky"
+touchpads difficult to use and dislike integrated buttons. 
+
+### Thinkpad x100e/x120e
+
+They're tiny, light, cheap, and have a flimsy feel compared to "real"
+Thinkpads. I got an X100e in my freshman year (2010) and it was fine for
+schoolwork, though it tended to heat up badly when playing Minecraft and the
+chicklet keyboard was less than ideal. Linux Mint worked out of the box. 
+
+I was carrying the X100e in a non-padded bag with a bunch of other stuff,
+dropped it wrong on a tile floor, and the outside of the screen suffered a
+sharp impact which caused the display to crack. I replaced it with an X120e,
+which was lighter and didn't overheat quite as badly. The batteries of the two
+models are interchangeable, as is standard for models within the same Thinkpad
+line, which is extremely convenient. 
+
+### Thinkpad T420?
+
+Intel issued it to me during my internship in the summer of 2012. Nice
+machine, bombproof-feeling construction, but I found it huge and unwieldy and
+it weighed a TON. The keyboard spoiled me for life, and desire for the same
+type of keyboard factored into my decision to retire my X120e. 
+
+### Thinkpad X230
+
+Got it new in September 2012, when the model had just been released, due to a
+Lenovo store discount for Intel employees at the end of my internship. 
+
+Pros: 
+    * light
+    * nice screen
+    * good specs for the time, 4GB RAM, Intel Core i5 processor, etc.
+    * came with option to not include webcam, since I was buying it new
+    * xkcd mouse has physical buttons at top of touchpad
+Cons: 
+    * Chicklet keyboard
+    * Clicky touchpad
+    * Linux didn't Just Work immediately -- I "fixed" this with the classic
+      technique of waiting a couple months then trying again
+
+After having used a nice Thinkpad keyboard all summer, the chicklet keyboard
+that shipped with the X230 annoyed me so badly that I ordered an X220 keyboard
+(the old style of keys, and more or less the same form factor), dremeled down
+the bits that didn't fit, and stuffed it into the X230 chassis. All the
+regular keys work fine; the delete/home/end keys in the upper right don't
+perform the same functions as they're labeled with but I've just memorized
+their new positions and it's not annoying enough to warrant figuring out how
+to change their mappings in software. From 2013 onward, Linux Mint and Arch
+have Just Worked on this machine. 
+
+It shipped with a 3-cell battery, which slowly wore out until it only held
+about 2 hours' charge when it was 2 years old. Upgraded to an SSD and 9-cell
+battery in 2014 and can now get ~8 hours of battery life.  
+
+### T440s
+
+I was issued a T440s for my 2014 internship on the Urban Airship ops team.
+It's a reasonable work machine, since work constitutes sitting in its docking
+station hooked up to external keyboard, mouse, and monitor, impersonating a
+desktop computer. 
+
+However, I would never buy a T440s for my personal machine. Its build
+construction is lightweight at the expense of the strurdiness that I've come
+to expect with even the X2xx series, the chicklet keyboard is deeply
+unpleasant to type on, and it lacks separate buttons to go with the xkcd
+mouse. It took me several months to find the magic settings which allow me to
+right-click when using the laptop as a laptop. It's also physically larger
+than I need, which makes me find it awkward to use on the go. Plus it has the
+new, rectangular power connector, instead of the old round one that's been
+interchangeable on every other Thinkpad I've ever had.
+
+It basically feels like Lenovo tried to impersonate a Mac, so you might like
+this machine if you're a fan of Apple hardware. However, I buy Thinkpads
+because I like the sturdy construction and boxy lines which make you feel like
+you could bludgeon a wild animal to death with it and then happily resume
+coding. The T440s is the furthest from classic Lenovo construction that I've
+ever used, and I don't enjoy it.
+
+
+### Other Advice
+
+Assess your priorities for weight and battery life, then buy whatever battery
+best fits your use case. The weight and performance differences between
+battery sizes are huge. Plan on replacing your battery every 18 months or so
+for optimal performance. 
+
+If typing on your machine doesn't feel pleasant any more, try replacing the
+keyboard. A new one is typically $15 to $30 and the difference between an old,
+grungy laptop keyboard and a brand new one cannot be overstated. It makes it
+feel like a new computer, in a way that cleaning the old keyboard just can't.
+
+
+## mythmon
+
+### Preferences
+
+In many ways, I'm opposite of edunham in my laptop preferences. I'm out of
+school, and I use my "work" laptop as my primary machine. I hate working on
+remote systems for day to day work. I work locally most of the time. My laptop
+spends about half its time in some sort of desk setup, and the other half in
+my lap. Portability is important, but so is expandibility with ports.
+
+My day job involves hacking on a couple decently sized Django website. This
+means I run Mariadb, Postgres, Redis, Memcached, Elasticsearch, and a bunch of
+other services most of the time. In short, I need a decently beefy system. I
+run Arch. I play some games, but anything graphically intensive goes on
+another box. I like high resolution displays, though not too high density.
+More on this later. I'm not a huge stickler about input, and I generally don't
+mind Apple laptops (except the software). I never use the xkcd mouse.
+
+### Thinkpad T420
+
+#### Pros
+
+* Sturdy
+* Good screen
+* Classic input
+
+#### Cons
+
+* Silly GPUs
+* Huge
+
+This was my first Thinkpad. It is huge by todays standards, but isn't a very
+largeThinkpad, thickness wise. Today it seems like a behemoth, but it was fine
+back in 2012. It's bulk came with some advantages. It was quite sturdy, and
+served me well for its lifetime. It had the old style non-chiclet keys and a
+classic 5 button Thinkpad trackpad, but I went so far as to disable the nub or
+remove it entirely sometimes.
+
+I enjoyed its docking port. It worked well for external headphones, mouse
+keyboard, and a single extra monitor.
+
+The single biggest problem with this laptop was its graphics stack. It was a
+dual GPU card, one Nvidia, one Intel. Running Windows, this would allow the
+laptop to switch back and forth, or even use both, to achieve a good balance of
+power and efficiency. In Linux however, getting this kind of feature is quite
+challenging, especially in Arch. Virtual frame buffers, shipping rendered
+frames between GPUs, etc. It's all a huge hassle. So in practice you have to
+choose one or the other. Luckily the BIOS makes this extermely easy.
+
+The next problem is that, for some reason, the external video ports are not
+wired to both cards. The VGA port is wired only to the Intel card, and the
+DisplayPort port is wired only to the Nvidia card. Additionally, all the shiny
+video outputs on the Dock except the VGA port are wired through to the Nvidia
+card.
+
+I chose efficiency over power, going with Intel GPU all the time. This means I
+get analog video output, and limited choices. But it was still a nice system.
+
+
+### Thinkpad X1 Carbon (Gen 2)
+
+Pros
+
+* Thin+Light
+* Very high resolution screen
+* Decent battery life
+
+Cons
+
+* Weird keyboard
+* Very high resolution screen
+* Weird ports
+* Unreliable
+
+This was my second thinkpad. Gone are the buttons on the trackpad, here is a
+strange keyboard layout. This thinkpad uses the newer style buttonless
+clickpad, and a very strange keyboard layout. It had changes like the home and
+end key sharing the space where caps lock used to be, moving ~ to to the right
+of the space bar, and completely removing the F-key (F1, F2, etc) in favor of
+a light up touch strip.
+
+This sounds horrible. It looks awful. It is a chiclet style keyboard, so take
+that as you will. That being said, I grew to tolerate, and in some cases even
+enjoy it. The touch lights were always just barely passable, but I grew to
+enjoy home/end in the wasted space of caps lock, and I still occasionally try
+to hit ~ with my thumb. If you have to move back and forth between the laptop
+keyboard and other keyboards, the constant switching sucks. If it's all you are
+going to use, it can be usable.
+
+This laptop has only a single Intel GPU, which worked great. The wireless card
+worked fine as well. I forget what kind of video outputs it had, but they were
+perfectly functional. All the usual boxes were checked. Except ethernet. The
+X1's excuse for an ethernet port was a small, proprietary port that could take
+a proprietary adaptor, which I prompty lost. Oh well.
+
+The docking port on the bottom is gone in favor of a dock port on the side of
+the laptop, which doubles as the power jack. It works fine, but it isn't quite
+as satisifying as dropping a laptop on a dock.
+
+And then there is the screen. 2560x1440 on a 14" display. I stubornly ran it in
+1x mode, instead of Retina-style 2x mode. After cranking up font sizes and
+tweaking Firefox, it was usable for me, but anyone who looked at my laptop
+wondered "How can you read that!?". There are of coures lower resolution
+models.
+
+The BIOS/UEFI firmware was a dream. Options for EFI boot management, secureboot
+controls, nothing to complain about. This is as good as UEFI gets (and it is
+pretty good). I opted for Linux Kernel Stubloader instead of Grub.
+
+The biggest problem, and this is absolute killer, and makes me recommend
+avoiding this model at all costs: quality. In six months I went through three
+X1s. The first failed within a week, refusing to boot with a cryptic error
+message. The next would run fine for several hours, and then its screen would
+freak out and it would refuse to boot for a few cycles. The third lasted
+several months before turning off and never turning on again.
+
+Three warranty claims is too many. At this point I asked work to give me a
+different model, which leads me to:
+
+### Thinkpad X240
+
+Pros
+
+* Amazing battery life
+* Dual batteries
+* Small footprint
+
+Cons
+
+* A bit thick
+* Low resolution screen (as configured)
+* Dual batteries
+
+This laptop is my favorite so far. It still has the clickpad, which I enjoy,
+but is not a good choice for nubbin users. It has a real dock port on the
+bottom. It has a neat trick with two batteries: one internal (screwed and
+wired in, no solder here), and one external. The external can be removed and
+the laptop keeps running. It drains the external one first, then switches to
+internal. Charging runs in reverse.
+
+With both batteries, I easily get 6-10 hours of battery life. I've honestly
+stopped paying attention to it, and I've never had it die.
+
+The usual problem points of Linux laptops, installation, boot loaders, wifi,
+and GPUs all behave nicely here. The BIOS/UEFI firmware is just like that on
+the X1C, a dream compared to some others.
+
+It is a bit bulky coming from the X1C, but if that is the price to pay for
+reliability, I'll take it. It is still a feather compared to the T420.
+
+I listed dual batteries under both Pro and Con. That's because as far as I can
+tell, no tools will give me a *combined* runtime for both batteries. The software
+support is a little lacking.
+
+The screen on mine is only 1366x768, which is radically different than the
+2560x1440 I had. The X1C is a bit too dense, but this is too sparse. I imagine
+the 1080p option would be a good level, but the this is what I got.
