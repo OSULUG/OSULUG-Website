@@ -1,0 +1,30 @@
+title: (Living) Recommended Reading
+category: blog
+tags: living-doc
+author: Lucy Wyman 
+datetime: 2016-03-28 00:00:00
+---
+
+#### Python
+
+Python is a high-level programming language that's popular for scripting, web
+development, and prototyping projects of all kinds. You'll use Python at OSU in
+CS160 and again in CS311. Other languages that are used for similar purposes
+include Bash and Perl for shell scripting, and Ruby on Rails for web
+development. One project developed by LUG members using python is our IRC bot
+Hamper.
+
+* **http://www.learnpythonthehardway.org/**: Good tutorial for complete
+  beginners
+* **http://python.org/doc/**: The official python reference, helpful if you
+  forget
+  the correct syntax of a dictionary or how to do list comprehensions
+
+* **http://stackoverflow.com/questions/tagged/python**: Stack Overflow is more
+  useful than the official docs if you're not sure exactly what you're trying to
+  do
+
+* **https://github.com/hamperbot/hamper**: Good for hacking on
+
+
+#### Misc
