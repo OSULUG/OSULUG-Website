@@ -1,14 +1,17 @@
-title: Unstructured LUG Meeting
+title: The Key to Success
 datetime: 2016-05-17 18:00:00
 category: events
 slug: meeting20160517
-preview: This LUG Meeting is currently unstructured.
+preview: RSA, GPG, and a (signing) party.
 location: Kelly Engineering Center 1005
 
 ---
 
-This LUG Meeting is currently unstructured. If you have any ideas come to the
-`#osu-lug` channel on `irc.freenode.net` and share it.
+Digital keys accomplish a multitude of tasks including encrypt data and verify
+who did what. When you're just getting into it though things can be a bit
+confusing: what are keys? How and why would I sign one?
+
+All of these questions will be aswered this week at LUG.
 
 When: 6pm
 

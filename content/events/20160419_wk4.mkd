@@ -1,14 +1,17 @@
-title: Unstructured LUG Meeting
+title: Languages Night (WITH PIZZA)
 datetime: 2016-04-19 18:00:00
 category: events
 slug: meeting20160419
-preview: This LUG Meeting is currently unstructured.
+preview: Languages Night is an event where LUG shares it's thoughts in a round-table discussion about Open Source, Coding, and Pizza.
 location: Kelly Engineering Center 1005
 
 ---
 
-This LUG Meeting is currently unstructured. If you have any ideas come to the
-`#osu-lug` channel on `irc.freenode.net` and share it.
+Languages Night is an event where LUG shares it's thoughts in a round-table
+discussion about Open Source, Coding, and Pizza.
+
+If you want to share some cool ideas you have about technology or just want to
+learn by being a fly on the wall this event is perfect for all types.
 
 When: 6pm
 

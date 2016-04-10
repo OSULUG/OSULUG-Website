@@ -1,14 +1,15 @@
-title: Unstructured LUG Meeting
+title: An introduction to Window Managers
 datetime: 2016-05-03 18:00:00
 category: events
 slug: meeting20160503
-preview: This LUG Meeting is currently unstructured.
+preview: "I see you're running Gnome. I'm more of a KDE person myself." 
 location: Kelly Engineering Center 1005
 
 ---
 
-This LUG Meeting is currently unstructured. If you have any ideas come to the
-`#osu-lug` channel on `irc.freenode.net` and share it.
+One very cool advantage to using Linux is that the user interface can be
+swapped out and changed in a matter of minutes. This LUG event will cover how
+to change your _Window Manager_ and which managers you might consider using.
 
 When: 6pm
 

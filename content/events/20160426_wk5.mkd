@@ -1,14 +1,13 @@
-title: Unstructured LUG Meeting
+title: Utilities Expo
 datetime: 2016-04-26 18:00:00
 category: events
 slug: meeting20160426
-preview: This LUG Meeting is currently unstructured.
+preview: Utilities galore! Becoming a power user, with obscure utilities including tmux and screen
 location: Kelly Engineering Center 1005
 
 ---
 
-This LUG Meeting is currently unstructured. If you have any ideas come to the
-`#osu-lug` channel on `irc.freenode.net` and share it.
+If you come to LUG to learn Linux this event will be perfect for you. We will cover a veriety of utilites and how to use them like a _power user_.
 
 When: 6pm
 

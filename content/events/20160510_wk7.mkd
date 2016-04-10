@@ -1,14 +1,15 @@
-title: Unstructured LUG Meeting
+title: GUEST SPEAKER NAME HERE
 datetime: 2016-05-10 18:00:00
 category: events
 slug: meeting20160510
-preview: This LUG Meeting is currently unstructured.
+preview: Undecided Guest Speakers are the Best Guest Speakers.
 location: Kelly Engineering Center 1005
 
 ---
 
-This LUG Meeting is currently unstructured. If you have any ideas come to the
-`#osu-lug` channel on `irc.freenode.net` and share it.
+This week LUG will host a Guest Speaker. Who? Good question.
+
+You'll have to come and find out.
 
 When: 6pm
 

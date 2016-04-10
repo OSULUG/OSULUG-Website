@@ -1,14 +1,15 @@
-title: Unstructured LUG Meeting
+title: Language Spotlight
 datetime: 2016-05-24 18:00:00
 category: events
 slug: meeting20160524
-preview: This LUG Meeting is currently unstructured.
+preview: C, Python, Lua, Rust, Haskell -- there's a lot of languages out there, it can get kind of exhausting!
 location: Kelly Engineering Center 1005
 
 ---
 
-This LUG Meeting is currently unstructured. If you have any ideas come to the
-`#osu-lug` channel on `irc.freenode.net` and share it.
+This week LUG will share some knowledge about various languges from the popular
+ones (C, C++, Java, python, javascript), to the more niche (Haskell, Rust,
+Julia, Racket), to the plain obscure (Whitespace, Brainfuck).
 
 When: 6pm
 

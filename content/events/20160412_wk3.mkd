@@ -1,14 +1,27 @@
-title: Unstructured LUG Meeting
+title: Lightning Talks + Pre-Barcamp
 datetime: 2016-04-12 18:00:00
 category: events
 slug: meeting20160412
-preview: This LUG Meeting is currently unstructured.
+preview: Interested in Giving a Lightning Talk? Now is your chance!
 location: Kelly Engineering Center 1005
 
 ---
 
-This LUG Meeting is currently unstructured. If you have any ideas come to the
-`#osu-lug` channel on `irc.freenode.net` and share it.
+This week at LUG we will be giving short presentations called _Lightning
+Talks_.
+
+> Lightning Talk: a very short presentation lasting only a few minutes, given
+> at a conference or similar forum.
+
+If you want experience doing public speaking, want to practice talking about a
+topic, or just want to share a cool project or idea then you should come and
+give a lightning talk!
+
+**Don't Forget** This saturday is [Beaver Barcamp], a full day of cool tech and
+non-tech related talks where you can share and learn about cool ideas. It's
+free to attend, goes all day Saturday, and LUG is hosting a post Barcamp BBQ.
+
+[Beaver Barcamp]: http://beaverbarcamp.org
 
 When: 6pm
 
