@@ -1,0 +1,40 @@
+title: Book Club
+slug: book-club
+tags: navigation
+navrank: 6
+---
+
+**To vote on a book to read, or suggest a new one, go to the [OSU-LUG Book Club
+Repository][1] on Github and make an issue.**
+
+-------------------------------------------------------------------------------
+
+<!--
+    Note to the editor:
+    You should include the following information for a book suggestion:
+        - An image of the book's cover
+        - Three places to acquire the book from, with links.
+            For instance: 
+            - Powell's books
+            - Amazon
+            - Free / Torrent
+        - A short synopses of the book, probably found on one of the above
+          sites.
+        - Meet-up information.
+            - Online or in person
+            - Where in person
+            - When
+    This page should be updated every month, try to stay on it.
+    If you don't care and don't want to update this page, pass on the
+    responsibility, somebody probably will.
+-->
+
+Current read: **You decide!**
+
+-------------------------------------------------------------------------------
+
+[Books We've Read][2] | [Suggested Reads][3]
+
+[1]: https://github.com/OSULUG/book-club
+[2]: https://github.com/OSULUG/book-club/issues?q=is%3Aissue+is%3Aclosed
+[3]: https://github.com/OSULUG/book-club/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen
