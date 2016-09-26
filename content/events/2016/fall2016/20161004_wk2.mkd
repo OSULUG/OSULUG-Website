@@ -1,0 +1,23 @@
+title: LUG Install Festival
+datetime: 2016-10-04 18:00:00
+category: events
+slug: meeting20161004
+preview: Help and get-help installing Linux!
+location: Kelly Engineering Center 1007
+
+---
+
+Install Linux or help others get Linux installed!
+
+Things to keep in mind:
+
+- Backup your data.  OS Installation can cause you to lose data on accident,
+  if you back it up on a thumb-drive or on the cloud that can be avoided.
+- Bring your laptop.  We can't help you install Linux if you don't have
+  anything to install it on.
+- Bring a power-supply!  OS Installation can take a while.  Better safe than
+  sorry.
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1007

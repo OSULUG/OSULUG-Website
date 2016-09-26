@@ -1,0 +1,28 @@
+title: Guest Speaker - CoreOS
+datetime: 2016-10-11 18:00:00
+category: events
+slug: meeting20161011
+preview: Tech Startup CoreOS visits to tell us about why they're awesome!
+location: Kelly Engineering Center 1007
+
+---
+
+[CoreOS][1] develops open source software for Linux Containers.  They also
+focus on improving the internet by making security a top-priority in the
+software they development.  If you have any interest at all in learning about
+Linux containers, what they are, who makes them, why they're awesome, or the
+people that make them great, show up to this meeting!
+
+There will be:
+
+1. Three presentations by CoreOS employees.
+2. A Q&A Section to ask questions.
+2. Pizza and other food.
+
+For more information about CoreOS visit their website: [https://coreos.com][1]
+
+[1]: https://coreos.com
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1007

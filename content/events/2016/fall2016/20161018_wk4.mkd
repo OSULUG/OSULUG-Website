@@ -1,0 +1,17 @@
+title: Unscheduled LUG
+datetime: 2016-10-18 18:00:00
+category: events
+slug: meeting20161018
+preview: This LUG is currently un-scheduled.
+location: Kelly Engineering Center 1007
+
+---
+
+Come to a meeting or [make an issue on the GitHub repo for this site][issuses]
+to suggest an event for this LUG meeting!
+
+[issues]: https://github.com/OSULUG/OSULUG-Website/issues
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1007
