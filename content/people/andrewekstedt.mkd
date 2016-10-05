@@ -3,14 +3,16 @@ tags: officer
 rank: 1
 person:
     name: Andrew Ekstedt
-    title: Secretary
+    title: President
     irc: magical
     image: /img/people/andrewekstedt.png
 
 ---
 
-Andrew is (surprise!) a Computer Science student at OSU.
-He works for [Enterprise Computing Services][ECS], where he helps provide synergistic solutions to next-generation business operations (writes code).
+Andrew is a junior Computer Science student at OSU.
+He works for [Enterprise Computing Services][ECS]
+with a diverse team to provide synergistic solutions
+to next-generation business operations (writes code).
 He enjoys Pokémon and cryptography, and plays the marimba.
 
 [ECS]: http://is.oregonstate.edu/ecs
