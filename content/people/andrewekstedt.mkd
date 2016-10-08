@@ -11,8 +11,9 @@ person:
 
 Andrew is a junior Computer Science student at OSU.
 He works for [Enterprise Computing Services][ECS]
-with a diverse team to provide synergistic solutions
-to next-generation business operations (writes code).
+where he collaborates with a diverse team to provide
+synergistic solutions to next-generation business operations
+(writes code).
 He enjoys Pokémon and cryptography, and plays the marimba.
 
 [ECS]: http://is.oregonstate.edu/ecs
