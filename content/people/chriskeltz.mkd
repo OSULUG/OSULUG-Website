@@ -5,6 +5,7 @@ person:
     name: Chris Keltz
     title: Vice President
     irc: ckeltz
+    image: /img/people/chriskeltz.jpg
 
 ---
 
