@@ -17,11 +17,6 @@ pagination:
 
 - - - -
 
-[OSU-LUG Officer Elections](http://goo.gl/forms/mnacGD9P3PMTWhbv2). Voting
-ends October 4th.  You must have an *@oregonstate.edu* email address to vote.
-
-- - - -
-
 ### What is the Oregon State University Linux Users Group?
 
 We are self described as "mostly a group of nerds. However we are not your
