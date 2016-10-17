@@ -1,16 +1,17 @@
-title: Unscheduled LUG
+title: Intro to HTTP/REST
 datetime: 2016-11-08 18:00:00
 category: events
 slug: meeting20161108
-preview: This LUG is currently un-scheduled.
+preview: We will be going over the basics of HTTP and REST so you can start using them in your programs.
 location: Kelly Engineering Center 1007
 
 ---
 
-Come to a meeting or [make an issue on the GitHub repo for this site][issuses]
-to suggest an event for this LUG meeting!
-
-[issues]: https://github.com/OSULUG/OSULUG-Website/issues
+Ever been confused about how programs actually access the internet? Ever wonder how
+you could use that in your own programs? Want to make a web interface for a teapot?
+Or maybe someone's been telling you about their sweet new RFC 1149 implementation.
+We'll be introducing you to what you need to know in order to get started with 
+these standards, and how you can make your next program talk to its friends!
 
 When: 6pm
 
