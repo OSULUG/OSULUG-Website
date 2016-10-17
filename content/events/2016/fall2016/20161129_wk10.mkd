@@ -1,16 +1,16 @@
-title: Unscheduled LUG
+title: Board Game Night
 datetime: 2016-11-29 18:00:00
 category: events
 slug: meeting20161129
-preview: This LUG is currently un-scheduled.
+preview: Come relax and play board games with us!
 location: Kelly Engineering Center 1007
 
 ---
 
-Come to a meeting or [make an issue on the GitHub repo for this site][issuses]
-to suggest an event for this LUG meeting!
-
-[issues]: https://github.com/OSULUG/OSULUG-Website/issues
+School is always stressful towards the end of the term, and at few points is this
+more apparent than "Dead Week". Come take a break with us, we'll have board games,
+card games, and maybe snacks! Just keep the Cheeto fingers off the game pieces
+please.
 
 When: 6pm
 
