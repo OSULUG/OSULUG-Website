@@ -8,9 +8,9 @@ location: Kelly Engineering Center 1007
 ---
 
 Tonight we'll be debating over what's best. Vi(m) or emacs? Firefox or Chrome?
-Bring your opinions, bring your enemies. Also, bring solid reasoning, we have
-a whiteboard where you can list every point your favorite trumps the other.
-All are welcome to come argue, or just to listen!
+Tabs or spaces? Bring your opinions, bring your enemies. Also, bring solid 
+reasoning, we have a whiteboard where you can list every point where your favorite
+trumps the other. All are welcome to come argue, or just to listen!
 
 When: 6pm
 

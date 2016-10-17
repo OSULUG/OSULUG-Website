@@ -7,11 +7,11 @@ location: Kelly Engineering Center 1007
 
 ---
 
-Ever been confused about how programs actually access the internet? Ever wonder how
-you could use that in your own programs? Want to make a web interface for a teapot?
-Or maybe someone's been telling you about their sweet new RFC 1149 implementation.
-We'll be introducing you to what you need to know in order to get started with 
-these standards, and how you can make your next program talk to its friends!
+Ever been confused about how programs talk to each other over the internet?
+Want to make a web interface for a teapot? Or maybe someone's been telling you
+about their sweet new RFC 1149 implementation. We'll be introducing you to what
+you need to know in order to get started with these standards, and how you can
+make your next program talk to its friends!
 
 When: 6pm
 
