@@ -1,16 +1,16 @@
-title: Unscheduled LUG
+title: The Flame Wars
 datetime: 2016-11-01 18:00:00
 category: events
 slug: meeting20161101
-preview: This LUG is currently un-scheduled.
+preview: Come argue for or against your favorite Linux tools!
 location: Kelly Engineering Center 1007
 
 ---
 
-Come to a meeting or [make an issue on the GitHub repo for this site][issuses]
-to suggest an event for this LUG meeting!
-
-[issues]: https://github.com/OSULUG/OSULUG-Website/issues
+Tonight we'll be debating over what's best. Vi(m) or emacs? Firefox or Chrome?
+Tabs or spaces? Bring your opinions, bring your enemies. Also, bring solid 
+reasoning, we have a whiteboard where you can list every point where your favorite
+trumps the other. All are welcome to come argue, or just to listen!
 
 When: 6pm
 
