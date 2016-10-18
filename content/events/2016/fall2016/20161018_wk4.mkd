@@ -1,16 +1,27 @@
-title: Short Talk
+title: Linux Tips and Planning
 datetime: 2016-10-18 18:00:00
 category: events
 slug: meeting20161018
-preview: This LUG is currently un-scheduled.
+preview: Come help us plan the next stages of our world dominition strategy. Or something.
 location: Kelly Engineering Center 1007
 
 ---
 
-Come to a meeting or [make an issue on the GitHub repo for this site][issuses]
-to suggest an event for this LUG meeting!
+New management is taking over LUG!
 
-[issues]: https://github.com/OSULUG/OSULUG-Website/issues
+We need your help figuring out what kind of talks and events we want to bring to LUG over the next couple terms,
+how much pizza to buy,
+that sort of thing.
+This is a great opportunity to chat with your fellow students,
+make friends,
+exercise your democratic rights —
+and yes — plot to take over the world.
+
+If you are just starting out with linux, come tell us what you want to learn.
+If you are a seasoned veteran of LUG, come see what you can teach.
+If you are a teapot, come... make tea.
+
+We'll open with a short demonstration of some useful linux tools.
 
 When: 6pm
 
