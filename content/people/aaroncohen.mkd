@@ -1,0 +1,19 @@
+title: Aaron Cohen
+tags: officer
+rank: 1
+person:
+    name: Aaron Cohen
+    title: Treasurer
+    irc: resistortwister
+    image: /img/people/aaroncohen.jpg
+
+---
+
+Aaron is a sophomore at OSU pursuing a major in Electrical and Computer
+Engineering and a minor in Music. He works for the [OSU Open Source Lab][OSL]
+as a software developer. His favorite programming languages are Python and
+Rust, and his editor of choice is Vim. When he's not studying, hacking, or
+practicing piano, Aaron enjoys solving Rubik's Cubes, playing the Ukulele, and
+playing rhythm games.
+
+[OSL]: https://osuosl.org
