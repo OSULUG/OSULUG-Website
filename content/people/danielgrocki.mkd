@@ -1,0 +1,3 @@
+title: Daniel Grocki tags: officer rank: 1 person: name: Daniel Grocki title: Secretary irc: dangrocki image: /img/people/danielgrocki.jpg
+
+Daniel is a Sophomore majoring in Computer Science and minoring in Math at OSU.  He works as a TA for the introductory CS classes where he runs labs, grades assignments, and helps students.  In his free time, Daniel enjoys learning about Linux, playing video games, skiing, and swimming.  
