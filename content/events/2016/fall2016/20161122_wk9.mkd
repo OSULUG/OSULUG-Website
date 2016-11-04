@@ -1,16 +1,15 @@
-title: Unscheduled LUG
+title: Raspberry Pi Night
 datetime: 2016-11-22 18:00:00
 category: events
 slug: meeting20161122
-preview: This LUG is currently un-scheduled.
+preview: The affordable system-on-a-chip sensation that everyone is talking about.
 location: Kelly Engineering Center 1007
 
 ---
 
-Come to a meeting or [make an issue on the GitHub repo for this site][issuses]
-to suggest an event for this LUG meeting!
-
-[issues]: https://github.com/OSULUG/OSULUG-Website/issues
+The Raspberry Pi is a $20-35 system-on-a-chip computer which runs linux.
+We'll have a talk about some of the things you can do with your Raspberry Pi,
+and possibly have some hands-on demos.
 
 When: 6pm
 
