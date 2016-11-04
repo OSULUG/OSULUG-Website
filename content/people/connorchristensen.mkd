@@ -1,0 +1,12 @@
+title: Connor Christensen
+tags: officer
+rank: 1
+person:
+    name: Connor Christensen
+    title: Public Relations
+    irc: chriconn
+    image: /img/people/connorchristensen.jpg
+
+---
+
+Connor has not written a bio yet!
