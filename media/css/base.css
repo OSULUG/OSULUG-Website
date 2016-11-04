@@ -205,10 +205,16 @@ ul.subpage-list {
   float: left;
   margin-right: 20px;
   width: 125px;
-  height: 125px; }
+  height: auto; }
 
 .people {
   margin-top: 2em; }
+
+.person+hr {
+  clear: both;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 .featured-blog {
   margin: 2em 0 3em; }
