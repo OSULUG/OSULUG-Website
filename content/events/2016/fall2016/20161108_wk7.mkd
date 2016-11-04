@@ -1,17 +1,23 @@
-title: Intro to HTTP/REST
+title: How to Git
 datetime: 2016-11-08 18:00:00
 category: events
 slug: meeting20161108
-preview: We will be going over the basics of HTTP and REST so you can start using them in your programs.
+preview: Learn how to use git and collaborate with other developers on GitHub.
 location: Kelly Engineering Center 1007
 
 ---
 
-Ever been confused about how programs talk to each other over the internet?
-Want to make a web interface for a teapot? Or maybe someone's been telling you
-about their sweet new RFC 1149 implementation. We'll be introducing you to what
-you need to know in order to get started with these standards, and how you can
-make your next program talk to its friends!
+This week we have a special presentation by Elijah Voigt on How to Git.
+
+Git is a super popular version control system used by the Linux kernel and a
+whole bunch of other software projects. It also is the beating heart of GitHub
+and many other social coding sites.
+This talk will explore not only how and when to use Git, but will also
+leave you with all the tools you need to learn more about Git on your own,
+and how to stay calm and ask the Internet for help because oh god oh god everything is broken and you can't even.
+
+Elijah will also be giving this talk at the Seattle GNU/Linux Conference,
+but instead of going to Seattle you can watch it at LUG for free!
 
 When: 6pm
 
