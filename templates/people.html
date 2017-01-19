@@ -6,7 +6,7 @@
 
       {% for page in column %}
         {% set person = page.person %}
-        <div id="people">
+        <div class="person">
           {% if person.image %}
             <img src="{{person.image}}" />
           {% endif %}
