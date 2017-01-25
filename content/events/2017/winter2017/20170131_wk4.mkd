@@ -7,8 +7,8 @@ location: Kelly Engineering Center 1007
 
 ---
 
-Erich Kramer (Halved) will take us on a journey through the history of hacking, 
-from phreaking to botnets.
+Erich Kramer (Halved on freenode) will take us on a journey
+through the history of hacking, from phreaking to botnets.
 
 If you are interested in the dark side of programming, don't miss this talk.
 
