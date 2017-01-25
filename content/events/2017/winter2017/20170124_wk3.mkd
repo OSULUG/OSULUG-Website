@@ -1,0 +1,18 @@
+title: Command-line Night
+datetime: 2017-01-24 18:00:00
+category: events
+slug: meeting20160124
+preview: Improve your command-line-fu
+location: Kelly Engineering Center 1007
+
+---
+
+This week we are having a talk on the command line. This talk isn't meant to be too easy or too hard, for whichever level of programmer you are (even if that level is 0). So everyone is welcome and encouraged to come.
+
+Connor Christensen will be giving the talk, and he'll be going over some tools that are outside the scope of the standard CS curriculum, but will still make your life with UNIX way more enjoyable.
+
+If you have a specific command you know a lot about, or a command that is less well known, we will have some time after the talk to have a command line sharing session. The talk won't take up the full 50 minutes, so there will be some time to relax at the end.
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1007
