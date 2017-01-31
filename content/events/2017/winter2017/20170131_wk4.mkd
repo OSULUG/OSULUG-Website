@@ -1,0 +1,17 @@
+title: History of Hacking
+datetime: 2017-01-31 18:00:00
+category: events
+slug: meeting20160131
+preview: Erich Kramer (Halved) will take us on a journey through the history of hacking, from phreaking to botnets.
+location: Kelly Engineering Center 1007
+
+---
+
+Erich Kramer (Halved on freenode) will take us on a journey
+through the history of hacking, from phreaking to botnets.
+
+If you are interested in the dark side of programming, don't miss this talk.
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1007
