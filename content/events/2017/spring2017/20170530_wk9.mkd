@@ -1,0 +1,17 @@
+title: Docker
+datetime: 2017-05-30 18:00:00
+category: events
+slug: meeting20170530
+preview: Docker! Come learn about containers and Docker and why you should start using them!
+
+location: Kelly Engineering Center 1007
+
+---
+
+Docker is an incredibly important tool for many companies! It 
+allows application level virtualization (sorta) which means that
+you can get messy, make mistakes, and still have / at the end of the day! Come and learn more!
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1007

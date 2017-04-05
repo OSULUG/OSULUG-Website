@@ -1,0 +1,19 @@
+title: Mock Interviews
+datetime: 2017-05-02 18:00:00
+category: events
+slug: meeting20170502
+preview: Come and get help on writing resumes, learn how to survivethe technical interview, learn how to network and schmooze with the best!
+location: Kelly Engineering Center 1007
+
+---
+
+Linux User Group will be hosting a career development/ job applying
+workshop. We will (hopefully) have some challenging technical 
+problem solving questions as well as personality questions that 
+will be valuable primer for future job or internship applications.
+We will also talk briefly about networking, how and when to apply,
+and discuss good resume practice.
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1007
