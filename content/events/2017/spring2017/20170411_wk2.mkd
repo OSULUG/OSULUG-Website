@@ -6,6 +6,12 @@ preview: Get together with other members of Linux Users Group and free yourself 
 location: Kelly Engineering Center 1007
 
 ---
+**
+IMPORTANT:  
+- Backup your files  
+- Bring a charger!  
+- Bring necessary install media. We provide Ubuntu, Mint, and Fedora.   
+**
 
 Install Fest is a quarterly Linux Users Group event where members
 get together and help each other out using their experience 

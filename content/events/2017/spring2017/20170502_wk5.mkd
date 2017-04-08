@@ -8,11 +8,13 @@ location: Kelly Engineering Center 1007
 ---
 
 Linux User Group will be hosting a career development/ job applying
-workshop. We will (hopefully) have some challenging technical 
-problem solving questions as well as personality questions that 
-will be valuable primer for future job or internship applications.
-We will also talk briefly about networking, how and when to apply,
-and discuss good resume practice.
+workshop. 
+We will have:  
+- Challenging technical problem solving questions   
+- Challenging personality/experience questions  
+- Networking advice, how to schmooze and communicate with employers, even the ones that aren't hiring you right now   
+- How and when to apply for a job/internship depending on your goal start time
+- Resume formatting and content advice  
 
 When: 6pm
 

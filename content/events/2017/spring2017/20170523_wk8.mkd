@@ -1,4 +1,4 @@
-title: Modernt Cryptography
+title: Modern Cryptography
 datetime: 2017-05-23 18:00:00
 category: events
 slug: meeting20170523

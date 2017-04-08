@@ -2,18 +2,16 @@ title: Python vs. JavaScript Hivemind Challenge
 datetime: 2017-04-18 18:00:00
 category: events
 slug: meeting20170418
-preview: Two teams, two etherpads, zero expectations.
+preview: Two teams, two files, zero expectations.
 location: Kelly Engineering Center 1007
 
 ---
 
-Come and write peer attacked code in etherpad while you and 
-other minds compete to build a Cronenberg program that seeks to
-meet a goal. 
+Join together with your peers into a HiveMind! Work as one to break things
+and maybe potentially have them work!
 
 LUG will break into teams of JavaScript and Python, each team will
-have every member coding simultaneously in the same etherpad 
-document. 
+have every member coding simultaneously in the same document. 
 
 When: 6pm
 
