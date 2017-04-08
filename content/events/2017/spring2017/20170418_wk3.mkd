@@ -8,7 +8,7 @@ location: Kelly Engineering Center 1007
 ---
 
 Join together with your peers into a HiveMind! Work as one to break things
-and maybe potentially have them work!
+and potentially have them work!
 
 LUG will break into teams of JavaScript and Python, each team will
 have every member coding simultaneously in the same document. 
