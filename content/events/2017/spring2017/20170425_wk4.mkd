@@ -1,15 +1,20 @@
-title: Nordstrom Talk
+title: Mock Interviews
 datetime: 2017-04-25 18:00:00
 category: events
 slug: meeting20170425
-preview: Nordstrom is coming to talk to LUG about exciting technologies!
+preview: Come and get help on writing resumes, learn how to survivethe technical interview, learn how to network and schmooze with the best!
 location: Kelly Engineering Center 1007
 
 ---
 
-Nordstrom will come to LUG and talk about theirn technology 
-research! The date for this event is uncertain, it will occur 
-sometime in weeks 3-5.
+Linux User Group will be hosting a career development/ job applying
+workshop. 
+We will have:  
+- Challenging technical problem solving questions   
+- Challenging personality/experience questions  
+- Networking advice, how to schmooze and communicate with employers, even the ones that aren't hiring you right now   
+- Advice on how and when to apply for a job/internship 
+- How to: Resume formatting and content advice  
 
 When: 6pm
 

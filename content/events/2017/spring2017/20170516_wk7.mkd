@@ -1,15 +1,14 @@
-title: Vim Tips Night!
+title: Nordstrom Talk
 datetime: 2017-05-16 18:00:00
 category: events
 slug: meeting20170516
-preview: A talk about some tips and tricks for vim, new and experienced users welcome!
+preview: Nordstrom is coming to talk to LUG about exciting technologies!
 location: Kelly Engineering Center 1007
 
 ---
 
-A talk about Vim, tips and tricks. Have you ever wanted to ascend
-to true editor wizarding power? Are you a disciple of vim and 
-looking to praise the one, true editor? Come to LUG!
+Nordstrom will come to LUG and talk about their technology 
+research! 
 
 When: 6pm
 

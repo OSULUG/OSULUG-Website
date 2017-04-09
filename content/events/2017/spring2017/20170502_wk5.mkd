@@ -1,20 +1,15 @@
-title: Mock Interviews
+title: LaTex Talk
 datetime: 2017-05-02 18:00:00
 category: events
 slug: meeting20170502
-preview: Come and get help on writing resumes, learn how to survivethe technical interview, learn how to network and schmooze with the best!
+preview: Learn how to write professional documents and do it well!
 location: Kelly Engineering Center 1007
 
 ---
 
-Linux User Group will be hosting a career development/ job applying
-workshop. 
-We will have:  
-- Challenging technical problem solving questions   
-- Challenging personality/experience questions  
-- Networking advice, how to schmooze and communicate with employers, even the ones that aren't hiring you right now   
-- Advice on how and when to apply for a job/internship 
-- How to: Resume formatting and content advice  
+Pop will be givin a talk on LaTex and showing us how to make 
+professional technical looking documents. This is a very useful 
+tool to know!
 
 When: 6pm
 
