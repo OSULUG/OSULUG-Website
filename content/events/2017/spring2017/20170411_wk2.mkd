@@ -1,0 +1,27 @@
+title: Install Fest
+datetime: 2017-04-11 18:00:00
+category: events
+slug: meeting20170411
+preview: Get together with other members of Linux Users Group and free yourself from the chains of Microsoft and Apple!
+location: Kelly Engineering Center 1007
+
+---
+**
+IMPORTANT:  
+- Backup your files  
+- Bring a charger!  
+- Bring necessary install media. We provide Ubuntu, Mint, and Fedora.   
+**
+
+Install Fest is a quarterly Linux Users Group event where members
+get together and help each other out using their experience 
+and the internet. 
+Whether you have never installed linux before and want to 
+dual-boot, have installed it before and are looking to move to a 
+beefier distro, or need help building from scratch there is not a 
+better place on the Oregon State Campus to get help.
+
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1007
