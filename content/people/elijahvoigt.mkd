@@ -1,0 +1,18 @@
+title: Elijah Voigt
+tags: officer
+rank: 1
+person:
+    name: Elijah Voigt
+    title: Vice President
+    irc: pop
+    image: /img/people/elijahvoigt.png
+
+---
+
+Eli is a fun an energetic member, he loves BSD and the MIT license and is a 
+strong advocate for free-- but not too free-- software. He spends his free
+time programming awesome go projects and running frameworks outside of 
+containers.
+
+
+
