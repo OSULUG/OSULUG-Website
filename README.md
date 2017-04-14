@@ -21,7 +21,7 @@ Testing changes:
 $ cd OSULUG-Website
 $ virtualenv venv                   # only the first time
 $ source venv/bin/activate
-#Arch Users: install python2-pip, run pip /w prefix "python2 -m"
+#Arch Users: virtualenv -p /path/to/python2 venv 
 $ pip install -r requirements.txt   # only the first time and if the reqs change
 $ wok --server
 $ deactivate
