@@ -9,4 +9,9 @@ person:
 
 ---
 
-Connor has not written a bio yet!
+Connor is a Junior majoring in Computer Science. He has an 
+applied option in New Media Communications (computer art and 
+computer communication studies). He has worked as a TA for
+ the intro to CS courses at OSU and will continue to work 
+as a TA again in the fall. In his spare time he likes 
+building websites, traveling and photography. }
