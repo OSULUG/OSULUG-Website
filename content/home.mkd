@@ -17,6 +17,15 @@ pagination:
 
 - - - -
 
+### Upcoming Industry Event:
+
+LUG will be hosting Nordstrom (yes that Nordstrom) to talk about the kickass infra
+ they use to host and run their ecommerce platforms. There will be two talks, an
+ opportunity to ask about internships and their tech, and free pizza. It will be 
+at the normal LUG meeting time on Tuesday May 16. If you can make it RSVP on: 
+[https://goo.gl/forms/cWeg96MYVGLOfeno1][nord].
+
+
 ### What is the Oregon State University Linux Users Group?
 
 We are self described as "mostly a group of nerds. However we are not your
@@ -61,6 +70,8 @@ software and run Linux servers (think: The Cloud). This program is free to
 attend, no strings attached.
 
 [gh]:https://github.com/osulug/
+
+[nord]: https://goo.gl/forms/cWeg96MYVGLOfeno1
 
 [form]: https://docs.google.com/spreadsheet/viewform?formkey=dDIySHZQeHNhbFhkd25uaTFUNEZubnc6MQ
 [ircguide]: /blog/irc/
