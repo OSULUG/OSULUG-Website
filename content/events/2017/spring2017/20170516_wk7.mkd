@@ -2,13 +2,26 @@ title: Nordstrom Talk
 datetime: 2017-05-16 18:00:00
 category: events
 slug: meeting20170516
-preview: Nordstrom is coming to talk to LUG about exciting technologies!
+preview: Nordstrom is coming to talk about exciting open source technologies, DevOps, and career opportunities!
 location: Kelly Engineering Center 1007
 
 ---
 
-Nordstrom will come to LUG and talk about their technology 
-research! 
+[Please RSVP](https://goo.gl/forms/mzcSMVtgitXne2Aw2)
+
+Nordstrom will be visiting the OSU LUG to talk about the computer technology behind their massive ecommerce presence. Their tech ranges from Configuration Management tools like Chef to the new fancy like Kubernetes. Not sure what either of those are? Come to the event to find out, ask questions, and eat some free pizza!
+
+Schedule:
+- 18:00 | [INTRO] High level introduction to Nordstrom's ecommerce team and tech.
+- 18:15 | [TALK] Marius on Nordstom's R&D in application orchestration using Kubernetes.
+- 18:45 | [TALK] Will on the DevOps platform used at Nordstrom.
+- 19:15 | [Q&A] Questions and answers.
+
+This event will have free pizza, soda, and snacks.
+
+This event is a *great* opportunity to learn about real industry problems and solutions, and is a wonderful opportunity to get a paid internship or job!
+
+Don't feel obligated to stay at the *entire* event (but you *should*). You can drop by for some the beginning, watch some of the talks, get information about internships, and leave to go study. We understand!
 
 When: 6pm
 
