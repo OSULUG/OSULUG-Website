@@ -19,6 +19,7 @@ Testing changes:
 
 ```
 $ cd OSULUG-Website
+$ python --version                  #if python3 run virtualenv -p /user/bin/python2 venv instead
 $ virtualenv venv                   # only the first time
 $ source venv/bin/activate
 $ pip install -r requirements.txt   # only the first time and if the reqs change

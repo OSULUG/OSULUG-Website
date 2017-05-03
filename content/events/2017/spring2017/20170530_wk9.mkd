@@ -8,13 +8,12 @@ location: Kelly Engineering Center 1007
 
 ---
 
-Docker is an incredibly important tool for many companies! It 
-allows [operating system level virtualization](https://en.wikipedia.org/wiki/Operating-system-level_virtualization) which means that
-you can get messy, make mistakes, and still have / at the end of the day! Come and learn more!
+Docker is an incredibly important tool for many companies! It
+allows [operating system level virtualization](https://en.wikipedia.org/wiki/Operating-system-level_virtualization) which means that you can get messy, make mistakes, and still have / at the end of the day!
+Come and learn more!
 
-[Docker](https://www.docker.com/)  
+[Docker](https://www.docker.com/)
 [Docker Git Repo](https://github.com/docker/docker)
-
 When: 6pm
 
 Where: Kelly Engineering Center room 1007
