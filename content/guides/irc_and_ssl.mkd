@@ -1,0 +1,114 @@
+title: Securing IRC with SSL/TLS.
+category: blog
+tags: guide
+author: ["Wade Cline <wadecline@hotmail.com>"]
+datetime: 2017-05-01 00:00:00
+---
+Although IRC is useful, the default IRC protocol is *unencrypted*, which means
+that anyone listening to your network traffic, such as a black hat [sniffing
+WiFi packets](https://www.wifipineapple.com/) in the same coffee shop as us, or
+perhaps an unscrupulous Three-Letter Agency or Internet Service Provider, is
+able to read, and possibly modify, the contents of our messages.  In order to
+defend against this, you can use *SSL/TLS* on top of the IRC protocol in order
+to connect securely.
+
+Background
+----------
+SSL/TLS is poorly-named; the short story is that SSL (Secure Sockets Layer)
+refers to a now-obsolete version of the encryption protocol while TLS (Transport
+Layer Security) refers to a new version of the protocol.  However, because of
+the naming kerfuffle, libraries that implement the newer TLS protocol still use
+the old SSL in their name, such as in the case of the OpenSSL library, which is
+often used for TLS.  The encryption protocol will be referred to in this
+document as TLS.
+
+TLS makes use of a type of cryptography known as *public/private* key
+cryptography.  In its most basic form, *each* user has a *pair* of keys, one
+public, and one private.  A single user will *share* their public key and keep
+*secret* their private key.  The user will thus acquire *many* public keys and
+have *one* private key.
+
+Alas, TLS is not quite so straight-forward with it's naming, so instead of
+*public* keys it has *certificates* (more formally, "X.509" certificates), which
+are (very roughly) analogous to public keys.  A full discussion of TLS and its
+X.509 certificates is out of the scope of this document.
+
+This document will use [irssi](https://irssi.org/),
+[weechat](https://weechat.org/) should be similar.
+
+Verify Server to the Client
+---------------------------
+When you connect using TLS, the server will send you a *certificate* which must
+be verified by your machine.  By default, this verification is done against a
+set of certificates known as the *PKI* ([Public Key
+Infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)); this
+is probably the same set of certificates that your browser uses for
+verification.  In order to use this with `irssi`, run:
+```
+	/server add -ssl_verify chat.freenode.net 6697
+```
+The `-ssl_verify` tells `irssi` to verify the server's certificate against the
+PKI.  Note also that the command uses port 66*9*7 rather than 66*6*7, because
+the TLS version of the protocol usually runs on a different port.  You should
+now be able to connect to Freenode securely!
+
+[Read more](https://freenode.net/kb/answer/chat)
+
+Verify Client to the Server (Optional)
+--------------------------------------
+This is an optional step that is useful if you do not wish to send your password
+to NickServ in order to identify to your account.
+
+This is a bit more tricky, because we need to securely create a public/private
+key pair and tell `irssi` where they are.  The most obvious place to store these
+is in your `irssi` configuration directory, run:
+```
+	$ mkdir ~/.irssi/freenode
+	$ cd ~/.irssi/freenode
+```
+Next, generate the *private* key:
+```
+	$ umask 0077
+	$ openssl genrsa -out key.pem 4096
+```
+This will generate a *private* key file called `key.pem`. Now use the private
+key to create a self-signed *cerificate*:
+```
+	$ openssl req -x509 -key key.pem -sha256 -out cert.pem -days 7200
+```
+This command will prompt you for metadata about yourself: the only field worth
+filling out is the "Common Name" field, for which you should put your IRC
+nickname.  After filling the fields out, you should have a certificate named
+`cert.pem`. Now you can tell `irssi` to use this cert and key when you connect
+by starting up `irssi` and running:
+```
+	/server add -ssl_cert ~/.irssi/freenode/cert.pem -ssl_pkey ~/.irssi/freenode/key.pem chat.freenode.net 6697
+```
+Using a self-signed certificate works in this case because Freenode doesn't
+verify the certificate against the PKI; however, since anyone can create a
+certificate, this isn't very useful for identification purposes, thus we can
+only use this for identification by first *identifying* ourself to NickServ and
+then telling NickServ to trust the certificate's *fingerprint*.  After
+connecting to Freenode using `irssi`, run:
+```
+	/msg NickServ identify YOURPASSWORD
+	/msg NickServ CERT ADD
+```
+This will tell NickServ to add the fingerprint of the certificate that you used
+to connect with to its database of trusted certificates for your account, thus
+when you connect with your certificate in the future you will be automatically
+identified!
+
+[Read more](https://freenode.net/kb/answer/certfp)
+
+Conclusion
+----------
+This has been an extremely brief introduction to using TLS with Freenode IRC.
+You should now be able to connect securely to Freenode over TLS, and be able to
+identify yourself to NickServ without providing your account password.
+
+Further Reading
+---------------
+[TLS/SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security)  
+[X.509](https://en.wikipedia.org/wiki/X.509)  
+[OpenSSL](https://www.openssl.org/)
