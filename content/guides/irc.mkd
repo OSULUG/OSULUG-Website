@@ -141,8 +141,12 @@ automatically detach any other screen session you may have.
 Now that you know how to get weechat up and running we have another
 [guide][guide] just on how to use it.
 
+To make a secure connection to IRC using SSL, check out the [IRC SSL
+guide][ssl].
+
 [putty]:http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
 [ssh]:http://lug.oregonstate.edu/blog/ssh/
 [irssi]: http://www.irssi.org
 [weechat]: http://www.weechat.org
 [guide]: http://lug.oregonstate.edu/blog/weechat-intro/
+[ssl]: http://lug.oregonstate.edu/blog/irc-and-ssl/
