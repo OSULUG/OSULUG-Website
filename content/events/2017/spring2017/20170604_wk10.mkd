@@ -3,7 +3,7 @@ datetime: 2017-06-04 18:00:00
 category: events
 slug: meeting20170604
 preview: Come play board games and relax, nothing serious during dead week. 
-location: Kelly Engineering Center 1007
+location: Kelly Engineering Center 1005
 
 ---
 
@@ -12,4 +12,4 @@ hour destressing and invest in your mental health!
 
 When: 6pm
 
-Where: Kelly Engineering Center room 1007
+Where: Kelly Engineering Center room 1005

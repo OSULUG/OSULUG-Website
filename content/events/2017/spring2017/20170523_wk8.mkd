@@ -3,7 +3,7 @@ datetime: 2017-05-23 18:00:00
 category: events
 slug: meeting20170523
 preview: Talk on Modern Crypto, want to know how RSA works? Come learn how we define secure algorithms and how we communicate securely!
-location: Kelly Engineering Center 1007
+location: Kelly Engineering Center 1005
 
 ---
 
@@ -19,4 +19,4 @@ We will also talk briefly about early cryptography.
 
 When: 6pm
 
-Where: Kelly Engineering Center room 1007
+Where: Kelly Engineering Center room 1005

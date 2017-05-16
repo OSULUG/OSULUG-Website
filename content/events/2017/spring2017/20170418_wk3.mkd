@@ -3,7 +3,7 @@ datetime: 2017-04-18 18:00:00
 category: events
 slug: meeting20170418
 preview: Two teams, two files, zero expectations.
-location: Kelly Engineering Center 1007
+location: Kelly Engineering Center 1005
 
 ---
 
@@ -15,4 +15,4 @@ have every member coding simultaneously in the same document.
 
 When: 6pm
 
-Where: Kelly Engineering Center room 1007
+Where: Kelly Engineering Center room 1005

@@ -3,7 +3,7 @@ datetime: 2017-04-04 18:00:00
 category: events
 slug: meeting20170404
 preview: LUG elections, also Eli talked about Vagrant and we fixed a makefile!
-location: Kelly Engineering Center 1007
+location: Kelly Engineering Center 1005
 
 ---
 
@@ -14,4 +14,4 @@ current Vice President.
 
 When: 6pm
 
-Where: Kelly Engineering Center room 1007
+Where: Kelly Engineering Center room 1005
