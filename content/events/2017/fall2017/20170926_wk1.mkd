@@ -1,0 +1,18 @@
+title: Welcome to LUG and Planning
+datetime: 2017-09-26 18:00:00
+category: events
+slug: meeting20170926
+preview: LUG event planning fall2017 and a bit of topical knowledge about Linux
+locations: Kelly Engineering Center 1007
+
+---
+
+LUG will meet to welcome new attendents and welcome back returning members. 
+We will discussed the Linux Kernel and GNU/Linux operating systems. The purpose
+of the Linux User's Group and it's events in general will bealso explained.
+This meeting will also to serve as a way to plan meetings in the future for
+the coming fall term. 
+
+When: 6pm
+
+Where: Kelly Engineering Center 1007
