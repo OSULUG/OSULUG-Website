@@ -16,16 +16,7 @@ pagination:
 ## Tuesday at 6:00pm at Kelley Engineering Center in KEC 1005
 
 - - - -
-
-### Upcoming Industry Event: Nordstrom
-
-LUG will be hosting Nordstrom (yes that Nordstrom) to talk about the kickass infra they use to host and run their ecommerce platforms.
-There will be two talks, an opportunity to ask about internships and their tech, and free pizza.
-It will be at the normal LUG meeting time on Tuesday May 16.
-If you can make it [RSVP to guarentee free pizza and tech swag][nordstrom]!
-
-
-### What is the Oregon State University Linux Users Group?
+### What is the Oregon State University Linux Users Group
 
 We are self described as "mostly a group of nerds. However we are not your
 normal nerds. We are a highly active and self-organizing group dedicated to
@@ -70,7 +61,6 @@ attend, no strings attached.
 
 [gh]:https://github.com/osulug/
 
-[nordstrom]: https://goo.gl/forms/mzcSMVtgitXne2Aw2
 
 [form]: https://docs.google.com/spreadsheet/viewform?formkey=dDIySHZQeHNhbFhkd25uaTFUNEZubnc6MQ
 [ircguide]: /blog/irc/

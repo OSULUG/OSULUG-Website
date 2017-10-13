@@ -1,0 +1,14 @@
+title: Fall 2017 Installfest
+datetime: 2017-10-03 18:00:00
+category: events
+slug: meeting20171003
+preview: Quarterly InstallFest for fall term. Come and install Linux!
+locations: 
+
+---
+
+Content
+
+When: 6pm
+
+Where:
