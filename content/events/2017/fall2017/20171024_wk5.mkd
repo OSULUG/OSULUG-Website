@@ -1,0 +1,14 @@
+title: The Linux Filesystem
+datetime: 2017-10-24 18:00:00
+category: events
+slug: meeting20171024
+preview: Learn about the differences between the Linux and Windows filesystems!
+locations: Kell Engineering Center 1005 
+
+---
+
+OSU LUG alumnus Wade Cline will be giving a talk on the layout of the Linux filesystem, and how it differs from Window's layout
+
+When: 6pm
+
+Where: Kelly Engineering Center room 1005
