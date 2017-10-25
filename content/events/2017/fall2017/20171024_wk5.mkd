@@ -7,7 +7,7 @@ locations: Bexell 321
 
 ---
 
-OSU LUG alumnus Wade Cline will be giving a talk on the layout of the Linux filesystem, and how it differs from Window's layout
+OSU LUG alumnus Wade Cline will be giving a talk on the layout of the Linux filesystem, and how it differs from Window's layout. Slides available at https://github.com/clinew/presentations/tree/master/filesystems
 
 When: 6pm
 
