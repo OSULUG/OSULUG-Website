@@ -7,7 +7,7 @@ location: Kelly Engineering Center 1007
 
 ---
 
-Tonight we are learning about what DNS is. DNS servers are how computers are able to exchange data over the internet. If this sounds interesting, be sure to show up tonight! 
+Tonight we are learning about what DNS is. DNS servers are how IP addresses are mapped to host names. This happens every time you use the internet! If this sounds interesting, be sure to show up tonight! 
 
 When: 6pm
 
