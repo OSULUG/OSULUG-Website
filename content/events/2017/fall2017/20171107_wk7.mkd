@@ -1,0 +1,14 @@
+title: DNS talk
+datetime: 2017-11-07 18:00:00
+category: events
+slug: meeting20171107
+preview: Let's learn about DNS!
+location: Kelly Engineering Center 1007
+
+---
+
+Tonight we are learning about what DNS is. DNS servers are how IP addresses are mapped to host names. This happens every time you use the internet! If this sounds interesting, be sure to show up tonight! 
+
+When: 6pm
+
+Where: Kelly Engineering Center Room 1007
