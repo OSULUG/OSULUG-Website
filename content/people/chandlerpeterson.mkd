@@ -1,0 +1,13 @@
+title: Chandler Peterson
+tags: officer
+rank: 1
+person:
+    name: Chandler Peterson
+    title: Treasurer
+    irc:
+    image: /img/people/chandlerpeterson.png
+
+---
+
+Chandler Peterson is a sentimental Tiefling Sorcerer from the city watch who
+has no other family but the party.

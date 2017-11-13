@@ -3,7 +3,7 @@ tags: officer
 rank: 1
 person:
     name: Erich Kramer
-    title: President
+    title: Vice President
     irc: Halved
     image: /img/people/erichkramer.jpg
 
@@ -13,5 +13,5 @@ Erich Kramer is a Junior at OSU. He's part of individual
  research groups working on UAV cryptography, bioinformatics,
  and computer graphics simulations. His hobbies include
  lockpicking, 3D-printing, and Computer Animaiton. Ask him about
- them and he will be more than happy to show you how to get 
+ them and he will be more than happy to show you how to get
 started!
