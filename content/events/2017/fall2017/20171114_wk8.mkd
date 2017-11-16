@@ -7,7 +7,10 @@ location: Kelly Engineering Center 1007
 
 ---
 
-Want to learn about containers? What about Docker? Kubernetes makes managing containers easier! Learn all about it containers at today's meeting.
+Want to learn about containers? What about Docker? Kubernetes makes managing containers easier! Learn all about containers at today's meeting.
+
+Post meeting: Containers talk has concluded! Visit this link to watch it if you missed it: https://archive.org/details/osulug-fall2017-docker-and-kubernetes
+
 
 When: 6pm
 
