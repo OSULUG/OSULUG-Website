@@ -1,0 +1,14 @@
+title: Linux Show and Tell
+datetime: 2018-01-09 18:00:00
+category: events
+slug: meeting20180109
+preview: Welcome Back! Share something cool you've done!
+locations: Kelly Engineering Center 1007
+
+---
+
+Welcome back to LUG and the start of a new term! We will be starting off our weekly meetings with a laid back show and tell. If you've done something cool over the break and want to share, come show everyone what you did. If you don't want to share and just want to hangout you are encouraged to come!
+
+When: 6pm
+
+Where: Kelly Engineering Center 1007
