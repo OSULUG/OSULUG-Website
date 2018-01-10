@@ -13,7 +13,7 @@ pagination:
 - - - -
 
 ## The OSU Linux Users Group meets every week
-## Tuesday at 6:00pm at Kelley Engineering Center in KEC 1005
+## Tuesday at 6:00pm at Kelley Engineering Center in KEC 1007
 
 - - - -
 ### What is the Oregon State University Linux Users Group
