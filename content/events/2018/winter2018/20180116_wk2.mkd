@@ -1,0 +1,13 @@
+title: Free as in Pizza
+datetime: 2018-01-16 18:00:00
+category: events
+slug: meeting20180116
+preview: Come learn about free stuff and pizza!
+location: Kelly Engineering Center 1007
+
+---
+
+Erich will be giving a talk about all sorts of free and open source Linux things you can get off the internet. In addition, there will be pizza.
+
+When: 6pm
+Where: Kelly Engineering Center room 1007
