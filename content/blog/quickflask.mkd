@@ -1,0 +1,375 @@
+title: "How to Log your Professor saying the Same Word as a Service"
+category: blog
+author: Spencer Moss <spencer@another.computer>
+
+datetime: 2018-01-21 22:40:00
+
+---
+
+Have you ever found yourself listening to a professor and wondering just
+how many times they're going to repeat the same word or phrase, over
+and over again? No? Yes? YES? Then this is the post for you.
+
+As an Electrical Engineering student here at Oregon State, I'm currently
+going through the <s>hazing ritual</s> junior year courses, including such
+variety as *Electronics 1* and *Electronics 2*. In day one of lectures for
+*Signals and Systems 2*, it became quickly apparent that the word
+"signal" was going to be utterred a ***lot***, to the point of one of my
+friends making a tally-mark running counter of just how many times the
+word was said during lecture. It turns out the answer is bigger than you
+expect, with about ~70 utterances in one 50 minute period. So just what
+can we learn from taking this data?
+
+First off, tally marks are not a very precise way to collect this data.
+We can gather data points for a given day, but that's all the precision we
+have. We can't see giant leaps when, for example, the lecture tends towards
+topics such as communication systems.
+Topics such as communications lend themselves to a lot of repetition
+with ["Carrier Signal"][carrier] and ["Message Signal"][message]. But it's
+unrealistic to expect a human to be constantly listening for this keyword
+and mark down a precise time for when the keyword was spoken. Fortunately,
+computers are pretty good at keeping time. (Well, [not always][drift], but
+for the purposes of taking data like this, it's fine.)
+
+![modulation](https://upload.wikimedia.org/wikipedia/commons/8/8d/Illustration_of_Amplitude_Modulation.png)
+Even this *illustration* has the word "Signal" in it 3 times. [Image Copyright Ivan Akira][illu]
+
+Lecture one was over. There was 47 hours until the next one began. Surely,
+that's enough time to get some sort of program up and running. But it has
+to satisfy some constraints. An extremely easy way to get precise data 
+might be a bash script that appends the output of `date` into a file. But 
+that (likely) requires having a laptop open in class, which isn't convenient,
+and it isn't very *subtle* either.
+
+The best interface to a computer I have during a lecture is my phone. The
+obvious path from here is to use an Android app to keep track of the data
+for me. The only issue is I have little *(read: practically zero)* experience
+with Android programming, and I need this done ***fast*** if I'm going to have
+a good data set by the end of the term.
+
+![xkcd-general-problem](https://imgs.xkcd.com/comics/the_general_problem.png )
+
+Enter [Flask][flask], a Python web microframework. It's stupid simple to get
+the ball rolling with, and best yet I actually can read and write some Python.
+There are obviously many web frameworks out there that could fit the bill;
+among them is [Sinatra][ruby], which is similar to Flask in that it's a
+microframework for web applications, albeit in Ruby. Unfortunately, I don't
+know enough Ruby to reliably get this working in the next 20 or so hours.
+
+The idea now is simple: write a web application that inserts a timestamp
+into some sort of storage every time it's asked to do so. There's a lot of
+sane ways to go about this, but this is a tale that starts of *very quick*
+and **very dirty**. The obvious solution is to spin up a virtual machine
+running Ubuntu 16.04 on DigitalOcean and to get to work.
+
+First, we have to decide storage. This could work as a [flatfile][flatfile],
+sure, but what about ***web-scale***? The *obvious* solution is a full, SQL-based
+relational database. Maybe we shouldn't start off **too** web-scale, so how
+about `sqlite3`? (`apt install sqlite3` if you don't have it already.)
+
+```
+create table if not exists datetime (d1 text);
+```
+
+Great. We will just store a bunch of strings into this database representing
+data points (when the keyword is spoken), and the strings will tell us the
+time. Unfortunately being in the rush that this project was, there are no
+copies of the earliest versions of the Flask application. But you can bet it
+looked something like this: (`app.py`)
+
+```
+from flask import Flask
+from sqlalchemy import create_engine
+from datetime import datetime
+
+eng = create_engine('sqlite:///mydb.db')
+app = Flask(__name__)
+
+@app.route('/')
+def signals_count():
+    conn = eng.connect()
+    conn.execute('create table if not exists datetime (d1 text);')
+    conn.execute("insert into datetime (d1) values (datetime('now', 'localtime'));")
+    conn.close()
+    return 'null'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port='40194')
+```
+
+Assuming you have the `flask` and `sqlalchemy` Python packages on your
+machine, you can run this code (using `flask run`) and ***literally***
+have a tiny web application running that stores a string every time you visit
+the index page. Obviously, this is **amazing**, but you don't have time to
+improve upon it or even think about it because lecture starts in ***8 minutes***
+and you need to start taking data points. If you don't have these packages,
+you can install them as follows: `pip install python-flask python-sqlalchemy`.
+You should really do this in a [Python virtualenv][virtualenv], but at the time
+I was focused on the quick and dirty, so for the rest of this post I won't
+be assuming `virtualenv` is used.
+
+By this time its now Lecture 2, and there's a tiny web application running on an
+unassuming IP address, on an unassuming port (it was 40194, security through
+obscurity FTW), at an unassumingg sitepath where, if you sent an HTTP `GET`
+request, you would unbeknowingly (as the Flask app simply says `null`) insert
+the date and time of your request into an SQLite database.
+
+There's a lot of things that can be improved, such as the <s>bug</s> feature
+where anyone who knows the IP address of the machine, the port that Flask is
+listening on, and the site path, they can make a ***really*** big database full
+of time stamps.
+
+![computer-security](/img/blog/20180121_quickflask/computer-security.jpg)
+Computer security: what is it anyway?
+
+More important than security however is usability (as we all know, security
+doesn't matter if your website is unusable to the point of having no users
+whom you are in charge of securing). So the next step is to add a button to
+our little page, allowing us to insert the timestamp into the database in an
+easier fashion than reloading the page on a mobile browser.
+
+First, we will create a `templates` directory to hold our HTML pages, per
+Flask defaults. Then we will create a file `templates/counter.html` as so:
+
+```
+<html>
+    <body>
+        <p>Signals Count: {{ signals_count }}</p>
+        <form action="{{ url_for('signals_count') }}" method="post">
+            <input type="submit" value="increment"/>
+        </form>
+    </body>
+</html>
+``` While we're at it, we'll add some feedback using [Jinja2][jinja] templating to
+get some feedback from the database. All the items in `{{ }}` brackets are
+going to be expanded to Python code. Lets see our updated `app.py`:
+
+```
+from flask import Flask, render_template, request
+from sqlalchemy import create_engine
+from datetime import datetime
+
+eng = create_engine('sqlite:///mydb.db')
+app = Flask(__name__)
+
+@app.route('/', methods=['GET', 'POST'])
+def signals_count():
+    conn = eng.connect()
+    conn.execute('create table if not exists datetime (d1 text);')
+    if(request.method == 'POST'):
+        conn.execute("insert into datetime (d1) values (datetime('now', 'localtime'));")
+
+    query = conn.execute('select d1 from datetime;')
+    signals_count = len(query.cursor.fetchall())
+    conn.close()
+    return render_template('counter.html', signals_count=signals_count)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port='40194')
+```
+
+***Now*** we're getting somewhere. For now, we have the core functionality
+(data collection) there, and the rest is adding features and making it more
+reliable, secure, and robust. Let's tackle the ability for anyone to affect
+the database other than us by implementing a `password` field into the page,
+which only you know. It's a very primitive solution, but for an application
+as silly as this it'll be sufficient for now.
+
+Here we can add a `password` field to our template HTML; be careful to ensure
+that every part of the `form` has a `name`, or Flask will have a problem
+trying to parse it and will assume the entire HTTP `POST` to be invalid.
+Here's the resulting `templates/counter.html` and `app.py`:
+
+```
+<html>
+    <body>
+        <p>Signals Count: {{ signals_count }}</p>
+        <form action="{{ url_for('signals_count') }}" method="post">
+            <input type="password" name="password"/>
+            <input type="submit" name="password" value="increment"/>
+        </form>
+    </body>
+</html>
+```
+
+```
+from flask import Flask, render_template, request
+from sqlalchemy import create_engine
+from datetime import datetime
+
+eng = create_engine('sqlite:///mydb.db')
+app = Flask(__name__)
+
+@app.route('/', methods=['GET', 'POST'])
+def signals_count():
+    conn = eng.connect()
+    conn.execute('create table if not exists datetime (d1 text);')
+    if(request.method == 'POST' and request.form['password'] == 'yum tacos'):
+        conn.execute("insert into datetime (d1) values (datetime('now', 'localtime'));")
+
+    query = conn.execute('select d1 from datetime;')
+    signals_count = len(query.cursor.fetchall())
+    conn.close()
+    return render_template('counter.html', signals_count=signals_count)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port='40194')
+```
+
+Of course, using a password to protect the database in this way will not do
+you any good if your traffic is going over plain HTTP. While there are
+[ways to make the built-in web server that Flask uses for development work][https]
+over HTTPS, why not go a bit further and use [Nginx][nginx] and [uWSGI][uwsgi]
+to make a full-stack deployment of this application?
+
+Assuming you can install `uwsgi` and `nginx` through whatever package manager
+your distribution has, the first step is to have `uwsgi` run your Flask app
+instead of running it through Python directly. First off, we'll create a
+runner module for uWSGI to connect to directly, called `wsgi.py`:
+
+```
+from app import app
+
+if __name__ == "__main__":
+    app.run()
+```
+
+Simple enough. Next you will want to try and run the Flask app through uWSGI,
+which can be done from the command line directly or through use of an .ini
+config file. I like to skip these sorts of intermediate steps to make
+debugging harder, so let's skip right into writing a config file for uWSGI.
+
+`app.ini`:
+
+```
+[uwsgi]
+plugin = /usr/lib/uwsgi/plugins/python_plugin.so
+module = wsgi:app
+chdir = /location/of/your/app.py/
+
+master = true
+processes = 5
+
+socket = /tmp/app.sock
+pidfile = /tmp/uwsgi.pid
+chmod-socket = 660
+vacuum = true
+
+die-on-term = true
+```
+
+For brevity's sake, I'll just run through this line by line. If you [Google][f1]
+[Flask][f2] [uwsgi][f3], you will find [a lot][f4] [of results][f5] to help
+set this step up. [This one by DigitalOcean][f1] is of particular help.
+
+First off, the `plugin` line was necessary on my Ubuntu 16.04 VM as for some
+reason the `uwsgi` installed by `apt` had none of the plugins available
+so I explicitly specify which plugin I'm using with uWSGI here. The plugin
+itself is in the package `uwsgi-plugin-python`.
+
+Next, the `module` tells uWSGI what file and object to look for. the `wsgi.py`
+module has `app` in it which is where requests will end up. `chdir` is there
+for when we write a SystemD service script to run uWSGI for us at boot time,
+and to allow easy start/stop/reload in the future. The rest is more or less
+stuff you will see from any of the above Google results.
+
+Next up is Nginx. `apt install nginx` will do pretty much all of the work for
+us here. The only thing we need to do here is make a file for our app in
+`/etc/nginx/sites-available` to make nginx act as a proxy server for uWSGI.
+
+`/etc/nginx/sites-available/app`:
+
+```
+server {
+    listen 80;
+    server_name your_cool_domain_here;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:///tmp/app.sock;
+    }
+}
+```
+
+Mark our site as enabled by making a `symlink`:
+
+```
+ln -s /etc/nginx/sites-available/app /etc/nginx/sites-enabled/
+```
+
+Finally, how do we force our app to talk only over HTTPS so that our
+very-secure-password is known only to us, so that only we can insert
+data points into the database? Thankfully, we live in \<current\_year\>,
+and so the answer is here with [LetsEncrypt][letsencrypt], assuming you
+have a domain name at your disposal. If you don't you'll have to self-sign
+an SSL certificate, likely using one of the methods mentioned *way* above.
+Assuming that you ***do*** have a domain name, you can now force your app
+to talk only over HTTPS using [this amazing guide, again by DigitalOcean][leguide].
+The only hangup here is that [at the time of writing, LetsEncrypt disabled the nginx authenticator][nginx-auth],
+so you may have to run `certbot` with the following command:
+
+```
+sudo certbot --authenticator standalone --installer nginx --pre-hook "service nginx stop" --post-hook "service nginx start"
+```
+
+Once that is done, the app should now be talking HTTPS only, assuming you
+select that option when `certbot` asks you if you want to do so (and why
+wouldn't you?)
+
+One last thing to do is to set up a quick SystemD service file for uWSGI,
+so that it will automatically start at boot and be (kinda) controllable by
+`systemctl`. SystemD service scripts live in `/lib/systemd/system`, at least
+on Ubuntu 16.04. Here, make the following service file `uwsgi.service`:
+
+```
+[Unit]
+Description=uWSGI portal
+After=network.target
+
+[Service]
+PIDFile=/var/run/uwsgi.pid
+Restart=always
+Type=notify
+StandardError=syslog
+NotifyAccess=all
+ExecStart=/usr/local/bin/uwsgi --ini /path/to/your/app.ini
+
+[Install]
+WantedBy=multi-user.target
+```
+
+From here, after a `systemctl daemon-reload`, you should be able to control
+uWSGI from `systemctl` more or less, and have it start at boot time.
+
+There's a number of other devops tricks to be had here; A more robust and
+featureful version of this app is currently running at
+[https://signals.from.another.computer][signals], including features
+such as support for [git hooks][githooks], so that I can `git push`
+directly to the DigitalOcean droplet, restart `uwsgi`, and have the new
+version of the app running without ever needing to directly connect to
+the droplet, which involves some `sudoers` file trickery to get working.
+
+Hopefully, we've all learned something here. Maybe some Python things,
+maybe some ops things. Maybe, just maybe, a realization that the word
+"signal" comes up a ***lot*** in a class titled "Signals and Systems 2".
+
+[carrier]:https://en.wikipedia.org/wiki/Carrier_wave
+[message]:https://en.wikipedia.org/wiki/Modulation
+[drift]:https://en.wikipedia.org/wiki/Clock_drift
+[flask]:http://flask.pocoo.org/
+[flatfile]:https://en.wikipedia.org/wiki/Flat_file_database
+[jinja]:http://jinja.pocoo.org/docs/2.10/
+[https]:https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+[nginx]:https://www.nginx.com/
+[uwsgi]:https://uwsgi-docs.readthedocs.io/en/latest/
+[f1]:https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uwsgi-and-nginx-on-ubuntu-16-04
+[f2]:http://flask.pocoo.org/docs/0.12/deploying/uwsgi/
+[f3]:https://gist.github.com/bluekvirus/62691d0bed98f45fe153a600e127e37b
+[f4]:https://github.com/mking/flask-uwsgi
+[f5]:https://gist.github.com/mplewis/6076082
+[virtualenv]:https://virtualenv.pypa.io/en/stable/
+[letsencrypt]:https://letsencrypt.org/
+[leguide]:https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04
+[nginx-auth]:https://github.com/certbot/certbot/issues/5405
+[signals]:https://signals.from.another.computer
+[illu]:https://commons.wikimedia.org/wiki/File:Illustration_of_Amplitude_Modulation.png
