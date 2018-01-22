@@ -31,8 +31,9 @@ and mark down a precise time for when the keyword was spoken. Fortunately,
 computers are pretty good at keeping time. (Well, [not always][drift], but
 for the purposes of taking data like this, it's fine.)
 
-![modulation](https://upload.wikimedia.org/wikipedia/commons/8/8d/Illustration_of_Amplitude_Modulation.png)
-Even this *illustration* has the word "Signal" in it 3 times. [Image Copyright Ivan Akira][illu]
+| ![modulation](https://upload.wikimedia.org/wikipedia/commons/8/8d/Illustration_of_Amplitude_Modulation.png) |
+| :--: |
+| *Even this illustration has the word "Signal" in it 3 times.* [Image Copyright Ivan Akira][illu] |
 
 Lecture one was over. There was 47 hours until the next one began. Surely,
 that's enough time to get some sort of program up and running. But it has
@@ -47,7 +48,9 @@ for me. The only issue is I have little *(read: practically zero)* experience
 with Android programming, and I need this done ***fast*** if I'm going to have
 a good data set by the end of the term.
 
-![xkcd-general-problem](https://imgs.xkcd.com/comics/the_general_problem.png )
+| ![xkcd-general-problem](https://imgs.xkcd.com/comics/the_general_problem.png ) |
+| :--: |
+| *With Flask, every hammer is a nail... or something* |
 
 Enter [Flask][flask], a Python web microframework. It's quick and simple to get
 the ball rolling with, and best yet I actually can read and write some Python.
@@ -119,8 +122,9 @@ where anyone who knows the IP address of the machine, the port that Flask is
 listening on, and the site path, they can make a ***really*** big database full
 of time stamps.
 
-![computer-security](/img/blog/20180121_quickflask/computer-security.jpg)
-Computer security: what is it anyway?
+| ![cyber-security](/img/blog/20180121_quickflask/cyber-security.jpg) |
+| :--: |
+| *Computer security: what is it anyway?* |
 
 More important than security however is usability (as we all know, security
 doesn't matter if your website is unusable to the point of having no users
