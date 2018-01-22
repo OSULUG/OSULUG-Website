@@ -140,7 +140,9 @@ Flask defaults. Then we will create a file `templates/counter.html` as so:
         </form>
     </body>
 </html>
-``` While we're at it, we'll add some feedback using [Jinja2][jinja] templating to
+``` 
+
+While we're at it, we'll add some feedback using [Jinja2][jinja] templating to
 get some feedback from the database. All the items in `{{ }}` brackets are
 going to be expanded to Python code. Lets see our updated `app.py`:
 
