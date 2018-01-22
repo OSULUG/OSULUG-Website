@@ -49,16 +49,16 @@ a good data set by the end of the term.
 
 ![xkcd-general-problem](https://imgs.xkcd.com/comics/the_general_problem.png )
 
-Enter [Flask][flask], a Python web microframework. It's stupid simple to get
+Enter [Flask][flask], a Python web microframework. It's quick and simple to get
 the ball rolling with, and best yet I actually can read and write some Python.
 There are obviously many web frameworks out there that could fit the bill;
-among them is [Sinatra][ruby], which is similar to Flask in that it's a
+among them is [Sinatra][sinatra], which is similar to Flask in that it's a
 microframework for web applications, albeit in Ruby. Unfortunately, I don't
 know enough Ruby to reliably get this working in the next 20 or so hours.
 
 The idea now is simple: write a web application that inserts a timestamp
 into some sort of storage every time it's asked to do so. There's a lot of
-sane ways to go about this, but this is a tale that starts of *very quick*
+sane ways to go about this, but this is a tale that starts off *very quick*
 and **very dirty**. The obvious solution is to spin up a virtual machine
 running Ubuntu 16.04 on DigitalOcean and to get to work.
 
@@ -373,3 +373,4 @@ maybe some ops things. Maybe, just maybe, a realization that the word
 [nginx-auth]:https://github.com/certbot/certbot/issues/5405
 [signals]:https://signals.from.another.computer
 [illu]:https://commons.wikimedia.org/wiki/File:Illustration_of_Amplitude_Modulation.png
+[sinatra]:http://sinatrarb.com/
