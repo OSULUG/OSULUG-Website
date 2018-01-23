@@ -9,7 +9,7 @@
          <!--Upcoming Events-->
 		 <h3><a href='http://lug.oregonstate.edu/events'>Upcoming Events</a></h3>
          <ul>
-          {% for event in site.categories['events'] | sort(attribute='datetime') if event.datetime >= site.datetime %}
+          {% for event in site.categories['events'] | sort(attribute='datetime') if event.date >= site.date %}
             <li class="list">
               <h4>
                 <a href="{{ event.url }}">{{ event.title }}</a>
@@ -27,7 +27,7 @@
           {% endfor %}
          </ul>
           {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) %}
-            {% if loop.first and event.datetime < site.datetime %}
+            {% if loop.first and event.date < site.date %}
               <p class="no-events">Check back soon for future events!</p>
             {% endif %}
           {% endfor %}
