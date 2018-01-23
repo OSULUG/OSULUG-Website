@@ -1,10 +1,17 @@
 <span class="metadata">
+    {% set pipe = joiner("|") %}
     {% if page.authors %}
+        {{ pipe() }}
         {% for author in page.authors %}
             {{ author.name }}{% if not loop.last %}, {% endif %}
-			{% endfor %} | {% if page.datetime %}{{ page.datetime.strftime('%B %-d, %Y') }}{% endif %}
+        {% endfor %}
     {% endif %}
-    {% if not page.navrank %}
-        {{ page.date.strftime}}
+    {% if page.location %}
+        {{ pipe() }}
+        {{ page.location }}
+    {% endif %}
+    {% if page.datetime %}
+        {{ pipe() }}
+        {{ page.datetime.strftime('%A %B %-d, %Y') }}
     {% endif %}
 </span>
