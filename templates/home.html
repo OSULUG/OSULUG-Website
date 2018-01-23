@@ -7,7 +7,7 @@
     <div class="c">
        <div class="events span5 row">
          <!--Upcoming Events-->
-		 <h3><a href='http://lug.oregonstate.edu/events'>Upcoming Events</a></h3>
+         <h3><a href='http://lug.oregonstate.edu/events'>Upcoming Events</a></h3>
          <ul>
           {% for event in site.categories['events'] | sort(attribute='datetime') if event.date >= site.date %}
             <li class="list">
@@ -20,9 +20,14 @@
                 {% endif %}
                 {{ event.date.strftime('%A %B %d, %Y') }}
               </span>
-              <p>
-              {{ event.preview }}
-              </p>
+              {% if event.preview %}
+                <p>
+                  {{ event.preview }}
+                  <a href="{{event.url}}">More...</a>
+                </p>
+              {% else %}
+                {{ event.content }}
+              {% endif %}
             </li>
           {% endfor %}
          </ul>
