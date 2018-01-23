@@ -1,0 +1,14 @@
+title: Rasberry Pi night
+datetime: 2018-02-06 18:00:00
+category: events
+slug: meeting20180206
+preview: Learn about Raspberry Pis and other system-on-a-chip microcomputers, and cool projects that you can use them for.
+location: Kelly Engineering Center 1007
+
+---
+
+Learn about Raspberry Pis and other system-on-a-chip microcomputers,
+and cool projects that you can use them for.
+
+When: 6pm
+Where: Kelly Engineering Center room 1007
