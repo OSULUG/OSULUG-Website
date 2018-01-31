@@ -21,10 +21,8 @@
                 {{ event.date.strftime('%A %B %d, %Y') }}
               </span>
               {% if event.preview %}
-                <p>
-                  {{ event.preview }}
-                  <a href="{{event.url}}">More...</a>
-                </p>
+                {{ event.preview }}
+                <p><a href="{{event.url}}">More...</a></p>
               {% else %}
                 {{ event.content }}
               {% endif %}
