@@ -1,4 +1,4 @@
-title:
+title: "Week 7: No LUG"
 datetime: 2018-02-20 18:00:00
 category: events
 slug: meeting20180220
@@ -7,6 +7,10 @@ location: Kelly Engineering Center 1007
 
 ---
 
-Enter event info here
+EECS Networking Night is taking over our normal meeting place,
+so LUG is not meeting in Week 7
+
+
 When: 6pm
+
 Where: Kelly Engineering Center room 1007
