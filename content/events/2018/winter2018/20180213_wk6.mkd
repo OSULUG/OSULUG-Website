@@ -2,7 +2,6 @@ title: "Week 6: Obfuscation contest"
 datetime: 2018-02-13 18:00:00
 category: events
 slug: meeting20180213
-preview: 
 location: Kelly Engineering Center 1007
 
 ---
