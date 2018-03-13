@@ -1,0 +1,129 @@
+title: Running the Barcamp BBQ
+category: blog
+tags: guide
+author: "Elijah C. M. Voigt<voigte@oregonstate.edu>"
+datetime: 2018-03-13 00:00:00
+---
+
+It is a tradition that every year the OSU LUG participates in the [Beaver Barcamp][bbc] Unconference by throwing a post-conference BBQ.
+This is a time-honored tradition that literally everybody enjoys and most people attend.
+
+----
+
+## TLDR Checklist:
+
+1. Reserve a spot at the park and an alcohol permit.
+2. Get insurance through your renters insurance provider.
+3. Promote the BBQ among groups going to Barcamp.
+4. Buy a bunch of food and BBQ supplies.
+5. Announce the BBQ and start it in a timely manner.
+6. Have a good time.
+
+**NOTE** LUG members want to help.
+For most non-administrative tasks you can delegate work.
+Do this.
+
+**NOTE ALSO** that this will cost some up-front investment.
+Past LUG Presidents have eaten this cost up front and taken the day-of donations to recoup the cost.
+In general the vent takes about $200-$250 for food, Avery Park reservation, and insurance.
+If you would like help paying for this reach out to OSU LUG alumni in the #osu-lug irc channel.
+Have PayPal a username and a specific itemized budget ready (it's easier to throw money at somebody when they've got a specific plan).
+
+----
+
+## ~One Month Before
+
+Just like Barcamp, the BBQ is free to attend, but it does require some time and effort on the part of the OSU LUG admin cabinet.
+Here's what you need to do:
+
+At least a month before Barcamp (the earlier the better) contact the [Avery Park][ap] offices and reserve one of the picnic areas.
+
+* Make sure to request an area with an awning, we tend to get Maple Grover Shelter if it is available.
+
+* Reserve the area for ~60 people from 5pm to when the park closes.
+
+* Make sure with the office that you can bring alcohol, this will cost extra on top of the permit cost.
+  If you are not yet 21 please you may need to find an OSU OSL adult to help you sign the paperwork or an OSU LUG member who is of drinking age.
+
+**NOTE:** Barcamp BBQ is Bring Your Own Booze so you are not expected to bring alcohol.
+
+## After the Reservation
+
+Around the time you have the reservation set, contact your renters insurance agent (you should have one) and tell them the situation.
+Basically you will need to get some form of insurance for the day you're hosting the event.
+This won't cost much and the people at Avery Park (call or walk over there) will be able to help as well as your renters insurance agent.
+
+## Leading up to Barcamp
+
+Leading up to the actual event, you should promote Barcamp in the following places:
+
+* On the BarCamp posters there should be mention of the BBQ.
+  This may require talking to the OSU OSL folks.
+
+* \#osu-lug on irc.freenode.net
+
+* \#cshelp on irc.cat.pdx.edu
+
+* At OSU LUG meetings.
+
+At this step you should encourage people to bring their own beer and/or their own food, mentioning that some food will be provided.
+
+## The Day Before
+
+The day before go, to WinCo and buy the following food items:
+
+* Burger patties
+* Veggie-burger patties
+* Hotdog patties
+* Veggie-dog patties
+* Hamburger buns
+* Hotdog buns
+* Gluten-free buns
+* Condiments
+* Soda
+* Chips
+* Veggies and dip
+
+As well as the following non-food items (you may already own some)
+
+* Charcoal
+* Lighter fluid
+* Lighter (the long-nose kind)
+* Tongs for BBQ'ing.
+* Plastic cups
+* Paper plates
+* Ice (get the day of)
+* A cooler (or four) which you can probably borrow from a friend of LUG
+
+**REMEMBER** You will be feeding about 60 people, so it is best to over-buy than to under buy.
+
+You will need to store the perishables either at home or at the Kelly Engineering Refrigerator.
+Contact a building admin *before* shopping to store them at KEC.
+
+## The Day of
+
+The day of you will need a car and/or some volunteers.
+
+* First get to Barcamp early and setup a donation box for the OSU LUG BBQ.
+  This can usually go on the same table as the OSU OSL.
+
+* As the event's opening remarks are taking place, promote to the entire crowed the following:
+
+    * When the BBQ is happening (park and shelter),
+    * Where exactly the BBQ is happening (right after barcamp).
+    * That people need to BYOB.
+    * That people do not need to BYOFood.
+    * That people should make a $$ donation if they can, and where the donation box is.
+
+* Enjoy Barcamp, give a talk!
+
+* Immediately after the last talk you should get some volunteers to carry the supplies over or drive them over.
+  These volunteer will also help you setup the event, including starting the BBQ and possibly even cooking.
+
+## At the BBQ
+
+During the BBQ make an announcement when it seems like most people are there.
+Basically just a short speech thanking everybody for coming and announcing where food/beer is.
+
+[bbc]: http://beaverbarcamp.org/
+[ap]: https://www.corvallisoregon.gov/parksrec
