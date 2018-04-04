@@ -1,4 +1,4 @@
-title: Week 5: Talk TBD
+title: "Week 5: Talk TBD"
 datetime: 2018-05-01 18:00:00
 category: events
 slug: meeting20180501

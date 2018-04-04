@@ -1,4 +1,4 @@
-title: Week 4: Live-coding train wreck battle
+title: "Week 4: Live-coding train wreck battle"
 datetime: 2018-04-24 18:00:00
 category: events
 slug: meeting20180424

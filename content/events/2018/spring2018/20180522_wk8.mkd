@@ -1,4 +1,4 @@
-title: Week 8: Guest speaker
+title: "Week 8: Guest speaker"
 datetime: 2018-05-22 18:00:00
 category: events
 slug: meeting20180522
