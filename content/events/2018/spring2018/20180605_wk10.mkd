@@ -1,0 +1,12 @@
+title: Week 10: Board game night
+datetime: 2018-06-05 18:00:00
+category: events
+slug: meeting20180605
+location: Kelly Engineering Center 1007
+
+---
+
+Celebrate the end of the term by playing board games.
+
+When: 6pm
+Where: Kelly Engineering Center room 1007
