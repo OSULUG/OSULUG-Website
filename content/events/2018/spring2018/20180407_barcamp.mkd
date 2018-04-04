@@ -1,0 +1,17 @@
+title: Beaver BarCamp
+datetime: 2018-04-07 09:00:00
+category: events
+slug: barcamp2018
+location: Kelley Engineering Center
+
+---
+
+The OSU Open Source Lab is hosting Beaver BarCamp -
+a free "unconference" where community members show up and give talks
+on a variety of topics. More info: <http://beaverbarcamp.org>
+
+LUG will be hosting a BBQ at Avery park afterwards.
+
+When: 9am-5pm
+
+Where: Kelley Engineering Center
