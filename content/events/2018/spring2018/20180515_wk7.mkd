@@ -6,6 +6,8 @@ location: Kelly Engineering Center 1007
 
 ---
 
+Someone brilliant will give a talk about something fascinating.
+
 TBD
 
 When: 6pm
