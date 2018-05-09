@@ -349,7 +349,7 @@ uWSGI from `systemctl` more or less, and have it start at boot time.
 
 There's a number of other devops tricks to be had here; A more robust and
 featureful version of this app is currently running at
-[https://signals.from.another.computer][signals], including features
+[https://signals.weshouldhavebeenscientists.net][signals], including features
 such as support for [git hooks][githooks], so that I can `git push`
 directly to the DigitalOcean droplet, restart `uwsgi`, and have the new
 version of the app running without ever needing to directly connect to
@@ -377,6 +377,6 @@ maybe some ops things. Maybe, just maybe, a realization that the word
 [letsencrypt]:https://letsencrypt.org/
 [leguide]:https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04
 [nginx-auth]:https://github.com/certbot/certbot/issues/5405
-[signals]:https://signals.from.another.computer
+[signals]:https://signals.weshouldhavebeenscientists.net
 [illu]:https://commons.wikimedia.org/wiki/File:Illustration_of_Amplitude_Modulation.png
 [sinatra]:http://sinatrarb.com/
