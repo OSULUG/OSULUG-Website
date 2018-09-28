@@ -1,0 +1,14 @@
+title: "Week 7: Machine learning talk"
+datetime: 2018-05-15 18:00:00
+category: events
+slug: meeting20180515
+location: Kelly Engineering Center 1007
+
+---
+
+Someone brilliant will give a talk about something fascinating.
+
+TBD
+
+When: 6pm
+Where: Kelly Engineering Center room 1007

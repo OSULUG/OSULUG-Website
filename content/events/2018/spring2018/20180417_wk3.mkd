@@ -1,0 +1,13 @@
+title: "Week 3: Git Tips & Tricks"
+datetime: 2018-04-17 18:00:00
+category: events
+slug: meeting20180417
+location: Kelly Engineering Center 1007
+
+---
+
+Git is a popular version control tool used by lots of open soure projects.
+This week we'll share some of our favorite Git tips.
+
+When: 6pm
+Where: Kelly Engineering Center room 1007

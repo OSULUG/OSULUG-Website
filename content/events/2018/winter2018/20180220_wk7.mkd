@@ -1,0 +1,9 @@
+title: "Week 7: No LUG"
+datetime: 2018-02-20 18:00:00
+category: events
+slug: meeting20180220
+
+---
+
+EECS Networking Night is taking over our normal meeting place,
+so LUG is not meeting in Week 7.

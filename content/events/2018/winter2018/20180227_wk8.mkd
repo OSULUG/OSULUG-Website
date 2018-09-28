@@ -1,12 +1,13 @@
-title:
+title: "Week 8: Robotics"
 datetime: 2018-02-27 18:00:00
 category: events
 slug: meeting20180227
-preview:
 location: Kelly Engineering Center 1007
 
 ---
 
-Enter event info here
+Connor Yates is giving a talk about robotics.
+
 When: 6pm
+
 Where: Kelly Engineering Center room 1007

@@ -1,0 +1,14 @@
+title: "Week 5: Graphics Talk TBD"
+datetime: 2018-05-01 18:00:00
+category: events
+slug: meeting20180501
+location: Kelly Engineering Center 1007
+
+---
+
+Someone amazing will talk about something incredible!
+
+TBD
+
+When: 6pm
+Where: Kelly Engineering Center room 1007

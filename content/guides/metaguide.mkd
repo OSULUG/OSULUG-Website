@@ -69,7 +69,7 @@ it'll be just as bad for everyone else who tries to read it.
 
 5) **Make it pretty**. Most LUG guides are formatted using [Markdown][mkd],
 which is an easy markup language to learn. Look at the source of the [other
-guides][guides]and compare it to how they show up on the website, to get a
+guides][guides] and compare it to how they show up on the website, to get a
 feel for how Markdown syntax works. And, for the love of grammar, PROOFREAD
 IT! If you're not sure you've caught all the errors, or just want some
 feedback, drop a link to your draft in the IRC channel and we'll help you

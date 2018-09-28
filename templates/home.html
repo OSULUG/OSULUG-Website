@@ -7,9 +7,9 @@
     <div class="c">
        <div class="events span5 row">
          <!--Upcoming Events-->
-		 <h3><a href='http://lug.oregonstate.edu/events'>Upcoming Events</a></h3>
+         <h3><a href='http://lug.oregonstate.edu/events'>Upcoming Events</a></h3>
          <ul>
-          {% for event in site.categories['events'] | sort(attribute='datetime') if event.datetime > site.datetime %}
+          {% for event in site.categories['events'] | sort(attribute='datetime') if event.date >= site.date %}
             <li class="list">
               <h4>
                 <a href="{{ event.url }}">{{ event.title }}</a>
@@ -20,14 +20,17 @@
                 {% endif %}
                 {{ event.date.strftime('%A %B %d, %Y') }}
               </span>
-              <p>
-              {{ event.preview }}
-              </p>
+              {% if event.preview %}
+                {{ event.preview }}
+                <p><a href="{{event.url}}">More...</a></p>
+              {% else %}
+                {{ event.content }}
+              {% endif %}
             </li>
           {% endfor %}
          </ul>
           {% for event in site.categories['events'] | sort(attribute='datetime', reverse=True) %}
-            {% if loop.first and event.datetime < site.datetime %}
+            {% if loop.first and event.date < site.date %}
               <p class="no-events">Check back soon for future events!</p>
             {% endif %}
           {% endfor %}

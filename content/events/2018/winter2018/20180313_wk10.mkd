@@ -1,12 +1,13 @@
-title:
+title: "Week 10 game night"
 datetime: 2018-03-13 18:00:00
 category: events
 slug: meeting20180313
-preview:
 location: Kelly Engineering Center 1007
 
 ---
 
-Enter event info here
+Come relieve stress during dead week with board games.
+
 When: 6pm
+
 Where: Kelly Engineering Center room 1007
