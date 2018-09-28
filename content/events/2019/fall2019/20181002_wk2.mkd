@@ -1,0 +1,13 @@
+title: Vim/Shell Tips
+datetime: 2018-10-02 18:00:00
+category: events
+slug: meeting20181002
+preview: Vim/Shell usability tips and tricks by Halved
+location: Kelly Engineering Center 1007
+
+---
+
+Erich is talking about tips for using Vim and the shell more effectively. Come check out these great tips!
+
+When: 6pm
+Where: Kelly Engineering Center room 1007
