@@ -1,0 +1,15 @@
+title: Monica Holliday
+tags: officer
+rank: 1
+person:
+    name: Monica Holliday
+    title: Vice President
+    irc: artifice
+    image: 
+
+---
+
+Monica Holliday is a Junior at OSU majoring in Computer Science.
+She also currently works part-time at Intel remotely doing web 
+development. In her free time she reads, plays video games, and 
+rides horses. She also loves hiking and Harry Potter.
