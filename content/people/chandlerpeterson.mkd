@@ -5,11 +5,11 @@ person:
     name: Chandler Peterson
     title: Treasurer
     irc:
-    image: /img/people/chandlerpeterson.png
+    image: /img/people/Chandlerpeterson.png
 
 ---
 
 Chandler is a senior majoring in Computer Science at OSU. He is an undergraduate researcher in the
 Hendrix Lab working on problems in computational biophysics. His other interests are in cryptography,
 biological computation, and linux system administration. Outside of school, he enjoys rock climbing,
-backpacking, playing the guitar, and English literature..
+backpacking, playing the guitar, and English literature.
