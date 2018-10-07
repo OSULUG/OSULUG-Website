@@ -1,13 +1,13 @@
-title: TBD
+title: Board Games
 datetime: 2018-11-27 18:00:00
 category: events
 slug: meeting20181127
-preview: TBD
+preview: Come get a break during dead week and play some games!
 location: Kelly Engineering Center 1007
 
 ---
 
-Event Info Goes Here
+We don't want to give a talk during dead week, and  you probably don't want to listen to a talk during dead week. Let's come to a mutually agreeable solution and play board games. If you have a fun game, be sure to bring it. 
 
 When: 6pm
 Where: Kelly Engineering Center room 1007

@@ -1,4 +1,4 @@
-title: Linux filesystem overview
+title: Linux filesystem overview (STARTS AT 6:30)
 datetime: 2018-10-09 18:00:00
 category: events
 slug: meeting20181009
@@ -9,5 +9,5 @@ location: Kelly Engineering Center 1007
 
 Frostsnow is giving a talk about the Linux Filesystem. Don't know the difference between bin and sbin? Now's the time to find out. 
 
-When: 6pm
+When: 6:30pm - 7:30pm
 Where: Kelly Engineering Center room 1007
