@@ -1,0 +1,14 @@
+title: Lance Roy
+tags: officer
+rank: 1
+person: 
+    name: Lance Roy
+    title: Public Relations
+    image: /img/people/lanceroy.png
+
+---
+
+Lance Roy is a second year graduate student studying computer graphics. 
+He enjoys using mathematics for computer science, and has developed an interest in
+functional programming. When he can find the time, he likes playing ultimate frisbee and chess,
+as well as binge reading.
