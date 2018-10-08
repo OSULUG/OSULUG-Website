@@ -1,0 +1,13 @@
+title: Directions In CS
+datetime: 2018-11-13 18:00:00
+category: events
+slug: meeting20181113
+preview: What can I do with a CS degree?
+location: Kelly Engineering Center 1007
+
+---
+
+Should you go to grad school or industry? Should you intern or do research? Find answers to these questions and more at tonight's talk.
+
+When: 6pm
+Where: Kelly Engineering Center room 1007

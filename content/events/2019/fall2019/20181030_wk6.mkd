@@ -1,0 +1,13 @@
+title: Gentoo on an Android Phone
+datetime: 2018-10-30 18:00:00
+category: events
+slug: meeting20181030
+preview: Running Gentoo on an Android
+location: Kelly Engineering Center 1007
+
+---
+
+More event info coming shortly
+
+When: 6pm
+Where: Kelly Engineering Center room 1007

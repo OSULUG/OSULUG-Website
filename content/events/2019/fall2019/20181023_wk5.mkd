@@ -1,0 +1,13 @@
+title: Flame Wars
+datetime: 2018-10-23 18:00:00
+category: events
+slug: meeting20181023
+preview: Come and debate about something you are passionate about!
+location: Kelly Engineering Center 1007
+
+---
+
+Tonight we'll be debating over what's best. Vi(m) or emacs? Firefox or Chrome? Tabs or spaces? Bring your opinions, bring your enemies. Also, bring solid reasoning, we have a whiteboard where you can list every point where your favorite trumps the other. All are welcome to come argue, or just to listen!)
+
+When: 6pm
+Where: Kelly Engineering Center room 1007
