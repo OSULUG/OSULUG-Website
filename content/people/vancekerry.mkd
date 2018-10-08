@@ -1,0 +1,12 @@
+title: Vance Kerry
+tags: officer
+rank: 1
+person:
+    name: Vance Kerry
+    title: Project Coordinator
+    image: /img/people/vancekerry.jpg
+
+---
+
+Kerry Vance is a sophmore currently pursuing a Bachelors in CS with a minor in math. 
+He enjoys working on Raspberry Pi projects, taking things apart, traveling, hiking, and camping.
