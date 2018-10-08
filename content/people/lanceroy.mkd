@@ -1,6 +1,6 @@
 title: Lance Roy
 tags: officer
-rank: 1
+rank: 6
 person: 
     name: Lance Roy
     title: Public Relations
