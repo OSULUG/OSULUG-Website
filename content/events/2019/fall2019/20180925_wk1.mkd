@@ -1,0 +1,13 @@
+title: Elections and Planning
+datetime: 2018-09-25 18:00:00
+category: events
+slug: meeting20180925
+preview: Planning the rest of the term and Pizza
+location: Kelly Engineering Center 1007
+
+---
+
+We will be finishing officer elections as well as proposing ideas for the rest of the term. There will be Pizza.
+
+When: 6pm
+Where: Kelly Engineering Center room 1007
