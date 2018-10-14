@@ -1,6 +1,6 @@
 title: Vance Kerry
 tags: officer
-rank: 1
+rank: 3
 person:
     name: Vance Kerry
     title: Project Coordinator

@@ -1,6 +1,6 @@
 title: Daniel Grocki
 tags: officer
-rank: 1
+rank: 2
 person: 
   name: Daniel Grocki 
   title: Secretary 

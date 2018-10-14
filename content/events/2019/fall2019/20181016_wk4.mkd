@@ -3,7 +3,7 @@ datetime: 2018-10-16 18:00:00
 category: events
 slug: meeting20181016
 preview: Come one, Come all and run Linux on your personal machine!
-location: Kelly Engineering Center 1007
+location: Kelly Engineering Center 1005
 
 ---
 
@@ -13,4 +13,4 @@ USB sticks with Ubuntu and Fedora will be provided.
 This term's installfest. We will have USB's of various distributions including Ubuntu and Fedora. Please come if you know how to install Linux and you want to help or if you know nothing about Linxu and just want to find out more. 
 
 When: 6pm
-Where: Kelly Engineering Center room 1007
+Where: Kelly Engineering Center room 1005

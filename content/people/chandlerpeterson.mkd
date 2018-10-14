@@ -1,6 +1,6 @@
 title: Chandler Peterson
 tags: officer
-rank: 1
+rank: 5
 person:
     name: Chandler Peterson
     title: Treasurer
