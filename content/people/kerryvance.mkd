@@ -1,10 +1,10 @@
-title: Vance Kerry
+title: Kerry Vance
 tags: officer
 rank: 3
 person:
-    name: Vance Kerry
+    name: Kerry Vance
     title: Project Coordinator
-    image: /img/people/vancekerry.jpg
+    image: /img/people/kerryvance.jpg
 
 ---
 
