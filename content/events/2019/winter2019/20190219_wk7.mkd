@@ -1,0 +1,13 @@
+title: TBD
+datetime: 2019-02-19 18:00:00
+category: events
+slug: meeting20190219
+preview: TBD
+location: Kelly Engineering Center 1007
+
+---
+
+Event Info Goes Here
+
+When: 6pm
+Where: Kelly Engineering Center room 1007
