@@ -1,9 +1,9 @@
 title: Monica Holliday
 tags: officer
-rank: 4
+rank: 1
 person:
     name: Monica Holliday
-    title: Vice President
+    title: President
     image: /img/people/monicaholliday.jpg
 
 ---
