@@ -1,13 +1,13 @@
-title: TBD
+title: IRC + Matrix
 datetime: 2019-02-12 18:00:00
 category: events
 slug: meeting20190212
-preview: TBD
-location: Kelly Engineering Center 1007
+preview: Learn about IRC and a newer communication network called Matrix.
+location: Kelly Engineering Center 1005
 
 ---
 
-Event Info Goes Here
+Travis will be giving a talk about the basics of using IRC and a newer communication network called Matrix. Don't know what either or one of these are? Come learn about it and how to join!
 
 When: 6pm
-Where: Kelly Engineering Center room 1007
+Where: Kelly Engineering Center room 1005
