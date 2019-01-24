@@ -1,4 +1,4 @@
-title: Julia Computing
+title: Julia
 datetime: 2019-02-05 18:00:00
 category: events
 slug: meeting20190205
@@ -7,7 +7,7 @@ location: Kelly Engineering Center 1005
 
 ---
 
-This week Arthur will be giving a talk about Julia Computing and its uses with solving big data and analytics problems!
+This week Arthur will be giving a talk about Julia and its uses with solving big data and analytics problems!
 
 When: 6pm
 Where: Kelly Engineering Center room 1005
