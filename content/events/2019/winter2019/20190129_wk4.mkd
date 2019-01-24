@@ -1,13 +1,13 @@
-title: TBD
+title: Coding Challenge
 datetime: 2019-01-29 18:00:00
 category: events
 slug: meeting20190129
-preview: TBD
-location: Kelly Engineering Center 1007
+preview: Challenge yourself with some fun coding puzzles.
+location: Kelly Engineering Center 1005
 
 ---
 
-Event Info Goes Here
+This week we'll be having some fun, relaxed competition to solve some coding challenges. Come join us to hangout and team up with fellow LUG members!
 
 When: 6pm
-Where: Kelly Engineering Center room 1007
+Where: Kelly Engineering Center room 1005

@@ -1,13 +1,13 @@
-title: TBD
+title: Board Game Night
 datetime: 2019-03-12 18:00:00
 category: events
 slug: meeting20190312
-preview: TBD
-location: Kelly Engineering Center 1007
+preview: Take a break from studying for some board games.
+location: Kelly Engineering Center 1005
 
 ---
 
-Event Info Goes Here
+We all need a break during dead week. Come join us to hangout and play some board games before we all go back into the reality that is dead week and finals!
 
 When: 6pm
-Where: Kelly Engineering Center room 1007
+Where: Kelly Engineering Center room 1005
