@@ -1,0 +1,12 @@
+title: Lindsey Kvarfordt
+tags: officer
+rank: 4
+person:
+    name: Lindsey Kvarfordt
+    title: Vice President
+    image: /img/people/lindseykvarfordt.png
+
+---
+
+Lindsey is a sophomore at OSU majoring in Computer Science. She also currently works for CASS as a software test engineer. Lindsey likes to hike, ski, read, or play tennis in her free time.
+
