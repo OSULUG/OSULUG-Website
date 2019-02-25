@@ -1,13 +1,13 @@
-title: TBD
+title: Canceled for Networking Night
 datetime: 2019-02-19 18:00:00
 category: events
 slug: meeting20190219
-preview: TBD
+preview: Go to Networking Night
 location: Kelly Engineering Center 1005
 
 ---
 
-Event Info Goes Here
+Networking night interferes with our meeting so will not have one and encourage everyone to go to Networking Night!
 
 When: 6pm
 Where: Kelly Engineering Center room 1005
