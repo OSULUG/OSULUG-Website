@@ -1,13 +1,13 @@
-title: Docker!
+title: Rust 101 + Pizza
 datetime: 2019-02-26 18:00:00
 category: events
 slug: meeting20190226
-preview: Get an introduction to Docker!
+preview: Rust 101 with E.Dunham + Pizza
 location: Kelly Engineering Center 1005
 
 ---
 
-Daniel will be talking about Docker and containers. Come get a basic introduction to this widely used technology!
+LUG alum Emily Dunham will be here to give her Rust 101 talk. Plus OSU and OSL alum Pono will be visiting and generously providing pizza!
 
 When: 6pm
 Where: Kelly Engineering Center room 1005
