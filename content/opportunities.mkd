@@ -1,0 +1,23 @@
+title: Opportunities
+slug: opportunities
+tags: navigation
+navrank: 1
+image:
+    url: /img/ships.png
+    where: right
+    caption: A place to put intern-SHIPS and opportunities
+---
+Here's a page to find out current opportunities for students looking for 
+internships, jobs and other kinds of work or volunteer gigs. 
+
+[Google Summer of Code][GSOC] is a place where currently enrolled students can
+get paired with an open source project and mentor(s) to hack on open issues and
+feature requests in real projects with real impact!  There is a stipend and you
+are expected to work for the summer.
+
+[Outreachy][Outreachy] is similar to GSOC but specifically targets
+under represented groups in technology.  A fantastic organization with really
+good mentorship.  Again, paid and you will work on FOSS.
+
+[GSOC]: https://summerofcode.withgoogle.com/get-started/
+[Outreachy]: https://www.outreachy.org/
