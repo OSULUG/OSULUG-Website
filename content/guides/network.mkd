@@ -102,7 +102,7 @@ If you have any questions, come hang out in the lug IRC room
 see [our IRC guide][irc]
 
 [ssh_howto]:http://www.wikihow.com/Use-SSH
-[putty_howto]:http://webmaster.iu.edu/tool_guide_info/webserve_putty.shtml
+[putty_howto]:https://it.engineering.oregonstate.edu/accessing-unix-server-using-putty-ssh
 [bash_howto]:http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
 [vim_howto]:https://blog.interlinked.org/vi-vim-neovim
 [emacs]: http://www.gnu.org/software/emacs/tour/
