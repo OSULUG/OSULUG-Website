@@ -104,7 +104,7 @@ see [our IRC guide][irc]
 [ssh_howto]:http://www.wikihow.com/Use-SSH
 [putty_howto]:http://webmaster.iu.edu/tool_guide_info/webserve_putty.shtml
 [bash_howto]:http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
-[vim_howto]:http://blog.interlinked.org/tutorials/vim_tutorial.html
+[vim_howto]:https://blog.interlinked.org/vi-vim-neovim
 [emacs]: http://www.gnu.org/software/emacs/tour/
 [nano]: http://www.nano-editor.org/docs.php
 [dns]:http://en.wikipedia.org/wiki/Domain_Name_System
