@@ -19,5 +19,9 @@ are expected to work for the summer.
 under represented groups in technology.  A fantastic organization with really
 good mentorship.  Again, paid and you will work on FOSS.
 
+The [Free Software Foundation][FSF] has unpaid interships in Boston.  So if you
+_really_ love libre software, this might be for you!  Due date April 30th.
+
 [GSOC]: https://summerofcode.withgoogle.com/get-started/
 [Outreachy]: https://www.outreachy.org/
+[FSF]: https://www.fsf.org/blogs/community/summer-internships-at-the-fsf-apply-by-april-30
