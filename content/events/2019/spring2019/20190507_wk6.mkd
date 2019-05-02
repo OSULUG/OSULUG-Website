@@ -1,0 +1,13 @@
+title: Docker
+datetime: 2019-05-07 18:00:00
+category: events
+slug: meeting20190507
+preview: Learn what Docker is and Docker basics
+location: Kelly Engineering Center 1007
+
+---
+
+Docker is an extremely popular containerization technology. Come learn more about it and the the basics of running a container.
+
+When: 6pm
+Where: Kelly Engineering Center room 1007

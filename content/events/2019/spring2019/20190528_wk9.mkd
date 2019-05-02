@@ -1,0 +1,13 @@
+title: Flame Wars
+datetime: 2019-05-28 18:00:00
+category: events
+slug: meeting20190528
+preview: Come debate about something important to you!
+location: Kelly Engineering Center 1007
+
+---
+
+Flame wars is an event where people have an opportunity to come debate about things that they care about. Do you think Vim is better than Emacs? Chrome better than Firefox? Come share your opinions in a debate style event.
+
+When: 6pm
+Where: Kelly Engineering Center room 1007

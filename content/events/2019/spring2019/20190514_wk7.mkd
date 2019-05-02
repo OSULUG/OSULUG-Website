@@ -1,0 +1,13 @@
+title: Crypto
+datetime: 2019-05-14 18:00:00
+category: events
+slug: meeting20190514
+preview: Come learn about crypto!
+location: Kelly Engineering Center 1007
+
+---
+
+Additional info will be provided
+
+When: 6pm
+Where: Kelly Engineering Center room 1007
