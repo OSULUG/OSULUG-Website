@@ -1,0 +1,11 @@
+title: Arthur York
+tags: officer
+rank: 6
+person: 
+    name: Arthur York
+    title: Public Relations
+    image: /img/people/arthuryork.jpg
+
+---
+
+Arthur is currently a junior majoring in Computer Science with a systems option. He does computational chemistry research under Cory Simmon and has produced three publications on nanoporous materials in his time at Oregon State. He orginially joined LUG because he was curious and wanted to learn about linux, but he kept coming back because of the content and the people! 

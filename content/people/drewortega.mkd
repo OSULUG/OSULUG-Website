@@ -1,0 +1,10 @@
+title: Drew Ortega
+tags: officer
+rank: 1
+person:
+    name: Drew Ortega
+    title: President
+    image: /img/people/drewortega.jpg
+
+---
+Drew is in his third year as an undergraduate student studying Computer Science: Computer Systems with a minor in Mathematics. He was first introduced to Linux while in middle school, installing Fedora on his hand-me-down Windows 2000 laptop with the help of his dad. Since then, Drew has spend a lot of his time focusing on and promoting FOSS, and is very excited to be the LUG president for the 2019-2020 academic year.

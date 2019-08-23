@@ -1,0 +1,11 @@
+title: Jaelyn Litzinger
+tags: officer
+rank: 2
+person: 
+  name: Jaelyn Litzinger 
+  title: Secretary 
+  image: /img/people/jaelynlitzinger.jpg
+
+---
+
+Jaelyn is a junior honors student majoring in computer science. She has worked as a cyber security intern for McAfee and is currently the team lead on the BMES Design Team. In her free time, she likes to hike, bake, and care for her many succulents. 

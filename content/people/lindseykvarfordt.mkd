@@ -8,5 +8,5 @@ person:
 
 ---
 
-Lindsey is a sophomore at OSU majoring in Computer Science. She also currently works for CASS as a software test engineer. Lindsey likes to hike, ski, read, or play tennis in her free time.
+Lindsey is a sophomore at OSU majoring in applied Computer Science. She currently works for CASS and spent her last summer in Colorado interning for HP. She's aggressively enthusiastic about the concept of open source software, and also keeps trying to get the name of LUG officially changed to "big chillers". In her free time, Lindsey likes to consume ridiculous quantities of coffee, nap until it kicks in, and then proceed with other fun activities like hiking, skiing, reading, playing tennis, or trying to crack the logistical nightmare of cramming as many interesting classes into her schedule while still graduating in a reasonable amount of time.
 
