@@ -1,9 +1,9 @@
 title: Kerry Vance
 tags: officer
-rank: 3
+rank: 4 
 person:
     name: Kerry Vance
-    title: Project Coordinator
+    title: Treasurer
     image: /img/people/kerryvance.jpg
 
 ---
