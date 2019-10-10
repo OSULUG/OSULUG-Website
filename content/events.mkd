@@ -7,7 +7,7 @@ navrank: 4
 
 pagination:
     list: page.subpages
-    limit: 5
+    limit: 10
     sort_key: date
     sort_reverse: True
 

@@ -1,0 +1,12 @@
+title: Introduction to LUG + Linux Workshop
+datetime: 2019-10-08 18:00:00
+category: events
+slug: meeting20191008
+preview: TBD
+location: Kelly Engineering Center 1007
+
+---
+
+Come join us while we cover the basics of using the schools flip servers, building code from source, and forwarding xsessions to local xservers. There will be pizza!
+
+When: 6pm
