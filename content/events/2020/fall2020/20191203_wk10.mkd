@@ -1,0 +1,10 @@
+title: Board Game Night 
+datetime: 2019-12-03 18:00:00
+category: events
+slug: meeting20191203
+location: Kelly Engineering Center 1007
+
+---
+Bring your favorite game or just come hang out and take a study break with us!
+
+When: 6pm

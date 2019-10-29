@@ -1,0 +1,11 @@
+title: I installed Linux... now what?
+datetime: 2019-10-29 18:00:00
+category: events
+slug: meeting20191029
+location: Kelly Engineering Center 1007
+
+---
+
+Post install fest, you have access to Linux! Now what? Come to this meeting to learn some of the basics: workflow configuration, desktop environments, and how to make the most of your terminal.
+
+When: 6pm
