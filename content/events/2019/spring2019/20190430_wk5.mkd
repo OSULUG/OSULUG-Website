@@ -1,0 +1,13 @@
+title: Workflow
+datetime: 2019-04-30 18:00:00
+category: events
+slug: meeting20190430
+preview: Come learn about improving your workflow in Linux
+location: Kelly Engineering Center 1007
+
+---
+
+We will be talking about Window managers, vimrc's, and other configuration to help increase productivity.
+
+When: 6pm
+Where: Kelly Engineering Center room 1007

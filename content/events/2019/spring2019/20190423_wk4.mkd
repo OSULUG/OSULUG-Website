@@ -1,0 +1,13 @@
+title: I installed Linux, what now?
+datetime: 2019-04-23 18:00:00
+category: events
+slug: meeting20190423
+preview: Learn some Linux basics
+location: Kelly Engineering Center 1007
+
+---
+
+If you are new to linux, you might be wondering how exactly everything works. Come learn some basic commands that will make your time much easier!
+
+When: 6pm
+Where: Kelly Engineering Center room 1007
